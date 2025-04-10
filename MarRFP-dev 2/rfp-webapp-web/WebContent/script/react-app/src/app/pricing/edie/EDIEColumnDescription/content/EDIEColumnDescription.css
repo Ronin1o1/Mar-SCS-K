@@ -1,0 +1,136 @@
+.gridContainer {
+  display: grid;
+  grid-gap: 3px;
+  width: 774px;
+  -moz-width:max-content;
+  border-top-width: 1px;
+  border-bottom-style: solid;
+  border-right-width: 1px;
+  border-left-style: solid;
+  border-top-style: solid;
+  border-bottom-width: 1px;
+  border-right-style: solid;
+  border-left-width: 1px;
+  border-color: #cccccc;
+  border-collapse: collapse;
+  background-color: #eff0ec;
+  align-items: center;
+  font-weight: bold;
+  font-family: Myriad, Helvetica, Tahoma, Arial, clean, sans-serif;
+
+  font-size: 11px;
+}
+
+.rowHeight30 {
+  height: 30px;
+}
+
+.colWidth30 {
+  width: 30px;
+}
+
+.searchBtnDiv {
+  width: 70px;
+  text-align: center;
+}
+.dataTableContainer {
+  position: relative;
+  background-color: white;
+  margin-top: 6px;
+  width: auto;
+  overflow: auto;
+}
+.dataTableContainer:before {
+  position: absolute;
+  content: "";
+  width: 100%;
+  background: #ebebeb;
+  height: 100%;
+  left: 0;
+  z-index: -1;
+}
+.textBoxStyling{
+  font: Arial;
+  font-size: 8pt;  
+  height: 40px ;   
+  width:386px;
+}
+.textBoxStylingDesc{
+  font: Arial;
+  font-size: 8pt;  
+  height: 40px ;   
+  width:411px;
+}
+.btnMargin{
+  margin:68px
+}
+.width80{
+  width: 80px
+}
+.searchBtnStyle{
+    margin-top: 2px;
+    margin-left: 2px;
+}
+.updateBtnStyle{
+  position: relative;
+    -moz-top : 150px;
+ 
+}
+.heightbtn{
+  height: 46px;
+    align-items: flex-end;
+}
+.textPos{
+  vertical-align: middle ;
+}
+.edieHotelDescOuterTable {
+  width:100%;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size:11px;
+}
+.edieHotelDescOuterTableHeader {
+  border:0px;
+  width:100%;
+}
+.pagetitle h2{
+  font-weight: bold;
+  font-size: 9pt;
+  font-family: Arial;
+  margin: 0;
+  border-bottom: 3px solid #313063;
+  line-height: 12px;
+  padding-top: 2px;
+  margin-bottom: 12px;
+}
+.BGDarkBlueStyle TD {
+   height:2px; 
+   vertical-align: top;
+}
+.BGDarkBlueStyle TR {
+   height:10px; 
+}
+#gridView td{
+  font-weight: normal !important;
+}
+.topAlign
+{
+  vertical-align: top;
+}
+.zeroHeight{
+  border: 0px;
+  border-collapse: collapse;
+  padding: 0px;
+}
+.Filter {
+  FONT-WEIGHT: bold;
+  FONT-FAMILY: Arial;
+  BACKGROUND-COLOR: #eff0ec;
+  
+}
+.updateBtnStyle {
+  margin-left: 80px;
+  margin-top: 20px;
+}
+.filter{
+  display: inline-flex;
+}

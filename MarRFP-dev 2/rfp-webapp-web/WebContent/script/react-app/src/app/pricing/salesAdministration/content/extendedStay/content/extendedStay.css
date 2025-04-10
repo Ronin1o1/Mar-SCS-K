@@ -1,0 +1,115 @@
+.Field_number {
+  text-align: right;
+}
+
+.Field_Name {
+  font-size: 11px;
+  font-weight: bold;
+}
+
+.Field_Name_Width {
+  font-size: 11px;
+  font-weight: bold;
+  width: 264px;
+}
+
+.Field_NameWidthRight {
+  font-size: 11px;
+  font-weight: bold;
+  width: 243px;
+}
+
+.Field_Name_RowWidth {
+  font-size: 11px;
+  font-weight: bold;
+  width: 243px;
+  height: 20px;
+  white-space: nowrap;
+}
+
+.Field_NameValueColumn {
+  height: 19px;
+  width: 195px;
+  font-size: 11px;
+  font-weight: bold;
+}
+
+.Field_Name_WidthHeight {
+  width: 264px;
+  height: 1px;
+}
+
+.Field_Name_TextAlign {
+  font-size: 11px;
+  font-weight: bold;
+  text-align: left;
+}
+
+.Field_Name_TextAlign_Width {
+  font-size: 11px;
+  font-weight: bold;
+  text-align: left;
+  width: 227px;
+}
+
+.Field_Name_TextAlignRowWidth {
+  font-size: 11px;
+  font-weight: bold;
+  text-align: left;
+  width: 255px;
+}
+
+.Field_Name_TextArea {
+  font-family: Arial;
+  font-size: 8pt;
+}
+
+.spaceColumnWidth {
+  width: 264px;
+}
+
+.instructionHeader {
+  font-weight: bold;
+  font-size: 11px;
+  font-style: italic;
+  font-family: Arial;
+  background-color: #eff0ec;
+}
+
+.InstructionHeader_Height {
+  font-weight: bold;
+  font-size: 11px;
+  font-style: italic;
+  font-family: Arial;
+  background-color: #eff0ec;
+  height: 10px;
+}
+
+.columnWidth {
+  width: 294px;
+}
+
+.headerWidth {
+  width: 440px;
+  vertical-align: top;
+}
+
+.extendedStayAlert {    
+    padding: 9px 12px;
+}
+
+.fullContent {
+  width: 100%;
+}
+.leftContainer {
+  text-align: left;
+  vertical-align: top;
+}
+.menuWdth100Height {
+  width: 100%;
+}
+@media only screen and (max-width: 1100px) {
+  textarea{
+    width: 1090px;
+  }
+}

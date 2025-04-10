@@ -1,0 +1,80 @@
+.prodNameDisplay {
+  text-align: left;
+}
+
+.leftDiv {
+  padding-left: 205px;
+  margin-top: 8px;
+}
+
+.horizontalLine {
+  height: 2px;
+  color: #ffffff;
+  background-color: #313063;
+  width: 100%;
+  font-family: Arial;
+  font-weight: bold;
+  margin-top: 0px;
+}
+
+.Header {
+  width: 55%;
+  line-height: 0px;
+  font-family: Arial;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.productNameAlign {
+  padding-left: 10px;
+}
+
+.prevAlign {
+  margin-left: 200px;
+}
+
+.width1 {
+  width: 180px;
+}
+
+.width2 {
+  width: 10px;
+}
+
+.nextAlign {
+  left: 324px;
+  top: 127px;
+}
+
+.boldHeader {
+  width: 55%;
+  line-height: 0px;
+  font-family: Arial;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.topAlign {
+  height: 2px;
+  color: #ffffff;
+  background-color: #313063;
+  width: 100%;
+  font-family: Arial;
+  font-weight: bold;
+}
+
+.menuHght100Height {
+  border: 0px;
+  border-collapse: collapse;
+  padding: 0px;
+  height: 100%;
+}
+.menuWdth100_Height {
+  border: 0px;
+  border-collapse: collapse;
+  padding: 0px;
+  width: 100%;
+}
+.paddingRight {
+  padding-right: 17vw;
+}

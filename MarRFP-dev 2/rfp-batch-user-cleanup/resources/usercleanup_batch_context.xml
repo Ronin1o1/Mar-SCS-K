@@ -1,0 +1,43 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:p="http://www.springframework.org/schema/p"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+	http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+
+	<import resource="usercleanup_batch_init.xml" />
+	
+	<!-- ====================================================================================================== -->
+	<!--                                         Task Configuration                                             -->
+	<!-- ====================================================================================================== -->
+	<bean id="task1" class="com.marriott.marrfp.batch.core.PreProcessUserCleanupTask">
+		<property name="eid" value="${batch.usercleanup.eid}"/>
+	</bean>
+	
+	<bean id="task2" class="com.marriott.marrfp.batch.core.UserCleanupTask">
+		<property name="batchSize" value="${batch.usercleanup.size}"/>
+	</bean>
+	
+	<bean id="task3" class="com.marriott.marrfp.batch.core.PostProcessUserCleanupTask">
+		<property name="eid" value="${batch.usercleanup.eid}"/>
+	</bean>
+
+	<!-- ====================================================================================================== -->
+	<!--                                         Task Manager Configuration                                     -->
+	<!-- ====================================================================================================== -->
+	
+	<bean id="batchContext" class="com.marriott.marrfp.batch.core.Context"
+		scope="prototype" />
+		
+	<bean id="taskManager" class="com.marriott.marrfp.batch.core.TaskManager">
+		<property name="tasks">
+			<list>
+				<ref bean="task1" />
+				<ref bean="task2" />
+				<ref bean="task3" />
+			</list>
+		</property>
+		<property name="batchContext" ref="batchContext" />
+	
+	</bean>
+
+</beans>
+ 

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="rfp-business-publish-impl" default="generate_skeletons">
+
+	<property name="wsimport" value="C:/Program Files/IBM/SDP/runtimes/base_v7/bin/wsimport.bat" />
+	<property name="gen.dir" location="src/main/resources" />
+	<property name="classes.dir" location="./classes" />
+	<property name="rfp-batch-client.jar" value="rfp-batch-client.jar"/>
+	<property name="pgoos.batch.wsdl" location="src/main/resources/META-INF/wsdl/PGOOSBatch.wsdl"/>
+	<property name="pgoos.batch.pkg.dir" value="com.marriott.rfp.webservice.pgoos.batch"/>
+	<property name="product.batch.pkg.dir" value="com.marriott.rfp.webservice.product.batch"/>
+	<property name="product.wsdl" location="src/main/resources/META-INF/wsdl/ProductBatch.wsdl"/>
+
+	<target name="run_wsimport_pgoos">
+		<exec executable="${wsimport}">
+		  <arg line="-keep -p ${pgoos.batch.pkg.dir} ${pgoos.batch.wsdl} -d ${gen.dir}"/>
+		</exec>
+	</target>
+
+	<target name="run_wsimport_product">
+		<exec executable="${wsimport}">
+		  <arg line="-keep -p ${product.batch.pkg.dir} ${product.wsdl} -d ${gen.dir}"/>
+		</exec>
+	</target>
+
+   <target name="generate_skeletons" depends="run_wsimport_product, run_wsimport_pgoos" />
+
+</project>
+

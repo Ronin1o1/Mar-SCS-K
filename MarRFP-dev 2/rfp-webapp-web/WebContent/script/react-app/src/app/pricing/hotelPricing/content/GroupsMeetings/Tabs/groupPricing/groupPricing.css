@@ -1,0 +1,71 @@
+body {
+    font-family: Arial, Helvetica, sans-serif, Verdana, Geneva !important;
+    margin: 0px;
+    padding: 0px;
+    font-size: 11px;
+}
+
+.mainTable {
+    border: 0px;
+    border-collapse: collapse;
+    padding: 0px;
+}
+
+.headers {
+    font-weight: bold;
+    font-size: 11px;
+    margin-right: 0.1vw;
+    font-family: Arial;
+    font-style: italic;
+    background-color: #eff0ec;
+    display: block;
+}
+
+.headersConcession {
+  font-weight: bold;
+  font-size: 11px;
+  margin-right: -80pt;
+  font-family: Arial;
+  font-style: italic;
+  background-color: #eff0ec;
+  display: block;
+}
+
+.widthSpace{
+    width:5px;
+}
+
+.fieldName {
+    font-size: 11px;
+    font-family: Arial;
+    margin-right: 24pt;
+    width: 700px;
+    min-width: 700px;
+}
+
+.fieldValue {
+    font-weight: normal;
+    font-size: 11px;
+    font-family: Arial;
+}
+
+.dropdownlabel{
+    font-size: 11px;
+    padding-bottom: 4pt;
+    padding-top: 4pt;
+    font-family: Arial;
+}
+
+.groupPricingInput{
+    font-weight: normal;
+    font-size: 11px;
+    font-family: Arial;
+    height: px; 
+    width: 80px;
+    text-align: right;
+    padding: 0px 2px 0px 0px;
+}
+.meetingmainTable input{
+  width: 80px;
+  height: 20px;
+}

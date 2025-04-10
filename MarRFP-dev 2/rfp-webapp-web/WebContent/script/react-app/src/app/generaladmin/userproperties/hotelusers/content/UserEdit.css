@@ -1,0 +1,318 @@
+.menuWdth100_Height {
+  border: 0px;
+  border-collapse: collapse;
+  padding: 0px;
+  width: 100%;
+}
+.overflowValue{
+  display:inline-block;
+  height: 40vw;
+}
+.heightTwenty{
+  height:20px;
+  padding-left: 0.3vw;
+}
+.labelText{
+  font-weight: bold;
+  font-size: 9pt;
+  font-family: Arial;
+}
+.BGDarkBlueStyle {
+  color: #FFFFFF!important;
+  background-color: #313063!important;
+}
+.top{
+  vertical-align: top;
+}
+.paddingCls{
+  padding-left: 0.3vw;
+}
+.paddingClsOne{
+  padding-left: 0.3vw;
+  padding-top: 0.2vw;
+}
+.heightTop{
+  line-height: 25px;
+  vertical-align: top;
+}
+.heightTopHalf{
+  height: 2px;
+  vertical-align: top;
+}
+.WidthCls{
+  width: 70px
+}
+.zero_Height {
+  border: 0px;
+  border-collapse: collapse;
+  padding: 0px;
+}
+.innerTable{
+  width: 60%;
+}
+.nowrapStyle{
+  white-space: nowrap;
+}
+.radioButtonCls{
+  width: 100px;
+  min-width: 100px;
+  display: inline-table;
+}
+.fieldLabel {
+  font-size: 11px;
+  margin-left: 3px !important;
+  font-weight: bold;
+}
+.regionDiv{
+  width: 300px; 
+  height: 100px; 
+  border-width: thin; 
+  border-style: groove; 
+  overflow: auto;
+}
+.borderThin{
+  border:1px!important;
+  margin-left: -4px;
+}
+.tdShiftLeft{
+  padding-left: 5px;
+}
+.heightTen{
+  height:10px
+}
+.selectProp{
+  height: 100%; 
+  border-width: thin; 
+}
+.selectPropTr{
+  height: 100%; 
+}
+.selectTDProp{
+  height: 100%; 
+  vertical-align: top
+}
+.height100Top{
+  height:100%; 
+  vertical-align: top;
+  padding-left: 4px;
+}
+.gridNode{
+  height: 300px; 
+  -moz-user-select: none;
+  font-family: Geneva, Arial, Helvetica, sans-serif;
+  -moz-outline-style: none;
+  outline: none;
+  overflow: hidden;
+}
+.gridHeader{
+  width: 415px;
+  overflow: hidden;
+  background-color: #d6d7ce;
+  border-top: 1px #000 solid!important;
+  border-left: 1px #000 solid!important;
+  border-right: 1px #000 solid!important;
+  border-bottom: 1px #afaea3 solid!important;
+}
+.gridOne{
+  height: 32px;
+  table-layout: fixed;
+  border-collapse: collapse;
+}
+.HeaderCls{
+  width: 400px;
+  padding: 0px 2px 0px 2px;
+  text-align: left;
+  overflow-y: hidden;
+  font-size: 11px;
+}
+.gridViewHS{
+  width: 415px; 
+  background-color: #eff0ec;
+  height: 265px; 
+  overflow: hidden;
+  border-left: 1px #000 solid!important;
+  border-right: 1px #000 solid!important;
+  border-bottom: 1px #000 solid!important;
+}
+.gridRow {
+  background-color: white;
+  border-top: none;
+}
+.gridRowTable {
+  table-layout: fixed;
+  border-collapse: collapse;
+  height: 21px; 
+  width: 100%;
+  border: 0 
+}
+.middle{
+  vertical-align: middle;
+  text-align: center;
+  font-weight: 100;
+}
+.widthTwenty{
+  margin-right: 0 !important;
+}
+.scrollDiv{
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+.copyInnerTableContainer{
+  height: 100%; 
+  border: 0 px; 
+  border-collapse: collapse; 
+  padding: 1px;
+  margin-top: 1vw;
+  margin-left: 1vw;
+  margin-right: 1vw;
+  margin-bottom: 1vw;
+}
+.copyInnerTableVertical{
+  vertical-align: top; 
+  height: 37px;
+  font-weight: bold;
+  font-size: 9pt;
+  font-family: Arial;
+}
+.copyInnerDiv{
+  overflow: hidden;
+  background-color: #eff0ec;
+}
+.gridCellWidth{
+  width: 100px;
+  min-width: 100px;
+  border: 1px solid;
+  border-color: #F6F4EB #ACA899 #ACA899 #F6F4EB;
+  padding: 10px 2px 10px 2px;
+  text-align: left;
+  overflow-y: hidden;
+  font-size: 11px;
+  white-space: nowrap;
+  font-weight: bold;
+}
+.gridDataTable{
+  width: 1000px; 
+  height: 248px; 
+  overflow-x: hidden; 
+  overflow: auto
+}
+.gridDataRow{
+  border: 1px solid #E8E4D8;
+  border-color: #F8F7F1;
+  border-left: none;
+  border-right: none;
+  background-color: white;
+  border-top: none;
+}
+.gridCellTd{
+  width: 100px;
+  min-width: 100px;
+  border: 1px solid;
+  border-color: #EBEADB;
+  padding: 10px 3px 10px 2px;
+  text-align: left;
+  overflow-y: hidden;
+  font-size: 11px;
+  white-space: nowrap;
+  font-weight: 200;
+}
+.outerDiv{
+  background-color: #d6d7ce;
+}
+.tableWidth{
+  width: 320px;
+}
+.applyScroll{
+  overflow: scroll;
+  display: block;
+  height:18vw;
+}
+.gridCellTrInner:nth-child(even) {
+  background-color: white;
+}
+.gridCellTrInner:nth-child(odd) {
+  background-color: #f4f4f2;
+}
+.buttonContainer {
+  display: inline-block;
+  cursor: pointer;
+  background: #ffffff;
+  margin-left: 15vw;
+}
+.buttonPosition{
+  text-align: center;
+}
+.scrollOuterTable{
+  overflow: auto;
+  display: block;
+  height: auto;
+}
+.rewgionset{
+  width: 301px;
+  display: inline-block;
+  position: relative;
+  top: -6px;
+}
+.fullWidth{
+  width: 100%;
+}
+.paddingLeft{
+  padding-left: 10px;
+}
+.paddingLeft2{
+  padding-left: 4px;
+}
+.paddingLeft2 table tr td {
+  display: inline-block;
+  margin-right: 36px;
+}
+.fontBold{
+  font-weight: bold;
+}
+.totalPropCls{
+  width: 209px;
+  vertical-align: middle;
+  margin-right: 0 !important;
+  margin-top: -14px;
+}
+.usereditinhotel{
+  margin-left: -3px;
+}
+.checkboxissue{
+  margin-top: -15px;
+  width: 510px;
+}
+.width10{
+  height: 7px;
+}
+.checkboxproperty{
+  display: inline-flex;
+}
+.checkboxproperty span{
+  margin-right: 2px;
+}
+.emptybtn{
+  width: 51px;
+}
+
+.header2 {
+  color: rgb(255, 0, 0);
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.floatRight {
+  float: right;
+}
+
+.clearBoth {
+  clear: both;
+}
+.regionDiv {
+  float: left;
+}
+.totalProperties{
+  width: 293px;
+}
+.totalPropertiesLabel{
+  margin-left: 10px
+}

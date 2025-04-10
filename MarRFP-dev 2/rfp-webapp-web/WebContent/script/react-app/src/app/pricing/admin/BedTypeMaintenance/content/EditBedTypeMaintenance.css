@@ -1,0 +1,21 @@
+.editBedTypeContentDiv {
+  border-top: 1px solid #d3d3d3;
+  padding: 1rem 0.75rem;
+}
+ .gridContainer {
+ width : 100%;
+}
+ .updateBtn {
+  cursor: pointer;
+  text-align: center;
+ 
+}
+.inputstyle{
+  width : 100%;
+  margin-top:1px;
+}
+
+.labelstyle label{
+  width: 107px;
+  display: inline-table;
+}

@@ -1,0 +1,83 @@
+.sortBy {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 13px;
+  margin-bottom: 5px;
+}
+
+.sortBy p {
+  font-weight: bold;
+  padding-right: 3px;
+}
+
+.sortBy select {
+  padding-right: 10px;
+}
+
+.sortBy a {
+  padding-right: 7px;
+}
+
+.header {
+  font-style: italic;
+  color: red;
+  width: 100%;
+  background-color: #eff0ec;
+  text-align: left;
+  margin: 0;
+  margin-bottom: 5px;
+}
+
+.spacer {
+  width: 25px;
+}
+
+.listingTabs {
+  display: flex;
+  flex-direction: row;
+  padding: 0;
+}
+
+.listingTabs p {
+  font-weight: bold;
+}
+
+.listingsTabContainer {
+  display: flex;
+  flex-direction: row;
+}
+
+.listingsContainer {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 10px;
+  width: 1200px;
+}
+
+.lineBreak {
+  width: 100%;
+}
+
+.cityMarkets {
+  width: 80px;
+}
+
+.locationUS {
+  width: 50px;
+  text-align: center;
+}
+
+.locationInt {
+  width: 80px;
+  text-align: center;
+}
+
+.rmNts {
+  width: 57px;
+  text-align: end;
+}
+
+.International {
+  padding-bottom: 20px;
+}

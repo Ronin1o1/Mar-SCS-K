@@ -1,0 +1,31 @@
+{
+  "name": "mar-rfp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "enzyme": "^3.10.0",
+    "grunt": "^1.0.1",
+    "grunt-cli": "^1.2.0",
+    "grunt-contrib-less": "^1.4.0",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-sync": "^0.6.2",
+    "jest": "^24.8.0",
+    "yarn": "^1.17.3"
+  },
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-contrib-less": "^1.4.0",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-sync": "^0.6.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://git.marriott.com/MarRFP-Run/MarRFP"
+  },
+  "author": "",
+  "license": "UNLICENSED"
+}

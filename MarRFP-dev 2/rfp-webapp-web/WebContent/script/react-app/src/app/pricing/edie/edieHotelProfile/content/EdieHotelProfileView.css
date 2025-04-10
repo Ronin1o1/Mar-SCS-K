@@ -1,0 +1,61 @@
+html,
+body,
+form {
+  height: 100%;
+}
+textarea {
+  resize: none;
+}
+
+.mainContainer {
+  position: relative;
+}
+
+.bodyContainer {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+}
+
+.section {
+  height: 0% !important;
+  border-collapse: collapse;
+  padding: 0px;
+  width: 100%;
+  border: 0px;
+  border-collapse: collapse;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin-bottom: 6px;
+}
+
+.header {
+  font-weight: bold;
+  font-size: 9pt;
+  font-family: Arial;
+}
+
+.BGDarkBlueStyle {
+  color: #FFFFFF;
+  background-color: #313063;
+  vertical-align: top;
+}
+.BGDarkBlueStyle TD {
+   height:2px; 
+   vertical-align: top;
+}
+.BGDarkBlueStyle TR {
+   height:10px; 
+  
+}
+
+
+.filterSection {
+  width: 300px;
+  height:100%
+}
+.gridSection{  
+  padding-left: 2px;
+  height:100%
+}
+

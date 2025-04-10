@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	   xmlns:aop="http://www.springframework.org/schema/aop"
+	   xmlns:jee="http://www.springframework.org/schema/jee"
+	   xmlns:context="http://www.springframework.org/schema/context"
+	   xmlns:tx="http://www.springframework.org/schema/tx"
+	   xmlns:util="http://www.springframework.org/schema/util"
+	   xmlns:jms="http://www.springframework.org/schema/jms"
+	   xmlns:jaxws="http://cxf.apache.org/jaxws"
+	   xmlns:mvc="http://www.springframework.org/schema/mvc"
+
+	   xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+	http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop.xsd
+	http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd
+	http://www.springframework.org/schema/jee http://www.springframework.org/schema/jee/spring-jee.xsd
+	http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx.xsd
+	http://www.springframework.org/schema/jms http://www.springframework.org/schema/jms/spring-jms.xsd
+	http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util.xsd
+	http://cxf.apache.org/jaxws http://cxf.apache.org/schemas/jaxws.xsd
+  	http://www.springframework.org/schema/mvc
+    http://www.springframework.org/schema/mvc/spring-mvc.xsd">
+
+
+	<context:component-scan base-package="com.marriott.rfp.business.*"/>
+	<context:component-scan base-package="com.marriott.rfp.dataaccess.*"/>
+	<context:component-scan base-package="com.marriott.rfp.dataacess.*"/>
+	<!--Upgrade - scan controller package-->
+	<context:component-scan
+			base-package="com.marriott.rfp.webapp.*" use-default-filters="false">
+		<context:include-filter type="annotation"
+								expression="org.springframework.stereotype.Controller" />
+		<context:include-filter type="annotation"
+								expression="org.springframework.web.bind.annotation.ControllerAdvice" />
+		<context:include-filter type="annotation"
+								expression="org.springframework.context.annotation.Configuration" />
+		<context:include-filter type="annotation"
+								expression="org.springframework.stereotype.Service" />
+		<context:include-filter type="annotation"
+								expression="org.springframework.stereotype.Component" />
+		<context:include-filter type="annotation"
+								expression="org.aspectj.lang.annotation.Aspect" />
+
+	</context:component-scan>
+
+
+	<context:annotation-config />
+
+	<context:spring-configured/>
+	<mvc:annotation-driven/>
+	<!--Upgrade - swagger 2 configuration-->
+	<bean id="swagger2Config"
+		  class="springfox.documentation.swagger2.configuration.Swagger2DocumentationConfiguration">
+	</bean>
+	<mvc:resources order="1" location="/resources/"
+				   mapping="/resources/**" />
+	<mvc:resources mapping="swagger-ui.html"
+				   location="classpath:/META-INF/resources/" />
+	<mvc:resources mapping="/webjars/**"
+				   location="classpath:/META-INF/resources/webjars/" />
+	<mvc:default-servlet-handler />
+
+	<!--Upgrade - controller for index view-->
+ 	<mvc:view-controller path="/home/home.action" view-name="/"/>
+	<mvc:view-controller path="/home" view-name="/"/>
+	<mvc:view-controller path="/" view-name="/home/home"/>
+	<mvc:view-controller path="/index" view-name="/script/react-app-build/index.html"/>
+
+	<!--<mvc:interceptors>
+		<mvc:interceptor>
+			&lt;!&ndash;Intercept all the controllers&ndash;&gt;
+			<mvc:mapping path="/**"/>
+			&lt;!&ndash;don't Intercept swagger&ndash;&gt;
+			<mvc:exclude-mapping path="/swagger*/**"/>
+			<mvc:exclude-mapping path="/v2/**"/>
+			<mvc:exclude-mapping path="/webjars/**"/>
+			<bean  class="com.marriott.rfp.webapp.common.intercepter.CredentialIntercepter">
+				<property name="roomDefLinks" ref="roomDefLinks" />
+			</bean>
+		</mvc:interceptor>
+	</mvc:interceptors>-->
+
+	<bean id="userProperties" class="com.marriott.rfp.object.user.User" scope="session">
+		<aop:scoped-proxy />
+	</bean>
+	<bean id="roomDefLinks" class="com.marriott.rfp.object.roomdef.RoomDefLinks" scope="session">
+		<aop:scoped-proxy />
+	</bean>
+
+	<bean id="properties" class="com.marriott.rfp.common.util.ConfigurationUtil" scope="singleton">
+		<property name="systemPropertiesModeName">
+			<value>SYSTEM_PROPERTIES_MODE_OVERRIDE</value>
+		</property>
+		<property name="ignoreUnresolvablePlaceholders">
+			<value>true</value>
+		</property>
+		<property name="order" value="0" />
+	</bean>
+	<bean  class="org.springframework.web.servlet.view.InternalResourceViewResolver">
+		<!--prefix = location of index.html-->
+		<!--<property name="prefix" value="/WebContent/script/react-app-build/" />
+		<property name="suffix" value=".html" />-->
+	</bean>
+	<!-- For importing  files like spreadsheet in screens like AccMaintQuestions-->
+	<bean id="multipartResolver" class="org.springframework.web.multipart.commons.CommonsMultipartResolver"/>
+
+	<bean class="org.springframework.dao.annotation.PersistenceExceptionTranslationPostProcessor"/>
+	<aop:aspectj-autoproxy/>
+	<bean class="org.springframework.beans.factory.config.PropertyPlaceholderConfigurer">
+		<property name="locations">
+			<list>
+				<value>classpath:/mailConfiguration.properties</value>
+				<value>classpath:/mqconfig-${env}.properties</value>
+			</list>
+		</property>
+	</bean>
+	<bean id="mailSession" class="javax.mail.Session">
+		<constructor-arg>
+			<props>
+				<prop key="mail.smtp.host" >${mail.smtp.host}</prop>
+				<prop key="mail.smtp.auth" >${mail.smtp.auth}</prop>
+				<prop key="mail.smtp.starttls.enable" >${mail.smtp.starttls.enable}</prop>
+				<prop key="mail.smtp.port">${mail.smtp.port}</prop>
+				<prop key="mail.smtp.socketFactory.port" >${mail.smtp.socketFactory.port}</prop>
+				<prop key="mail.smtp.socketFactory.class" >${mail.smtp.socketFactory.class}</prop>
+			</props>
+		</constructor-arg>
+		<constructor-arg><null/></constructor-arg>
+
+	</bean>
+
+	<!--<UI-upgrade this endpoint is already registered in rfp-batch-client module-->
+	<bean id="pgoosProductService" class="com.marriott.rfp.business.pgoos.admin.impl.PgoosPropagateProductBindingImpl" />
+        <jaxws:endpoint id="pgoosProductServiceEndpoint"
+                    implementor="#pgoosProductService"
+                    address="/PgoosPropagateProductService">
+    </jaxws:endpoint>
+    <bean id="pgoosBatchService" class="com.marriott.rfp.business.pgoos.pricing.impl.PGOOSBatchBindingImpl" />
+    <jaxws:endpoint id="pgoosBatchServiceEndpoint"
+                    implementor="#pgoosBatchService"
+                    address="/PGOOSBatchStagingService">
+    </jaxws:endpoint>
+
+</beans>
+

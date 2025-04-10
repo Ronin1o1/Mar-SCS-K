@@ -1,0 +1,304 @@
+body,
+input,
+textarea {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0px;
+  padding: 0px;
+  font-size: 11px;
+}
+
+.header {
+  height: 5px;
+  width: 100%;
+  border: 0px;
+  border-collapse: collapse;   
+  font-family:Arial, Helvetica, sans-serif;
+  font-size: 9pt;
+  font-weight: bolder;
+  margin-bottom: 25px;
+}
+.hotelPagination {
+  margin-left: 26%;
+}
+
+.titleLink {
+  color: #3166cc;
+  text-decoration: underline;
+  cursor: pointer;
+}
+.hotelMirrorHeader{
+  font-size: 9pt;
+    font-weight: bold;
+    font-family: Arial;
+    border-bottom: 2px solid #313063;
+    margin-bottom: 10px;
+}
+.newBtnDiv {
+  margin-top: 20px;
+  margin-left: 600px;
+  height: 20px;
+  cursor: pointer;
+}
+
+.dataTableDiv {
+  width: 100%;
+  display: flow-root;
+}
+
+.deleteImgDiv {
+  cursor: pointer;
+}
+.testClass {
+  color: green;
+}
+
+.tableListWrap {
+  border-collapse: collapse;
+}
+
+.tableListWrap th {
+  border: 1px solid #aca899;
+  background: #d6d7ce;
+  border-collapse: collapse;
+  /* padding: 3px; */
+  font-family: Arial, Helvetica, sans-serif;
+}
+.tableListWrap tr td {
+  border: 1px solid #aca899;
+  border-collapse: collapse;
+  text-align: center;
+  padding: 2px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.mirrorListTable {
+  border-collapse: collapse;
+  margin-left: 0px;
+  user-select: none;
+  border-width: thin;
+  border-style: groove;
+  padding-bottom: 0;
+  width: 1360px;
+}
+
+.mirrorListTable th {
+  border: 1px solid #aca899;
+  background: #d6d7ce;
+  border-collapse: collapse;
+  padding: 1px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.mirrorListTable tr td {
+  border: 1px solid #aca899;
+  border-collapse: collapse;
+  text-align: center;
+  padding: 2px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.tableScroll {
+  border-style: groove;
+  border-width: thin;
+  width: 1360px;
+  height: calc(100vh - 240px);
+  overflow: auto;
+}
+.tbodyData {
+  height: 600px;
+  display: block;
+  overflow: auto;
+  width: 1360px;
+}
+
+.mirrorOddRow {
+  background-color: #f4f4f2 !important;
+}
+
+.mirrorEvenRow {
+  background-color: #ffffff !important;
+}
+
+.rowTbody {
+  border-bottom: 2px solid #ACA899;
+}
+
+.rowTbody:hover td {
+  background-color: #f4f29f !important;
+}
+.updateMirrorWrap {
+  width: 600px;
+  padding: 10px;
+  height: 300px;
+  border-top: 1px solid #d3d3d3;
+}
+.updateMirrorHead {
+  border-bottom: 2px solid #003c82;
+  margin-top: 0px;
+  padding-bottom: 9px;
+  margin-bottom: 45px;
+  font-size: 11px;
+}
+
+fieldset {
+  border-radius: 8px;
+  border-color: #ccbaba;
+  border-width: 1px;
+}
+
+.labelStyling {
+  font-weight: bold;
+  font-size: 11px;
+  font-family: Arial, Helvetica, sans-serif;
+  white-space: nowrap;
+  color: #000;
+}
+.entityDrpdns {
+  margin-top: -10px;
+  width: 280px;
+}
+
+legend {
+  font-size: 11px;
+  font-weight: 600;
+}
+
+.fieldLabel {
+  font-size: 11px;
+  margin-left: 3px !important;
+  font-weight: normal;
+}
+
+.radioRow {
+  margin-bottom: 1px;
+}
+.radioRow select {
+  margin-top: -13px !important;
+}
+
+.entityFieldSet {
+  border: 1px solid #CCBABA;
+  padding: 10px 10px 10px 10px;
+  width: 300px;
+  /*   margin-left: 12px; */
+}
+.rateFieldSet {
+  border: 1px solid #CCBABA;
+  margin-top: 23px;
+  width: 263px;
+  padding-bottom: 10px;
+}
+
+.rateWrap {
+  margin-left: 10px;
+}
+
+.inputFieldStyling {
+  width: 200px;
+  margin-left: 6px;
+  border: 1px solid;
+  border-color: rgb(133, 133, 133);
+}
+.actionBtns {
+  display: flex;
+  justify-content: center;
+  margin: 23px 0 0;
+}
+
+.customGrid {
+  display: flex;
+}
+
+.offerDropdowns {
+  width: 240px;
+}
+input {
+  font-size: 11px;
+}
+
+.header {
+  padding-left: 5px;
+  padding-right: 5px;
+  height: 5px;
+  width: 100%;
+  border: 0px;
+  border-collapse: collapse;
+  padding: 0px;
+  font-family: Arial, Helvetica, sans-serif, Verdana, Geneva;
+  font-size: 9pt;
+  font-weight: bolder;
+}
+
+.infoTable {
+  border-top-width: 1px;
+  border-color: #cccccc;
+  border-bottom-style: solid;
+  border-right-width: 1px;
+  border-left-style: solid;
+  border-top-style: solid;
+  border-bottom-width: 1px;
+  border-right-style: solid;
+  border-left-width: 1px;
+  /* border-color: #cccccc; */
+  background: #eff0ec;
+}
+
+.infoInnerTable {
+  margin-left: -8px;
+  margin-bottom: -7px;
+  margin-top: -8px;
+  margin-right: -12px;
+}
+
+.infoTbleFieldName {
+  font-size: 11px;
+  font-weight: 600;
+}
+.instructionHeader {
+  font-size: 11px;
+  font-style: italic;
+  font-weight: bold;
+  background: #eff0ec !important;
+}
+
+.commonDropdown {
+  display: block;
+  font-family: Arial, Helvetica, sans - serif, Verdana, Geneva;
+  color: #333333;
+  font-size: 11px;
+  line-height: 1.3;
+  border: 1px solid;
+  border-color: rgb(118, 118, 118);
+}
+
+.displayUpdateLoader {
+  padding: 10px;
+  display: block;
+}
+.emptyData {
+  text-align: center;
+  width: 100%;
+  display: block;
+  background: #fff;
+  padding: 5px 0;
+  overflow-x: hidden;
+}
+.blurBG {
+  z-index: 9999;
+    top: 0px;
+    left: 0px;
+    position: absolute;
+    background: #eee;
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+}
+.hotelmirrorlisttable{
+  overflow: auto hidden;
+  height: calc(100vh - 203px);
+}
+.pagenationpos{
+  margin-left: 295px;
+  width: 265px;
+  text-align: -webkit-right;
+}
+.marshaselect{
+  width: 91px;
+}

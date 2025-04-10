@@ -1,0 +1,38 @@
+.zeroHeight {
+    border: 0px;
+    border-collapse: collapse;
+    padding: 0px;
+}
+
+.Filter {
+    FONT-WEIGHT: bold;
+    FONT-FAMILY: Arial;
+    BACKGROUND-COLOR: #eff0ec;
+}
+
+.searchFieldsContainer {
+    border-top-width: 1px; 
+    border-bottom-style: solid; 
+    border-right-width: 1px; 
+    border-left-style: solid; 
+    border-top-style: solid; 
+    border-bottom-width: 1px; 
+    border-right-style: solid; 
+    border-left-width: 1px; 
+    border-color: #cccccc;
+}
+
+.nowrapCell {
+    white-space: nowrap;
+}
+
+.drpdwnbox{
+  background-color: #eff0ec;
+  border-radius: 5px;
+}
+
+.FilterFieldName
+{
+  FONT-WEIGHT: bold!important;
+  FONT-FAMILY: Arial;
+}

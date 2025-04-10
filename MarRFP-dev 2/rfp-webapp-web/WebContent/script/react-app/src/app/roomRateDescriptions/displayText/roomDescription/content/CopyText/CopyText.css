@@ -1,0 +1,67 @@
+.defaultFont {
+    font-family: Arial, Helvetica, sans-serif, Verdana, Geneva;
+    font-size: 11px;
+}
+
+.pr5 {
+    padding-right: 5px;
+}
+
+.section {
+    height: 0% !important;
+    border-collapse: collapse;
+    padding: 0px;
+    width: 100%;
+    border: 0px;
+    border-collapse: collapse;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-bottom: 5px;
+}
+
+.header {
+    padding-left: 10px;
+    font-weight: bold;
+    font-size: 9pt;
+    font-family: Arial;
+}
+
+.headerHR {
+    color: #ffffff;
+    background-color: #313063;
+}
+
+.menuWdth100 {
+    border: 0px;
+    border-collapse: collapse;
+    padding: 0px;
+    width: 100%;
+}
+
+.width70 {
+    width: 82%
+}
+
+.mt10 {
+    margin-top: 10px;
+}
+
+.mr5 {
+    margin-right: 5px;
+}
+
+.ml5 {
+    margin-left: 5px;
+}
+
+.ml10 {
+    margin-left: 10px
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.pointer {
+    cursor: pointer;
+}

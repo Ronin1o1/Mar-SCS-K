@@ -1,0 +1,64 @@
+.pageTitle {
+  font-size: 9pt;
+  font-weight: bold;
+  margin-top: 5px;
+}
+
+.divider {
+  width: 100%;
+  background-color: #313063;
+  height: 2px;
+  margin-bottom: 10px;
+}
+
+.control {
+  margin-left: 32px;
+}
+.infoheader{
+  padding-bottom: 15px;
+  line-height: 11px;
+}
+.controls {
+  margin-left: 80px;
+}
+
+.divHideDisplay {
+  display: none;
+}
+
+.divShowDisplay {
+  display: block;
+}
+
+.bgDarkBlue {
+  color: #ffffff;
+  background-color: #313063;
+  display: block;
+  margin-top: -1px;
+  height: 2px;
+}
+
+.headerTitle {
+  font-weight: bold;
+  font-size: 9pt;
+  font-family: Arial;
+}
+
+.tdHeight2 {
+  height: 2px;
+}
+
+.tableWidth {
+  width: 100%;
+  margin-left: -2px;
+}
+
+.tdHeight10 {
+  height: 7px;
+}
+@media only screen and (max-width: 740px){
+  .infoheader{
+    padding-bottom: 10px;
+    line-height: 12px;
+  }
+}

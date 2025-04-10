@@ -1,0 +1,237 @@
+.menuitem1 {
+  width: 100%;
+  background: #9d102d;
+  margin-top: -14px;
+}
+
+.subMenu ul {
+  list-style: none;
+  z-index: 9999;
+  margin: 0; 
+  
+}
+
+.subMenu > ul,
+.subMenu > ul > li  {  
+  background: hsl(348, 82%, 34%);  
+  height: 15px;
+}
+
+.subMenu > ul{
+ /*  padding: 40; */
+}
+
+.subMenu ul li {
+  display: inline-block;
+  position: relative; 
+}
+.subMenu li ul {
+  display: none;
+}
+
+.subMenu ul li a {
+  font-size: 11px;
+  padding: 0 12.8px;
+  line-height: 15px;
+  display: grid;
+}
+.subMenu > ul >  li > a { 
+  color: #fff; 
+}
+
+.sublist li {
+  background-color: rgb(141, 139, 126); 
+  border: 1px solid #bbbca6;
+}
+.sublist {
+  background: none;
+}
+.sublist li a {
+  color: rgb(0, 0, 0);
+  display: block !important;
+  width: 100%;
+  padding: 3px 0 0.5px 12.8px !important;
+  text-decoration: none;
+  background-color: #bbbca6;
+  border-bottom: 1px solid #100101;
+  line-height: 13px !important;
+}
+.subMenu li:hover > ul {
+  display: block;
+  position: absolute;
+  border: 1px outset rgb(141, 139, 126);
+  background-color: #bbbca6;
+  border-bottom-color: transparent;
+}
+.subMenu li:hover li {
+  float: none;
+  border: none;
+}
+.subMenu ul ul ul {
+  left: 100%;
+  top: 0;
+}
+.subMenu ul:before,
+ul:after {
+  content: " ";
+  /* display: table; */
+}
+
+.subMenu ul:after {
+  clear: both;
+}
+
+.subnavigation {
+  padding-left: 9.6px;
+  padding-top: 3px;
+}
+.subnavigation li {
+  border: solid;
+  border-width: 0px 1px 0px 1px;
+  border-color: #ffffff #6b0c20 #ffffff #c61438;
+}
+.arrow {
+  /* margin-left: 75px; */
+  margin-top: 3px;
+}
+.arrowDiv {
+  display: flex;
+  background-color: #bbbca6; 
+  width: 178px;
+  box-sizing: border-box !important;
+}
+.subMenu li:hover > ul .arrowDiv a{
+    line-height: 14.8px;
+    padding: 1px 1px 1px 10px;
+    border: 1px outset #8d8b7e;
+    border-width: 1px 0 1px 2px;
+    margin-left: -1px;
+}
+.arrowDivRoom {
+  display: flex;
+  background-color: #bbbca6;
+  width: 178px;
+}
+.arrowDivGeneral {
+  display: flex;
+  background-color: #bbbca6;
+  width: 180px;
+}
+.arrowDivRDAdmin{
+  display: flex;
+  background-color: #bbbca6;
+    width: 178px;
+}
+
+.sublist, .sublist ul{
+  padding: 0;
+}
+.sublist li {
+  border: 2px solid #BBBCA6;
+  padding: 0;
+}
+.sublist li {
+  border-width: 1px 0px 1px 1px;
+  border-right-style: initial;
+  border-bottom-style: outset;
+  border-left-style: outset;
+  border-color: rgb(141, 139, 126);
+  border-image: initial;
+}
+.subMenu {
+  width: 100%;
+  display: block;
+}
+.divColor {
+  background-color: #bbbca6;
+  height: 3px;
+  width: 100%;
+  border-bottom: 3px solid #ffffff;
+}
+.sublist li a:hover {
+  text-decoration: underline;
+  color: #9d102d;
+}
+.arrowProt {
+  margin-left: 105px;
+}
+
+.arrowsales {
+  margin-left: 45px;
+}
+.arrowpgoos {
+  margin-left: 80px;
+}
+.arrowedit {
+  margin-left: 119px;
+}
+.arrowroports {
+  margin-left: 105px;
+}
+.arrowadm {
+  margin-left: 90px;
+}
+.arrowdisplayText {
+  margin-left: 61px;
+}
+.arrowdisplayRules {
+  margin-left: 55px;
+}
+.arrowreports {
+  margin-left: 98px;
+}
+
+.customCaret {
+  width: 2px;
+  height: 0;
+  display: inline-block;
+  border: 4px solid transparent;
+}
+
+.customCaret.downCaret{
+  border-top-color: black;
+  position: relative;
+  top: 4px;
+}
+
+.customCaret.rightCaret{
+  border-left-color: black;
+  left: 3px !important;
+  position: relative;
+  top: 2px;
+}
+.subMenu li:hover > ul > li > div:after, .subMenu ul ul ul > li a::after{
+  content: '';
+  display: block;
+  position: absolute;
+  width: 9.75px;
+  height: 17.8px;
+  border-top: 1px solid rgb(238, 238,238);
+  top: -0.5px;
+  right: 0;
+}
+.subMenu ul ul ul > li a{
+  padding: 1px 0 1px 10px;
+  width: 166px !important;
+}
+.subMenu > ul > li:first-child > ul > li:first-child > ul > li > a::after {
+  right: -10px;
+}
+.pricing120SubMenu{
+  width: 120px!important;
+}
+
+.pricing220SubMenu{
+  width: 220px!important;
+}
+
+.pricing130SubMenu{
+  width: 152px!important;
+}
+
+.pricing200SubMenu{
+  width: 200px!important;
+}
+.arrowDivRoom > a, .arrowDivGeneral > a{
+  min-height: 14.8px !important;
+}

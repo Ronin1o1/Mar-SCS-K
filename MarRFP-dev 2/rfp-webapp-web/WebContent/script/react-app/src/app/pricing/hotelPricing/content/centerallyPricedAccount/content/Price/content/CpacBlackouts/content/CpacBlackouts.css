@@ -1,0 +1,130 @@
+.thisForm {
+    box-sizing: border-box;
+  }
+
+  .scrollDiv {
+    overflow: auto;
+    height: calc(100vh - 320px);
+  }
+  
+  .thisFormTable {
+    border: 0;
+  }
+  
+  .descriptionText {
+    font-weight: bold;
+    font-size: 11px;
+    padding: 4pt 0;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .gridTable {
+    font-size: 11px;
+  }
+  
+  .gridNode {
+    background-color: #EFF0EC;
+    outline: none;
+    overflow: hidden;
+  }
+  
+  .gridNodeTable {
+    width: 760px;
+  }
+  
+  .gridHeader {
+    border: 1px solid;
+    border-color: #F6F4EB #ACA899 #ACA899 #F6F4EB;
+    text-align: left;
+    overflow: hidden;
+    background-color: #D6D7CE;
+  }
+  
+  .gridCell {
+    border: 1px solid;
+    border-color: #F6F4EB #ACA899 #ACA899 #F6F4EB;
+    font-size: 11px;
+    font-weight: bold;
+  }
+  
+  .gridView {
+    height: 283px;
+    width: 760px;
+    overflow: hidden;
+  }
+  
+  .gridTableView {
+    border: 0;
+    border-collapse: collapse;
+    padding: 0;
+    font-size: 11px;
+  }
+  
+  .gridRow {
+    border: 1px solid #E8E4D8;
+    border-color: #F8F7F1;
+    border-left: none;
+    border-right: none;
+    background-color: white;
+    border-top: none;
+  }
+  
+  .gridBodyCell {
+    border: 1px solid;
+    border-color: #EBEADB;
+    padding: 0 2px;
+    text-align: left;
+    overflow-y: hidden;
+    font-size: 11px;
+    
+  }
+  .inputCell80{
+    width: 80px;
+  }
+  .inputCell {
+    height: 17px;
+    width: 300px;
+    cursor: auto;
+  }
+  
+  .totalLabelName {
+    font-weight: normal;
+    font-size: 11px;
+    font-weight: bold;
+  }
+  
+  .totalInput {
+    height: 22px;
+    width: 67px;
+    background-color: silver;
+  }
+
+  .blankRow{
+    height:30px;
+  }
+
+  .headerRow{
+    height:24px;
+  }
+
+  .gridTableView tr:hover{
+    background-color:rgb(244,242,159);
+  }
+
+  .alignment{
+    vertical-align:middle;
+  }
+  
+  .blackoutGrid tr td{
+    margin: 0;
+  }
+  @media only screen and (min-width: 1920px) {
+    .scrollDiv {
+      height: calc(100vh - 326px);
+    }
+  }
+  @media only screen and (max-width: 1100px) {
+    .scrollDiv {
+      height: calc(100vh - 326px);
+    }
+  }

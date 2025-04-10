@@ -1,0 +1,95 @@
+.statusAccountHeader {
+  display: flex;
+  padding-top: 5px;
+}
+.fieldName {
+  font-weight: bold;
+  font-size: 11px;
+  font-family: Arial;
+}
+.fieldValue {
+  font-weight: normal;
+  font-size: 11px;
+  font-family: Arial;
+  font-style: italic;
+}
+.floatleft {
+  float: left;
+  min-height: 1em;
+}
+.presentedHeader {
+  width: 65px;
+  font-style: normal;
+}
+.MarketHeader {
+  width: 80px;
+  white-space: nowrap;
+}
+.MarketHeaderData {
+  width: 100px;
+  font-style: normal;
+}
+.amenityHeader {
+  width: 170px;
+}
+.amenityData {
+  width: 30px;
+}
+.InstructionHeader {
+  font-weight: bold;
+  font-size: 11px;
+  margin-top: 20px;
+  font-style: italic;
+  font-family: Arial;
+  background-color: #eff0ec;
+}
+.pageOutterOutline {
+  height: 100%;
+  width: 100%;
+}
+.priceContactInput {
+  font-weight: normal;
+  font-size: 11px;
+  font-family: Arial;
+  height: 20px;
+  margin-bottom: -2px;
+  width: 276px;
+  margin-left: 23px;
+}
+.countryCodeInput {
+  font-weight: normal;
+  font-size: 11px;
+  font-family: Arial;
+  height: 20px;
+  margin-bottom: -5px;
+  width: 51px;
+  padding-right: 5px;
+  margin-left: 23px;
+  margin-right: 5px;
+}
+.cityCodeInput {
+  font-weight: normal;
+  font-size: 11px;
+  font-family: Arial;
+  margin-top: -2px;
+  height: 20px;
+  margin-top: 3px;
+  width: 63px;
+  margin-left: 23px;
+}
+.contactPhoneInput {
+  font-weight: normal;
+  font-size: 11px;
+  font-family: Arial;
+  height: 20px;
+  margin-top: -2px;
+  width: 106px;
+  margin-left: 23px;
+}
+.countrycodealign{
+  position: relative;
+  top: 3px;
+}
+.pageLayout{
+  height: calc(100vh - 325px);
+}

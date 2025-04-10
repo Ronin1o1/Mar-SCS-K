@@ -1,0 +1,16 @@
+.zeroHeight {
+    border: 0px;
+    padding: 10px !important;
+}
+.fieldValue {
+    font-weight: normal;
+    font-size: 11px;
+    font-family: Arial;
+}
+.data {
+    text-align: center;
+    vertical-align: bottom;
+}
+.btnClose {
+    cursor: pointer;
+}

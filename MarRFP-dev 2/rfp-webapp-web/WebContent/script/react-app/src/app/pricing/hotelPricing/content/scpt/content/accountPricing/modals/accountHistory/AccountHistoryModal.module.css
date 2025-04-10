@@ -1,0 +1,19 @@
+.contentStyle {
+  font-weight: normal;
+  padding: 5px 5px 0px 5px;
+}
+
+.headingStyle {
+  white-space: nowrap;
+  font-weight: 700;
+  font-size: 13px;
+}
+
+.headingStyleLi {
+  font-weight: 400;
+  font-size: 13px;
+}
+
+.listStyle {
+  list-style-type: none;
+}

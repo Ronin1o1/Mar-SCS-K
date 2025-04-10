@@ -1,0 +1,67 @@
+html,
+body,
+form {
+  height: 100%;
+}
+textarea {
+  resize: none;
+}
+
+.mainContainer {
+  position: relative;
+}
+
+.bodyContainer {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+}
+
+.section {
+  height: 0% !important;
+  border-collapse: collapse;
+  padding: 0px;
+  width: 100%;
+  border: 0px;
+  border-collapse: collapse;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin-bottom: 5px;
+}
+
+.header {
+  padding-left: 10px;
+  font-weight: bold;
+  font-size: 9pt;
+  font-family: Arial;
+}
+
+.headerHR {
+  color: #ffffff;
+  background-color: #313063;
+}
+
+.filterSection {
+  width: 300px;
+}
+
+.rightContainer {
+  vertical-align: baseline;
+}
+
+@media only screen and (max-width: 1000px) {
+  .mainContainer {
+    position: relative;
+    width: 100%;
+    overflow: auto;
+  }
+
+  .bodyContainer {
+    min-width: 1010px;
+    width: auto;
+  }
+    .bodyContainer {
+      position: inherit;
+    }
+    
+}

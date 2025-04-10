@@ -1,0 +1,1484 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<PeriodMaintenance>
+  <PeriodMaintenanceContextProvider>
+    <div
+      className="text"
+    >
+      Pricing Administration : Period Maintenance
+    </div>
+    <hr
+      className="hrStyle"
+    />
+    <CModal
+      onClose={[Function]}
+      show={false}
+      title="Edit Due Date"
+    />
+    <div
+      className="dataTableDiv"
+    >
+      <CDataTable
+        columns={
+          Array [
+            Object {
+              "body": [Function],
+              "field": "year",
+              "header": "Year",
+              "style": Object {
+                "width": "70px",
+              },
+            },
+            Object {
+              "body": [Function],
+              "field": "periodaccviewable",
+              "header": "Account Viewable?",
+              "style": Object {
+                "width": "40px",
+              },
+            },
+            Object {
+              "body": [Function],
+              "field": "periodmaintenanceid",
+              "style": Object {
+                "width": "10px",
+              },
+            },
+            Object {
+              "body": [Function],
+              "field": "periodduedate",
+              "header": "Due Dates",
+              "style": Object {
+                "width": "90px",
+              },
+            },
+          ]
+        }
+        id="gridTableView"
+        value={
+          Array [
+            Object {
+              "duedate": null,
+              "enddate": null,
+              "hasAccounts": null,
+              "hotelsview": null,
+              "id": null,
+              "longDueDate": null,
+              "period": null,
+              "pricingperiodid": null,
+              "shortDueDate": null,
+              "shortEnddate": null,
+              "shortStartdate": null,
+              "startdate": null,
+            },
+          ]
+        }
+      >
+        <DataTable
+          alwaysShowPaginator={true}
+          autoLayout={false}
+          cellSelection={false}
+          className="dataTable"
+          columnResizeMode="fit"
+          compareSelectionBy="deepEquals"
+          contextMenuSelection={null}
+          csvSeparator=","
+          currentPageReportTemplate="({currentPage} of {totalPages})"
+          customRestoreState={null}
+          customSaveState={null}
+          dataKey={null}
+          defaultSortOrder={1}
+          dragSelection={false}
+          editMode="cell"
+          editingRows={null}
+          emptyMessage={null}
+          expandableRowGroups={false}
+          expandedRows={null}
+          exportFilename="download"
+          exportFunction={null}
+          filterDelay={300}
+          filters={null}
+          first={0}
+          footer={null}
+          footerColumnGroup={null}
+          frozenFooterColumnGroup={null}
+          frozenHeaderColumnGroup={null}
+          frozenValue={null}
+          frozenWidth={null}
+          globalFilter={null}
+          groupField={null}
+          header={null}
+          headerColumnGroup={null}
+          id={null}
+          lazy={false}
+          loading={false}
+          loadingIcon="pi pi-spinner"
+          metaKeySelection={true}
+          multiSortMeta={null}
+          onCellClick={null}
+          onCellSelect={null}
+          onCellUnselect={null}
+          onColReorder={null}
+          onColumnResizeEnd={null}
+          onContextMenu={null}
+          onContextMenuSelectionChange={null}
+          onFilter={null}
+          onPage={null}
+          onRowClick={null}
+          onRowCollapse={null}
+          onRowDoubleClick={null}
+          onRowEditCancel={null}
+          onRowEditChange={null}
+          onRowEditInit={null}
+          onRowEditSave={null}
+          onRowExpand={null}
+          onRowReorder={null}
+          onRowSelect={null}
+          onRowToggle={null}
+          onRowUnselect={null}
+          onSelectionChange={null}
+          onSort={null}
+          onStateRestore={null}
+          onStateSave={null}
+          onValueChange={null}
+          onVirtualScroll={null}
+          pageLinkSize={5}
+          paginator={false}
+          paginatorClassName={null}
+          paginatorDropdownAppendTo={null}
+          paginatorLeft={null}
+          paginatorPosition="bottom"
+          paginatorRight={null}
+          paginatorTemplate="FirstPageLink PrevPageLink PageLinks NextPageLink LastPageLink RowsPerPageDropdown"
+          removableSort={false}
+          reorderableColumns={false}
+          resizableColumns={false}
+          rowClassName={null}
+          rowEditorValidator={null}
+          rowExpansionTemplate={null}
+          rowGroupFooterTemplate={null}
+          rowGroupHeaderTemplate={null}
+          rowGroupMode={null}
+          rowHover={false}
+          rows={null}
+          rowsPerPageOptions={null}
+          scrollHeight={null}
+          scrollable={false}
+          selectOnEdit={true}
+          selection={null}
+          selectionMode={null}
+          showRowReorderElement={null}
+          showSelectionElement={null}
+          sortField={null}
+          sortMode="single"
+          sortOrder={null}
+          stateKey={null}
+          stateStorage="session"
+          style={null}
+          tabIndex={0}
+          tableClassName={null}
+          tableStyle={null}
+          totalRecords={null}
+          value={
+            Array [
+              Object {
+                "duedate": null,
+                "enddate": null,
+                "hasAccounts": null,
+                "hotelsview": null,
+                "id": null,
+                "longDueDate": null,
+                "period": null,
+                "pricingperiodid": null,
+                "shortDueDate": null,
+                "shortEnddate": null,
+                "shortStartdate": null,
+                "startdate": null,
+              },
+            ]
+          }
+          virtualRowHeight={28}
+          virtualScroll={false}
+          virtualScrollDelay={150}
+        >
+          <div
+            className="p-datatable p-component dataTable"
+            data-scrollselectors=".p-datatable-scrollable-body, .p-datatable-unfrozen-view .p-datatable-scrollable-body"
+            id={null}
+            style={null}
+          >
+            <div
+              className="p-datatable-wrapper"
+            >
+              <table
+                className={null}
+                role="grid"
+                style={null}
+              >
+                <TableHeader
+                  columnGroup={null}
+                  filterDelay={300}
+                  filters={null}
+                  headerCheckboxSelected={null}
+                  multiSortMeta={null}
+                  onColumnDragLeave={[Function]}
+                  onColumnDragOver={[Function]}
+                  onColumnDragStart={[Function]}
+                  onColumnDrop={[Function]}
+                  onColumnResizeStart={[Function]}
+                  onFilter={[Function]}
+                  onHeaderCheckboxClick={[Function]}
+                  onSort={[Function]}
+                  reorderableColumns={false}
+                  resizableColumns={false}
+                  sortField={null}
+                  sortMode="single"
+                  sortOrder={null}
+                  tabIndex={0}
+                  value={
+                    Array [
+                      Object {
+                        "duedate": null,
+                        "enddate": null,
+                        "hasAccounts": null,
+                        "hotelsview": null,
+                        "id": null,
+                        "longDueDate": null,
+                        "period": null,
+                        "pricingperiodid": null,
+                        "shortDueDate": null,
+                        "shortEnddate": null,
+                        "shortStartdate": null,
+                        "startdate": null,
+                      },
+                    ]
+                  }
+                >
+                  <thead
+                    className="p-datatable-thead"
+                  >
+                    <tr
+                      role="row"
+                    >
+                      <HeaderCell
+                        allSortableDisabled={false}
+                        columnProps={
+                          Object {
+                            "body": [Function],
+                            "bodyClassName": null,
+                            "bodyStyle": null,
+                            "className": null,
+                            "colSpan": null,
+                            "columnKey": null,
+                            "editor": null,
+                            "editorValidator": null,
+                            "editorValidatorEvent": "click",
+                            "excludeGlobalFilter": false,
+                            "expander": false,
+                            "exportable": true,
+                            "field": "year",
+                            "filter": false,
+                            "filterElement": null,
+                            "filterField": null,
+                            "filterFunction": null,
+                            "filterHeaderClassName": null,
+                            "filterHeaderStyle": null,
+                            "filterMatchMode": "startsWith",
+                            "filterMaxLength": null,
+                            "filterPlaceholder": null,
+                            "filterType": "text",
+                            "footer": null,
+                            "footerClassName": null,
+                            "footerStyle": null,
+                            "frozen": false,
+                            "header": "Year",
+                            "headerClassName": null,
+                            "headerStyle": null,
+                            "loadingBody": null,
+                            "onBeforeEditorHide": null,
+                            "onBeforeEditorShow": null,
+                            "onEditorCancel": null,
+                            "onEditorInit": null,
+                            "onEditorSubmit": null,
+                            "reorderable": true,
+                            "rowEditor": false,
+                            "rowReorder": false,
+                            "rowReorderIcon": "pi pi-bars",
+                            "rowSpan": null,
+                            "selectionMode": null,
+                            "sortField": null,
+                            "sortFunction": null,
+                            "sortable": false,
+                            "sortableDisabled": false,
+                            "style": Object {
+                              "width": "70px",
+                            },
+                          }
+                        }
+                        filterDelay={300}
+                        filters={null}
+                        headerCheckboxSelected={null}
+                        key="year/.$.$.$year"
+                        multiSortMeta={null}
+                        onColumnResizeStart={[Function]}
+                        onDragLeave={[Function]}
+                        onDragOver={[Function]}
+                        onDragStart={[Function]}
+                        onDrop={[Function]}
+                        onFilter={[Function]}
+                        onHeaderCheckboxClick={[Function]}
+                        onSort={[Function]}
+                        onSortableChange={[Function]}
+                        renderOptions={
+                          Object {
+                            "filterOnly": false,
+                            "renderFilter": false,
+                            "renderHeaderCheckbox": true,
+                          }
+                        }
+                        reorderableColumns={false}
+                        resizableColumns={false}
+                        sortField={null}
+                        sortMode="single"
+                        sortOrder={null}
+                        sortableDisabledFields={Array []}
+                        tabIndex={0}
+                        value={
+                          Array [
+                            Object {
+                              "duedate": null,
+                              "enddate": null,
+                              "hasAccounts": null,
+                              "hotelsview": null,
+                              "id": null,
+                              "longDueDate": null,
+                              "period": null,
+                              "pricingperiodid": null,
+                              "shortDueDate": null,
+                              "shortEnddate": null,
+                              "shortStartdate": null,
+                              "startdate": null,
+                            },
+                          ]
+                        }
+                      >
+                        <th
+                          aria-sort={null}
+                          className="p-sortable-disabled"
+                          colSpan={null}
+                          onClick={[Function]}
+                          onDragLeave={[Function]}
+                          onDragOver={[Function]}
+                          onDragStart={[Function]}
+                          onDrop={[Function]}
+                          onKeyDown={[Function]}
+                          onMouseDown={[Function]}
+                          role="columnheader"
+                          rowSpan={null}
+                          style={
+                            Object {
+                              "width": "70px",
+                            }
+                          }
+                          tabIndex={null}
+                        >
+                          <span
+                            className="p-column-title"
+                          >
+                            Year
+                          </span>
+                        </th>
+                      </HeaderCell>
+                      <HeaderCell
+                        allSortableDisabled={false}
+                        columnProps={
+                          Object {
+                            "body": [Function],
+                            "bodyClassName": null,
+                            "bodyStyle": null,
+                            "className": null,
+                            "colSpan": null,
+                            "columnKey": null,
+                            "editor": null,
+                            "editorValidator": null,
+                            "editorValidatorEvent": "click",
+                            "excludeGlobalFilter": false,
+                            "expander": false,
+                            "exportable": true,
+                            "field": "periodaccviewable",
+                            "filter": false,
+                            "filterElement": null,
+                            "filterField": null,
+                            "filterFunction": null,
+                            "filterHeaderClassName": null,
+                            "filterHeaderStyle": null,
+                            "filterMatchMode": "startsWith",
+                            "filterMaxLength": null,
+                            "filterPlaceholder": null,
+                            "filterType": "text",
+                            "footer": null,
+                            "footerClassName": null,
+                            "footerStyle": null,
+                            "frozen": false,
+                            "header": "Account Viewable?",
+                            "headerClassName": null,
+                            "headerStyle": null,
+                            "loadingBody": null,
+                            "onBeforeEditorHide": null,
+                            "onBeforeEditorShow": null,
+                            "onEditorCancel": null,
+                            "onEditorInit": null,
+                            "onEditorSubmit": null,
+                            "reorderable": true,
+                            "rowEditor": false,
+                            "rowReorder": false,
+                            "rowReorderIcon": "pi pi-bars",
+                            "rowSpan": null,
+                            "selectionMode": null,
+                            "sortField": null,
+                            "sortFunction": null,
+                            "sortable": false,
+                            "sortableDisabled": false,
+                            "style": Object {
+                              "width": "40px",
+                            },
+                          }
+                        }
+                        filterDelay={300}
+                        filters={null}
+                        headerCheckboxSelected={null}
+                        key="periodaccviewable/.$.$.$periodaccviewable"
+                        multiSortMeta={null}
+                        onColumnResizeStart={[Function]}
+                        onDragLeave={[Function]}
+                        onDragOver={[Function]}
+                        onDragStart={[Function]}
+                        onDrop={[Function]}
+                        onFilter={[Function]}
+                        onHeaderCheckboxClick={[Function]}
+                        onSort={[Function]}
+                        onSortableChange={[Function]}
+                        renderOptions={
+                          Object {
+                            "filterOnly": false,
+                            "renderFilter": false,
+                            "renderHeaderCheckbox": true,
+                          }
+                        }
+                        reorderableColumns={false}
+                        resizableColumns={false}
+                        sortField={null}
+                        sortMode="single"
+                        sortOrder={null}
+                        sortableDisabledFields={Array []}
+                        tabIndex={0}
+                        value={
+                          Array [
+                            Object {
+                              "duedate": null,
+                              "enddate": null,
+                              "hasAccounts": null,
+                              "hotelsview": null,
+                              "id": null,
+                              "longDueDate": null,
+                              "period": null,
+                              "pricingperiodid": null,
+                              "shortDueDate": null,
+                              "shortEnddate": null,
+                              "shortStartdate": null,
+                              "startdate": null,
+                            },
+                          ]
+                        }
+                      >
+                        <th
+                          aria-sort={null}
+                          className="p-sortable-disabled"
+                          colSpan={null}
+                          onClick={[Function]}
+                          onDragLeave={[Function]}
+                          onDragOver={[Function]}
+                          onDragStart={[Function]}
+                          onDrop={[Function]}
+                          onKeyDown={[Function]}
+                          onMouseDown={[Function]}
+                          role="columnheader"
+                          rowSpan={null}
+                          style={
+                            Object {
+                              "width": "40px",
+                            }
+                          }
+                          tabIndex={null}
+                        >
+                          <span
+                            className="p-column-title"
+                          >
+                            Account Viewable?
+                          </span>
+                        </th>
+                      </HeaderCell>
+                      <HeaderCell
+                        allSortableDisabled={false}
+                        columnProps={
+                          Object {
+                            "body": [Function],
+                            "bodyClassName": null,
+                            "bodyStyle": null,
+                            "className": null,
+                            "colSpan": null,
+                            "columnKey": null,
+                            "editor": null,
+                            "editorValidator": null,
+                            "editorValidatorEvent": "click",
+                            "excludeGlobalFilter": false,
+                            "expander": false,
+                            "exportable": true,
+                            "field": "periodmaintenanceid",
+                            "filter": false,
+                            "filterElement": null,
+                            "filterField": null,
+                            "filterFunction": null,
+                            "filterHeaderClassName": null,
+                            "filterHeaderStyle": null,
+                            "filterMatchMode": "startsWith",
+                            "filterMaxLength": null,
+                            "filterPlaceholder": null,
+                            "filterType": "text",
+                            "footer": null,
+                            "footerClassName": null,
+                            "footerStyle": null,
+                            "frozen": false,
+                            "header": null,
+                            "headerClassName": null,
+                            "headerStyle": null,
+                            "loadingBody": null,
+                            "onBeforeEditorHide": null,
+                            "onBeforeEditorShow": null,
+                            "onEditorCancel": null,
+                            "onEditorInit": null,
+                            "onEditorSubmit": null,
+                            "reorderable": true,
+                            "rowEditor": false,
+                            "rowReorder": false,
+                            "rowReorderIcon": "pi pi-bars",
+                            "rowSpan": null,
+                            "selectionMode": null,
+                            "sortField": null,
+                            "sortFunction": null,
+                            "sortable": false,
+                            "sortableDisabled": false,
+                            "style": Object {
+                              "width": "10px",
+                            },
+                          }
+                        }
+                        filterDelay={300}
+                        filters={null}
+                        headerCheckboxSelected={null}
+                        key="periodmaintenanceid/.$.$.$periodmaintenanceid"
+                        multiSortMeta={null}
+                        onColumnResizeStart={[Function]}
+                        onDragLeave={[Function]}
+                        onDragOver={[Function]}
+                        onDragStart={[Function]}
+                        onDrop={[Function]}
+                        onFilter={[Function]}
+                        onHeaderCheckboxClick={[Function]}
+                        onSort={[Function]}
+                        onSortableChange={[Function]}
+                        renderOptions={
+                          Object {
+                            "filterOnly": false,
+                            "renderFilter": false,
+                            "renderHeaderCheckbox": true,
+                          }
+                        }
+                        reorderableColumns={false}
+                        resizableColumns={false}
+                        sortField={null}
+                        sortMode="single"
+                        sortOrder={null}
+                        sortableDisabledFields={Array []}
+                        tabIndex={0}
+                        value={
+                          Array [
+                            Object {
+                              "duedate": null,
+                              "enddate": null,
+                              "hasAccounts": null,
+                              "hotelsview": null,
+                              "id": null,
+                              "longDueDate": null,
+                              "period": null,
+                              "pricingperiodid": null,
+                              "shortDueDate": null,
+                              "shortEnddate": null,
+                              "shortStartdate": null,
+                              "startdate": null,
+                            },
+                          ]
+                        }
+                      >
+                        <th
+                          aria-sort={null}
+                          className="p-sortable-disabled"
+                          colSpan={null}
+                          onClick={[Function]}
+                          onDragLeave={[Function]}
+                          onDragOver={[Function]}
+                          onDragStart={[Function]}
+                          onDrop={[Function]}
+                          onKeyDown={[Function]}
+                          onMouseDown={[Function]}
+                          role="columnheader"
+                          rowSpan={null}
+                          style={
+                            Object {
+                              "width": "10px",
+                            }
+                          }
+                          tabIndex={null}
+                        >
+                          <span
+                            className="p-column-title"
+                          />
+                        </th>
+                      </HeaderCell>
+                      <HeaderCell
+                        allSortableDisabled={false}
+                        columnProps={
+                          Object {
+                            "body": [Function],
+                            "bodyClassName": null,
+                            "bodyStyle": null,
+                            "className": null,
+                            "colSpan": null,
+                            "columnKey": null,
+                            "editor": null,
+                            "editorValidator": null,
+                            "editorValidatorEvent": "click",
+                            "excludeGlobalFilter": false,
+                            "expander": false,
+                            "exportable": true,
+                            "field": "periodduedate",
+                            "filter": false,
+                            "filterElement": null,
+                            "filterField": null,
+                            "filterFunction": null,
+                            "filterHeaderClassName": null,
+                            "filterHeaderStyle": null,
+                            "filterMatchMode": "startsWith",
+                            "filterMaxLength": null,
+                            "filterPlaceholder": null,
+                            "filterType": "text",
+                            "footer": null,
+                            "footerClassName": null,
+                            "footerStyle": null,
+                            "frozen": false,
+                            "header": "Due Dates",
+                            "headerClassName": null,
+                            "headerStyle": null,
+                            "loadingBody": null,
+                            "onBeforeEditorHide": null,
+                            "onBeforeEditorShow": null,
+                            "onEditorCancel": null,
+                            "onEditorInit": null,
+                            "onEditorSubmit": null,
+                            "reorderable": true,
+                            "rowEditor": false,
+                            "rowReorder": false,
+                            "rowReorderIcon": "pi pi-bars",
+                            "rowSpan": null,
+                            "selectionMode": null,
+                            "sortField": null,
+                            "sortFunction": null,
+                            "sortable": false,
+                            "sortableDisabled": false,
+                            "style": Object {
+                              "width": "90px",
+                            },
+                          }
+                        }
+                        filterDelay={300}
+                        filters={null}
+                        headerCheckboxSelected={null}
+                        key="periodduedate/.$.$.$periodduedate"
+                        multiSortMeta={null}
+                        onColumnResizeStart={[Function]}
+                        onDragLeave={[Function]}
+                        onDragOver={[Function]}
+                        onDragStart={[Function]}
+                        onDrop={[Function]}
+                        onFilter={[Function]}
+                        onHeaderCheckboxClick={[Function]}
+                        onSort={[Function]}
+                        onSortableChange={[Function]}
+                        renderOptions={
+                          Object {
+                            "filterOnly": false,
+                            "renderFilter": false,
+                            "renderHeaderCheckbox": true,
+                          }
+                        }
+                        reorderableColumns={false}
+                        resizableColumns={false}
+                        sortField={null}
+                        sortMode="single"
+                        sortOrder={null}
+                        sortableDisabledFields={Array []}
+                        tabIndex={0}
+                        value={
+                          Array [
+                            Object {
+                              "duedate": null,
+                              "enddate": null,
+                              "hasAccounts": null,
+                              "hotelsview": null,
+                              "id": null,
+                              "longDueDate": null,
+                              "period": null,
+                              "pricingperiodid": null,
+                              "shortDueDate": null,
+                              "shortEnddate": null,
+                              "shortStartdate": null,
+                              "startdate": null,
+                            },
+                          ]
+                        }
+                      >
+                        <th
+                          aria-sort={null}
+                          className="p-sortable-disabled"
+                          colSpan={null}
+                          onClick={[Function]}
+                          onDragLeave={[Function]}
+                          onDragOver={[Function]}
+                          onDragStart={[Function]}
+                          onDrop={[Function]}
+                          onKeyDown={[Function]}
+                          onMouseDown={[Function]}
+                          role="columnheader"
+                          rowSpan={null}
+                          style={
+                            Object {
+                              "width": "90px",
+                            }
+                          }
+                          tabIndex={null}
+                        >
+                          <span
+                            className="p-column-title"
+                          >
+                            Due Dates
+                          </span>
+                        </th>
+                      </HeaderCell>
+                    </tr>
+                  </thead>
+                </TableHeader>
+                <TableBody
+                  cellSelection={false}
+                  compareSelectionBy="deepEquals"
+                  contextMenuSelection={null}
+                  dataKey={null}
+                  dragSelection={false}
+                  editMode="cell"
+                  editingRows={null}
+                  emptyMessage={null}
+                  expandableRowGroups={false}
+                  expandedRows={null}
+                  first={0}
+                  frozen={false}
+                  groupField={null}
+                  lazy={false}
+                  loading={false}
+                  metaKeySelection={true}
+                  onCellClick={null}
+                  onCellSelect={null}
+                  onCellUnselect={null}
+                  onContextMenu={null}
+                  onContextMenuSelectionChange={null}
+                  onRowClick={null}
+                  onRowCollapse={null}
+                  onRowDoubleClick={null}
+                  onRowEditCancel={null}
+                  onRowEditChange={null}
+                  onRowEditInit={null}
+                  onRowEditSave={null}
+                  onRowExpand={null}
+                  onRowReorder={null}
+                  onRowSelect={null}
+                  onRowToggle={null}
+                  onRowUnselect={null}
+                  onSelectionChange={null}
+                  paginator={false}
+                  rowClassName={null}
+                  rowEditorValidator={null}
+                  rowExpansionTemplate={null}
+                  rowGroupFooterTemplate={null}
+                  rowGroupHeaderTemplate={null}
+                  rowGroupMode={null}
+                  rows={null}
+                  selectOnEdit={true}
+                  selection={null}
+                  selectionMode={null}
+                  selectionModeInColumn={null}
+                  showRowReorderElement={null}
+                  showSelectionElement={null}
+                  sortField={null}
+                  tableId={null}
+                  value={
+                    Array [
+                      Object {
+                        "duedate": null,
+                        "enddate": null,
+                        "hasAccounts": null,
+                        "hotelsview": null,
+                        "id": null,
+                        "longDueDate": null,
+                        "period": null,
+                        "pricingperiodid": null,
+                        "shortDueDate": null,
+                        "shortEnddate": null,
+                        "shortStartdate": null,
+                        "startdate": null,
+                      },
+                    ]
+                  }
+                  virtualRowHeight={28}
+                  virtualScroll={false}
+                >
+                  <tbody
+                    className="p-datatable-tbody"
+                  >
+                    <BodyRow
+                      allowCellSelection={false}
+                      allowRowSelection={null}
+                      contextMenuSelected={false}
+                      dragSelection={false}
+                      editMode="cell"
+                      editing={false}
+                      expanded={false}
+                      isRowEditingControlled={false}
+                      key="0"
+                      onCellClick={[Function]}
+                      onCellMouseDown={[Function]}
+                      onCellMouseUp={[Function]}
+                      onCheckboxClick={[Function]}
+                      onClick={[Function]}
+                      onDoubleClick={null}
+                      onDragEnd={[Function]}
+                      onDragLeave={[Function]}
+                      onDragOver={[Function]}
+                      onDragStart={[Function]}
+                      onDrop={[Function]}
+                      onMouseDown={[Function]}
+                      onMouseUp={[Function]}
+                      onRadioClick={[Function]}
+                      onRightClick={[Function]}
+                      onRowEditCancel={null}
+                      onRowEditInit={null}
+                      onRowEditSave={null}
+                      onRowEditingToggle={[Function]}
+                      onRowToggle={[Function]}
+                      onSelectionChange={null}
+                      onTouchEnd={[Function]}
+                      rowClassName={null}
+                      rowData={
+                        Object {
+                          "duedate": null,
+                          "enddate": null,
+                          "hasAccounts": null,
+                          "hotelsview": null,
+                          "id": null,
+                          "longDueDate": null,
+                          "period": null,
+                          "pricingperiodid": null,
+                          "shortDueDate": null,
+                          "shortEnddate": null,
+                          "shortStartdate": null,
+                          "startdate": null,
+                        }
+                      }
+                      rowEditorValidator={null}
+                      rowGroupMode={null}
+                      rowIndex={0}
+                      selectOnEdit={true}
+                      selected={false}
+                      selection={null}
+                      selectionMode={null}
+                      selectionModeInColumn={null}
+                      showRowReorderElement={null}
+                      showSelectionElement={null}
+                      sortField={null}
+                      tableId={null}
+                      value={
+                        Array [
+                          Object {
+                            "duedate": null,
+                            "enddate": null,
+                            "hasAccounts": null,
+                            "hotelsview": null,
+                            "id": null,
+                            "longDueDate": null,
+                            "period": null,
+                            "pricingperiodid": null,
+                            "shortDueDate": null,
+                            "shortEnddate": null,
+                            "shortStartdate": null,
+                            "startdate": null,
+                          },
+                        ]
+                      }
+                      virtualRowHeight={28}
+                      virtualScroll={false}
+                    >
+                      <tr
+                        className=""
+                        onClick={[Function]}
+                        onContextMenu={[Function]}
+                        onDoubleClick={[Function]}
+                        onDragEnd={[Function]}
+                        onDragLeave={[Function]}
+                        onDragOver={[Function]}
+                        onDragStart={[Function]}
+                        onDrop={[Function]}
+                        onKeyDown={[Function]}
+                        onMouseDown={[Function]}
+                        onMouseUp={[Function]}
+                        onTouchEnd={[Function]}
+                        role="row"
+                        style={Object {}}
+                        tabIndex={null}
+                      >
+                        <BodyCell
+                          allowCellSelection={false}
+                          body={[Function]}
+                          bodyClassName={null}
+                          bodyStyle={null}
+                          className={null}
+                          colSpan={null}
+                          columnKey={null}
+                          editMode="cell"
+                          editing={false}
+                          editor={null}
+                          editorValidator={null}
+                          editorValidatorEvent="click"
+                          excludeGlobalFilter={false}
+                          expanded={false}
+                          expander={false}
+                          exportable={true}
+                          field="year"
+                          filter={false}
+                          filterElement={null}
+                          filterField={null}
+                          filterFunction={null}
+                          filterHeaderClassName={null}
+                          filterHeaderStyle={null}
+                          filterMatchMode="startsWith"
+                          filterMaxLength={null}
+                          filterPlaceholder={null}
+                          filterType="text"
+                          footer={null}
+                          footerClassName={null}
+                          footerStyle={null}
+                          frozen={false}
+                          header="Year"
+                          headerClassName={null}
+                          headerStyle={null}
+                          index={0}
+                          key="0"
+                          loadingBody={null}
+                          onBeforeEditorHide={null}
+                          onBeforeEditorShow={null}
+                          onCheckboxClick={[Function]}
+                          onClick={[Function]}
+                          onEditorCancel={null}
+                          onEditorInit={null}
+                          onEditorSubmit={null}
+                          onMouseDown={[Function]}
+                          onMouseUp={[Function]}
+                          onRadioClick={[Function]}
+                          onRowEditCancel={[Function]}
+                          onRowEditInit={[Function]}
+                          onRowEditSave={[Function]}
+                          onRowToggle={[Function]}
+                          reorderable={true}
+                          rowData={
+                            Object {
+                              "duedate": null,
+                              "enddate": null,
+                              "hasAccounts": null,
+                              "hotelsview": null,
+                              "id": null,
+                              "longDueDate": null,
+                              "period": null,
+                              "pricingperiodid": null,
+                              "shortDueDate": null,
+                              "shortEnddate": null,
+                              "shortStartdate": null,
+                              "startdate": null,
+                            }
+                          }
+                          rowEditor={false}
+                          rowIndex={0}
+                          rowReorder={false}
+                          rowReorderIcon="pi pi-bars"
+                          selectOnEdit={true}
+                          selected={false}
+                          selection={null}
+                          selectionMode={null}
+                          showRowReorderElement={null}
+                          showSelectionElement={null}
+                          sortField={null}
+                          sortFunction={null}
+                          sortable={false}
+                          sortableDisabled={false}
+                          style={
+                            Object {
+                              "width": "70px",
+                            }
+                          }
+                          tableId={null}
+                          value={
+                            Array [
+                              Object {
+                                "duedate": null,
+                                "enddate": null,
+                                "hasAccounts": null,
+                                "hotelsview": null,
+                                "id": null,
+                                "longDueDate": null,
+                                "period": null,
+                                "pricingperiodid": null,
+                                "shortDueDate": null,
+                                "shortEnddate": null,
+                                "shortStartdate": null,
+                                "startdate": null,
+                              },
+                            ]
+                          }
+                        >
+                          <td
+                            className=""
+                            onBlur={[Function]}
+                            onClick={[Function]}
+                            onKeyDown={[Function]}
+                            onMouseDown={[Function]}
+                            onMouseUp={[Function]}
+                            role="cell"
+                            style={
+                              Object {
+                                "width": "70px",
+                              }
+                            }
+                            tabIndex={null}
+                          >
+                            <div />
+                          </td>
+                        </BodyCell>
+                        <BodyCell
+                          allowCellSelection={false}
+                          body={[Function]}
+                          bodyClassName={null}
+                          bodyStyle={null}
+                          className={null}
+                          colSpan={null}
+                          columnKey={null}
+                          editMode="cell"
+                          editing={false}
+                          editor={null}
+                          editorValidator={null}
+                          editorValidatorEvent="click"
+                          excludeGlobalFilter={false}
+                          expanded={false}
+                          expander={false}
+                          exportable={true}
+                          field="periodaccviewable"
+                          filter={false}
+                          filterElement={null}
+                          filterField={null}
+                          filterFunction={null}
+                          filterHeaderClassName={null}
+                          filterHeaderStyle={null}
+                          filterMatchMode="startsWith"
+                          filterMaxLength={null}
+                          filterPlaceholder={null}
+                          filterType="text"
+                          footer={null}
+                          footerClassName={null}
+                          footerStyle={null}
+                          frozen={false}
+                          header="Account Viewable?"
+                          headerClassName={null}
+                          headerStyle={null}
+                          index={1}
+                          key="1"
+                          loadingBody={null}
+                          onBeforeEditorHide={null}
+                          onBeforeEditorShow={null}
+                          onCheckboxClick={[Function]}
+                          onClick={[Function]}
+                          onEditorCancel={null}
+                          onEditorInit={null}
+                          onEditorSubmit={null}
+                          onMouseDown={[Function]}
+                          onMouseUp={[Function]}
+                          onRadioClick={[Function]}
+                          onRowEditCancel={[Function]}
+                          onRowEditInit={[Function]}
+                          onRowEditSave={[Function]}
+                          onRowToggle={[Function]}
+                          reorderable={true}
+                          rowData={
+                            Object {
+                              "duedate": null,
+                              "enddate": null,
+                              "hasAccounts": null,
+                              "hotelsview": null,
+                              "id": null,
+                              "longDueDate": null,
+                              "period": null,
+                              "pricingperiodid": null,
+                              "shortDueDate": null,
+                              "shortEnddate": null,
+                              "shortStartdate": null,
+                              "startdate": null,
+                            }
+                          }
+                          rowEditor={false}
+                          rowIndex={0}
+                          rowReorder={false}
+                          rowReorderIcon="pi pi-bars"
+                          selectOnEdit={true}
+                          selected={false}
+                          selection={null}
+                          selectionMode={null}
+                          showRowReorderElement={null}
+                          showSelectionElement={null}
+                          sortField={null}
+                          sortFunction={null}
+                          sortable={false}
+                          sortableDisabled={false}
+                          style={
+                            Object {
+                              "width": "40px",
+                            }
+                          }
+                          tableId={null}
+                          value={
+                            Array [
+                              Object {
+                                "duedate": null,
+                                "enddate": null,
+                                "hasAccounts": null,
+                                "hotelsview": null,
+                                "id": null,
+                                "longDueDate": null,
+                                "period": null,
+                                "pricingperiodid": null,
+                                "shortDueDate": null,
+                                "shortEnddate": null,
+                                "shortStartdate": null,
+                                "startdate": null,
+                              },
+                            ]
+                          }
+                        >
+                          <td
+                            className=""
+                            onBlur={[Function]}
+                            onClick={[Function]}
+                            onKeyDown={[Function]}
+                            onMouseDown={[Function]}
+                            onMouseUp={[Function]}
+                            role="cell"
+                            style={
+                              Object {
+                                "width": "40px",
+                              }
+                            }
+                            tabIndex={null}
+                          >
+                            <div />
+                          </td>
+                        </BodyCell>
+                        <BodyCell
+                          allowCellSelection={false}
+                          body={[Function]}
+                          bodyClassName={null}
+                          bodyStyle={null}
+                          className={null}
+                          colSpan={null}
+                          columnKey={null}
+                          editMode="cell"
+                          editing={false}
+                          editor={null}
+                          editorValidator={null}
+                          editorValidatorEvent="click"
+                          excludeGlobalFilter={false}
+                          expanded={false}
+                          expander={false}
+                          exportable={true}
+                          field="periodmaintenanceid"
+                          filter={false}
+                          filterElement={null}
+                          filterField={null}
+                          filterFunction={null}
+                          filterHeaderClassName={null}
+                          filterHeaderStyle={null}
+                          filterMatchMode="startsWith"
+                          filterMaxLength={null}
+                          filterPlaceholder={null}
+                          filterType="text"
+                          footer={null}
+                          footerClassName={null}
+                          footerStyle={null}
+                          frozen={false}
+                          header={null}
+                          headerClassName={null}
+                          headerStyle={null}
+                          index={2}
+                          key="2"
+                          loadingBody={null}
+                          onBeforeEditorHide={null}
+                          onBeforeEditorShow={null}
+                          onCheckboxClick={[Function]}
+                          onClick={[Function]}
+                          onEditorCancel={null}
+                          onEditorInit={null}
+                          onEditorSubmit={null}
+                          onMouseDown={[Function]}
+                          onMouseUp={[Function]}
+                          onRadioClick={[Function]}
+                          onRowEditCancel={[Function]}
+                          onRowEditInit={[Function]}
+                          onRowEditSave={[Function]}
+                          onRowToggle={[Function]}
+                          reorderable={true}
+                          rowData={
+                            Object {
+                              "duedate": null,
+                              "enddate": null,
+                              "hasAccounts": null,
+                              "hotelsview": null,
+                              "id": null,
+                              "longDueDate": null,
+                              "period": null,
+                              "pricingperiodid": null,
+                              "shortDueDate": null,
+                              "shortEnddate": null,
+                              "shortStartdate": null,
+                              "startdate": null,
+                            }
+                          }
+                          rowEditor={false}
+                          rowIndex={0}
+                          rowReorder={false}
+                          rowReorderIcon="pi pi-bars"
+                          selectOnEdit={true}
+                          selected={false}
+                          selection={null}
+                          selectionMode={null}
+                          showRowReorderElement={null}
+                          showSelectionElement={null}
+                          sortField={null}
+                          sortFunction={null}
+                          sortable={false}
+                          sortableDisabled={false}
+                          style={
+                            Object {
+                              "width": "10px",
+                            }
+                          }
+                          tableId={null}
+                          value={
+                            Array [
+                              Object {
+                                "duedate": null,
+                                "enddate": null,
+                                "hasAccounts": null,
+                                "hotelsview": null,
+                                "id": null,
+                                "longDueDate": null,
+                                "period": null,
+                                "pricingperiodid": null,
+                                "shortDueDate": null,
+                                "shortEnddate": null,
+                                "shortStartdate": null,
+                                "startdate": null,
+                              },
+                            ]
+                          }
+                        >
+                          <td
+                            className=""
+                            onBlur={[Function]}
+                            onClick={[Function]}
+                            onKeyDown={[Function]}
+                            onMouseDown={[Function]}
+                            onMouseUp={[Function]}
+                            role="cell"
+                            style={
+                              Object {
+                                "width": "10px",
+                              }
+                            }
+                            tabIndex={null}
+                          >
+                            <div />
+                          </td>
+                        </BodyCell>
+                        <BodyCell
+                          allowCellSelection={false}
+                          body={[Function]}
+                          bodyClassName={null}
+                          bodyStyle={null}
+                          className={null}
+                          colSpan={null}
+                          columnKey={null}
+                          editMode="cell"
+                          editing={false}
+                          editor={null}
+                          editorValidator={null}
+                          editorValidatorEvent="click"
+                          excludeGlobalFilter={false}
+                          expanded={false}
+                          expander={false}
+                          exportable={true}
+                          field="periodduedate"
+                          filter={false}
+                          filterElement={null}
+                          filterField={null}
+                          filterFunction={null}
+                          filterHeaderClassName={null}
+                          filterHeaderStyle={null}
+                          filterMatchMode="startsWith"
+                          filterMaxLength={null}
+                          filterPlaceholder={null}
+                          filterType="text"
+                          footer={null}
+                          footerClassName={null}
+                          footerStyle={null}
+                          frozen={false}
+                          header="Due Dates"
+                          headerClassName={null}
+                          headerStyle={null}
+                          index={3}
+                          key="3"
+                          loadingBody={null}
+                          onBeforeEditorHide={null}
+                          onBeforeEditorShow={null}
+                          onCheckboxClick={[Function]}
+                          onClick={[Function]}
+                          onEditorCancel={null}
+                          onEditorInit={null}
+                          onEditorSubmit={null}
+                          onMouseDown={[Function]}
+                          onMouseUp={[Function]}
+                          onRadioClick={[Function]}
+                          onRowEditCancel={[Function]}
+                          onRowEditInit={[Function]}
+                          onRowEditSave={[Function]}
+                          onRowToggle={[Function]}
+                          reorderable={true}
+                          rowData={
+                            Object {
+                              "duedate": null,
+                              "enddate": null,
+                              "hasAccounts": null,
+                              "hotelsview": null,
+                              "id": null,
+                              "longDueDate": null,
+                              "period": null,
+                              "pricingperiodid": null,
+                              "shortDueDate": null,
+                              "shortEnddate": null,
+                              "shortStartdate": null,
+                              "startdate": null,
+                            }
+                          }
+                          rowEditor={false}
+                          rowIndex={0}
+                          rowReorder={false}
+                          rowReorderIcon="pi pi-bars"
+                          selectOnEdit={true}
+                          selected={false}
+                          selection={null}
+                          selectionMode={null}
+                          showRowReorderElement={null}
+                          showSelectionElement={null}
+                          sortField={null}
+                          sortFunction={null}
+                          sortable={false}
+                          sortableDisabled={false}
+                          style={
+                            Object {
+                              "width": "90px",
+                            }
+                          }
+                          tableId={null}
+                          value={
+                            Array [
+                              Object {
+                                "duedate": null,
+                                "enddate": null,
+                                "hasAccounts": null,
+                                "hotelsview": null,
+                                "id": null,
+                                "longDueDate": null,
+                                "period": null,
+                                "pricingperiodid": null,
+                                "shortDueDate": null,
+                                "shortEnddate": null,
+                                "shortStartdate": null,
+                                "startdate": null,
+                              },
+                            ]
+                          }
+                        >
+                          <td
+                            className=""
+                            onBlur={[Function]}
+                            onClick={[Function]}
+                            onKeyDown={[Function]}
+                            onMouseDown={[Function]}
+                            onMouseUp={[Function]}
+                            role="cell"
+                            style={
+                              Object {
+                                "width": "90px",
+                              }
+                            }
+                            tabIndex={null}
+                          >
+                            <div>
+                               
+                              <span
+                                className="titleLink"
+                                onClick={[Function]}
+                              />
+                              <span
+                                className="longDueDate"
+                              >
+                                 
+                                null
+                              </span>
+                            </div>
+                          </td>
+                        </BodyCell>
+                      </tr>
+                    </BodyRow>
+                  </tbody>
+                </TableBody>
+              </table>
+            </div>
+          </div>
+        </DataTable>
+      </CDataTable>
+    </div>
+  </PeriodMaintenanceContextProvider>
+</PeriodMaintenance>
+`;

@@ -1,0 +1,204 @@
+.dataTable {
+  font-size: 11px !important;
+  
+}
+.dataTable * {
+  box-sizing: content-box !important;
+  font-family: Arial, Helvetica, sans-serif;
+}
+/* .dataTable thead tr {
+  height: 32px !important;
+} */
+
+
+.dataTable th {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #d6d7ce !important;
+}
+
+.dataTable tbody tr {
+  height: 21px !important;
+  font-family: Arial, Helvetica, sans-serif;
+  
+}
+
+.dataTable table {
+  border-spacing: 0px 0px !important;
+  border-collapse: collapse !important;
+ 
+}
+
+.dataTable tbody tr:nth-child(odd) {
+  background-color: #f4f4f2;
+  border-bottom: 2px solid #ebeadb;
+}
+
+.dataTable tbody tr:nth-child(even) {
+  background-color: #ffffff;
+  border-bottom: 2px double #ebeadb!important;
+}
+
+.dataTable tbody tr:hover {
+  background-color: #f4f29f !important;
+}
+
+.dataTable tbody tr:hover td {
+  background-color: transparent !important;
+}
+
+.dataTable thead tr td {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  word-wrap: break-word;
+}
+
+.dataTable th[scope="row"] {
+  position: -webkit-sticky;
+  position: sticky;
+  left: 0;
+  z-index: 1;
+}
+
+.dataTable td,
+.dataTable th {
+  padding: 2px !important;
+  border-color: #f6f4eb #aca899 #aca899 #f6f4eb !important;
+  color: #000000 !important;
+  font-family: Arial, Helvetica, sans-serif;
+  word-wrap: break-word;
+}
+
+.dataTable th {
+  border-bottom: 0px !important;
+  border-color: #f6f4eb #aca899 #aca899 #f6f4eb !important; 
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.dataTable td {
+  border-color: #ebeadb !important;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: normal!important;
+}
+
+.ui-datatable tbody > tr.ui-widget-content.greyed { 
+  background-color:lightblue;
+}
+
+.dataTable > div > div > div:nth-child(1)  {
+  background: #d6d7ce !important;
+  border-right: 1px solid #aca899 !important;
+  border-bottom: 1px solid #aca899 !important;
+  border-left: 1px solid #aca899 !important; 
+}
+
+.dataTable thead > tr > th:last-child {
+  border-right: unset!important;
+}
+
+.dataTableView {
+  overflow :hidden;
+  display: block;
+  margin-left: 0px;
+  animation: pulse 1s infinite ease-in-out;
+  border-collapse: collapse;
+  padding: 0px;
+  border: 0px;
+}
+
+.dataTableRate {
+  font-size: 11px !important;
+}
+.dataTableRate * {
+  box-sizing: content-box !important;
+  font-family: Arial, Helvetica, sans-serif;
+  overflow-x: hidden;
+  max-height: 916px;
+}
+
+.dataTableRate thead tr {
+  height: 32px !important;
+}
+
+.dataTableRate th {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #d6d7ce !important;
+}
+
+.dataTableRate tbody tr {
+  height: 21px !important;
+  font-family: Arial, Helvetica, sans-serif;
+  
+}
+
+.dataTableRate table {
+  border-spacing: 0px 0px !important;
+  border-collapse: collapse !important;
+ 
+}
+
+.dataTableRate tbody tr:nth-child(odd) {
+  background-color: #f6f6f6;
+  border-bottom: 2px solid #ebeadb!important;
+}
+
+.dataTableRate tbody tr:nth-child(even) {
+  background-color: #f6f6f6;
+  border-bottom: 2px double #ebeadb!important;
+}
+
+.dataTableRate tbody tr:hover {
+  background-color: #f4f29f !important;
+}
+
+.dataTableRate tbody tr:hover td {
+  background-color: transparent !important;
+}
+
+.dataTableRate thead tr td {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  word-wrap: break-word;
+}
+
+.dataTableRate th[scope="row"] {
+  position: -webkit-sticky;
+  position: sticky;
+  left: 0;
+  z-index: 1;
+}
+
+.dataTableRate td,
+.dataTableRate th {
+  padding: 2px !important;
+  border-color: #f6f4eb #aca899 #aca899 #f6f4eb !important;
+  color: #000000 !important;
+  font-family: Arial, Helvetica, sans-serif;
+  word-wrap: break-word;
+}
+
+.dataTableRate th {
+  border-bottom: 0px !important;
+  border-color: #f6f4eb #aca899 #aca899 #f6f4eb !important; 
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.dataTableRate td {
+  border-color: #ebeadb !important;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: normal!important;
+}
+
+.ui-dataTableRate tbody > tr.ui-widget-content.greyed { 
+  background-color:lightblue;
+}
+
+.dataTableRate > div > div > div:nth-child(1)  {
+  background: #d6d7ce !important;
+  border-right: 1px solid #aca899 !important;
+  border-bottom: 1px solid #aca899 !important;
+  border-left: 1px solid #aca899 !important; 
+}
+
+.dataTableRate thead > tr > th:last-child {
+  border-right: unset!important;
+}

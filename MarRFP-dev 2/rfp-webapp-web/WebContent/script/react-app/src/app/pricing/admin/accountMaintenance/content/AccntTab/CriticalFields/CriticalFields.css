@@ -1,0 +1,187 @@
+body {
+  font-family: Arial, Helvetica, sans-serif, Verdana, Geneva !important;
+  margin: 0px;
+  padding: 0px;
+  font-size: 11px;
+}
+input,
+textarea,
+select {
+  font-family: Arial, Helvetica, sans-serif, Verdana, Geneva !important;
+  margin: 0px;
+  padding: 0px;
+  font-size: 11px;
+}
+.input:focus {
+  outline: none !important;
+}
+
+.mainTable {
+  height: 100%;
+  width: 100%;
+  border: 0px;
+  border-collapse: collapse;
+  padding: 0px;
+}
+
+.fieldName {
+  font-weight: bold;
+  white-space: nowrap;
+}
+
+
+
+.fieldHeight20 {
+  height: 20px;
+}
+
+.fieldHeight25 {
+  height: 25px;
+}
+
+.fieldHeight30 {
+  height: 30px;
+}
+
+.innerTable {
+  margin-left: 10px;
+}
+
+.inputText {
+  width: 418px;
+  height: 22px;
+}
+
+.inputText80 {
+  width: 80px;
+}
+
+.inputText20 {
+  width: 20px;
+}
+
+.selectBox {
+  width: 50%;
+}
+
+.selectBox41 {
+  width: 41px;
+}
+
+.selectBox48 {
+  width: 48px;
+}
+
+.selectBox115 {
+  width: 115px;
+}
+
+.selectBox118 {
+  width: 118px;
+}
+
+.selectBox140 {
+  width: 140px;
+}
+
+.selectBox65 {
+  width: 65px;
+}
+
+.selectBox99 {
+  width: 99px;
+}
+
+.tableColumn2 {
+  vertical-align: top;
+  padding-left: 5px;
+}
+
+.deleteBtn {
+  cursor: pointer;
+  height: 20px;
+  text-align: center;
+}
+
+.inputTextHiddenBorder {
+  border: none;
+}
+
+.divVisibility {
+  visibility: hidden;
+}
+
+.inputText10 {
+  width: 10px;
+}
+
+.labelSpace {
+  width: 252px;
+  padding-left: 22px;
+}
+
+.divHideDisplay {
+  display: none;
+}
+
+.divShowDisplay {
+  display: block;
+}
+
+.divFlexDisplay {
+  display: flex;
+}
+
+.policyLabel {
+  width: 275px;
+}
+
+.policyNotesLabel {
+  vertical-align: top;
+  width: 272px;
+}
+
+.policyNotesTextArea {
+  font-size: 8pt;
+  height: 120px;
+  width: 360px;
+  word-break: break-word;
+}
+
+.startMargin {
+  margin-left: 60px;
+}
+
+.endDateMargin {
+  margin-top: 3px;
+  padding-left: 5px;
+}
+
+.endDateCalendar {
+   margin-top: -15px;
+}
+
+.rfpDatesMargin {
+  margin-top: 12px;
+}
+
+.startDateCalendar {
+  margin-top: 3px !important;
+  padding-right: 3px;
+}
+.accountTabLoader {
+  opacity: 1;
+  background-color: #cccccc;
+  position: fixed;
+  z-index: 9800;
+  display: inline;
+  width: 100%;
+  height: 100%;
+  top: 164px;
+}
+
+.fieldNameSapp {
+  
+ white-space: nowrap;
+font-size: 12px;
+}

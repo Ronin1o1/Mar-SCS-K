@@ -1,0 +1,68 @@
+.cbcEndData {
+  position: relative;
+  left: 20px;
+  height: 80px;
+  display: block;
+}
+
+.cbcTextBoxes {
+  font-family: Arial; 
+  font-size: 8pt; 
+  height: 50px; 
+  width: 536px;
+}
+
+.valuesDiv {
+  position: relative; 
+  left: 20px
+}
+
+.cbcLabel {
+  width: 160px;
+  padding-top: 2px;
+}
+
+.cbcRequirementLabel {
+  width: 910px; 
+  padding-top: 3px; 
+  white-space: pre-wrap;
+}
+
+.endorseLabel {
+  width: 540px; 
+  padding-top: 8px;
+}
+
+.endorseDropdown {
+  position: relative; 
+  left: 20px; 
+  padding-top: 5px;
+}
+
+.width100px {
+  width: 100px
+}
+
+.width400px {
+  width: 400px
+}
+
+.cbcDataDisplay {
+  display: block
+}
+
+.height10px {
+  height: 10px
+}
+
+.height3px {
+  height: 3px
+}
+
+.overflowScroll {
+  overflow: scroll
+}
+
+.postionStatic {
+  position: static
+}

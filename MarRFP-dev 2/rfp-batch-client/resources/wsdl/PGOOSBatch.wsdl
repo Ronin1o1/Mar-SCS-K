@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wsdl:definitions name="PGOOSBatch"
+	targetNamespace="http://com/marriott/rfp/webservice/pgoos/batch/"
+	xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tns="http://com/marriott/rfp/webservice/pgoos/batch/"
+	xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<wsdl:types>
+		<xsd:schema targetNamespace="http://com/marriott/rfp/webservice/pgoos/batch/">
+		
+
+			<xsd:element name="executeQueueForBatch">
+				<xsd:complexType>
+					<xsd:sequence>
+						<xsd:element name="batchId" type="xsd:long"></xsd:element>
+						<xsd:element name="count" type="xsd:long">
+						</xsd:element>
+						<xsd:element name="eid"
+							type="xsd:string">
+						</xsd:element>
+					</xsd:sequence>
+				</xsd:complexType>
+			</xsd:element>
+			<xsd:element name="executeQueueForBatchResponse">
+				<xsd:complexType>
+					<xsd:sequence />
+				</xsd:complexType>
+			</xsd:element>
+		
+		</xsd:schema>
+	</wsdl:types>
+	
+	
+		<wsdl:message name="executeQueueForBatch">
+			<wsdl:part element="tns:executeQueueForBatch" name="parameters" />
+		</wsdl:message>
+		<wsdl:message name="executeQueueForBatchResponse">
+			<wsdl:part element="tns:executeQueueForBatchResponse" name="parameters" />
+		</wsdl:message>
+		
+		
+	<wsdl:portType name="PGOOSBatchPortType">
+	
+		<wsdl:operation name="executeQueueForBatch">
+			<wsdl:input message="tns:executeQueueForBatch" />
+			<wsdl:output message="tns:executeQueueForBatchResponse" />
+		</wsdl:operation>	</wsdl:portType>
+	
+	<wsdl:binding name="PGOOSBatchBinding" type="tns:PGOOSBatchPortType">
+		<soap:binding style="document" transport="http://schemas.xmlsoap.org/soap/http" />
+		
+		<wsdl:operation name="executeQueueForBatch">
+			<soap:operation
+				soapAction="http://com/marriott/rfp/webservice/pgoos/batch/executeQueueForBatch" />
+			<wsdl:input>
+				<soap:body use="literal" />
+			</wsdl:input>
+			<wsdl:output>
+				<soap:body use="literal" />
+			</wsdl:output>
+		</wsdl:operation>
+		</wsdl:binding>
+	<wsdl:service name="PGOOSBatchService">
+		<wsdl:port binding="tns:PGOOSBatchBinding" name="PGOOSBatchPort">
+			<soap:address location="http://localhost:9080/rfp-webapp-web/PGOOSBatchStagingService" />
+		</wsdl:port>
+	</wsdl:service>
+</wsdl:definitions>

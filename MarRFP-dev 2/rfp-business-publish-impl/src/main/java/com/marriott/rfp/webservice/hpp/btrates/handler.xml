@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jws:handler-chains xmlns:jws="http://java.sun.com/xml/ns/javaee">
+	<jws:handler-chain name="MyHandlerChain">
+		<jws:handler>
+			<jws:handler-class>com.marriott.rfp.business.hpp.impl.ejb.HPPSoapHandler</jws:handler-class>
+		</jws:handler>
+	</jws:handler-chain>
+</jws:handler-chains>

@@ -1,0 +1,282 @@
+.menuWdth100_Height {
+  border: 0px;
+  border-collapse: collapse;
+  padding: 0px;
+  width: 100%;
+}
+.overflowValue{
+  display:inline-block;
+  height: 40vw;
+}
+.heightTwenty{
+  height:20px;
+  padding-left: 0.3vw;
+}
+.labelText{
+  font-weight: bold;
+  font-size: 9pt;
+  font-family: Arial;
+}
+.BGDarkBlueStyle {
+  color: #FFFFFF!important;
+  background-color: #313063!important;
+}
+.top {
+  vertical-align: top;
+}
+.paddingCls{
+  padding-left: 0.3vw;
+  padding-top: 0.2vw;
+}
+.heightTop{
+  height: 2px;
+  vertical-align: top;
+}
+.WidthCls{
+  width: 70px
+}
+.zero_Height {
+  border: 0px;
+  border-collapse: collapse;
+  padding: 0px;
+}
+.innerTable{
+  width: 60%;
+}
+.nowrapStyle {
+  white-space: nowrap;
+}
+.radioButtonCls{
+  width: 100px;
+}
+.fieldLabel {
+  font-size: 11px;
+  margin-left: 3px !important;
+  font-weight: bold;
+}
+.regionDiv{
+  width: 300px; 
+  height: 100px; 
+  border-width: thin; 
+  border-style: groove; 
+  overflow: auto;
+}
+.borderThin{
+  border:1px!important;
+  margin-left: -4px;
+}
+.tdShiftLeft{
+  padding-left: 5px;
+}
+.heightTen{
+  height:10px
+}
+.selectProp{
+  height: 100%; 
+  border-width: thin; 
+}
+.selectPropTr{
+  height: 100%; 
+}
+.selectTDProp{
+  height: 100%; 
+  vertical-align: top
+}
+.height100Top{
+  height:100%; 
+  vertical-align: top;
+  padding-left: 1.5px;
+}
+.gridNode{
+  height: 300px; 
+  -moz-user-select: none;
+  font-family: Geneva, Arial, Helvetica, sans-serif;
+  -moz-outline-style: none;
+  outline: none;
+  overflow: hidden;
+}
+.gridHeader{
+  width: 400px;
+  overflow: hidden;
+  background-color: #d6d7ce;
+  border-top: 1px #000 solid!important;
+  border-left: 1px #000 solid!important;
+  border-right: 1px #000 solid!important;
+  border-bottom: 1px #afaea3 solid!important;
+}
+.gridOne{
+  height: 32px;
+  table-layout: fixed;
+  border-collapse: collapse;
+}
+.HeaderCls{
+  width: 400px;
+  padding: 0px 2px 0px 2px;
+  text-align: left;
+  overflow-y: hidden;
+  font-size: 11px;
+}
+.gridViewHS{
+  width: 400px; 
+  background-color: #eff0ec;
+  height: 265px; 
+  overflow: hidden;
+  border-left: 1px #000 solid!important;
+  border-right: 1px #000 solid!important;
+  border-bottom: 1px #000 solid!important;
+}
+.gridRow {
+  background-color: white;
+  border-top: none;
+}
+.gridRowTable {
+  table-layout: fixed;
+  border-collapse: collapse;
+  height: 21px; 
+  width: 100%;
+  border: 0 
+}
+.middle{
+  vertical-align: middle;
+  text-align: center;
+  font-weight: 100;
+}
+.widthTwenty{
+  width: 20%;
+}
+.scrollDiv{
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+.copyInnerTableContainer{
+  height: 100%; 
+  border: 0 px; 
+  border-collapse: collapse; 
+  padding: 1px;
+  margin-top: 1vw;
+  margin-left: 1vw;
+  margin-right: 1vw;
+  margin-bottom: 1vw;
+}
+.copyInnerTableVertical{
+  vertical-align: top; 
+  height: 37px;
+  font-weight: bold;
+  font-size: 9pt;
+  font-family: Arial;
+}
+.copyInnerDiv{
+  width: 600px;
+  overflow: hidden;
+  background-color: #eff0ec;
+}
+.gridCellWidth{
+  width: 100px;
+  min-width: 100px;
+  border: 1px solid;
+  border-color: #F6F4EB #ACA899 #ACA899 #F6F4EB;
+  padding: 10px 2px 10px 2px;
+  text-align: left;
+  overflow-y: hidden;
+  font-size: 11px;
+  white-space: nowrap;
+  font-weight: bold;
+}
+.gridDataTable{
+  width: 1000px; 
+  height: 248px; 
+  overflow-x: hidden; 
+  overflow: auto
+}
+.gridDataRow{
+  border: 1px solid #E8E4D8;
+  border-color: #F8F7F1;
+  border-left: none;
+  border-right: none;
+  background-color: white;
+  border-top: none;
+}
+.gridCellTd{
+  width: 100px;
+  min-width: 100px;
+  border: 1px solid;
+  border-color: #F6F4EB #ACA899 #ACA899 #F6F4EB;
+  padding: 10px 2px 10px 2px;
+  text-align: left;
+  overflow-y: hidden;
+  font-size: 11px;
+  white-space: nowrap;
+  font-weight: 200;
+}
+.outerDiv{
+  background-color: #d6d7ce;
+}
+.tableWidth{
+  width: 320px;
+  background-color: #d6d7ce;
+}
+.applyScroll{
+  overflow: scroll;
+  display: block;
+  height:18vw;
+}
+.gridCellTrInner:nth-child(even) {
+  background-color: white;
+}
+.gridCellTrInner:nth-child(odd) {
+  background-color: #f4f4f2;
+}
+.buttonContainer {
+  display: inline-block;
+  cursor: pointer;
+  background: #ffffff;
+  margin-left: 15vw;
+}
+.buttonPosition{
+  text-align: center;
+}
+.scrollOuterTable{
+  overflow: scroll;
+  display: block;
+  height: 23vw;
+}
+.returnButton{
+  margin-left: 10vw;
+}
+.padRight{
+  margin-left: 2vw;
+}
+.rowBorder {
+  border-top: 1px solid #333;
+}
+.accountHeaderSpace{
+  margin-top: 70px;
+  display: block;
+  margin-bottom: 50px;
+}
+.salesFilterAllign{
+  margin-left: 102px;
+  width: 380px;
+}
+.accountPagnateOne{
+  padding-left: 10px;
+}
+.accountPagnateTwo{
+  padding-left: 112px;
+}
+.availAccSpace{
+  padding-left: 102px;
+}
+.availAccBtnAllign{
+  padding-left: 102px;
+}
+.accountPagnateTwo td, .accountPagnateOne td{
+  font-weight: bold !important;
+}
+.delbtn{
+ padding-right: 5px;
+}
+.acciuntcount{
+  position: relative;
+  top:-5px;
+}

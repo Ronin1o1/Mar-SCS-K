@@ -1,0 +1,39 @@
+.gridHeader {
+    overflow: hidden;
+    background-color: #d6d7ce;
+  }
+  .gridHeader table {
+    text-align: center;
+  }
+.pgoosstablestatusDetails {
+    border: 1px solid #CCC; 
+    padding: 2px;
+}
+.pgoosStatusPopupRC {
+	text-align: center;
+	border: 1px solid #CCC;
+	padding: 2px; 
+	background-color: #eff0ec;
+	width:50px;
+}
+.pgoosStatusPopupRPGM {
+	border: 1px solid #CCC; 
+	padding: 2px;
+	font-weight: bold;
+	width:50px;
+}
+TABLE {
+    Font-Family: Arial, Helvetica, sans-serif, Verdana, Geneva;
+    font-size: 11px;
+  }
+
+.statusDetails{
+  color: #9e102c;
+  font-weight: bold;
+ border: 1px solid #CCC;
+  white-space: pre-wrap;
+}
+
+.rateStatusTblePD {
+  padding: 0px 10px 10px 10px;
+}

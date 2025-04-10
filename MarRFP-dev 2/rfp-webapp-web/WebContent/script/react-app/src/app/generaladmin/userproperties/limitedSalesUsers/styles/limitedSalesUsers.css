@@ -1,0 +1,18 @@
+.eidLink {
+    color: #3166cc;
+    text-decoration: underline;
+    cursor: pointer;
+  }
+.model{
+  max-width: 250px;
+  min-width: 180px;
+  height:50px;
+  padding:9px 12px;
+  display: inline-flex;
+}
+.lsfilters{
+  display: flex;
+}
+.wid20{
+  padding-top: 17px;
+}

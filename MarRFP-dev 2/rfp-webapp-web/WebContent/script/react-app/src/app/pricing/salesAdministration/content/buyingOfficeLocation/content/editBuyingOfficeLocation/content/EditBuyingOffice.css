@@ -1,0 +1,116 @@
+.fontRed {
+  color: rgb(255, 0, 0);
+}
+.InstructionHeader {
+  font-weight: bold;
+  font-size: 11px;
+  font-style: italic;
+  font-family: Arial;
+  background-color: #eff0ec;
+}
+.field_Name {
+  font-weight: bold;
+  font-size: 11px;
+  font-family: Arial;
+}
+.initiative_table{
+  width: 800px;
+  margin-bottom: 20px;
+  margin-top: 15px;
+}
+.BuyingLocationInputField {
+  text-decoration: none;
+  cursor: text;
+  border: 2px inset WHITESMOKE;
+  width: 118px;
+}
+.readOnlyLink {
+  color: blue;
+  cursor: pointer;
+  text-decoration: underline;
+  border: 0;
+  overflow: hidden;
+}
+/* edit modal css */
+.editInitiativesModalContainer {
+  padding: 10px; 
+  background: #fff; 
+  border-top: 1px solid #d3d3d3;
+  position: relative;
+}
+.editInitiativesModalBody {
+  overflow-y: auto;
+  height: 425px;
+  width: 660px;
+}
+.fullWidth {
+  width: 100%;
+  border-spacing: 0;
+}
+.editInitiativelabels {
+  font-weight: bold;
+  width: 16%;
+}
+.textAreaFont {
+  font-family: Arial;
+  font-size: 8pt;
+}
+.rowHeight {
+  height: 5px;
+}
+.updatebtn{
+  margin-left: 3px;
+  cursor: default;
+}
+
+.updatebtn img {
+  cursor: default;
+}
+.tableWidth {
+  width: 750px;
+}
+.rowHeightBrandSegment {
+  /* height: 10px */
+}
+.intiativeIndexCol{
+  width: 25px; 
+  text-align: center
+}
+.maintableHeight {
+  border-collapse: collapse;
+  display: table;
+}
+.commonInput{
+  height: 18px;
+  width: 296px;
+}
+.locationNameInput{
+  height: 18px;
+  width: 172px;
+}
+.selectedAffiliationList{
+  width: "180px"
+}
+.locNameField{
+  width: 195px;
+}
+.Field_Number{
+  width: 73.34px;
+}
+.zipWidth{
+  width: 71.34px;
+}
+.zeroHeight{
+  margin-top: -4px;
+}
+.menuWdth100Height{
+  margin-top: -10px;
+}
+.nameSelect select{
+  width: 151px;
+}
+@media only screen and (max-width: 1100px) {
+  .maintableHeight textarea{
+    width: 1090px;
+  }
+}

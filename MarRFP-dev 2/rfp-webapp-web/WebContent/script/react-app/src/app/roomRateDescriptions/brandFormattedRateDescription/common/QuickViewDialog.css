@@ -1,0 +1,37 @@
+.mainTable {
+  border: 0px;
+  border-collapse: collapse;
+  padding: 0px;
+}
+.quickView{
+  height: 250px; 
+  width: 600px;  
+  overflow: auto
+}
+.tableMargin{
+  margin-left: 1vw;
+  margin-top: 1vw;
+}
+.width_5{
+  width: 5px
+}
+.width_10{
+  width: 10px
+}
+.width_30{
+  width: 30px;
+  white-space: nowrap;
+}
+.noWrap{
+  white-space: nowrap;
+}
+.boldText{
+  font-weight: bold;
+}
+.centerAlign{
+  padding-left: 20vw;
+  padding-bottom: 8px;
+}
+.bottomMargin{
+  margin-bottom: 2vw;
+}

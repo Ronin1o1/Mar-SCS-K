@@ -1,0 +1,287 @@
+.fixedSeasonTable {
+  border: 0;
+  width: 100%;
+}
+
+.autoWidth {
+  border: 0;
+  width: auto;
+}
+
+.valignTop {
+  vertical-align: top;
+}
+
+.emptyRow {
+  height: 5px;
+}
+
+.border0 {
+  border: 0 !important;
+}
+.noborderRight{
+  border-right: 0 !important;
+}
+.greyLine{
+  font-weight: bold;
+  font-size: 11px;
+  font-style: italic;
+  background-color: #eff0ec;
+  height: 15px;
+  font-family: Arial;
+  margin: 5px 0 15px;
+  float: left;
+  width: 100%;
+}
+
+
+.fixedSeasonInstructions {
+  font-weight: normal;
+  font-size: 11px;
+  padding-bottom: 4pt;
+  margin-right: 24pt;
+  padding-top: 4pt;
+  font-family: Arial;
+}
+
+.sectionHeading {
+  font-weight: bold;
+  font-size: 11px;
+  font-style: italic;
+  background-color: #eff0ec;
+  font-family: Arial;
+}
+
+.ruleFieldItem {
+  font-weight: bold;
+  font-size: 11px;
+  font-family: Arial;
+}
+
+.ruleFieldValue {
+  font-weight: normal;
+  font-size: 11px;
+  font-family: Arial;
+}
+
+.rowWithHeight {
+  height: 12.8px;
+}
+
+.gridRowTable {
+  table-layout: fixed;
+  border-collapse: collapse;
+}
+
+.gridHeader {
+  overflow: hidden;
+  background-color: #d6d7ce;
+}
+
+.fixedRateTable {
+  table-layout: fixed;
+  border: 0;
+  height: 32px;
+}
+
+.emptyDiv {
+  width: 24px;
+  height: 1em;
+}
+
+.gridHeader {
+  overflow: hidden;
+  background-color: #d6d7ce;
+}
+
+.gridHeader table {
+  text-align: center;
+}
+
+.gridHeader .gridCell {
+  padding-bottom: 2px;
+  font-size: 11px;
+  font-weight: bold;
+  border-top: 1px solid #f6f4eb ;
+  border-right: 1px solid #aca899;
+  border-bottom: 1px solid #aca899;
+  border-left: 1px solid #f6f4eb;
+}
+
+.gridView .gridCell {
+  border: 1px solid #f6f4eb;
+  font-size: 11px;
+  padding-left: 1px;
+}
+
+.width20 {
+  width: 20px;
+}
+
+.width25 {
+  width: 25px;
+}
+
+.pl1 {
+  padding-left: 1px;
+}
+
+.borderRight {
+  border: 0 !important;
+  border-right: 1px solid #f6f4eb !important;
+}
+
+.height100 {
+  height: 100%;
+}
+
+.height20 {
+  height: 20px;
+}
+
+.seasonWidth {
+  width: 210px;
+}
+.fLeft{
+  float:left;
+}
+
+.pl3 {
+  padding-left: 3px;
+}
+
+.pl1 {
+  padding-left: 1px;
+}
+
+.ml3 {
+  margin-left: 3px;
+}
+
+.roomTypeList {
+  width:95px;
+  float:left;
+  padding-left:3px;
+}
+
+.gridView {
+  overflow: hidden;
+}
+
+.gridRowCapHeight {
+  border: 1px solid #e8e4d8;
+  border-color: #f8f7f1;
+  border-left: none;
+  border-right: none;
+  background-color: white;
+  border-top: none;
+  overflow: hidden;
+  height: 26px;
+}
+
+.rowHeightReadOnly {
+  height: 26px !important;
+}
+
+.gridRowCapHeight:hover {
+  background-color: #f4f29f;
+}
+
+.addDelRow {
+  padding: 0 2px;
+  font-weight: normal;
+}
+
+.seasonEntry {
+  height: 18px;
+  width: 86px;
+}
+
+.readOnlyField {
+  background-color: #dddddd;
+}
+
+.losEntry {
+  height: 18px;
+  width: 26px;
+}
+.loswrapper{
+  float:left;
+  width:100%;
+}
+
+.rateEntry {
+  width: 87px !important;
+  vertical-align: middle;
+  text-align: right;
+  padding: 0px 2px 0px 0px;
+}
+
+.rateReadOnly {
+  border-style: none;
+  border-width: 0px;
+  background: transparent;
+}
+
+.fieldNumber {
+  text-align: right;
+  padding: 0px 2px 0px 0px;
+  width: 93px;
+}
+
+.screenLoader {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+
+.pageBottomPadding {
+  padding-bottom: 20px;
+}
+
+.paddingLeftRight {
+  padding-left: 2px !important;
+  padding-right: 1px !important;
+}
+
+.rmplWidth {
+  width: 95% !important;
+}
+
+.width100 {
+  width: 100% !important;
+}
+
+.screenLoaderIcon {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+
+.los_edit{
+  width: 100px;
+  height: auto;
+  line-height: 25px;
+  display: inline-block;
+}
+.los_edit th{
+font-weight: bold;
+}
+.los_edit th:first-child{
+border-right: 1px solid #aca899;
+border-left: 1px solid #f6f4eb;
+}
+.losbottomheight{
+  padding-bottom: 30px;
+}
+.losHeader{
+  background-color: #d6d7ce;
+  width: 100px;
+  height: 30px;
+  display: inline-block;
+  line-height: 30px;
+}
+.losBg{  
+  background-color: #d6d7ce;
+  height: 30px;
+}

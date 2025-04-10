@@ -1,0 +1,37 @@
+.dropDownWidth {
+  width: 200px;
+}
+
+.dropDownWidth select {  
+  font-size: 13px;
+  font-weight: 400;
+}
+
+.type {
+  text-align: center;
+  color: #333333;
+  white-space: nowrap;
+}
+
+.vatInput {
+  width: 50px;
+}
+
+.vatTable {
+  width: 150px;
+}
+.tableColumn {
+  font-size: 13px;
+  font-weight: 400;
+}
+
+.tableColumnBold {
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.amenitiesTable input {
+  font-size: 13px;
+  font-weight: 400;
+  margin-left: 8px;
+}

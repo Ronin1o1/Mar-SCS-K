@@ -1,0 +1,146 @@
+.acctGenGroupsDiv{
+  position: static;
+  width: 800px;
+  overflow-x: hidden;
+  padding-bottom: 5px;
+  padding-left: 0.5vw;
+}
+.negrateFifty{
+  width: 20px; 
+  float: left;
+  min-height: 1em;
+}
+.GAMContainer{
+  left: 0px;
+    top: 0px;
+    height: calc(100vh - 310px);
+    overflow: auto;
+}
+.grpMeetInputCls{
+  height: 20px;
+  width: 80px;
+}
+.labelClass {
+  font-weight: normal;
+  font-size: 11px;
+  font-family: Arial;
+  width: 700px;
+  padding-right: 5px;
+  float: left;
+}
+.test {
+  font-weight: normal;
+  font-size: 11px;
+  font-family: Arial;
+  width: 700px;
+  padding-right: 5px;
+  float: left;
+}
+.floatleft {
+  float: left;
+  min-height: 1em;
+}
+.field_Value {
+  font-weight: normal;
+  font-size: 11px;
+  font-family: Arial;
+}
+.numberField {
+  text-align: right;
+  padding: 0px 2px 0px 0px;
+}
+.field_ValueNonEPIC {
+  font-weight: normal;
+  font-size: 11px;
+  font-family: Arial;
+  width: 700px;
+  padding-right: 5px;
+  float: left;
+}
+.labelBold {
+  font-weight: bold;
+  font-size: 11px;
+  font-family: Arial;
+  width: 700px;
+  padding-right: 5px;
+  float: left;
+}
+.lblTrans {
+  border-bottom: dotted thin blue;
+}
+.acctGenGroupsSpaceDiv_800{
+  position: static;
+  width: 800px;
+  overflow-x: hidden;
+  padding-left: 0.5vw;
+}
+.grpMeetSpace{
+  width: 5px; 
+  height: 10px;
+}
+.acctGenGroupsSpaceDiv_870{
+  position: static;
+  width: 870px;
+  overflow-x: hidden;
+}
+.relativeHeight_25{
+  position: relative;
+  height: 25px;
+  padding-left: 0.5vw;
+}
+.width_650_Height_20{
+  width: 700px;
+  height: 20px;
+  padding-right: 5px;
+}
+.clear_25{
+  clear: both;
+  height: 25px;
+  padding-left: 0.5vw;
+}
+.width_700{
+  width: 700px;
+  padding-right: 5px;
+}
+.width_65{
+  width: 65px;
+}
+.acctGenGroupsBottomDiv_870{
+  position: static;
+  width: 870px;
+  overflow-x: hidden;
+  padding-bottom: 5px;
+  padding-left: 0.5vw;
+}
+.visibleBlock{
+  display: block;
+  visibility: visible;
+}
+.grpPaddingTop{
+  padding-top:1vw;
+}
+.visibleHidden{
+  visibility: hidden;
+}
+.GAMContainer select:disabled{
+  color: -internal-light-dark(graytext, rgb(170, 170, 170));
+    opacity: 0.7;
+    border-color: rgba(118, 118, 118, 0.3);
+}
+.GAMContainer input:disabled {
+  cursor: default;
+  background-color: -internal-light-dark(rgba(239, 239, 239, 0.3), rgba(59, 59, 59, 0.3)) !important;
+  color: -internal-light-dark(rgb(84, 84, 84), rgb(170, 170, 170));
+  border-color: rgba(118, 118, 118, 0.3);
+  background-color: transparent;
+}
+@media only screen and (min-width: 1920px) {
+  .GAMContainer {
+    height: calc(100vh - 316px);
+  }
+}
+@media only screen and (max-width: 1100px) {
+  .GAMContainer {
+    height: calc(100vh - 315px);
+  }
+}

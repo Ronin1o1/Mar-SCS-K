@@ -1,0 +1,325 @@
+.menuWdth100_Height {
+  border: 0px;
+  border-collapse: collapse;
+  padding: 0px;
+  width: 100%;
+}
+.userEditContainer {
+  width: 70% !important;
+  margin-bottom: 4rem;
+}
+
+.heightTwenty{
+  height:20px;
+  padding-left: 0.3vw;
+}
+.labelText{
+  font-weight: bold;
+  font-size: 9pt;
+  font-family: Arial;
+}
+.BGDarkBlueStyle {
+  color: #FFFFFF!important;
+  background-color: #313063!important;
+}
+.top {
+  vertical-align: top;
+ 
+}
+.block {
+  display: block;
+}
+.paddingCls{
+  padding-left: 0.3vw;
+  padding-top: 0.2vw;
+}
+.heightTop{
+  height: 2px;
+  vertical-align: top;
+}
+.WidthCls{
+  width: 70px
+}
+.zero_Height {
+  border: 0px;
+  border-collapse: collapse;
+  padding: 0px;
+}
+.innerTable{
+  width: 60%;
+}
+.nowrapStyle {
+  white-space: nowrap;
+}
+.radioButtonCls{
+  width: 100px;
+}
+.fieldLabel {
+  font-size: 11px;
+  margin-left: 3px !important;
+  font-weight: bold;
+}
+.regionDiv{
+  width: 300px; 
+  height: 100px; 
+  border-width: thin; 
+  border-style: groove; 
+  overflow: auto;
+}
+.borderThin{
+  border:1px!important;
+  margin-left: -4px;
+}
+.tdShiftLeft{
+  padding-left: 5px;
+}
+.heightTen{
+  height:10px
+}
+.selectProp{
+  height: 100%; 
+  border-width: thin; 
+}
+.selectPropTr{
+  height: 100%; 
+}
+.selectTDProp{
+  height: 100%; 
+  vertical-align: top
+}
+.height100Top{
+  height:100%; 
+  vertical-align: top;
+  padding-left: 0.3vw;
+}
+.gridNode{
+  -moz-user-select: none;
+  font-family: Geneva, Arial, Helvetica, sans-serif;
+  -moz-outline-style: none;
+  outline: none;
+  overflow: hidden;
+}
+.gridHeader{
+  width: 400px;
+  overflow: hidden;
+  background-color: #d6d7ce;
+  border-top: 1px #000 solid!important;
+  border-left: 1px #000 solid!important;
+  border-right: 1px #000 solid!important;
+  border-bottom: 1px #afaea3 solid!important;
+}
+.gridOne{
+  height: 32px;
+  table-layout: fixed;
+  border-collapse: collapse;
+}
+.HeaderCls{
+  width: 400px;
+  padding: 0px 2px 0px 2px;
+  text-align: left;
+  overflow-y: hidden;
+  font-size: 11px;
+}
+.gridViewHS{
+  width: 400px; 
+  background-color: #eff0ec;
+  height: 265px; 
+  overflow: hidden;
+  border-left: 1px #000 solid!important;
+  border-right: 1px #000 solid!important;
+  border-bottom: 1px #000 solid!important;
+}
+.gridRow {
+  background-color: white;
+  border-top: none;
+}
+.gridRowTable {
+  table-layout: fixed;
+  border-collapse: collapse;
+  height: 21px; 
+  width: 100%;
+  border: 0 
+}
+.middle{
+  vertical-align: middle;
+  text-align: center;
+  font-weight: 100;
+}
+.widthTwenty{
+  width: 20%;
+}
+.scrollDiv{
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+.copyInnerTableContainer{
+ padding: 8px;
+}
+.copyInnerTableVertical{
+  vertical-align: top; 
+  height: 37px;
+  font-weight: bold;
+  font-size: 9pt;
+  font-family: Arial;
+}
+.copyInnerDiv{
+  height: 280px;
+  overflow: hidden;
+  background-color: #eff0ec;
+}
+.gridCellWidth{
+  width: 100px;
+  min-width: 100px;
+  border: 1px solid;
+  border-color: #F6F4EB #ACA899 #ACA899 #F6F4EB;
+  padding: 10px 2px 10px 2px;
+  text-align: left;
+  overflow-y: hidden;
+  font-size: 11px;
+  white-space: nowrap;
+  font-weight: bold;
+}
+.gridDataTable{
+  width: 1000px; 
+  overflow-x: hidden; 
+  overflow: auto
+}
+.gridDataRow{
+  border: 1px solid #E8E4D8;
+  border-color: #F8F7F1;
+  border-left: none;
+  border-right: none;
+  background-color: white;
+  border-top: none;
+}
+.gridCellTd{
+  width: 100px;
+  min-width: 100px;
+  border: 1px solid;
+  border-color: #EBEADB;
+  padding: 8px 3px 8px 2px;
+  text-align: left;
+  overflow-y: hidden;
+  font-size: 11px;
+  white-space: nowrap;
+  font-weight: 200;
+}
+.outerDiv{
+  background-color: #d6d7ce;
+}
+.tableWidth{
+  width: 320px;
+  background-color: #d6d7ce;
+}
+.applyScroll{
+  overflow: scroll;
+  display: block;
+  height:18vw;
+}
+.tableSize{
+  width: 320px;
+}
+.applyScrollAuto{
+  overflow: auto;
+  display: block;
+  height:18vw;
+}
+.ml14{
+  margin-left: 14px;
+}
+.gridCellTrInner:nth-child(even) {
+  background-color: white;
+}
+.gridCellTrInner:nth-child(odd) {
+  background-color: #f4f4f2;
+}
+.buttonContainer {
+  display: inline-block;
+  cursor: pointer;
+  background: #ffffff;
+  margin-left: 13vw;
+}
+.buttonPosition{
+  text-align: center;
+}
+.scrollOuterTable{
+  overflow: scroll;
+  display: block;
+  height: 400px;
+}
+.returnButton{
+  margin-left: 10vw;
+}
+.padRight{
+  width: 522px;
+  float: left;
+}
+.gridMargin {
+  margin-left: 116px;
+}
+
+.paginationPadding {
+  padding-right: 267px;
+}
+.btnPadding{
+  padding-right: 359px;
+}
+
+.accountPadding {
+  padding-top: 60px;
+}
+.floatRight {
+  float: right;
+}
+.gridRowCopy {
+  border-bottom: 1px solid #E8E4D8;
+}
+.gridCellEven {
+  background-color: white;
+}
+.gridCellOdd {
+  background-color: #f4f4f2;
+}
+.gridCellOdd:hover {
+  background-color: #f4f29f;
+}
+.gridCellEven:hover {
+  background-color: #f4f29f;
+}
+.cursorArrow {
+  cursor: default;
+}
+.pb5 {
+  padding-bottom: 5px;
+}
+.pt3 {
+  padding-top: 3px;
+}
+
+.rightLeftPaddingTop {
+  padding-right: 265px;
+  padding-left: 2px;
+}
+
+.rightLeftPaddingBottom {
+  padding-right: 346px;
+  padding-left: 2px;
+}
+
+.cursorDefault {
+  cursor: default;
+}
+
+.alignCenter {
+  cursor: pointer;
+  background: #ffffff;
+}
+.alignMiddle {
+  vertical-align: middle !important;
+}
+.pl4 {
+  padding-left: 4px;
+}
+.cursorPointer {
+  cursor: pointer !important;
+}

@@ -1,0 +1,202 @@
+.container {
+    width : 100%;
+}
+
+.containerEdieHotelProfileView {
+  width : 100%;
+  padding-left: 3px;
+}
+
+.gridView {
+    width : 100%;
+}
+
+/* For Horizontal View */
+.selecttionLinkTopX{
+    width : 100%;
+    height: 20px;
+    margin-bottom: 0px;
+    padding-top: 3px;
+}
+
+.selecttionLinkMiddleX{
+    width : 100%;
+    margin-bottom: -2px;
+}
+
+.AvailgridX {
+    width : 100%;
+}
+
+
+.SelectedgridX {
+    width : 100%;
+}
+
+/* For Vertical View */
+.selecttionLinkTopY{
+    width : 100%;
+}
+
+.selecttionLinkMiddleY{
+    width : 20%;
+    float: left;
+}
+
+.AvailgridY {
+    width : 40%;
+    float: left;
+}
+
+.SelectedgridY {
+    width : 40%;
+    float: left;
+}
+.firstHeading{
+    height: 20px; 
+    font-weight: bold;   
+    width : 393px;
+    vertical-align: middle;
+}
+.width250 {
+   
+    font-weight: bold;
+}
+.deselect {
+    width: 100px;
+    height: 10px;
+    cursor: pointer;
+}
+.quickSelect{
+    height: 10px;
+    font-weight: bold;
+    vertical-align: middle;
+    padding-bottom: 3px;
+}
+.secondHeading{
+    width:30%;
+    font-weight: bold; 
+    vertical-align: middle;
+    white-space: nowrap;
+}
+.quickSelect2{
+    width:65%;
+    padding-left: 30px;
+    font-weight: bold;
+    vertical-align: middle;
+}
+.quickSelectBottom{
+  width:36%;
+  font-weight: bold;
+  vertical-align: middle;
+}
+.directSelect2{
+  width: 8%;
+  padding-left: 15px;
+  font-weight: bold;
+  vertical-align: middle;
+  cursor: pointer;
+}
+.marshacodeNotFound {
+    color: #ff0000;
+}
+.gridMessageStyle {
+    float : left;
+}
+
+.SecondHeading{
+    padding:0;
+    margin: 0 0 1px;
+}
+.btnAllignMiddle{
+  vertical-align: middle;
+  padding-bottom: 3px;
+}
+.btnAllignMiddle span {
+  display: flex;
+}
+.gridScroll{
+  overflow:hidden auto !important;
+  
+}
+#gridViewSelectedGrid {
+  margin-top: 43px !important;
+}
+
+.selcorgRightPanel {
+  width: calc( 100vw - 308px);
+  height: calc(100vh - 168px);
+  margin-left: 1.2px;
+  position: relative;
+  margin-top: -0.7px;
+}
+.CBCreqRightPanel{
+  width: calc( 100vw - 308px);
+  margin-left: 1.5px;
+}
+.slicitationhotel{
+  width: calc( 100vw - 305px);
+}
+.rightPanel {
+  width: calc( 100vw - 306px);
+  height: calc(100vh - 115px);
+  position: relative;
+}
+.PogosrightPanel {
+    width: calc( 100vw - 306px);
+    height: 100%;
+  position: relative;
+}
+.EdierightPanel {
+  width: calc( 100vw - 300px);
+  height: 100%;
+  position: relative;
+}
+.buttonTd{
+    padding-left: 3px;
+}
+.profileorgdesign .selecttionLinkTopX{
+  padding-top:2px;
+}
+.profileorgdesign .firstHeading{
+  width:calc(50vw - 160px);
+}
+.profileorgdesign {
+  width: calc( 100vw - 308px);
+  height: 100%;
+  margin-top: -1px;
+  margin-left: 1.2px;
+}
+.profileorgdesign .secondHeading{
+  height: auto;
+  vertical-align: middle;   
+}
+.profileorgdesign .gridScroll{
+  overflow:auto !important;
+  overflow-x: hidden !important;
+}
+.profileorgdesign .SecondHeading{
+  /* margin-bottom: -4px; */
+}
+.profileorgdesign .secondHeading{
+  width: 49%;
+}
+.profileorgdesign .secondHeadingPO{
+  width: 46.5em;
+  font-weight: bold;
+  vertical-align: middle;
+}
+.fileUploadBG{
+  background-color: #9d102d !important;
+}
+.subHeading {
+  display: inline-block;
+  margin-left: 3px
+}
+.subHeading2 {
+  display: inline-block;
+}
+.gridborder{
+  border-color: rgba(128, 128, 128, 0.7) !important;
+  border-bottom-color: rgb(238, 238, 238) !important;
+}

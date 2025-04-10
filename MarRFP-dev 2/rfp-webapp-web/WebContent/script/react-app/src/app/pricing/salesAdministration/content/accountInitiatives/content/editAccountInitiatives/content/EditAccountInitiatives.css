@@ -1,0 +1,40 @@
+.editAccountInitiativesModalContainer {
+  padding: 10px; 
+  background: #fff; 
+  border-top: 1px solid #d3d3d3;
+}
+.editInitiativeModal {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+.editAccountInitiativesModalBody {
+  overflow-y: auto;
+  height: 425px;
+  width: 660px;
+}
+.fullWidth {
+  width: 100%;
+  border-spacing: 0;
+}
+.editInitiativelabels {
+  font-weight: bold;
+  width: 15.65%;
+  min-width: 94px;
+  max-width: 103.2px;
+}
+.textAreaFont {
+  font-family: Arial;
+  font-size: 8pt;
+}
+.rowHeight {
+  height: 5px;
+}
+.updatebtn{
+  margin-left: 3px;
+  cursor: default;
+}
+
+.updatebtn img {
+  cursor: default;
+}

@@ -1,0 +1,127 @@
+{
+  "brandName": "Residence Inn",
+  "updateSCPTPricing": null,
+  "scptSetUpFormChg": null,
+  "scptSetUpGenInfoFormChg": null,
+  "scptSetUpRetailRateFormChg": null,
+  "scptSetUpAmenitiesFormChg": null,
+  "scptSetUpThresholdsFormChg": null,
+  "scptSetUpBudgetAndForecastFormChg": null,
+  "isLocked": "N",
+  "lastUpdatedUser": "lafra715",
+  "setuptab_last_updated": "07/06/2017 11:07 am",
+  "checkUpdateSCPT": null,
+  "scptSetUpGenInfo": {
+    "hotelid": 98367,
+    "period": 2018,
+    "rpp_setup1": "Y",
+    "rpp_setup2": "Y",
+    "rpp_setup3": "N",
+    "rpp_setup_total": "Y",
+    "tier_price_tier1": "Y",
+    "tier_price_tier2": "Y",
+    "tier_price_tier3": "Y",
+    "tier_price_tier4": "Y",
+    "tier_price_total": "Y",
+    "hotel_vat": "N",
+    "show_yoy_comp": "target"
+  },
+  "seasonList": [
+    {
+      "rfpseasonid": null,
+      "hotelrfpid": null,
+      "seasonid": 1,
+      "shortStartdate": "01/01/2018",
+      "shortEnddate": "12/31/2018",
+      "roomNights": 365
+    }
+  ],
+  "scptSetUpRetailRate": [
+    {
+      "hotelid": 98367,
+      "period": 2018,
+      "seasonid": 1,
+      "prev_ret_rate": 151.22,
+      "curr_ret_rate": 154.84
+    }
+  ],
+  "scptSetUpWtdRetailRate": {
+    "hotelid": 98367,
+    "period": 2018,
+    "yoy_retailrate_chg": 2.39,
+    "wtd_prev_retail_rate": 151.22,
+    "wtd_retail_rate": 154.84
+  },
+  "scptSetUpAmenities": {
+    "hotelid": 98367,
+    "period": 2018,
+    "brkf_type": "Buffet",
+    "internet_type": "Free For All Travelers",
+    "transport": "Y",
+    "parking": "Y",
+    "brkf_fcost": 15.0,
+    "internet_fcost": 0.0,
+    "transport_fcost": 24.0,
+    "parking_fcost": 35.0,
+    "vatpercentroomrate": null,
+    "vatpercentrfoodandbeverage": null,
+    "histPrevYearVat": null,
+    "histTwoPrevYearVat": null
+  },
+  "scptSetUpThresholds": {
+    "hotelid": 98367,
+    "period": 2018,
+    "thrs_rmnt_low": 10,
+    "thrs_rmnt_mid": 45,
+    "thrs_perct_rtl_low": 0.0,
+    "thrs_perct_rtl_mid": 5.0,
+    "thrs_curry_rtl_low": 0.0,
+    "thrs_curry_rtl_mid": 0.0,
+    "thrs_percentage": "Y"
+  },
+  "scptSetUpBudgetAndForecastData": {
+    "hotelid": 98367,
+    "period": 2018,
+    "prev_yr_rn": 20,
+    "prev_yr_adr": 50.0,
+    "prev_yr_revenue": 400.0,
+    "curr_yr_rn": 50,
+    "curr_yr_adr": 60.0,
+    "curr_yr_revenue": 500.0,
+    "curr_yr_fc_rn": 0,
+    "curr_yr_fc_adr": null,
+    "curr_yr_fc_revenue": null
+  },
+  "breakfastList": [
+    {
+      "scpt_breaktypeid": 1,
+      "breakfastname": "No"
+    },
+    {
+      "scpt_breaktypeid": 2,
+      "breakfastname": "Continental"
+    },
+    {
+      "scpt_breaktypeid": 3,
+      "breakfastname": "Buffet"
+    },
+    {
+      "scpt_breaktypeid": 4,
+      "breakfastname": "Full American"
+    }
+  ],
+  "internetList": [
+    {
+      "scpt_internettypeid": 1,
+      "internetname": "None"
+    },
+    {
+      "scpt_internettypeid": 2,
+      "internetname": "Free For Bonvoy"
+    },
+    {
+      "scpt_internettypeid": 3,
+      "internetname": "Free For All Travelers"
+    }
+  ]
+}

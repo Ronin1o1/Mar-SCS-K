@@ -1,0 +1,71 @@
+.dropDowncontainer {
+  display: block;
+}
+
+.settingsButtonIcon {
+  margin-top: 10px;
+  position: absolute;
+  right: 30px;
+  cursor: pointer;
+  list-style: none;
+  padding: 0;
+  height: 24px;
+}
+
+.settingsButtonIcon:hover > .settingsIconSVG {
+  display: none;
+}
+
+.settingsButtonIcon:hover > .settingsRolloverIconSVG {
+  display: block;
+}
+
+.settingsButtonIcon li:hover > ul {
+  display: inline;
+}
+
+.settingsIconSVG {
+  width: 36px;
+  height: 24px;
+  overflow: scroll;
+}
+
+.settingsRolloverIconSVG {
+  width: 36px;
+  height: 24px;
+  display: none;
+  overflow: scroll;
+}
+
+.dropdown {
+  position: absolute;
+  top: 100%;
+  right: 0;
+  z-index: 2;
+  border: 1px solid #666666;
+  background-color: #ffffff;
+  white-space: nowrap;
+  color: #333333;
+  padding: 0;
+}
+
+.dropdown ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.dropdown li {
+  display: flex;
+  align-items: center;
+  height: 30px;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: 13px;
+}
+
+.dropdown li:hover,
+.settingsButtonIcon:hover {
+  background-color: #dddddd;
+  cursor: pointer;
+}

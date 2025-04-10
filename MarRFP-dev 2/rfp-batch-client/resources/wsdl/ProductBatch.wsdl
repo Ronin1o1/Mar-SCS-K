@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wsdl:definitions name="PgoosPropagateProductBatch" targetNamespace="http://com/marriott/rfp/webservice/product/batch/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/"
+	xmlns:tns="http://com/marriott/rfp/webservice/product/batch/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<wsdl:types>
+		<xsd:schema targetNamespace="http://com/marriott/rfp/webservice/product/batch/">
+			<xsd:element name="hotelProductProcess">
+				<xsd:complexType>
+					<xsd:sequence>
+						<xsd:element name="batchId" type="xsd:long">
+						</xsd:element>
+						<xsd:element name="hotelid" type="xsd:long">
+						</xsd:element>
+						<xsd:element name="accountrecid" type="xsd:long">
+						</xsd:element>
+						<xsd:element name="marshacode" type="xsd:string"></xsd:element>
+						<xsd:element name="productid" type="xsd:string"></xsd:element>
+						<xsd:element name="amenity_diff" type="xsd:string"></xsd:element>
+						<xsd:element name="isAer" type="xsd:string"></xsd:element>
+						<xsd:element name="eid" type="xsd:string"></xsd:element>
+					</xsd:sequence>
+				</xsd:complexType>
+			</xsd:element>
+			<xsd:element name="hotelProductProcessResponse">
+				<xsd:complexType>
+					<xsd:sequence />
+				</xsd:complexType>
+			</xsd:element>
+
+			<xsd:element name="accountBatchProductVerifyProcess">
+				<xsd:complexType>
+					<xsd:sequence>
+						<xsd:element name="period" type="xsd:long">
+						</xsd:element>
+						<xsd:element name="accountrecid" type="xsd:long">
+						</xsd:element>
+						<xsd:element name="productid" type="xsd:string"></xsd:element>
+					</xsd:sequence>
+				</xsd:complexType>
+			</xsd:element>
+			<xsd:element name="accountBatchProductVerifyProcesssResponse">
+				<xsd:complexType>
+					<xsd:sequence />
+				</xsd:complexType>
+			</xsd:element>
+
+			<xsd:element name="accountBatchProductMasterProcess">
+				<xsd:complexType>
+					<xsd:sequence>
+						<xsd:element name="batchId" type="xsd:long">
+						</xsd:element>
+						<xsd:element name="eid" type="xsd:string"></xsd:element>
+					</xsd:sequence>
+				</xsd:complexType>
+			</xsd:element>
+			<xsd:element name="accountBatchProductMasterProcessResponse">
+				<xsd:complexType>
+					<xsd:sequence />
+				</xsd:complexType>
+			</xsd:element>
+
+		</xsd:schema>
+	</wsdl:types>
+	<wsdl:message name="hotelProductProcess">
+		<wsdl:part name="parameters" element="tns:hotelProductProcess" />
+	</wsdl:message>
+	<wsdl:message name="hotelProductProcessResponse">
+		<wsdl:part name="parameters" element="tns:hotelProductProcessResponse" />
+	</wsdl:message>
+
+	<wsdl:message name="accountBatchProductVerifyProcess">
+		<wsdl:part name="parameters" element="tns:accountBatchProductVerifyProcess" />
+	</wsdl:message>
+	<wsdl:message name="accountBatchProductVerifyProcesssResponse">
+		<wsdl:part name="parameters" element="tns:accountBatchProductVerifyProcesssResponse" />
+	</wsdl:message>
+
+	<wsdl:message name="accountBatchProductMasterProcess">
+		<wsdl:part name="parameters" element="tns:accountBatchProductMasterProcess" />
+	</wsdl:message>
+	<wsdl:message name="accountBatchProductMasterProcessResponse">
+		<wsdl:part name="parameters" element="tns:accountBatchProductMasterProcessResponse" />
+	</wsdl:message>
+
+	<wsdl:portType name="PgoosPropagateProductPortType">
+		<wsdl:operation name="hotelProductProcess">
+			<wsdl:input message="tns:hotelProductProcess" />
+			<wsdl:output message="tns:hotelProductProcessResponse" />
+		</wsdl:operation>
+		<wsdl:operation name="accountBatchProductVerifyProcess">
+			<wsdl:input message="tns:accountBatchProductVerifyProcess" />
+			<wsdl:output message="tns:accountBatchProductVerifyProcesssResponse" />
+		</wsdl:operation>
+		<wsdl:operation name="accountBatchProductMasterProcess">
+			<wsdl:input message="tns:accountBatchProductMasterProcess" />
+			<wsdl:output message="tns:accountBatchProductMasterProcessResponse" />
+		</wsdl:operation>
+	</wsdl:portType>
+
+	<wsdl:binding name="PgoosPropagateProductBinding" type="tns:PgoosPropagateProductPortType">
+		<soap:binding style="document" transport="http://schemas.xmlsoap.org/soap/http" />
+		<wsdl:operation name="hotelProductProcess">
+			<soap:operation soapAction="http://com/marriott/rfp/webservice/product/batch/hotelProductProcess" />
+			<wsdl:input>
+				<soap:body use="literal" />
+			</wsdl:input>
+			<wsdl:output>
+				<soap:body use="literal" />
+			</wsdl:output>
+		</wsdl:operation>
+		<wsdl:operation name="accountBatchProductVerifyProcess">
+			<soap:operation soapAction="http://com/marriott/rfp/webservice/product/batch/accountBatchProductVerifyProcess" />
+			<wsdl:input>
+				<soap:body use="literal" />
+			</wsdl:input>
+			<wsdl:output>
+				<soap:body use="literal" />
+			</wsdl:output>
+		</wsdl:operation>
+		<wsdl:operation name="accountBatchProductMasterProcess">
+			<soap:operation soapAction="http://com/marriott/rfp/webservice/product/batch/accountBatchProductMasterProcess" />
+			<wsdl:input>
+				<soap:body use="literal" />
+			</wsdl:input>
+			<wsdl:output>
+				<soap:body use="literal" />
+			</wsdl:output>
+		</wsdl:operation>
+
+	</wsdl:binding>
+
+	<wsdl:service name="PgoosPropagateProductService">
+		<wsdl:port binding="tns:PgoosPropagateProductBinding" name="PgoosPropagateProductPort">
+			<soap:address location="http://localhost:9080/rfp-webapp-web/PgoosPropagateProductService" />
+		</wsdl:port>
+	</wsdl:service>
+</wsdl:definitions>

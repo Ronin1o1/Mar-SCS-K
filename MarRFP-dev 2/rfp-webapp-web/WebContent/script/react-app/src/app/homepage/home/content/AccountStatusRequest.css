@@ -1,0 +1,11 @@
+.tabTitle{
+    padding: 0 5px;
+}
+.loaderaccounthome{
+  position: relative;
+  display: flex;
+  line-height: 24px;
+}
+.loaderaccounthome img{
+  margin-right: 5px;
+}

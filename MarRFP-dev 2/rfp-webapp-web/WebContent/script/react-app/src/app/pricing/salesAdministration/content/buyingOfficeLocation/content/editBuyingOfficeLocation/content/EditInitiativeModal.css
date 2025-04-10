@@ -1,0 +1,53 @@
+.editInitiativesModalContainer {
+  padding: 10px;
+  background: #fff;
+  border-top: 1px solid #d3d3d3;
+  position: relative;
+}
+.editInitiativesModalBody {
+  overflow-y: auto;
+  height: 425px;
+  width: 660px;
+}
+.fullWidth {
+  width: 100%;
+  border-spacing: 0;
+}
+
+.zeroHeight {
+  border: 0px;
+  border-collapse: collapse;
+  padding: 0px;
+}
+.editInitiativelabels {
+  font-weight: bold;
+  width: 16%;
+}
+.textAreaFont {
+  font-family: Arial;
+  font-size: 8pt;
+}
+.rowHeight {
+  height: 5px;
+}
+.updatebtn {
+  margin-left: 3px;
+  cursor: default;
+}
+
+.updatebtn img {
+  cursor: default;
+}
+.InstructionHeader {
+  font-weight: bold;
+  font-size: 11px;
+  font-style: italic;
+  font-family: Arial;
+  background-color: #eff0ec;
+}
+.buttonalignment {
+  display: flex;
+  flex-direction: row;
+  column-gap: 10px;
+  justify-content: center;
+}

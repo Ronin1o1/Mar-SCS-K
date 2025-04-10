@@ -1,0 +1,186 @@
+.fieldName {
+  font-weight: bold;
+  font-size: 11px;
+  font-family: Arial;
+}
+.fieldValue {
+  font-weight: normal;
+  font-size: 11px;
+  font-family: Arial;
+}
+.InstructionHeader {
+  font-weight: bold;
+  font-size: 11px;
+  font-style: italic;
+  font-family: Arial;
+  background-color: #eff0ec;
+}
+.pageLayout {
+  left: 0px;
+  top: 0px;
+  height: 293.333px;
+}
+.pageLayoutOutter {
+  left: 6px;
+  position: absolute;
+  width: calc(100% - 6px);
+  height: calc(100vh - 312px);
+}
+.instructions {
+  font-weight: normal;
+  font-size: 11px;
+  padding-bottom: 4pt;
+  margin-right: 24pt;
+  padding-top: 4pt;
+  font-family: Arial;
+}
+.marginTop {
+  margin-top:3px
+}
+.textData {
+  border: 0;
+}
+.LastUpdate {
+  width: 5px;
+}
+.RateText {
+  font-family: Arial;
+  font-size: 8pt;
+  height: 100px;
+  width: 536px;
+}
+.fieldNames {
+  font-weight: bold;
+  font-size: 11px;
+  font-family: Arial;
+  width: 150px;
+}
+.postalcodeInput {
+  width: 178px;
+}
+.priceContactInput {
+  width: 328px;
+}
+.distanceInput {
+  width: 93px;
+}
+.shuttleCostOneWayInput {
+  width: 93px;
+}
+.directionInput {
+  font-family: Arial;
+  font-size: 8pt;
+  height: 110px;
+  width: 536px;
+}
+.instructionsData {
+  font-weight: normal;
+  font-size: 11px;
+  padding-bottom: 4pt;
+  margin-right: 24pt;
+  padding-top: 4pt;
+  font-family: Arial;
+  text-align: left;
+}
+.facilityButton {
+  border: 0;
+  cursor: pointer;
+}
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  margin: 0;
+}
+.scrollDiv {
+  display: inline-block;
+  overflow: auto;
+}
+.menuWdth100_Height {
+  border: 0px;
+  border-collapse: collapse;
+  padding: 0px;
+  width: 100%;
+}
+.scrollOuterTable {
+  overflow: scroll;
+  display: inline-block;
+}
+.top {
+  vertical-align: top;
+}
+.copyInnerTableContainer {
+  height: 100%;
+  border: 0 px;
+  border-collapse: collapse;
+  padding: 1px;
+  margin-top: 1vw;
+  margin-left: 1vw;
+  margin-right: 1vw;
+  margin-bottom: 1vw;
+}
+.copyInnerTableVertical {
+  vertical-align: top;
+  height: 22px;
+  font-weight: bold;
+  font-size: 9pt;
+  font-family: Arial;
+  text-align: center;
+}
+.weight200 {
+  font-weight: 200;
+  padding-bottom: 1vw;
+}
+.BGDarkBlueStyle {
+  color: #ffffff !important;
+  background-color: #828298 !important;
+}
+.heightTop {
+  height: 1px;
+  vertical-align: top;
+}
+.height100 {
+  height: 100%;
+}
+.heightTop100 {
+  height: 100%;
+  vertical-align: top;
+}
+.gridNode {
+  height: 310px;
+  -moz-user-select: none;
+  font-family: Geneva, Arial, Helvetica, sans-serif;
+  -moz-outline-style: none;
+  outline: none;
+  overflow: hidden;
+}
+.copyInnerDiv {
+  overflow: hidden;
+}
+.gridOne {
+  height: 300px;
+  table-layout: fixed;
+  border-collapse: collapse;
+  display: inline-block;
+  overflow-y: auto;
+  width: 400px;
+}
+.zero_Height {
+  border: 0px;
+  border-collapse: collapse;
+  padding: 0px;
+}
+.weightNormal {
+  font-weight: normal;
+}
+.buttonCenter {
+  text-align: center;
+  padding-top: 1vw;
+}
+.modal {
+  width: 420px !important;
+}
+.boldLabel{
+  font-weight: bold;
+}

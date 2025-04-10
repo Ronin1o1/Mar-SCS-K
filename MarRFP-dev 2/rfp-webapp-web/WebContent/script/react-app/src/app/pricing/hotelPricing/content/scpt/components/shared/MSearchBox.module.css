@@ -1,0 +1,50 @@
+.searchContainer {
+  display: inline-flex;
+  font-size: 13px;
+}
+.searchContainer input{
+  font-size: 13px;
+} 
+.searchInput {
+  display: inline-block !important;
+  text-align: left !important;
+  border: 1px solid #bababa !important;
+  border-right: none !important;
+  height: 25px !important;
+  padding-left: 5px !important;
+  width: 139px !important;
+}
+
+.buttonContainer {
+  display: inline-block;
+  border: 1px solid #bababa;
+  border-left-style: none;
+  cursor: pointer;
+  background: none;
+}
+
+.buttonContainer1 {
+  display: inline-block;
+  border: 1px solid #bababa;
+  border-left-style: none;
+  cursor: pointer;
+  background: white;
+  height:23px;
+  margin-top: 10px;
+}
+
+.searchIconDiv {
+  margin-top: 2px;
+  margin-right: 5px;
+}
+
+.searchIconDiv1 {
+  margin-top: -7px;
+  margin-right: 5px;
+}
+
+.searchIconSVG {
+  width: 16px;
+  height: 16px;
+  overflow: scroll;
+}

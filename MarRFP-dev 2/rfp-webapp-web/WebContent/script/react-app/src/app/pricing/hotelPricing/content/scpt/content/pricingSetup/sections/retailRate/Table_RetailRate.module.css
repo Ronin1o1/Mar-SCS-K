@@ -1,0 +1,19 @@
+.rateTable th:last-child,
+.rateTable td:last-child {
+  border-left: 1px solid #cccccc;
+}
+
+.tableColumn {
+  font-size: 13px;
+  font-weight: 400;
+}
+
+.tableColumnBold {
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.retailTable input {
+  font-size: 13px;
+  font-weight: 400;
+}

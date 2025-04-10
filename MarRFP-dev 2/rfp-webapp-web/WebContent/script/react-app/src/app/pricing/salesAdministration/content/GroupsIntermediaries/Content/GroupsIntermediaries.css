@@ -1,0 +1,48 @@
+.zeroHeight {
+  border: 0px;
+  border-collapse: collapse;
+  padding: 0px;
+  margin-top: 10px;
+}
+.tableBorderWidth {
+  border-width:850px
+}
+.menuWidthHeight{
+  border: 0px;
+  border-collapse: collapse;
+  padding: 0px;
+  width: 99.5%;
+  margin-top: 10px;
+}
+.InstructionHeader{
+  FONT-WEIGHT: bold;
+    FONT-SIZE: 11px;
+    FONT-STYLE: italic;
+    FONT-FAMILY: Arial;
+    BACKGROUND-COLOR: #eff0ec;
+}
+.fieldName{
+  FONT-WEIGHT: bold;
+    FONT-SIZE: 11px;
+    FONT-FAMILY: Arial;
+    white-space: nowrap;
+    text-align: left;
+}
+.alertmodal {
+  padding: 10px; 
+  background: #fff; 
+  border-top: 1px solid #d3d3d3;
+  position: relative;
+}
+.otherFiledPadding{
+  padding-bottom: 10px;
+}
+.margintop tr:nth-child(odd){
+  margin-top: 10px;
+  display: block;
+}
+@media only screen and (max-width: 1100px) {
+  .fieldName textarea{
+    width: 980px;
+  }
+}

@@ -1,0 +1,65 @@
+.prodNameDisplay{
+  text-align: left
+}
+
+.leftDiv{
+  padding-left: 205px;
+  margin-top: 8px;
+}
+
+.lineHeight{
+  line-height: 1.5;
+}
+
+.horizontalLine {
+  height: 2px;
+  color: #ffffff;
+  background-color: #313063;
+  width: 100%;
+  font-family: Arial;
+  font-weight: bold;
+  margin-top: 0px;
+}
+
+.boldHeader {
+  width: 55%;
+  line-height: 0px;
+  font-family: Arial;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.productNameAlign{
+  padding-left: 10px;
+}
+
+.tableCls{
+  padding-left: 5px;
+  padding-right: 5px;
+  height: 100%;
+  width: 100%;
+  border: 0px;
+  border-collapse: collapse;
+  padding: 0px;
+}
+
+#thisForm{
+  box-sizing: border-box;
+}
+
+.zeroHeight{
+  border: 0px;
+  border-collapse: collapse;
+  padding: 0px;
+}
+
+.width{
+  height: 30px
+}
+
+.header{
+  font-weight: bold;
+  font-size: 12px;
+  font-family: Arial;
+  color: green;
+}

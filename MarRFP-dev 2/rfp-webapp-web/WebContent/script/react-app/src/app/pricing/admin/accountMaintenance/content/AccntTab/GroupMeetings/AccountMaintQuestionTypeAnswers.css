@@ -1,0 +1,40 @@
+.questionTypeDiv{
+    text-align:center;
+     vertical-align: bottom
+}
+.saveBtn{
+    cursor: pointer;
+    border:"0";
+}
+.closeBtn{
+    cursor: pointer;
+    border:"0";
+}
+.btnContainer {
+    text-align:center;
+     vertical-align: bottom
+}
+.brElement{
+    height:6px
+}
+table.zero-Height {
+    border: 0px;
+    border-collapse: collapse;
+    padding: 0px;
+}
+.field_Name {
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 11px;
+    FONT-FAMILY: Arial;
+} 
+.field_Value {
+    FONT-WEIGHT: normal;
+    FONT-SIZE: 11px;
+    FONT-FAMILY: Arial;
+  }
+ 
+  .contentDiv{
+    background: #fff;
+    border-top: 1px solid #d3d3d3;
+    padding: 10px;
+  }

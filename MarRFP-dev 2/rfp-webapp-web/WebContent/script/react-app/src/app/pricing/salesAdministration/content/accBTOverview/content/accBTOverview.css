@@ -1,0 +1,94 @@
+.mainTableContainer {
+  height: 410px !important;
+  overflow: auto !important;
+}
+
+.brandContainer {
+  -webkit-column-count: 4; /* Chrome, Safari, Opera */
+  -moz-column-count: 4; /* Firefox */
+  column-count: 4;
+}
+
+.agenciesMapContainer {
+  -webkit-column-count: 2; /* Chrome, Safari, Opera */
+  -moz-column-count: 2; /* Firefox */
+  column-count: 2;
+}
+
+.FontColor {
+  color: rgb(255, 0, 0);
+}
+
+.HiddenRow {
+  display: none;
+}
+
+.updatebtn {
+  float: right;
+}
+.colorClass {
+  color: rgb(255, 0, 0);
+  font-weight: bold;
+}
+
+.field_Value_Left {
+  width: 31%;
+}
+
+.leftColumn {
+  display: inline-block;
+  margin-left: 3px;
+}
+
+.BTprofileAlert {
+  max-width: 250;
+  min-width: 180;
+  padding: 9px 12px;
+}
+.MainTable {
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.overlayDiv {
+  position: relative;
+  background-color: transparent;
+  z-index: 0;
+  top: 50%;
+}
+.formTable {
+  vertical-align: top;
+}
+
+.GppAccountColumn {
+  width: 800px;
+  vertical-align: top;
+}
+.zeroHeight {
+  margin-bottom: 20%;
+  overflow: auto;
+}
+.zeroHeightRow {
+  height: 15px;
+}
+.OverlayScreenBTProfile {
+  display: none;
+  text-align: center;
+}
+
+.fieldNameLabel {
+  font-weight: bold;
+  font-size: 11px;
+}
+
+.textAreaCs{
+  FONT-FAMILY: Arial;
+  FONT-SIZE: 8pt;
+  white-space:pre-wrap;
+}
+table.menuWdth100 {
+  border: 0px;
+  border-collapse: collapse;
+  padding: 0px;
+  width: 100%;
+}

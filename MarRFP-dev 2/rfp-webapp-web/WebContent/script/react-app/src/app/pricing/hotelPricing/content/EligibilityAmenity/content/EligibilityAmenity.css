@@ -1,0 +1,120 @@
+body,
+input,
+textarea {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0px;
+  padding: 0px;
+  font-size: 11px;
+   
+}
+.fullHeight{
+height: 100%;
+width: 100%;
+border: 0px;
+border-collapse: collapse;
+padding: 0px;
+}
+.zeroHeight{
+border: 0px;
+border-collapse: collapse;
+padding: 0px;
+}
+.Header{
+font-weight: bold;
+font-size: 9pt;
+font-family: Arial;
+}
+.fieldValue{
+font-weight: normal;
+font-size: 11px;
+font-family: Arial;
+}
+.BGDarkBlueStyle{
+color: #FFFFFF;
+background-color: #313063;
+}
+.pointer {
+  cursor: pointer;
+  margin-right: 4px;
+}
+.InstructionHeader{
+font-weight: bold;
+font-size: 11px;
+font-style: italic;
+font-family: Arial;
+background-color: #eff0ec;
+}
+.instructions{
+font-weight: normal;
+font-size: 11px;
+padding-bottom: 4pt;
+margin-right: 24pt;
+padding-top: 4pt;
+font-family: Arial;
+}
+.fieldName{
+font-weight: bold;
+font-size: 11px;
+font-family: Arial;
+}
+.pageHeight{
+  padding-left: "5px"; 
+  padding-right: "5px";
+  background-color: "#FFFFFF"
+}
+.pagePosition{
+  vertical-align: top;
+}
+.pageHeader{
+  height: 40px;
+  vertical-align: top;
+}
+.pageTitle{
+  height: 1px;
+}
+.pageDescription{
+  width: 80px;
+}
+.pageDetail{
+  width: 300px;
+}
+.eligibilityHeader{
+  height: 2px;
+  vertical-align: top;
+}
+.eligibilityHead{
+  height: 5px;
+}
+.eligibilityListcheck{
+  width: 20px;
+  height: 13px;
+  display: block;
+}
+.eligibilityList{
+  width: 10px;
+}
+.amenitySection{
+  height: 20px;
+}
+.amenityList{
+  width: 30px;
+}
+.earlyChargeDrop{
+  position: relative;
+  left: 5px;
+}
+.earlyChargeValue{
+  width: 90px;
+}
+.pagelayout{
+  display: block;
+}
+.normalText{
+  font-weight: 100!important;
+}
+.boldText{
+  font-weight: bold!important;
+}
+.ml5{
+  margin-left: 5px;
+}

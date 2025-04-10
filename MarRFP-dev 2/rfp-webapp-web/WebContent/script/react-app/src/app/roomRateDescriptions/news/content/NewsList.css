@@ -1,0 +1,62 @@
+body,
+input,
+textarea {
+    margin: 0px;
+    padding: 0px;
+    font-size: 11px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.titleLink {
+    color: #3166cc;
+    text-decoration: underline;
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.header {
+  FONT-WEIGHT: bold;
+  FONT-SIZE: 9pt;
+  FONT-FAMILY: Arial;
+  margin-bottom: -1px;
+  display: block;
+  margin-top: -2px;
+}
+
+.BGDarkBlueStyle {
+  color: #FFFFFF;
+  background-color: #313063;
+}
+
+.BtnNew {
+    margin-top: 12px;
+    margin-left: 607px;
+    height: 20px;
+    cursor: pointer;
+}
+
+.dataTableContainer {
+    margin-top: 14px;
+    margin-left: 16px;
+    width: 964px;
+}
+
+.deleteContainer {
+    cursor: pointer;
+}
+
+.extraRow {
+    height: 5px;
+}
+
+.MainContainer {
+    position: relative;
+}
+
+.NewsListContainer { 
+    z-index: 1001;
+    margin-left: -2px;
+}
+
+.p-datatable-scrollable-header-box {
+    margin-right: 0px !important;
+}

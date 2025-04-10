@@ -1,0 +1,122 @@
+.dataTableDiv {
+    width: 835px;
+}
+
+.dataTableDivSales{
+  width: 793px;
+  min-width: 793px;
+  margin-top: -0.3vw;
+  margin-left: -5px;
+  margin-bottom: -1px;
+}
+.infoInnerTable {
+  font-weight: bold;
+}
+
+.infoTable {
+    border-top-width: 1px;
+    border-color: #cccccc;
+    border-bottom-style: solid;
+    border-right-width: 1px;
+    border-left-style: solid;
+    border-top-style: solid;
+    border-bottom-width: 1px;
+    border-right-style: solid;
+    border-left-width: 1px;
+    border-collapse: collapse;
+    background: #eff0ec;
+}
+
+.infoTbleFieldName {
+    font-size: 11px;
+    font-weight: bold;
+    display: inline;
+}
+.allusers{
+  display: inline-block;
+    width: 225px;
+}
+.sortby{
+  display: inline-block;
+}
+.sortby select{
+  width: 179px;
+}
+.startingwith{
+  width: 120px;
+}
+.sortByDiv{
+    margin-top: -3px;
+}
+.startText {
+    font-size: 11px;
+    font-weight: bold;
+    padding-left: 110px;
+    display: block;
+    margin-bottom: -1px;
+    line-height: 11px;
+}
+.ml2 {
+    margin-left: 2px;
+}
+
+.boldText{
+  font-weight: bold;
+}
+
+.displayBlock{
+  display: block;
+  padding-left: 10px;
+}
+.startingwith{
+  display: inline-block;
+}
+.salesinfoTable tr td:first-child{
+  width: 235px;
+  min-width: 235px;
+  display: table-cell;
+}
+.salesinfoTable tr td label{
+  font-weight: bold;
+}
+.salesinfoTable tr td{
+  font-weight: bold;
+}
+.salesinfoTable tr td div{
+  display: inline-block;
+}
+.salesinfoTable tr td div input{
+  padding: 1px;
+}
+.salesuserfilter{
+  width: 120px;
+}
+.salesinfoTable tr:nth-child(2) td:last-child{
+  text-align: right;
+  padding: 0 10px;
+}
+@media only screen and (max-width: 1320px) {
+  .dataTableDivSales{
+    width: 540px;
+    min-width: 540px;
+  }
+  .salesinfoTable tr td div input{
+    width: 120px;
+  }
+  .allusers{
+    width: 220px;
+  }
+}
+@media only screen and (min-width: 1920px) {
+  .salesinfoTable tr td div input{
+    width: 124px;
+  }
+  .salesinfoTable{
+    margin-top: 2px;
+  }
+}
+@media only screen and (max-width: 1315px) {
+  .dataTableDiv {
+    width: 520px;
+  }
+}

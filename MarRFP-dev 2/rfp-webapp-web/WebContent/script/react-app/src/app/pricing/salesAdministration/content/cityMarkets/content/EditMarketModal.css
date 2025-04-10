@@ -1,0 +1,80 @@
+.cmodal {
+  position: fixed;
+  top: 50vh;
+  left: 50vw;
+}
+
+.modalContainer {
+  width: 560px;
+  padding: 10px;
+}
+
+.marketNameContainer {
+  display: flex;
+  flex-direction: row;
+}
+
+.marketNameContainer b {
+  width: 119px;
+}
+
+.marketContainerRed {
+  display: flex;
+  flex-direction: row;
+  align-self: center;
+  height: 18px;
+}
+
+.marketContainerRed input {
+  margin-top:6px;
+  height: 13px;
+ 
+}
+
+.marketContainerRed b {
+  width: 119px;
+  color: red;
+}
+
+.topSection {
+  margin-bottom: 20px;
+}
+
+
+.updatebtn {
+  margin-left: 3px;
+  cursor: default;
+  padding-right: 10px;
+}
+
+.InstructionHeader {
+  font-weight: bold;
+  font-size: 11px;
+  font-style: italic;
+  font-family: Arial;
+  background-color: #eff0ec;
+}
+.buttonalignment {
+  display: "flex";
+  flex-direction: row;
+  justify-content: center;
+  margin-left: 30%;
+}
+
+.textAreaFont{
+  font-family: Arial;
+  font-size: 8pt;
+  height: 90px;
+  width: 560px;
+  margin-bottom: 12px;
+}
+
+.marketPotentialRn {
+  text-align: right;
+  width: 70px;
+  height: 18px;
+}
+
+.buttonalignment a img {
+  cursor: default;
+}

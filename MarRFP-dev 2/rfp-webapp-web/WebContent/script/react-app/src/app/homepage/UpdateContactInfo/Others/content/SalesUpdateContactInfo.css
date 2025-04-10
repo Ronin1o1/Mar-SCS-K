@@ -1,0 +1,290 @@
+.fullHeight {
+    height: 100%;
+    width: 100%;
+    border: 0px;
+    border-collapse: collapse;
+    padding: 0px;
+}
+.fullHeighttd{
+    height: 65px;
+    vertical-align: "top";
+}
+.menuWdth100_Height {
+    border: 0px;
+    border-collapse: collapse;
+    padding: 0px;
+    width: 100%;
+}
+.heightSixtyfive{
+    height: 65px;
+}
+.Header {
+    font-weight: bold;
+    font-size: 9pt;
+    font-family: Arial;
+}
+.center{
+    text-align: center;
+    margin-top: 6px;
+    display: block;
+}
+.btnUpdatestyle{
+    align-items: center;
+    border: 0px;
+    margin-left: -3px;
+    margin-top: 5px;
+}
+.BGDarkBlueStyle {
+    color: #FFFFFF;
+    background-color: #313063;
+}
+.top{
+    vertical-align: top;
+}
+.btnUpdatestyle1{
+    height: 2px;
+    vertical-align: top;
+    column-gap: 3px;
+}
+.zero_HeightTable{
+    align-items: center;
+    width: 90%;
+}
+.zero_Height {
+    border: 0px;
+    border-collapse: collapse;
+    padding: 0px;
+}
+.marginLeft{
+    margin: 0 auto;
+}
+.instructions {
+    font-weight: normal;
+    font-size: 11px;
+    padding-bottom: 4pt;
+    margin-right: 24pt;
+    padding-top: 4pt;
+    font-family: Arial;
+}
+.heightTen{
+    height: 10px;
+}
+.field_Name {
+    font-weight:  bold;
+    font-size: 11px;
+    font-family: Arial;
+}
+.field_Value {
+    font-weight: normal;
+    font-size: 11px;
+    font-family: Arial;
+}
+.field_Value input {
+  height: 22px;
+  box-sizing: border-box !important;
+}
+
+.heightAndWidth{
+    height: 22px;
+    width: 276px;
+}
+.heightThree{
+    height: 10px;
+}
+.heightThreeForm{
+  height: 3px;
+}
+.colGap{
+    column-gap: 2px;
+}
+.nowrapStyle{
+    white-space: nowrap;
+}
+.heightOne{
+    height:1px;
+}
+.heightAndWidth4{
+    width: 374px;
+    height: 400px;
+}
+.heightFour{
+    height: 400px;
+}
+.borderZero{
+    border: 0px;
+}
+.heightThirty{
+    height: 30px;
+}
+.colWidth{
+  width: 41.25vw;
+  vertical-align: top;
+}
+.colWidthLimitedUser {
+  width: 45.5vw;
+  vertical-align: top;
+  padding-right: 10px;
+}
+.labelLength{
+  width:60vw;
+}
+.headerwidth{
+  width: 31.5vw;
+}
+.pad1_space2_height_cls {
+  border: 0px;
+  border-spacing: 2px;
+  padding: 1px;
+}
+.filterFieldNameCls
+{
+  font-weight: bold!important;
+  font-family: Arial;
+}
+.gridHNode{
+  -moz-user-select: none;
+  font-family: Geneva, Arial, Helvetica, sans-serif;
+  -moz-outline-style: none;
+  outline: none;
+  overflow: hidden;
+}
+.gridHHeader{
+  width: 400px;
+  overflow: hidden;
+  background-color: #d6d7ce;
+}
+.gridHOne{
+  height: 32px;
+  table-layout: fixed;
+  border-collapse: collapse;
+}
+.gridCellFirst{
+    width: 20px;
+    border: 1px solid;
+    border-color: #EBEADB;
+    padding: 0px 2px 0px 2px;
+    text-align: left;
+    overflow-y: hidden;
+    font-size: 11px;
+}
+.HeaderCls{
+  width: 370px;
+  padding: 0px 2px 0px 2px;
+  text-align: left;
+  overflow-y: hidden;
+  font-size: 11px;
+  border: 1px solid;
+  border-color: #EBEADB;
+}
+.gridViewHS{
+  width: 400px; 
+  background-color: #eff0ec;
+  height: 265px; 
+  overflow: hidden;
+}
+.scrollDiv{
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+.gridRow {
+  background-color: white;
+  border-top: none;
+}
+.gridRowTable {
+  table-layout: fixed;
+  border-collapse: collapse;
+  height: 21px; 
+  width: 100%;
+  border: 0 
+}
+.middle{
+  vertical-align: middle;
+  text-align: center;
+  font-weight: 100;
+}
+.width_10{
+  width: 10px
+}
+.width_40{
+  width: 40%
+}
+.height_width_100{
+  height: 100%;
+  width:100%
+}
+.height_100_perc{
+  height: 100%;
+}
+.gridPCNode{
+    background-color: #eff0ec;
+    font-family: Geneva, Arial, Helvetica, sans-serif;
+    -moz-outline-style: none;
+    outline: none;
+    overflow: hidden;
+    height: 300px; 
+    -moz-user-select: none;
+}
+.gridPCHeader{
+    overflow: hidden;
+    background-color: #d6d7ce;
+    width: 800px;
+}
+.width_20{
+  width: 20px
+}
+.width_400{
+  width: 400px;
+}
+.width_360{
+  width: 360px; 
+}
+.width_80{
+  width: 80px;
+}
+.width_75{
+  width: 75px;
+}
+.width_51{
+  width: 51px;
+}
+.width_106{
+  width: 106px;
+}
+.margin_primary{
+  margin-right: 17vw;
+}
+.backgroundGrey{
+  background-color: #eff0ec;
+  padding-left: 20vw;
+}
+.width_100_per{
+  width: 100%;
+}
+.normalText{
+  font-weight:normal
+}
+.font_bold {
+  font-weight: bold;
+}
+.arrow_navigation_width {
+  width: 70px;
+}
+.dropdown_width {
+  width: 200px;
+}
+.paddingLeft_navigation {
+  padding-left: 320px;
+}
+.padding_15 {
+  padding: 15px;
+}
+.heightAndWidth1 {
+  width: 51px;
+}
+.heightAndWidth2{
+  width: 106px;
+}
+.left_panel_label {
+  padding-right: 20px;
+  box-sizing: border-box !important;
+}

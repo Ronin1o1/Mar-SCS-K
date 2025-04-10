@@ -1,0 +1,59 @@
+.instruction {
+        font-weight: normal;
+        font-size: 11px;
+        text-align: left;
+        margin-left: 0%;
+        padding-top: 4pt;
+        font-family: Arial;
+}
+.table {
+  margin-top: 11px;
+        height: 10px;
+        border: 0px;
+        border-collapse: collapse;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 11px;
+        text-align: left;
+}
+.table tr > td > span {
+        font-weight: bold;
+        font-size: 11px;
+        font-family: Arial, Helvetica, sans-serif;
+}
+.header {
+        padding-left: 5px;
+        padding-right: 5px;
+        height: 15px;
+        width: 100%;
+        border: 0px;
+        border-collapse: collapse;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 9pt;
+        font-weight: bolder;
+}
+
+.submitbtn {
+        padding-left: 50px;
+}
+
+.label {
+        width: 250px;
+}
+.headerhr {
+  height: 2px;
+  background-color: #313063;
+  border: none;
+}
+
+.filterContainer {
+        display: inline-flex;
+        width: 400px;
+}
+
+.options {
+        width: 410px !important;  
+}
+.select {
+        width: 218px;
+        height: 22px;
+}

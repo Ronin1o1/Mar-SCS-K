@@ -1,0 +1,92 @@
+.calendar {
+  padding: 0.5rem !important;
+  color: #495057 !important;
+  border: 1px solid #1b242c;
+  width: 100px !important;
+  height: 100px !important;
+}
+
+.calendarYearSelect {
+  height: 20px;
+}
+
+.datepicker table td.datepicker-today > span {
+  background: #d0d0d0;
+  border-color: transparent;
+}
+
+.container {
+  margin-top: -10px;
+}
+.datepicker table {
+  font-size: 0.75rem;
+  margin: 0.4rem 0;
+  padding-left: 1px;
+  border: 1px;
+}
+.datepicker header {
+  padding: 0.5rem;
+  color: #333333;
+  background: lightslategray;
+  font-weight: 700;
+  margin: 0;
+  border-bottom: 0 none;
+  border-top-right-radius: 3px;
+  border-top-left-radius: 3px;
+}
+.calendar .datepicker {
+  min-width: 80%;
+  z-index: 99999;
+}
+.datepicker table td.datepicker-today span {
+  background-color: grey;
+}
+.datepicker table td {
+  width: 0rem !important;
+  height: 0rem !important;
+  border-radius: 0px !important;
+  transition: background-color 0.2s, box-shadow 0.2s !important;
+  border: 1px solid transparent !important;
+  padding: 0%;
+  margin: 0%;
+}
+
+.datepicker table td span {
+  width: 1.8rem !important;
+  padding: 0.2em;
+  height: 1.3rem !important;
+  text-align: top;
+  text-decoration: none;
+  transition: background-color 0.2s, box-shadow 0.2s !important;
+  border: 1px solid #c5c5c5;
+  border-radius: 0em !important;
+  background: #f6f6f6;
+  font-weight: normal;
+  color: #454545;
+}
+
+.datepicker input {
+  font-size: 11px;
+  font-family: Arial, Helvetica, sans-serif, Verdana, Geneva;
+  text-align: left;
+  margin-left: initial;
+  padding-left: initial;
+  height: 15.5px;
+  width: 78px !important;
+  border-radius: initial;
+  border: 1px solid black
+}
+
+.datepicker button {
+  background: white;
+  border: none;
+  height: 22px;
+  width: 22px !important;
+}
+
+.ui-icon-calendar {
+  /* background-image: url('C://Marriott//1stDec//MarRFP//rfp-webapp-web//WebContent//script//react-app//src//app//common//assets//img//calendar.gif') !important; */
+  background-position: center center !important;
+  width: 16px;
+  height: 16px;
+}

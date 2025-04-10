@@ -1,0 +1,138 @@
+.section {
+  height: 0% !important;
+  border-collapse: collapse;
+  padding: 0px;
+  width: 100%;
+  border: 0px;
+  border-collapse: collapse;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin-bottom: 1px;
+}
+
+.header {
+  font-weight: bold;
+  font-size: 9pt;
+  font-family: Arial;
+}
+
+.headerHR {
+  margin-top: -1px;
+  margin-bottom: 10px;
+  color: #ffffff;
+  height: 0px;
+  border: solid 1px #313063;
+  background-color: #313063;
+}
+
+.menuWdth100 {
+  border: 0px;
+  border-collapse: collapse;
+  padding: 0px;
+  width: 100%;
+}
+
+.default_font {
+  font-size: 11px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.mr10 {
+  margin-top: 20px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  display: flow-root;
+}
+
+.bold {
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.channel_name {
+  padding-right: 15px;
+}
+
+.lang_name {
+  padding-left: 15px;
+}
+
+.grid {
+  background-color: #eff0ec;
+  font-family: Geneva, Arial, Helvetica, sans-serif;
+  outline: none;
+  overflow: hidden;
+}
+
+.font11 {
+  font-size: 11px;
+  border-collapse: collapse;
+}
+
+.title {
+  font-size: 11px;
+  font-weight: bold;
+  height: 17px;
+  padding-top: 3px;
+  font-style: italic;
+  background-color: #a4aac6;
+}
+
+.gridRowTable {
+}
+
+.gridHeader {
+  overflow: hidden;
+}
+.float_right {
+  position: relative;
+}
+.float_right > div{
+  right: 0;
+}
+.gridCellHeader {
+  font-size: 11px;
+  font-weight: bold;
+  border-right: 0.5px solid #aca899;
+}
+.gridCell {
+  border: 1px solid #ebeadb;
+}
+.gridSubItem{
+  vertical-align: top;
+  padding-left: 15px;
+}
+.roomOverNormal {
+  width: 180px;
+  padding-left: 20px;
+  vertical-align: top;
+}
+.roomGroup {
+  width: 180px;
+  padding: 0 10px;
+  font-style: italic;
+  vertical-align: top;
+}
+.roomOverBold {
+  width: 204px;
+  font-weight: bold;
+  vertical-align: top;
+}
+
+.tr:nth-child(even) {
+  background-color: #ffffff;
+}
+
+.tr:nth-child(odd) {
+  background-color: #f4f4f2;
+}
+
+.textAreaStyle {
+  width: 99%;
+  resize: none;
+  height: 45px;
+}
+
+.textColor:hover {
+  background-color: rgb(244, 242, 159);
+}

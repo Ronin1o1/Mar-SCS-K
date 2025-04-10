@@ -1,0 +1,115 @@
+.mainTableContainer {
+  height: 410px !important;
+  overflow: auto !important;
+}
+
+.brandContainer {
+  width: 1000px;
+  display: block;
+}
+.branditems{
+display: inline-block;
+width: 185px;
+}
+
+.agenciesMapContainer {
+  -webkit-column-count: 2; /* Chrome, Safari, Opera */
+  -moz-column-count: 2; /* Firefox */
+  column-count: 2;
+}
+
+.FontColor {
+  color: rgb(255, 0, 0);
+}
+
+.HiddenRow {
+  display: none;
+}
+
+.updatebtn {
+  float: right;
+}
+.colorClass {
+  color: rgb(255, 0, 0);
+  font-weight: bold;
+  margin-bottom: -5px;
+  display: block;
+}
+
+.field_Value_Left {
+  width: 31%;
+}
+
+.leftColumn {
+  display: inline-block;
+  margin-left: 3px;
+}
+
+.BTprofileAlert {
+  max-width: 250;
+  min-width: 180;
+  padding: 9px 12px;
+}
+.MainTable {
+  margin-left: -4px;
+  padding-right: 5px;
+}
+
+.overlayDiv {
+  position: relative;
+  background-color: transparent;
+  z-index: 0;
+  top: 50%;
+}
+.formTable {
+  vertical-align: top;
+  margin-top: -3px;
+    display: block;
+}
+
+.GppAccountColumn {
+  width: 420px;
+  min-width: 420;
+  vertical-align: top;
+  margin-left: -2px;
+  display: block;
+}
+.zeroHeight {
+  margin-bottom: 20%;
+  overflow: auto;
+}
+.zeroHeightRow {
+  height: 15px;
+}
+.OverlayScreenBTProfile {
+  display: none;
+  text-align: center;
+}
+
+.fieldNameLabel {
+  font-weight: bold;
+  font-size: 11px;
+  
+}
+.prefnameheader{
+  background-color: #eff0ec;
+}
+.GppAccountColumn table tr td{
+vertical-align: middle;
+}
+.agenciesMapContainer table:nth-child(3), .agenciesMapContainer table:last-child{
+  margin-left: 10px;
+}
+.agenciesMapContainer table:nth-child(odd){
+  margin-bottom: 20px;
+}
+.width330{
+  width: 328px;
+  height: 20px;
+}
+.pt2 {
+  padding-top: 2px;
+}
+.textRight {
+  text-align: right;
+}

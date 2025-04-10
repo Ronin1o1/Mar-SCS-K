@@ -1,0 +1,53 @@
+html,
+body,
+form {
+  height: 100%;
+}
+textarea {
+  resize: none;
+}
+
+.mainContainer {
+  position: relative;
+  width: auto;
+}
+.bodymainContainer{
+  width: auto;
+}
+.section {
+  border-collapse: collapse;
+  padding-left: 5px;
+  padding-right: 5px;
+  width: 100%;
+}
+
+.header {
+  font-weight: bold;
+  font-size: 9pt;
+  font-family: Arial;
+}
+
+.headerHR {
+  color: #ffffff;
+  background-color: #313063;
+}
+
+.filterSection {
+  width: 300px;
+}
+
+.rightContainer {
+  vertical-align: baseline;
+}
+@media only screen and (max-width: 1000px){
+  .mainContainer {
+    position: relative;
+    width: auto;
+    overflow: auto;
+  }
+  .bodymainContainer{
+    width: auto;
+    min-width: 990px;
+  }
+}
+

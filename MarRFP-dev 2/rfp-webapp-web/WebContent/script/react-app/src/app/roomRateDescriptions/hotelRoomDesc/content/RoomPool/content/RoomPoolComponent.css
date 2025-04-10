@@ -1,0 +1,43 @@
+body,
+input,
+textarea {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding: 0px;
+    font-size: 11px;
+}
+
+.titleHead {
+  height: 40px;
+}
+
+.tableBody {
+  width: 55%;
+  padding-top: 3px;
+  font-family: Arial;
+  font-size: 12px;
+  font-weight: bold;
+}
+.horizontalLine{
+  height: 2px; 
+   color: #FFFFFF;
+  background-color: #313063;
+  width: 100%;
+   font-family:Arial;
+    font-weight: bold;
+}
+.fullheight {
+  height: 100%;
+  width: 100%;
+  border: 0px;
+  border-collapse: collapse;
+  padding: 0px;
+}
+.instructions {
+  FONT-WEIGHT: normal;
+  FONT-SIZE: 11px;
+  PADDING-BOTTOM: 4pt;
+  MARGIN-RIGHT: 24pt;
+  PADDING-TOP: 4pt;
+  FONT-FAMILY: Arial;
+}

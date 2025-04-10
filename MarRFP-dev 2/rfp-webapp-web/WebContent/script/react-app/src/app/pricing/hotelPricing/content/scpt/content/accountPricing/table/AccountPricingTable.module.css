@@ -1,0 +1,151 @@
+.headerCell,
+.headerSubCell,
+.subHeader,
+.dataCell,
+.totalCell {
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  white-space: pre;
+  vertical-align: middle;
+  background-color: #e3e9ed;
+  border-bottom: 1px solid #cccccc;
+  font-size: 13px;
+}
+.subHeaderRow {
+  height: 25px;
+}
+
+.headerSubCell {
+  border: 0 !important;
+}
+
+.subHeader {
+  border: 0 !important;
+  width: auto;
+  vertical-align: top;
+  margin-top: 5px;
+}
+
+.noAccountFoundCess {
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  white-space: pre;
+  vertical-align: middle;
+  font-size: 30px;
+}
+
+.totalCell {
+  font-weight: bold;
+}
+
+.firstColumnCells {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  margin-left: 7px;
+  z-index: 2;
+  border-right: 1px solid #cccccc;
+}
+
+.accountName {
+  margin-left: 15px;
+  color: #5192cc;
+  font-size: 13px;
+  text-decoration: none;
+}
+
+.gridBottomRight {
+  overflow-x: hidden !important;
+}
+
+.totalDiv {
+  display: flex;
+  font-size: 13px;
+}
+
+.newWindowIconDiv {
+  margin-left: 7px;
+  cursor: pointer;
+}
+
+.newWindowIconSVG {
+  width: 12px;
+  height: 12px;
+  overflow: scroll;
+}
+
+.pendingIconSVG {
+  width: 16px;
+  height: 15px;
+  overflow: scroll;
+}
+
+.statusIconDiv {
+  margin-left: 4px;
+}
+
+.statusIconDivHistory {
+  margin-left: 29px;
+}
+
+.requestedIconSVG {
+  width: 11px;
+  height: 11px;
+  overflow: scroll;
+}
+
+.acceptedIconSVG {
+  width: 11px;
+  height: 11px;
+  overflow: scroll;
+}
+
+.declinedIconSVG {
+  width: 11px;
+  height: 11px;
+  overflow: scroll;
+}
+
+.statusSelect {
+  width: 100px;
+}
+
+.noDataFound {
+  margin: 10px 0 0 10px;
+}
+
+.bkColorGreen {
+  background-color: #91b90f !important;
+}
+
+.bkColorYellow {
+  background-color: #f2ca44 !important;
+}
+
+.bkColorMagenta {
+  background-color: #d98b44 !important;
+}
+
+.bkColorOrange {
+  background-color: #fe603b !important;
+}
+
+.radioButtonLabel {
+  display: inline-block;
+  height: 25px;
+  vertical-align: middle;
+}
+
+.radioButtonStyle {
+  display: inline-block;
+  margin-left: 7px;
+  margin-top: 3px;
+  size: 10px;
+  text-align: left;
+}

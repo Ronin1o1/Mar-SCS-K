@@ -1,0 +1,80 @@
+.sectionWrapper {
+  width: 100%;
+  display: flex;
+}
+
+.tableDiv {
+  overflow-x: auto;
+  width: calc(100vw - 255px);
+}
+
+.seasonTableFixedColumn tr:first-child,
+.seasonTableFixedColumn tr:first-child th {
+  height: 0px;
+  padding: 0px;
+  border: 0px;
+}
+
+.seasonTableFixedColumn tr:nth-child(2) {
+  height: 86px;
+}
+
+.seasonTable td:first-child {
+  white-space: nowrap;
+}
+
+.seasonTable th,
+.seasonTable td {
+  min-width: 100px;
+}
+
+.seasonTable tr:first-child,
+.seasonTable tr:nth-child(2) {
+  height: 43px;
+}
+
+.seasonTable tr:nth-child(2) th:nth-child(3),
+.seasonTable td:nth-child(3) {
+  border-right: 1px solid #cccccc;
+}
+
+.seasonTable td:first-child,
+.seasonTable tr:nth-child(2) th:first-child {
+  border-right: 0px;
+}
+
+.seasonTable th:first-child {
+  text-align: center;
+}
+
+.downArrowIconSVG {
+  width: 9px;
+  height: 11px;
+  margin-left: auto;
+  overflow: scroll;
+  margin-right: 5px;
+}
+
+.rightArrowIconSVG {
+  width: 11px;
+  height: 9px;
+  margin-left: auto;
+  overflow: scroll;
+  margin-right: 5px;
+}
+
+.menuBoxChevronIconSVG {
+  width: 11px;
+  height: 11px;
+  margin-left: auto;
+  overflow: scroll;
+  margin-right: 5px;
+}
+
+.fixedWidthCell {
+  width: 131px;
+}
+
+.inputTextStyle {
+  float: right;
+}

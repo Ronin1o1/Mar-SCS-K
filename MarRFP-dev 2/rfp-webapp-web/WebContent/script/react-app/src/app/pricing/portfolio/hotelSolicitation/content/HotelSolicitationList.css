@@ -1,0 +1,51 @@
+.poFieldValue {
+    color: #0000cd;
+  }
+  .npFieldValue {
+    color: #d90000 !important;
+  }
+  .nopFieldValue {
+    color: #640000;
+  }
+  .vpFieldValue {
+    font-weight: bold;
+    color: #0057c1;
+  }
+  .fpFieldValue {
+    font-weight: bold;
+    color: #b95c00;
+  }
+  .apFieldValue {
+    color: purple;
+  }
+  .nnFieldValue {
+    color: #008040;
+  }
+  .needCompFieldValue {
+    font-style: italic;
+    font-family: Arial;
+    color: #8d0e24;
+    font-weight: bold;
+  }
+  .field_NameRed {
+    font-weight: bold;
+    font-size: 11px;
+    font-family: Arial;
+    color: #9d102d;
+    font-style: italic;
+  }
+  .field_NameRed A {
+    font-weight: bold;
+    font-size: 11px;
+    font-family: Arial;
+    color: #9d102d;
+    font-style: italic;
+    text-decoration: underline;
+    cursor: pointer;
+  }
+  
+.fullHeight {
+  height: 0% !important;
+  border-collapse: collapse;
+  padding: 0px;
+}

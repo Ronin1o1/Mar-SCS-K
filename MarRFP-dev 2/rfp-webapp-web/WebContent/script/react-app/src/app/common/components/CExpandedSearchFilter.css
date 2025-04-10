@@ -1,0 +1,169 @@
+.filterContainer {
+  display: inline-flex;
+  width: 404px;
+}
+
+.menuBoxChevronIconSVG {
+  width: 11px;
+  height: 16px;
+  margin-left: auto;
+  overflow: scroll;
+}
+
+.filterInput {
+  display: inline-block;
+  text-align: left !important;
+  border: 1px solid hsl(0, 0%, 73%);
+  height: 18px !important;
+  padding-left: 5px;
+  width: 100%;
+  border-right: none;
+  background-color: transparent;
+  font-weight: 400;
+  font-size: 12px;
+  color: #000 !important;
+  opacity: 1 !important;
+}
+
+.filterInputInvalid {
+  font-weight: bold !important;
+  margin: 0 0.1em;
+  border: 1px solid hsl(0, 0%, 73%);
+  height: 18px !important;
+  width: 100% !important;
+  text-align: left !important;
+  padding-left: 5px !important;
+  padding-right: 0 !important;
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+  padding: 0;
+  background: #f9f999 url(../assets/img/warning.png) 100% 0px no-repeat !important;
+  font: inherit;
+  line-height: normal;
+  color: black;
+}
+.tooltipContainer {
+  padding: 0.45em !important;
+  color: #000 !important;
+  background: #ffffff url(../assets/img/popupMenuBg.gif) repeat-x bottom left !important;
+  border: 1px solid #7eabcd !important;
+  font-size: small;
+  font-weight: normal;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+}
+.buttonContainer {
+  display: inline-block;
+  border: 1px solid #bababa;
+  padding-left: 5px;
+  border-left-style: none;
+  cursor: pointer;
+  background: #ffffff;
+  height: 18px;
+}
+
+.menuBoxChevronIconDiv { 
+  margin-top: 0;
+  margin-right: 7px;
+}
+
+.btOptions {
+  position: absolute;
+  color: black;
+  width: 402px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  border: 1px solid #7eabcd;
+  text-align: left !important;
+  z-index: 10;
+  background: #ffffff;
+  overflow-y: scroll;
+  height: 250px;
+  font-weight: normal;
+  background-color: #f7f7f7;
+  font-family: sans-serif;
+}
+.btOptionsDisableScroll {
+  position: absolute;
+  color: black;
+  width: 402px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  border: 1px solid #7eabcd;
+  text-align: left !important;
+  z-index: 10;
+  background: #ffffff;
+  overflow-y: none;
+  height: auto;
+  font-weight: normal;
+  background-color: #f7f7f7;
+  font-family: sans-serif;
+}
+
+.btOptions > li {
+  position: relative;
+  display: flex;
+  height: auto;
+  white-space: nowrap;
+  padding: 4px 5px;
+  font-style: normal;
+  font-size: 11px;
+}
+
+.btOptions > li:hover {
+  background: #385cac;
+  color: white;
+  cursor: pointer;
+}
+
+.choiceLink {
+  font-style: italic;
+}
+
+.btAccountTooltip {
+  white-space: pre;
+  opacity: 1 !important;
+  font-family: Arial !important;
+  font-size: 13px !important;
+  color: #666666 !important;
+  width: auto !important;
+  position: absolute !important;
+}
+.tooltipContainer {
+  padding: 0.45em !important;
+  color: #000 !important;
+  background-image: linear-gradient(to top, #eeeeee, #ffffff);
+  border: 1px solid #7eabcd !important;
+  font-size: small;
+  font-weight: normal;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+}
+
+.container {
+  right: 0;
+  height: auto;
+  padding: 7px;
+  box-shadow: 0 5px 10px #adadad;
+  background-image: linear-gradient(to top, #eeeeee, #ffffff);
+  border-radius: 3px;
+  border: 1px solid #7eabcd;
+  z-index:999;
+  min-height: 175px;
+}
+.btOptions li,
+.btOptionsDisableScroll li{
+  padding: 2px 5px;
+  cursor: pointer;
+  font-size: 11px;
+}
+.btOptions li:hover,
+.btOptionsDisableScroll li:hover{
+  background-color: #3559ac;
+  color: #fff;
+}
+.invalidInput{
+  font-weight: bold;
+}

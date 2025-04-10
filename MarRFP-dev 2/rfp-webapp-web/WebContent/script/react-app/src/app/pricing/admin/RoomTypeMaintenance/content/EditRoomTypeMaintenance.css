@@ -1,0 +1,43 @@
+.editRoomTypeContentDiv {
+  border-top: 1px solid #d3d3d3;
+  padding: 0.25rem 0.75rem;
+}
+.gridContainer {
+  width: 100%;
+  height: 68px;
+}
+
+.field {
+  width: 100%;
+
+  height: 40px;
+}
+.fieldNameValueLeft {
+  float: left;
+  width: 101px;
+}
+.fieldNameValue {
+  /* margin-top: 4px; */
+  float: left;
+  width: 216px;
+}
+.updateBtn {
+  cursor: pointer;
+  text-align: center;
+}
+
+.labelstyle {
+  width: 100%;
+  margin-top: 6px;
+  font-weight: bold;
+}
+.inputstyle {
+  width: 100%;
+  margin-top: 3px;
+}
+
+.alertMessage {
+  max-width: 250;
+  min-width: 180;
+  padding: 9px 12px;
+}

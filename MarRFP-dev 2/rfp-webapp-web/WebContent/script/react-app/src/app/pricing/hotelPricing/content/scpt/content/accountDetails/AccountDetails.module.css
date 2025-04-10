@@ -1,0 +1,140 @@
+.accountDetailsContainer {
+  margin: 20px;
+}
+
+.headerContainer {
+  display: flex;
+  align-items: center;
+  height: 65px;
+  padding: 0px 17px 0px 17px;
+  border-radius: 6px 6px 0px 0px;
+  background-color: #7fa4c5;
+  font-size: 30px;
+  color: #ffffff;
+}
+
+.bodyContainer {
+  display: flex;
+  flex-direction: column;
+  background-color: #f5f5f5;
+}
+
+.sectionContainer {
+  padding: 17px 17px 10px 17px;
+}
+
+.inputTextStyle {
+  width: auto;
+  height: 23px;
+  text-align: right;
+  padding: 0px 5px 0px 0px;
+  background-color: #ffffff;
+  opacity: 0.87;
+  color: #333333;
+  border: 1px solid #bababa;
+}
+
+.sectionSubTitle {
+  padding-left: 30px;
+  color: #666666;
+}
+
+.sectionSubTitle1 {
+  font-size: 15px;
+  color: #333333;
+}
+
+.coloredValue,
+.underlinedValue {
+  color: #9d102d !important;
+}
+
+.underlinedValue {
+  text-decoration: underline;
+}
+
+.coloredCell {
+  padding: 5px;
+  background-color: #9d102d !important;
+  color: #ffffff;
+}
+
+.percentDiv {
+  display: inline-flex;
+}
+
+.percentSpan {
+  display: flex;
+  align-items: center;
+}
+
+/**
+* ----------------------------------------------
+* Table Styles
+* ----------------------------------------------
+**/
+.setupTable {
+  text-align: center;
+  border-collapse: collapse;
+}
+
+.setupTable tr:first-child {
+  height: 50px;
+}
+
+.setupTable tr:not(:first-child) {
+  height: 35px;
+}
+
+.setupTable tr:nth-child(even) {
+  background-color: #f5f5f5;
+}
+
+.setupTable tr:nth-child(odd) {
+  background-color: #ffffff;
+}
+
+.setupTable th {
+  text-align: center;
+  background-color: #e3e9ed;
+  color: #666666;
+  font-weight: normal;
+  border-bottom: 1px solid #cccccc;
+}
+
+.setupTable td,
+.setupTable th {
+  padding: 5px 7px 5px 7px;
+}
+
+.setupTable th:first-child {
+  text-align: left;
+}
+
+.setupTable th:first-child,
+.setupTable td:first-child {
+  border-right: 1px solid #cccccc;
+}
+
+.setupTable th:last-child,
+.setupTable td:last-child {
+  border-left: 0px;
+}
+
+.setupTable td {
+  color: #333333;
+}
+
+/* -------------------------------------------------- */
+/* ---------------- Animation part ------------------ */
+/* -------------------------------------------------- */
+
+@keyframes fadein {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}

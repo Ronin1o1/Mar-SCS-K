@@ -1,0 +1,298 @@
+.instructions {
+    font-weight: normal;
+    font-size:  11px;
+    padding-bottom: 4pt;
+    margin-right: 24pt;
+    padding-top: 4pt;
+   font-family: Arial;
+}
+.rowGap{
+    height: 10px;
+}
+.zeroHeight {
+    border: 0px;
+    border-collapse: collapse;
+    padding: 0px;
+  }
+ .fieldName {
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 11px;
+    FONT-FAMILY: Arial;
+  } 
+  .fieldValue {
+    FONT-WEIGHT: normal;
+    FONT-SIZE: 11px;
+    FONT-FAMILY: Arial;
+  }
+  .redText{
+      color: red;
+  }
+  .retailADR{
+    width:70px;
+    text-align:right
+  }
+  .rigthAlign {
+      text-align: right;
+  }
+  .volrmin{
+    background-color: silver;
+  }
+  .silverBgColor{
+    background-color:  silver; 
+}
+.whiteBgColor{
+    background-color: white; 
+}
+  .fieldRates {
+    WIDTH: 68px;
+    text-align: right;
+    HEIGHT: 20px;
+    padding: 0px 2px 0px 0px;
+  }
+  .comments{
+    FONT-FAMILY: Arial;FONT-SIZE: 8pt; HEIGHT: 36px; WIDTH: 300px
+  }
+  .pad2_space2_Height{
+    border: 0px;
+    border-spacing: 2px;
+    padding: 2px;
+  }
+  .nonWrap{
+      white-space: nowrap;
+  }
+  .width20{
+    width:20px
+  }
+  .centerAlign{
+      text-align : center
+  }
+  .bottomAlign{
+    vertical-align : bottom
+}
+
+
+tr {
+    display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
+}
+
+.field_Name {
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 11px;
+    FONT-FAMILY: Arial;
+   
+}
+
+.field_Nameheader{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 11px;
+    FONT-FAMILY: Arial;
+    float: left;
+    margin-top: 18px;
+}
+
+INPUT {
+    Font-Family: Arial, Helvetica, sans-serif, Verdana, Geneva;
+    font-size: 11px;
+    cursor: auto;
+    
+}
+.InstructionHeader {
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 11px;
+    FONT-STYLE: italic;
+    FONT-FAMILY: Arial;
+    BACKGROUND-COLOR: #eff0ec;
+  }
+.middleAlign{
+    vertical-align: middle;
+}
+.salesDepthtexttextarea {
+    
+        FONT-FAMILY: Arial;
+        FONT-SIZE: 8pt;
+         HEIGHT: 36px;
+        width: 750px;
+        resize: none;
+        margin-left: 20px;
+        overflow-y: scroll;
+        
+        
+}
+.rupees{
+    margin-left: 35px;
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 11px;
+    FONT-FAMILY: Arial;
+}
+.headermini{
+    margin-bottom: 0px;
+   
+}
+.rupees1{
+    margin-left: 77px;
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 11px;
+    FONT-FAMILY: Arial;
+}
+
+
+
+.miniheader1{
+    margin-left: 30px;
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 11px;
+    FONT-FAMILY: Arial;
+}
+
+.miniheader2{
+    margin-left: 47px;
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 11px;
+    FONT-FAMILY: Arial;
+}
+
+.miniheader3{
+    margin-left: 49px;
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 11px;
+    FONT-FAMILY: Arial;
+}
+
+.miniheader4{
+    margin-left: 50px;
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 11px;
+    FONT-FAMILY: Arial;
+}
+
+.miniheader5{
+    margin-left: 30px;
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 11px;
+    FONT-FAMILY: Arial;
+}
+
+.tablecomment {
+
+    FONT-FAMILY: Arial;
+    FONT-SIZE: 8pt;
+    HEIGHT: 36px;
+    width: 300px;
+    margin-bottom: 0%;
+    padding:5px 2px;
+    overflow-y: scroll;
+    background-color:silver;
+    resize: none;
+   
+  }
+  .tablecomment1 {
+
+    FONT-FAMILY: Arial;
+    FONT-SIZE: 8pt;
+    HEIGHT: 36px;
+    width: 300px;
+    margin-bottom: 0%;
+    padding:5px 2px;
+    overflow-y: scroll;
+    background-color:white;
+    resize: none;
+   
+  }
+  
+ 
+.anticipate{
+    text-align:right;width:70px;
+}
+.textArea{
+    FONT-FAMILY: Arial;FONT-SIZE: 8pt; HEIGHT: 36px; WIDTH: 750px
+}
+.wdth200{
+    width:200px
+}
+.divrupees{
+    margin-left: 1px;
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 11px;
+    FONT-FAMILY: Arial;
+}
+
+.InstructionHeader {
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 11px;
+    FONT-STYLE: italic;
+    FONT-FAMILY: Arial;
+    BACKGROUND-COLOR: #eff0ec;
+}
+
+a {
+    Font-Family: Arial, Helvetica, sans-serif, Verdana, Geneva;
+    Font-Size: 11px;
+    text-decoration: underline;
+    cursor: pointer;
+    color: #3166cc;
+}
+
+.field_rates {
+    WIDTH: 68px;
+    text-align: right;
+    HEIGHT: 20px;
+    padding: 0px 2px 0px 0px;
+    background-color:  silver;
+   float: left;
+
+
+
+}
+
+.field_rates1 {
+    WIDTH: 68px;
+    text-align: right;
+    HEIGHT: 20px;
+    padding: 0px 2px 0px 0px;
+    background-color: silver;
+   float: left;
+
+}
+
+.number{
+    float: left;
+    margin-top: 5px;
+}
+
+.field_Value {
+    font-weight: normal;
+    font-size: 11px;
+    font-family: Arial;
+    
+}
+.allignMDL{
+  vertical-align: middle;
+}
+.example_margin {
+  margin-left: 10px;
+}
+body,
+
+dl,
+dt,
+dd,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+pre,
+form,
+fieldset,
+input,
+textarea,
+p,
+blockquote,
+th,
+td {
+  margin: 0;
+  padding: 0;
+}

@@ -1,0 +1,117 @@
+.filter{
+    /* height: 494px;
+    overflow-y: scroll;
+    overflow-x: scroll; */
+    width: 304px;
+    float:left;
+}
+.content{
+  float:left;
+}
+.sendEmail {
+  background-image: url("../../../../common/assets/img/button/btnSendEmail.gif");
+  width: 70px;
+  height: 20px;
+  /* display: block; */
+  /* margin: 0px auto; */
+  background-repeat: no-repeat;   
+  /* margin-left: 50px; */
+
+  float: left;
+
+  border: none !important;
+}
+.additionalEmailInfo{
+  background-image: url("../../../../common/assets/img/button/btnAddEmailInfo.gif");
+  width: 120px;
+  height: 20px;
+  /* display: block; */
+  /* margin: 0px auto; */
+  background-repeat: no-repeat;
+ 
+  /* margin-left: 50px; */
+ 
+  float: left;
+
+  border: none !important;
+}
+.rebidAll{
+  background-image: url("../../../../common/assets/img/button/btnRebidAll.gif");
+  width: 65px;
+  height: 20px;
+  /* display: block; */
+  /* margin: 0px auto; */
+  background-repeat: no-repeat;
+ 
+  /* margin-left: 50px; */
+  
+  float: left;
+  
+  border: none !important;
+}
+.tableDisplay {
+  display: table;
+  place-items: center;
+  height: 100%;
+  width: 100%;
+  text-align: center;
+}
+.okButton{
+text-align: center;
+cursor: pointer;
+margin: 15px;
+width: 45px;
+}
+.header { 
+font-weight: bold;
+}
+.dueDate{
+width: 135px;
+min-width: 60px;
+vertical-align: bottom;
+}
+
+
+.dueDateLabel {
+vertical-align: bottom;
+display: flex;
+}
+.hr {
+height: 2px;
+background-color: #313063;
+border: none;
+}
+
+.calendarInput{
+width:70px !important;
+}
+.rightTd{
+vertical-align: top;
+display: block;
+margin-top: -5px;
+}
+.buttonStyle{
+vertical-align: bottom;
+padding-left: 15px;
+}
+.ddheader{
+font-weight: bold;
+padding-top: 4px;
+padding-right: 3px;
+}
+@media only screen and (max-width: 1010px) {
+.ddheader {
+  width: 70px;
+  display: block;
+}
+  .dueDateLabel {
+    display: block;
+  }
+  .rightTd div table tr td{
+    padding-left: 5px !important;
+    height: 67px;
+  }
+  .rightTd{
+    height: 67px;
+  }
+}

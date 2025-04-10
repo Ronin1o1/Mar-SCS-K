@@ -1,0 +1,17 @@
+table.zeroHeight {
+    border: 0px;
+    border-collapse: collapse;
+    padding: 0px;
+}
+
+.Filter {
+    FONT-WEIGHT: bold;
+    FONT-FAMILY: Arial;
+    background-color: #eff0ec;
+}
+
+.fieldName {
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 11px;
+    FONT-FAMILY: Arial;
+}

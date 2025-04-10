@@ -1,0 +1,62 @@
+html,
+body,
+form {
+  height: 100%;
+}
+textarea {
+  resize: none;
+}
+
+.mainContainer {
+  position: relative;
+}
+.section {
+  height: 0% !important;
+  padding: 0px;
+  width: 100%;
+  border: 0px;
+  border-collapse: collapse;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.header {
+  font-weight: bold;
+  font-size: 9pt;
+  font-family: Arial;
+  border-bottom: 2.5px solid;
+  min-width: 1011px;
+}
+
+.Field_Name {
+  font-weight: bold;
+  font-size: 11px;
+  font-family: Arial;
+}
+
+.headerHR {
+  color: #ffffff;
+  background-color: #313063;
+}
+
+.filterSection {
+  width: 300px;
+}
+
+table.zero-Height {
+  border: 0px;
+  border-collapse: collapse;
+  padding: 0px;
+}
+
+.btnSubmit {
+  BORDER-RIGHT: white;
+  BORDER-TOP: white;
+  FONT-WEIGHT: 100;
+  FONT-SIZE: 1px;
+  BORDER-LEFT: white;
+  COLOR: #003c82;
+  BORDER-BOTTOM: white;
+  BACKGROUND-REPEAT: no-repeat;
+  BACKGROUND-COLOR: transparent;
+}

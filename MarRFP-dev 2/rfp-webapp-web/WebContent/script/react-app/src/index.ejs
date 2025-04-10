@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>[MarRFP]</title>
+    <% htmlWebpackPlugin.files.js.forEach((file) => { %>
+      <script src="<%= file %>" defer="defer" charset="utf-8"></script>
+    <% }) %>
+    <% htmlWebpackPlugin.files.css.forEach((file) => { %>
+      <link href="<%= file %>" rel="stylesheet">
+    <% }) %>
+  </head>
+  <body>
+    <div id="root"></div>
+  </body>
+</html>

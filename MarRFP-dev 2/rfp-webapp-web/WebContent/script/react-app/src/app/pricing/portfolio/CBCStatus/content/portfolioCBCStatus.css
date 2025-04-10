@@ -1,0 +1,35 @@
+.filter {
+  width: 304px;
+  float: left;
+  margin-left: -4px;
+}
+.content {
+  float: left;
+}
+.quickSelect {
+  height: 10px;
+  font-weight: bold;
+  width: 140px;
+}
+.secondHeading {
+  width: 36%;
+  height: 10px;
+  margin-left: -39px;
+  font-weight: bold;
+}
+.SecondHeading {
+  margin: 8px 0px 5px 0px;
+}
+.BGDarkBlueStyle {
+  color: #ffffff;
+  background-color: #313063;
+}
+.header {
+  font-weight: bold;
+  font-size: 12px;
+  font-family: Arial;
+}
+.cbcdatatable, .cbcdatatablebody{
+  width: 100%;
+  display: block;
+}

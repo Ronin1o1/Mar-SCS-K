@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`EdieHotelProfileList renders FileUpload correctly 1`] = `
+<FileUpload>
+  <div
+    className="gridHeaderFileUpload"
+  >
+    <label
+      className="emailLabel"
+    >
+      Select a file to attach with email
+    </label>
+    <input
+      id="emailFileUpload"
+      name="emailFileUpload"
+      onChange={[Function]}
+      type="file"
+    />
+    <input
+      id="clear"
+      name="Clear"
+      onClick={[Function]}
+      type="button"
+      value="Clear"
+    />
+  </div>
+</FileUpload>
+`;

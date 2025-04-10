@@ -1,0 +1,82 @@
+.filterContainer {
+  display: inline-flex;
+  width: 268px;
+}
+
+.menuBoxChevronIconSVG {
+  width: 11px;
+  height: 16px;
+  margin-left: auto;
+  overflow: scroll;
+}
+
+.filterInput,
+.filterInputInvalid {
+  display: inline-block !important;
+  text-align: left !important;
+  border: 1px solid #bababa !important;
+  height: 25px !important;
+  padding-left: 5px !important;
+  width: 100% !important;
+  border-right: none !important;
+}
+
+.filterInputInvalid {
+  background-color: yellow !important;
+}
+
+.buttonContainer {
+  display: inline-block;
+  border: 1px solid #bababa;
+  border-left-style: none;
+  cursor: pointer;
+  background: #ffffff;
+}
+
+.menuBoxChevronIconDiv {
+  margin-top: 3px;
+  margin-right: 7px;
+}
+
+.btOptions {
+  position: absolute;
+  left: 1px;
+  width: 264px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  margin-left: 146px;
+  border: 1px solid #666666;
+  text-align: left;
+  z-index: 10;
+  background: #ffffff;
+  overflow: auto;
+  height: auto;
+  max-height: 200px;
+}
+
+.btOptions > li {
+  position: relative;
+  display: flex;
+  height: auto;
+  white-space: nowrap;
+  padding: 7px 0px 7px 10px;
+}
+
+.btOptions > li:hover {
+  background: #dddddd;
+}
+
+.choiceLink {
+  font-style: italic;
+}
+
+.btAccountTooltip {
+  white-space: pre;
+  opacity: 1 !important;
+  font-family: Arial !important;
+  font-size: 13px !important;
+  color: #666666 !important;
+  width: auto !important;
+  position: absolute !important;
+}

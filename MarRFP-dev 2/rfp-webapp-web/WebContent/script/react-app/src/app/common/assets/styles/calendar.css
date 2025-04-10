@@ -1,0 +1,82 @@
+
+    .p-datepicker{
+      padding : 0px !important;
+      border-radius : 3px;
+    }
+    .p-datepicker-inline {
+      flex-direction: column;
+      position: absolute;
+    }
+    .p-datepicker-header{
+      background: #e9e9e9 !important;
+      border-radius: 3px !important;
+      padding: 0px !important
+    }
+    .p-datepicker-group{
+      padding: 3px !important;
+    }
+    .p-datepicker-month{
+      height: 15.5px !important;
+      margin-right: 0px !important;
+      width: 48%;
+    }
+    .p-datepicker-year{
+      height: 20px;
+    }
+    .p-datepicker table{
+      font-size: 11px;
+      margin: 0px !important;
+      border-collapse: unset !important;
+    }
+    .p-datepicker table td {
+      padding: 0px !important;
+    }
+    .p-datepicker table td span{
+      border: 1px solid #c5c5c5 !important;
+      justify-content: flex-end !important;
+      border-radius : 0px !important;
+      width: 1.7rem !important;
+      height: 1.2rem !important;
+      padding: 3px !important;                          
+    }
+    .p-datepicker table td.p-datepicker-today > span{
+      background: #fffa90;
+    }
+   /*  .p-disabled{
+      display: none !important;
+    } */
+    .p-inputtext{
+      width: 135px !important;
+      height: 15px;
+      border-radius: 2px !important;
+      font-size: 11px !important;
+      padding: 0px;
+    }
+    .p-datepicker .p-datepicker-header .p-datepicker-prev:focus,
+    .p-datepicker .p-datepicker-header .p-datepicker-next:focus{
+      box-shadow: none !important;
+    }
+    .p-datepicker .p-datepicker-header .p-datepicker-prev:enabled:hover,
+    .p-datepicker .p-datepicker-header .p-datepicker-next:enabled:hover{
+      color: #e9e9e9 !important;
+    }
+    .p-datepicker .p-datepicker-header .p-datepicker-title select:focus{
+      box-shadow: none !important;
+      border-color: #000000 !important;
+    }
+    .pi-chevron-left:before{
+      content: "\\e928";
+      background: #000000;
+      border-color: transparent !important;
+      border-radius: 50%;
+    }
+    .pi-chevron-right:before{
+      content: "\\e92a";
+      background: #000000;
+      border-color: transparent !important;
+      border-radius: 50%;
+    }
+    .p-datepicker table td > span.p-highlight{
+      border: 1px solid #003eff !important;
+    background: #007fff !important;
+    }

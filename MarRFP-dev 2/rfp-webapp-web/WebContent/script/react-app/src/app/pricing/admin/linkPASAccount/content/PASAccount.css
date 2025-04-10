@@ -1,0 +1,167 @@
+.fontFamily {
+  font-size: 11px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.table2 {
+  width: 520px;
+  margin-top: 8px;
+}
+.width475border {
+  width: 520px;
+  border: 0px;
+  /* height: 105%;
+     -moz-height: 105%;
+     -webkit-height: 130% ; */
+  font-family: Arial, Helvetica, sans-serif;
+}
+.borderzero {
+  border: 0px;
+}
+
+.fontFamilyNormal {
+  font-weight: normal !important;
+  font-size: 11px !important ;
+  font-family: Arial, Helvetica, sans-serif !important;
+  margin-left: -2px;
+  display: block;
+}
+.fontweightbold {
+  font-weight: bold;
+}
+.heightwidthalignedItem {
+  width: 400px;
+  align-items: left;
+  margin-top: 11px;
+  margin-left: -5px
+}
+.borderzero {
+  border: 0;
+  margin-left: -2px
+}
+.width221 {
+  width: 221px;
+  height: 190px;
+}
+.width75 {
+  width: 75;
+}
+.alignItempadding {
+  align-items: center;
+  padding-bottom: 0px;
+  padding-left: 200px;
+}
+.height100border0 {
+  height: 100%;
+  border: 0;
+  width: 475px;
+}
+.yscroll {
+  overflow-y: "scroll";
+}
+.onClickRow {
+  background-color: #3480fe;
+  -webkit-backgroud-color: #3480fe;
+  -moz-backgroud-color: #3480fe;
+  color: white;
+}
+
+.noColor {
+  background-color: #fff;
+  -webkit-backgroud-color: #fff;
+  -moz-backgroud-color: #fff;
+  color: #000;
+}
+.defaultColor {
+  background-color: #3480fe;
+}
+.tableHover :hover {
+  color: white;
+  background-color: #3480fe;
+}
+.gridstyle {
+  border: 1px solid rgb(118, 118, 118);
+  cursor: pointer;
+  width: 220px;
+  height: 190px;
+}
+.submitBtn {
+  padding-top: 3px !important;
+}
+.accountname {
+  height: 160px;
+  overflow-y: scroll;
+}
+.accountnameTitle {
+  border-bottom: 1px solid grey;
+}
+
+.tablestyling {
+  height: 190px;
+  margin-left: -2px;
+}
+.height30 {
+  height: 30px;
+}
+.grid4 {
+  height: 28px;
+  width: 226px;
+}
+.secondaryBtnone, .secondaryBtn {
+  width: auto;
+  display: inline-grid;
+  margin: 0 -1px;
+}
+.secondaryBtnone a, .secondaryBtn a{
+  display: flex;
+    padding: 5px 0;
+}
+.secondaryBtnone a:nth-child(2), .secondaryBtn a:nth-child(2){
+  margin-bottom: 30px;
+}
+.aligntop {
+  align-items: top;
+}
+.width115 {
+  width: 113px;
+  height: 14.4px;
+  font-size: 11px;
+}
+.pasManager {
+  width: 182px;
+  height: 14.4px;
+  font-size: 11px;
+}
+.table3 {
+  width: 490px;
+}
+.header {
+  font-weight: bold;
+  font-size: 9pt;
+  font-family: Arial;
+  border-bottom: 2.5px solid #313063;
+ 
+}
+
+.primarySecondaryleft {
+  width: 216px;
+  height: 188px;
+  border: 0;
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  overflow-y: auto; 
+}
+.primarySecondaryRight {
+  width: 218px;
+  height: 188px;
+  border: 0;
+  margin: 0;
+  padding: 0;
+  outline: 0; 
+}
+
+.highlightColor {
+  background: #bbbca6;
+  color: white;
+}

@@ -1,0 +1,60 @@
+
+.padding{
+  padding: 2px;
+ 
+}
+
+.table{
+  Font-Family: Arial, Helvetica, sans-serif, Verdana, Geneva;
+  font-size: 11px;
+  
+}
+
+.drpdwnbox{
+  height: 20px;
+  width: 250px;
+  margin-top: 5px;
+}
+
+.drpdwnbox_period{
+  height: 20px;
+  margin-top: 5px;
+}
+
+.field_Name {
+  font-weight: bold;
+  font-size: 11px;
+  font-family: Arial;
+}
+
+.yrmargin {
+  margin-left:10px;
+} 
+
+.iFrameStyle {
+  margin: 25px 0px 25px 0px;
+}
+.fullHeight {
+  height: 100%;
+  width: 99.6%;
+  border: 0px;
+  border-collapse: collapse;
+  padding: 0px;
+  vertical-align: top;
+}
+.report{
+  height: 25px
+}
+.fieldName{
+font-weight: bold;
+font-size: 11px;
+font-family: Arial;
+}
+.instructions {
+  font-weight: normal;
+  font-size: 11px;
+  padding-bottom: 4pt;
+  margin-right: 24pt;
+  padding-top: 4pt;
+  font-family: Arial;
+}

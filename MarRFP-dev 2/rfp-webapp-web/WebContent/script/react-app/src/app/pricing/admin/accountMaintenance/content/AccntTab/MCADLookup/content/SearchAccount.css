@@ -1,0 +1,106 @@
+.editModelContentDiv {
+  border-top: 1px solid #d3d3d3;
+}
+
+.gridContainer {
+  display: grid;
+  grid-gap: 3px;
+  border: 1px;
+}
+
+.colSpan {
+  grid-column: 1 / span 2;
+}
+
+.fieldName {
+  font-weight: bold;
+  white-space: nowrap;
+  left: 0px;
+  top: -7px;
+  padding-left: 0px;
+  padding-bottom: 4px;
+  padding-right: 4px;
+  padding-top: 4px;
+  position: absolute;
+  width: 520px;
+  -moz-width: 520px;
+  -webkit-width: 520px;
+  height: 96px;
+  z-index: 52;
+  background-position: 0 0;
+  background-repeat: repeat;
+  background-color: #f4f4f4;
+  background-attachment: scroll;
+  background-image: none;
+  border-style: solid;
+  border-color: #bbbbbb;
+  border-width: 2px;
+  display: block;
+}
+
+.textarea {
+  width: 306px;
+  height: 90px;
+  font-size: 8pt;
+  resize: none;
+}
+
+.updateBtn {
+  text-align: center;
+  cursor: pointer;
+}
+
+.dropdown {
+  width: 14rem;
+}
+
+.searchbtn {
+  margin-left: 300px;
+  cursor: pointer;
+}
+.width250 {
+  width: 143px;
+  height: auto !important;
+}
+.FilterFieldName250 {
+  width: 150px;
+  align-items: left;
+  font-weight:400;
+  font-size:12px;
+}
+.FilterFieldName {
+  width: 150px;
+  align-items: left;
+  font-weight:bold;
+  font-size:11px;
+}
+.cursorpointer {
+  cursor: pointer;
+}
+.width250bold {
+  width: 143px;
+}
+.width300 {
+  width: 300px;
+}
+.widthleft250 {
+  width: 150px;
+}
+
+.headerWidth {
+  width: 30%;
+}
+
+.headerFieldName {
+  font-weight: bold;
+  font-size: 11px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.tableHeader {
+  border: 0px;
+  border-collapse: collapse;
+  padding: 0px;
+  width: 500px;
+  height: 24px;
+}

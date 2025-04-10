@@ -1,0 +1,69 @@
+fullHeight {
+    height: 100%;
+    width: 100%;
+    border: 0px;
+    border-collapse: collapse;
+    padding: 0px;
+}
+
+.grid {
+    background-color: #eff0ec;
+    font-family: Geneva, Arial, Helvetica, sans-serif;
+    -moz-outline-style: none;
+    outline: none;
+    overflow: hidden;
+    height: 0;
+}
+
+.gridHeader {
+    overflow: hidden;
+    background-color: #d6d7ce;
+}
+
+.gridHeader table {
+    text-align: center;
+}
+
+.gridHeader .gridCell {
+    border-color: #F6F4EB #ACA899 #ACA899 #F6F4EB;
+    padding-bottom: 2px;
+    font-size: 11px;
+    font-weight: bold;
+  }
+
+.gridRowTable {
+    table-layout: fixed;
+    border-collapse: collapse;
+}
+
+.fieldName {
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 11px;
+    FONT-FAMILY: Arial;
+}
+
+.tableRow:hover {
+    background-color: #f4f29f !important;
+  }
+
+.borderInline:hover {
+    background-color: #f4f29f !important;
+}
+
+.blackoutgridbody{
+  width: 1009px;
+  overflow: auto;
+  height: calc(100vh - 265px);
+}
+.blackoutsearch{
+  padding-bottom: 8px;
+}
+@media only screen and (max-width: 1000px) {
+  .multipleblackouttable{
+    width:100%;
+    overflow: auto;
+  }
+  .blackoutgridbody{
+    height: calc(100vh - 280px);
+  }
+}

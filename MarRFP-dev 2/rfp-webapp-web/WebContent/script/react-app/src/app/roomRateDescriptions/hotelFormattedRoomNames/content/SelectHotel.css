@@ -1,0 +1,52 @@
+body,
+input,
+textarea {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding: 0px;
+    font-size: 11px;
+}
+.tableContainer{
+      border-collapse: collapse;
+        border: 0;
+        padding: 0;
+        margin-top: -2px;
+}
+.tableBody{
+    width: 55%;
+      font-family: Arial;
+      font-size: 9pt;
+      font-weight: bold;
+      margin-bottom: 25px;
+      margin-top: 4px
+}
+.width{
+  width:10px;
+}
+.horizontalLine{
+  height: 2px; 
+   color: #FFFFFF;
+  background-color: #313063;
+  width: 100%;
+   font-family:Arial;
+    font-weight: bold;
+ 
+}
+select{
+font-family:Arial;
+  font-size:11px;  
+}
+.go{
+  cursor: hand;
+}
+.switchAccountCenter{
+  width:50px;
+}
+.tdImage{
+  padding-top: 1px;
+    padding-left: 5px;
+}
+.code{
+  width:118px;
+  margin-top: -5px;
+}

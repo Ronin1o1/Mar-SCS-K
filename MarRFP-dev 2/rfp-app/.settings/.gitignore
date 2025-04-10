@@ -1,0 +1,12 @@
+bin/
+*.class
+classes/
+.metadata/
+.project
+.classpath
+ibmconfig/
+logs/
+dist/
+.apt_generated
+.externalToolBuilders
+/com.ibm.etools.common.migration.prefs

@@ -1,0 +1,102 @@
+.saveBtn {
+  padding-left: 0px;  
+  padding-top: 0px;
+  cursor: pointer;
+}
+.lockAllBtn {
+  padding-left: 0px;
+  cursor: pointer;
+}
+
+.header {
+  font-weight: bold;
+  font-size: 9pt;
+  font-family: Arial;
+}
+.BGDarkBlueStyle {
+  color: #FFFFFF;
+  background-color: #313063;
+  vertical-align: top;
+  height: 2px;
+
+}
+.BGDarkBlueStyle TD {
+   height:2px; 
+   vertical-align: top;
+}
+.BGDarkBlueStyle TR {
+   height:10px; 
+  
+}
+
+.titleLink {
+  color: #3166cc;
+  text-decoration: underline;
+  cursor: pointer;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.textarea {
+  width: 98.5%;
+  height: 34px;
+  font-size: 8pt;
+  resize: none;
+  font-family: Arial;
+  overflow-y: auto;
+  margin-bottom: -2px;
+  margin-top:0px;
+  border-radius: 2px;
+ 
+}
+
+.accountStatusTable {
+  width:100%;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size:11px;
+}
+.accountStatusTableHeader {
+  border:0px;
+  width:100%;
+}
+.topAlign
+{
+  vertical-align: top;
+}
+.paginationLeftAlign{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size:11px;  
+}
+.saveBtnTD{
+  width: 70px;
+}
+.accountStatusGrid{
+  background-color: #D6D7CE;
+  margin-bottom: -5px;  
+  width:1191px;  
+}
+.accountStatusGridHeader{
+  width: 980px;  
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size:11px; 
+}
+.accountStatusChangePopup
+{ 
+    left:20%;
+    top:20%!important;
+    font-family: Arial, Helvetica, sans-serif , Verdana;
+    font-size:11px; 
+}
+
+.accountStatusTableHeader {
+  border:0px;
+  width:100%;
+}
+.loaderImg {
+  position: absolute;
+  width: 100%;
+  height: calc(100vh - 220px);
+  min-height: 225px;
+}
+.full_heightLeft {
+  margin-left: 10px;
+}

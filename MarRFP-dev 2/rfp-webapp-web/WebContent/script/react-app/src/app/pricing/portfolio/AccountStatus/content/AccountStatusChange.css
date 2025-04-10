@@ -1,0 +1,59 @@
+.field_Name {
+    font-weight: bold;
+    font-size: 11px;
+    font-family: Arial, Helvetica, sans-serif;   
+    width: 150px;
+    padding-top: 10px;
+    padding-left: 8px;
+}
+.field_Value {
+   font-weight: bold;
+    font-size: 11px;
+    font-family: Arial, Helvetica, sans-serif;   
+    width: 150px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.accountStatusChangeTable
+{
+  position: relative;
+  width: 335px;
+}
+.accountStatusHeading{
+  font-weight: bold;
+    padding: 0 4px;
+     font-size: 11px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.accountStatusChangeSaveBtn{
+  cursor: pointer;
+}
+
+.accountStatusChangePopupAlert
+{  
+    /* position: absolute;
+    opacity: 1;
+    left: -130%;
+    top: -170%;
+    z-index: 9999;
+    background-color: #fff;
+    border: 1px solid #7eabcd;
+    padding: 0px; */
+   
+    font-family: Arial, Helvetica, sans-serif , Verdana;
+    font-size:11px; 
+
+}
+.accountStatusChangeAlert
+{  
+  width: 200px;  
+  text-align: center;
+  margin-top:10px;
+  margin-bottom: 10px;
+}
+.accountStatusChangeAlertOkBtn
+{  
+  cursor: pointer;
+  text-align: center;
+}

@@ -1,0 +1,119 @@
+.filterContainer {
+  display: inline-flex;
+  width: 400px;
+}
+
+.menuBoxChevronIconSVG {
+  width: 11px;
+  height: 16px;
+  margin-left: auto;
+  overflow: scroll;
+}
+
+.filterInput {
+  display: inline-block;
+  text-align: left !important;
+  border: 1px solid hsl(0, 0%, 73%);
+  height: 18px;
+  padding-left: 5px;
+  width: 100%;
+  border-right: none;
+  background-color: transparent;
+  font-weight: bold;
+}
+
+.filterInputInvalid {
+  font-weight: bold !important;
+  margin: 0 0.1em;
+  border: 1px solid hsl(0, 0%, 73%);
+  height: 18px;
+  width: 100% !important;
+  text-align: left !important;
+  padding-left: 5px !important;
+  padding-right: 0 !important;
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+  padding: 0;
+  background: #f9f999 url(../assets/img/warning.png) 100% 0px no-repeat !important;
+  font: inherit;
+  line-height: normal;
+  color: inherit;
+}
+
+.buttonContainer {
+  display: inline-block;
+  border: 1px solid #bababa;
+  border-left-style: none;
+  cursor: pointer;
+  background: #ffffff;
+}
+
+.menuBoxChevronIconDiv {
+  margin-top: 1px;
+  margin-right: 1px;
+}
+
+.btOptions {
+  position: absolute;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  border: 1px solid #7eabcd;
+  text-align: left !important;
+  z-index: 10;
+  background: #ffffff;
+  overflow-y: auto;
+  overflow-x: hidden;
+  height: auto;
+
+  background-color: #f7f7f7;
+}
+
+.btOptions > li {
+  position: relative;
+  display: flex;
+  height: auto;
+  white-space: nowrap;
+  padding: 4px 5px;
+}
+
+.btOptions > li:hover {
+  background: #385cac;
+  color: white;
+  cursor: pointer;
+}
+
+.choiceLink {
+  font-style: italic;
+}
+
+.btAccountTooltip {
+  white-space: pre;
+  opacity: 1 !important;
+  font-family: Arial !important;
+  font-size: 13px !important;
+  color: #666666 !important;
+  width: auto !important;
+  position: absolute !important;
+}
+
+.optionsDefault {
+  width: 200px;
+}
+
+.tooltipContainer {
+  padding: 0.45em !important;
+  color: #000 !important;
+  background: #ffffff url(../assets/img/popupMenuBg.gif) repeat-x bottom left !important;
+  border: 1px solid #7eabcd !important;
+  font-size: small;
+  font-weight: normal;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  white-space: nowrap;
+}
+
+.highlight {
+  background: #bbbca6;
+  color: white;
+}

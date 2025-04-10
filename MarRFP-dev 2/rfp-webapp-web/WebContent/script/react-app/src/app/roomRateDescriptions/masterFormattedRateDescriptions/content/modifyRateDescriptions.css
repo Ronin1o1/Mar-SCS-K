@@ -1,0 +1,212 @@
+.menuHght100_Height {
+  border: 0px;
+  border-collapse: collapse;
+  padding: 0px;
+  height: 100%;
+}
+.menuWdth100_Height {
+  border: 0px;
+  border-collapse: collapse;
+  padding: 0px;
+  width: 100%;
+}
+.instructions {
+  font-weight: normal;
+  font-size: 11px;
+  padding-bottom: 4pt;
+  margin-right: 24pt;
+  padding-top: 4pt;
+  font-family: Arial;
+}
+.height_10{
+  height: 10px
+}
+.height_100{
+  height: 100%
+}
+.width_350{
+  width: 350px;
+}
+.mainTable {
+  border: 0px;
+  border-collapse: collapse;
+  padding: 0px;
+}
+.noWrapTop{
+  vertical-align: top;
+  white-space: nowrap;
+}
+.productAttrTable{
+  height: 300px; 
+  width: 350px; 
+  overflow: auto; 
+  border-width: thin; 
+  border-style: groove
+}
+.width_20{
+  width: 20px
+}
+.alignTop{
+  vertical-align: top;
+}
+.mainTableFullHeight{
+    height: 100%;
+    width: 100%;
+    border: 0px;
+    border-collapse: collapse;
+    padding: 0px;
+}
+.gridRowInlBlock {
+  display: inline-block;
+}
+.alignBottom{
+  vertical-align: bottom;
+}
+.hiddenVisiblity{
+  visibility: hidden
+}
+.boldText{
+  font-weight: bold;
+}
+.width_230{
+  width: 230px;
+}
+.productLink {
+  color: #3166cc;
+  text-decoration: underline;
+  cursor: pointer;
+}
+.quickView{
+  height: 250px; 
+  width: 600px;  
+  overflow: auto
+}
+.width_5{
+  width: 5px
+}
+.width_10{
+  width: 10px
+}
+.width_30{
+  width: 30px;
+  white-space: nowrap;
+}
+.noWrap{
+  white-space: nowrap;
+}
+.tableMargin{
+  margin-left: 1vw;
+  margin-top: 1vw;
+}
+.centerAlign{
+  padding-left: 20vw;
+}
+.searchingCls{
+  margin-top: 9vw;
+}
+.waitLoadingCls{
+  margin: 1vw 1vw 1vw 1vw;
+}
+.topDataNotFoundDiv{
+  overflow: hidden;
+  display: block;
+  margin-left: 0px;
+  animation: pulse 1s infinite ease-in-out;
+  border-collapse: collapse;
+  padding: 0px;
+  border: 0px;
+  width: 100%; 
+  height: auto; 
+  min-height: auto;
+}
+.innerDataNotFoundDiv {
+  font-size: 11px !important;
+  position: relative;
+  font-weight: normal;
+}
+.innerDataNotFoundDiv * {
+  box-sizing: content-box !important;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.innerDataNotFoundDiv table {
+  border-spacing: 0px 0px !important;
+  border-collapse: collapse !important;
+}
+.innerDataNotFoundDiv thead tr {
+  height: 32px !important;
+}
+.innerDataNotFoundDiv th {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #d6d7ce !important;
+}
+.innerDataNotFoundDiv tbody tr {
+  height: 21px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.innerDataNotFoundDiv td,
+.innerDataNotFoundDiv th {
+  padding: 2px !important;
+  border-color: #f6f4eb #aca899 #aca899 #f6f4eb !important;
+  color: #000000 !important;
+  font-family: Arial, Helvetica, sans-serif;
+  word-wrap: break-word;
+}
+.innerDataNotFoundDiv th {
+  border-bottom: 0px !important;
+  border-color: #f6f4eb #aca899 #aca899 #f6f4eb !important; 
+  font-family: Arial, Helvetica, sans-serif;
+}
+.innerDataNotFoundDiv td {
+  border-color: #ebeadb !important;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: normal!important;
+}
+.innerDataNotFoundDiv tbody tr:nth-child(odd) {
+  background-color: #ffffff;
+  border-bottom: 2px solid #ebeadb!important;
+}
+.innerDataNotFoundDiv tbody tr:nth-child(even) {
+  background-color: #f4f4f2;
+  border-bottom: 2px double #ebeadb!important;
+}
+.innerDataNotFoundDiv tbody tr:hover {
+  background-color: #f4f29f !important;
+}
+.innerDataNotFoundDiv tbody tr:hover td {
+  background-color: transparent !important;
+}
+.dataNotfoundTable{
+  width: 100%;
+  table-layout: fixed;
+  background-color: #f4f4f2!important;
+}
+.width_80{
+  width: 80px;
+}
+.width_20{
+  width: 20px;
+}
+.width_200{
+  width: 200px;
+}
+.gridBorder{
+  border-color: #F6F4EB #ACA899 #ACA899 #F6F4EB!important;
+  padding-bottom: 2px!important;
+  font-size: 11px!important;
+  font-weight: bold!important;
+  text-align: center;
+  padding: 0.571rem 0.857rem;
+  border: 1px solid #c8c8c8;
+  border-width: 1px 1px 1px 1px;
+  color: #333333;
+  background: #f4f4f4;
+  transition: background-color 0.2s, box-shadow 0.2s;
+}
+.height_270{
+  height: 270px!important;
+}
+
+.buttonModify{
+  padding: 0px;
+  border: 0px;
+}

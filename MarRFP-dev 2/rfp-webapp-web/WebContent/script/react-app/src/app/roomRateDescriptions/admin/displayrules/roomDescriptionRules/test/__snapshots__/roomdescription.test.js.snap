@@ -1,0 +1,75 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`RoomDescription renders correctly 1`] = `
+<RoomDescription>
+  <RoomDescriptionContextProvider>
+    <form
+      id="thisForm"
+      name="thisForm"
+    >
+      <table
+        className="section"
+      >
+        <tbody>
+          <tr>
+            <td
+              className="header"
+            >
+              Room / Rate Description -  Administration - Display Rules : Room Description - Channels and Entries
+            </td>
+          </tr>
+          <tr
+            className="headerHR"
+          >
+            <td
+              valign="top"
+            />
+          </tr>
+        </tbody>
+      </table>
+      <table>
+        <tbody>
+          <tr>
+            <td>
+              <table
+                className="zero_Height"
+              >
+                <tbody>
+                  <tr>
+                    <td
+                      className="field_Name"
+                    >
+                      Channel:
+                      <select
+                        onChange={[Function]}
+                      >
+                        <option
+                          value="show"
+                        >
+                          Please select a channel
+                        </option>
+                        <option
+                          key="[object Object]"
+                          value="null_undefined_null"
+                        />
+                      </select>
+                      <div
+                        style={
+                          Object {
+                            "marginLeft": "15px",
+                            "marginTop": "10px",
+                          }
+                        }
+                      />
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </form>
+  </RoomDescriptionContextProvider>
+</RoomDescription>
+`;

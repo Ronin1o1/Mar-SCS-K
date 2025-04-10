@@ -1,0 +1,164 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<ViewReports>
+  <ViewReportsContextProvider>
+    <table
+      className="fullHeight"
+    >
+      <tr
+        className="report"
+      >
+        <td
+          className="fieldName"
+        >
+          <CSelect
+            className="drpdwnbox"
+            ddnOptions={
+              Array [
+                Object {
+                  "acctplan_options": null,
+                  "add_params": null,
+                  "allow_account": null,
+                  "allow_account_eligible": null,
+                  "allow_account_solicited": null,
+                  "allow_accounttype": null,
+                  "allow_apadminview": null,
+                  "allow_cbchotels": null,
+                  "allow_dateformat": null,
+                  "allow_eid": null,
+                  "allow_futureopenings": null,
+                  "allow_onehotel": null,
+                  "allow_period": null,
+                  "allow_pgoosStatus": null,
+                  "allow_proximitysubcat": null,
+                  "allow_quarter": null,
+                  "allow_region": null,
+                  "allow_saleslist": null,
+                  "allow_schedule": null,
+                  "amenity_count": null,
+                  "fsale_all_hotels": null,
+                  "include_marriott_contact": null,
+                  "is_electronic": null,
+                  "priority": null,
+                  "report_name": null,
+                  "report_title": null,
+                  "req_account": null,
+                  "req_acct_or_region": null,
+                  "req_acct_region_brand": null,
+                  "req_daterange": null,
+                  "req_roles": null,
+                  "sale_all_account": null,
+                  "schedule_time": null,
+                },
+              ]
+            }
+            id="currentReport"
+            keyField="report_name"
+            name="currentReport"
+            onChange={[Function]}
+            selectedValue={null}
+            valField="report_title"
+          >
+            <select
+              className="drpdwnbox"
+              id="currentReport"
+              name="currentReport"
+              onChange={[Function]}
+            >
+              <option
+                key="null"
+                selected={true}
+                value={null}
+              />
+            </select>
+          </CSelect>
+        </td>
+      </tr>
+      <tr>
+        <tr
+          className="report"
+        >
+          <td
+            className="instructions"
+          >
+            For a list of reports for a specific account, please select the account below
+          </td>
+        </tr>
+        <tr
+          className="report"
+        >
+          <td
+            className="fieldName"
+          >
+            Period: 
+            <CSelect
+              ddnOptions={Array []}
+              keyField="period"
+              onChange={[Function]}
+              selectedValue={null}
+              valField="period"
+            >
+              <select
+                onChange={[Function]}
+              />
+            </CSelect>
+             Account: 
+            <CSelect
+              className="drpdwnbox"
+              ddnOptions={
+                Array [
+                  Object {
+                    "accountid": null,
+                    "accountname": null,
+                    "accountpricingtype": null,
+                    "accountrecid": null,
+                    "accounttypedescription": null,
+                    "duedate": null,
+                    "groupmeetings": null,
+                    "hotel_display": null,
+                    "period": null,
+                    "top_account": null,
+                  },
+                ]
+              }
+              id="accountrecid"
+              keyField="accountrecid"
+              name="accountrecid"
+              onChange={[Function]}
+              selectedValue={null}
+              valField="accountname"
+            >
+              <select
+                className="drpdwnbox"
+                id="accountrecid"
+                name="accountrecid"
+                onChange={[Function]}
+              >
+                <option
+                  key="null"
+                  selected={true}
+                  value={null}
+                />
+              </select>
+            </CSelect>
+          </td>
+        </tr>
+      </tr>
+      <tr
+        className="report"
+      >
+        <td
+          className="instructions"
+        >
+          Reports will remain on MarRFP for 3 days after they have successfully been run.Please Note: You will need to re-run a report to reflect any changes.
+        </td>
+      </tr>
+      <div
+        className="iFrameStyle"
+        id="iframeDiv"
+      />
+    </table>
+  </ViewReportsContextProvider>
+</ViewReports>
+`;

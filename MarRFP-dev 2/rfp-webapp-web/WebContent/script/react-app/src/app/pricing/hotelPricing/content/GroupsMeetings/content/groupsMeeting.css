@@ -1,0 +1,144 @@
+.zeroHeight table {
+    font-family: Arial;
+    font-size: 11px;
+    width:auto;
+    table-layout: fixed;
+    padding: 5px 5px 5px;
+    display: block;
+}
+.zeroHeight {
+    border: 0px;
+    border-collapse: collapse;
+    padding: 0px;
+}
+.instructions {
+    font-weight: normal;
+    font-size: 11px;
+    padding-bottom: 4pt;
+    margin-right: 24pt;
+    
+    font-family: Arial;
+}
+.strongTitle {
+    font-weight: bold;
+    font-size: 11px;
+    padding-bottom: 4pt;
+    margin-right: 24pt;
+    font-family: Arial; 
+}
+.dropdownlabel{
+    font-weight: bold;
+    font-size: 11px;
+    font-family: Arial;
+    line-height: 18px;
+}
+.underlineText{
+    text-decoration: underline;
+}
+.italicText{
+    font-style: italic;
+}
+.pointerClass{
+    cursor: pointer;
+    display: block;
+    margin-left: 1px;
+}
+.zeroHeight table tbody{
+  display: block;
+}
+.tabdesign{
+  border: 1px solid #CCC;
+  padding-top: 2px;
+  background: #f2f2f2;
+}
+.tabdesign img{
+  float: none !important;
+  padding-top:  0 !important;
+}
+.tooltipContainer{
+  margin-top: -30px !important;
+}
+.tooltiptopleftissue .tooltipContainer {
+  border: 1px solid #7eabcd !important;
+  background-color: white !important;
+  color: #000 !important;
+  padding: 5px !important;
+  width: auto;
+  font: 12px Myriad,Helvetica,Tahoma,Arial,clean,sans-serif !important;
+  font-weight: normal;
+  border-radius: 3px !important ;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  left: 2px !important;
+  opacity: 1 !important;
+  box-shadow: 0 5px 10px #adadad;
+}
+.tooltipContainer::before{
+  left: 14px !important;
+  border-top: 11px solid #7eabcd !important;
+  border-left: 7px solid transparent !important;
+  border-right: 7px solid transparent !important;
+  margin-left: -8px !important;
+  bottom: -11px !important;
+  top: 31px !important;
+  border-bottom: 0 !important;
+  background-color: transparent !important;
+  position: relative !important;
+  z-index: 0 !important;
+  width: 0 !important;
+  height: 0 !important;
+  margin-top: 0 !important;
+}
+.tooltipContainer::after{
+  left: 20px !important;
+  border-top: 11px solid #fff !important;
+  border-left: 6px solid transparent !important;
+  border-right: 6px solid transparent !important;
+  margin-left: -8px !important;
+  bottom: -11px !important;
+  top: 24px !important;
+  width: 0 !important;
+  height: 0 !important;
+  border-radius: 0 !important;
+  border-bottom: 0 !important;
+  background-color: transparent !important;
+  z-index: 0 !important;
+  margin-top: 0 !important;
+  transform: none !important;
+ }
+ .normalText{
+  font-weight: normal;
+  padding-left: 5px;
+ }
+ .tabdesignsetting{
+  height: calc(100vh - 317px);
+  overflow: scroll;
+  border: 1px solid #ccc;
+  border-top-width: 0;
+ }
+ .groupAns {
+  font-weight: normal;
+  margin-left: 5px;
+ }
+ .groupsandmettings input, .groupsandmettings select{
+  border-radius: 1.5px;
+ }
+ @media only screen and (max-width: 1250px){
+  .tabdesignsetting{
+    height: calc(100vh - 340px);
+   }
+ }
+ @media only screen and (max-width: 1050px){
+  .tabdesignsetting{
+    height: calc(100vh - 390px);
+   }
+ }
+ @media only screen and (max-width: 750px){
+  .tabdesignsetting{
+    height: calc(100vh - 402px);
+   }
+ }
+ button{
+  padding: 0;
+  border: 0;
+ }

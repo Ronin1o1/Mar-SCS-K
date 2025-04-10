@@ -1,0 +1,34 @@
+.tableBody {
+  font-weight: bold;
+  font-size: 9pt;
+  font-family: Arial;
+  margin-top:3px;
+}
+.horizontalLine {
+  height: 2px;
+  color: #ffffff;
+  background-color: #313063;
+  width: 100%;
+  font-family: Arial;
+  font-weight: bold;
+  margin-top:2px;
+}
+.horizontalLineSave {
+  height: 2px;
+  color: #ffffff;
+  background-color: #313063;
+  width: 100%;
+  font-family: Arial;
+  font-weight: bold;
+  margin-top: 30px;
+}
+.menuDiv{
+  padding-left: 206px;
+}
+.roomPoolHeader{
+  font-weight: bold;
+  font-size: 9pt;
+  font-family: Arial;
+  height: 40px;
+  margin-top:3px;
+}

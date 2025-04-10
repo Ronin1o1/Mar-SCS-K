@@ -1,0 +1,215 @@
+body {
+  margin: 0;
+}
+
+a {
+  font-family: Arial !important;
+}
+
+* {
+  box-sizing: content-box !important;
+}
+
+.scptLabel,
+.sectionTitle {
+  font-family: Arial;
+}
+
+.scptLabel {
+  font-size: 13px;
+}
+
+.sectionTitle {
+  font-size: 20px;
+}
+
+.spinner {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  z-index: 500;
+}
+
+/**
+* ----------------------------------------------
+* Accordion Styles
+* ----------------------------------------------
+**/
+.accordion {
+  border-top: 1px solid #aaaaaa;
+  background-color: #ffffff;
+  :focus {
+    outline: 0 !important;
+  }
+}
+
+.accordionLast {
+  border-bottom: 1px solid #aaaaaa;
+}
+
+.accordionExpanded {
+  margin-bottom: 20px;
+  border-bottom: 1px solid #aaaaaa;
+}
+
+.accordion__item + .accordion__item {
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  background-color: white;
+}
+
+.accordion__button {
+  background-color: #f5f5f5;
+  color: #333333;
+  cursor: pointer;
+  padding: 18px;
+  text-align: left;
+  border: none;
+}
+
+.accordion__button:hover {
+  background-color: #f5f5f5;
+}
+
+.accordion__button:before {
+  position: relative;
+  content: url(./assets/svg/disclosure-arrow-right.svg);
+  margin-left: -10px;
+  margin-right: 5px;
+}
+
+.accordion__button[aria-expanded="true"]::before,
+.accordion__button[aria-selected="true"]::before {
+  content: url(./assets/svg/disclosure-arrow-down.svg);
+}
+
+.accordion__button[aria-expanded="true"],
+.accordion__button[aria-selected="true"] {
+  background-color: #ffffff;
+}
+
+.accordion:has(+ div) {
+  background-color: #fff;
+}
+
+.accordion__panel {
+  padding-left: 17px;
+  padding-right: 17px;
+  padding-bottom: 17px;
+  animation: fadein 0.35s ease-in;
+}
+
+.accordion__footer__container {
+  padding: 17px;
+  align-items: center;
+  height: 25px;
+  background-color: #a2bdd0;
+  margin-top: 13px;
+}
+
+.accordion__footer {
+  float: right;
+}
+
+/**
+* ----------------------------------------------
+* Table Styles
+* ----------------------------------------------
+**/
+.scptTable {
+  text-align: center;
+  border-collapse: collapse;
+}
+
+.scptTable tr:first-child {
+  height: 50px;
+}
+
+.scptTable tr:not(:first-child) {
+  height: 35px;
+}
+
+.scptTable tr:nth-child(even) {
+  background-color: #f5f5f5;
+}
+
+.scptTable tr:nth-child(odd) {
+  background-color: #ffffff;
+}
+
+.scptTable th {
+  text-align: center;
+  background-color: #e3e9ed;
+  color: #666666;
+  font-weight: normal;
+  border-bottom: 1px solid #cccccc;
+}
+
+.scptTable td,
+.scptTable th {
+  padding: 5px 7px 5px 7px;
+  font-size: 13px;
+}
+.scptTable td input{
+  font-size: 13px;
+}
+
+.scptTable th:first-child {
+  text-align: left;
+}
+
+.scptTable th:first-child,
+.scptTable td:first-child {
+  border-right: 1px solid #cccccc;
+}
+
+.scptTable th:last-child,
+.scptTable td:last-child {
+  border-left: 0px;
+}
+
+/**
+* ----------------------------------------------
+* Table Content Styles
+* ----------------------------------------------
+**/
+
+.tableData,
+.tableTextData,
+.tableRowLabel {
+  color: #333333;
+  white-space: nowrap;
+}
+
+.tableData {
+  text-align: right;
+}
+
+.tableTextData {
+  text-align: center;
+}
+
+.tableRowLabel {
+  text-align: left;
+}
+
+.footerLabelStyle,
+.footerTextStyle,
+.footerValueStyle {
+  background-color: #a2bdd0;
+  font-weight: bold;
+  color: #333333;
+  text-align: left;
+}
+
+.footerTextStyle {
+  text-align: right;
+}
+
+.footerValueStyle {
+  text-align: center;
+}
+.topGridHeader div{
+  font-size: 13px;
+}

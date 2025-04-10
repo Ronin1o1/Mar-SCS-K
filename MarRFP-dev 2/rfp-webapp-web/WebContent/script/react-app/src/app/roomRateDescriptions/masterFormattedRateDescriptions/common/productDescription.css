@@ -1,0 +1,150 @@
+.horizontalLine {
+  height: 2px;
+  color: #ffffff;
+  background-color: #313063;
+  width: 100%;
+  font-family: Arial;
+  font-weight: bold;
+  margin-top: 40px;
+}
+.leftMove {
+  position: absolute;
+  margin-left: 200px;
+}
+.tableBorder {
+  border-spacing: 4px;
+  border-padding: 2px;
+  margin: 10px;
+  border-top-style: ridge;
+  border-width: 2px;
+  border-left-style: ridge;
+  border-right-style: ridge;
+  border-bottom-style: ridge;
+}
+.noSpacing {
+  margin: 0;
+  padding: 0;
+  line-height: 0;
+}
+.boldHeader {
+  font-weight: bold;
+  font-size: 9pt;
+  font-family: Arial;
+}
+.lineHeight {
+  line-height: 0;
+}
+.secWidth {
+  width: 10px;
+}
+.tdcss {
+  width: 60px;
+  align: left;
+  nowrap: nowrap;
+  height: 30;
+  valign: top;
+}
+.tdalign {
+  text-align: left;
+  height: 30px;
+  width: 200px;
+}
+.tdalign1 {
+  text-align: left;
+  height: 30px;
+  width: 10px;
+}
+.nodisplay {
+  display: none;
+}
+.blkDisplay {
+  display: block;
+}
+.inputWidth {
+  width: 200px;
+  position: static;
+  margin-left: 70px;
+}
+.posAlign {
+  position: absolute;
+}
+.alinLeft {
+  margin-left: 14px;
+}
+.menuHght100_Height {
+  border: 0px;
+  border-collapse: collapse;
+  padding: 0px;
+  height: 100%;
+}
+.fieldValueCls {
+  font-weight: normal;
+  font-size: 11px;
+  font-family: Arial;
+  margin: 14px 0px 2px 11px;
+}
+.innerTableBHS {
+  border-spacing: 4px;
+  border-collapse: collapse;
+  border: 2px ridge rgb(128, 128, 128);
+  padding: 1px 2px 0px 1px;
+  display: inherit;
+}
+.tdheader {
+  font-weight: bold;
+  font-size: 11px;
+  font-style: italic;
+  font-family: Arial;
+  background-color: #eff0ec;
+}
+.width_10 {
+  width: 10px;
+}
+.align_top {
+  vertical-align: top;
+}
+.alignWrap {
+  vertical-align: top;
+  white-space: nowrap;
+}
+.width_30 {
+  width: 30px;
+}
+.prodAvail {
+  width: 60px;
+  vertical-align: top;
+  white-space: nowrap;
+}
+.product_width_200 {
+  height: 33px;
+  width: 200px;
+  min-width: 200px;
+  vertical-align: top;
+}
+.mainTable {
+  border: 0px;
+  border-collapse: collapse;
+  padding: 0px;
+}
+.product_width_10 {
+  height: 30px;
+  width: 10px;
+  vertical-align: top;
+  white-space: nowrap;
+}
+.product_width_250 {
+  height: 30px;
+  width: 250px;
+  vertical-align: top;
+  white-space: nowrap;
+}
+.width_200 {
+  width: 196px;
+}
+.height_10 {
+  height: 10px;
+}
+.width12{
+  width: auto;
+  min-width:1200px ;
+}

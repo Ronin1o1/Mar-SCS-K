@@ -1,0 +1,49 @@
+.editNewsContentDiv {
+    border-top: 1px solid #d3d3d3;
+    padding: 10px;
+    overflow: auto;
+    width: 400px;
+}
+
+.gridContainer {
+    display: grid;
+    grid-gap: 3px;
+}
+
+.colSpan {
+    grid-column: 1 / span 2;
+}
+
+.fieldName {
+  font-weight: bold;
+  white-space: nowrap;
+}
+
+.btnClear {
+    position: absolute;
+    top: 0;
+    border-radius: 5px;
+    right: 0px;
+    z-index: 2;
+    border: none;
+    top: 2px;
+    height: 30px;
+    cursor: pointer;
+    color: white;
+    background-color: #1e90ff;
+    transform: translateX(2px);
+}
+
+.textarea {
+    width: 306px;
+    height: 90px;
+    font-size: 8pt;
+    resize: none;
+    font-family: Arial, Helvetica, sans-serif;
+    overflow-y: scroll;
+}
+
+.updateBtn {
+    text-align: center;
+    cursor: pointer;
+}

@@ -1,0 +1,35 @@
+.fileUploadLabel {
+  padding: 2px;
+  border-radius: 2px;
+}
+.fileUploadLabelText {
+  font-weight: bold;
+}
+.fileUploadLabelDiv {
+  float: left;
+  margin-top: 0.2rem;
+}
+.fileUploadplaceholder {
+  margin-left: 10px;
+}
+.fileUpload {
+  padding: 2px;
+}
+.fileUpload td{
+  vertical-align: middle;
+}
+.fileUpload td input{
+  border: 0;
+}
+.fileUploadSection {
+  padding: 10px 10px 2px;
+  width: 400px;
+}
+.fileUploadSubmit {
+  margin-left: 146px;
+  cursor: pointer;
+  margin-top: 14px;
+}
+.alingMiddle {
+  vertical-align: middle;
+}

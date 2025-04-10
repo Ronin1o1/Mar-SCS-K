@@ -1,0 +1,183 @@
+.fullHeight {
+    height: 100%;
+    width: 100%;
+    border: 0px;
+    border-collapse: collapse;
+    padding: 0px;
+}
+.menuWidth100Height {
+    border: 0px;
+    border-collapse: collapse;
+    padding: 0px;
+    width: 100%;
+}
+.menuWdth100_Height {
+    border: 0px;
+    border-collapse: collapse;
+    padding: 0px;
+    width: 100%;
+}
+.Header {
+    font-weight: bold;
+    font-size: 9pt;
+    font-family: Arial;
+}
+.BGDarkBlueStyle {
+    color: #FFFFFF;
+    background-color: #313063;
+}
+.zero_Height {
+    border: 0px;
+    border-collapse: collapse;
+    padding: 0px;
+}
+.instructions {
+    font-weight: normal;
+    font-size: 11px;
+    padding-bottom: 4pt;
+    margin-right: 24pt;
+    padding-top: 4pt;
+    font-family: Arial;
+}
+.field_Name {
+    font-weight:  bold;
+    font-size: 11px;
+    font-family: Arial;
+}
+.field_Value {
+    font-weight: normal;
+    font-size: 11px;
+    font-family: Arial;
+}
+.field_Value select{
+  width: 113px;
+}
+/* Inline style replacement */
+.fullHeighttd{
+    height: 65px;
+    vertical-align: "top";
+}
+.center{
+    text-align: center;
+    margin-top: 6px;
+    display: block;
+}
+.heightSixtyfive{
+    height: 65px;
+}
+.btnUpdatestyle{
+    align-items: center;
+    border: 0px;
+    margin-top: 6px;
+    margin-left: -3px;
+}
+.top{
+    vertical-align: top;
+}
+.btnUpdatestyle1{
+    height: 2px;
+    vertical-align: top;
+    column-gap: 3px;
+}
+
+.zero_HeightTable{
+    align-items: center;
+    width: 90%;
+}
+.heightOne{
+    height: 1px;
+}
+.heightTen{
+    height: 10px;
+}
+.heightAndWidth{
+    height: 18px;
+    width: 272px;
+}
+.heightThree{
+    height:3px;
+}
+.colGap{
+    column-gap: 2px;
+}
+.heightAndWidth1{
+    width: 47px;
+    height: 18px;
+}
+.nowrapStyle{
+    white-space: nowrap;
+}
+.heightAndWidth2{
+    width: 102px;
+    height: 18px;
+}
+.colGapTwo{
+    column-gap: 2px;
+}
+.zeroLeft{
+    border: 0px;
+    align-self: left;
+}
+.rowValign{
+    row-gap: 2px;
+    vertical-align: top;
+}
+.heightAndWidth3{
+    width: 219px;
+    height: 100px;
+}
+.height100{
+    height: 75px;
+}
+.width100{
+    width: 75px;
+}
+.borderZero{
+    border: 0px;
+}
+.width{
+    width: 115px;
+}
+.primaryDiv{
+    height: 465px;
+    width: 400px;
+    border-style: none;
+    align-self: left;
+}
+.primaryDivTable{
+    border: 0px;
+    height:100%;
+    word-spacing: 0px;
+    padding: 0px;
+    margin-left: -2px;
+}
+.heightAndWidth4{
+    width: 221px;
+    height: 190px;
+}
+.heightFour{
+    height: 190px;
+}
+.heightThirty{
+    height: 30px;
+}
+.widthCenterAndRow{
+    width: 75px;
+    row-gap: 2px;
+    text-align: center;
+}
+.widthThreeFourth{
+    width: 75px;
+}
+.updateContactMarginLeft{
+    margin: 0 5%
+}
+.validationAlert {    
+  padding: 9px 12px;
+}
+.height3en{
+  height:23px;
+}
+.transformToCenture {
+  transform: translate(-50%,-0%) !important;
+}

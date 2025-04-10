@@ -1,0 +1,27 @@
+.tableBody {
+  font-weight: bold;
+  font-size: 9pt;
+  font-family: Arial;
+  margin: 2px 0;
+}
+.horizontalLine {
+  height: 2px;
+  color: #ffffff;
+  background-color: #313063;
+  width: 100%;
+  font-family: Arial;
+  font-weight: bold;
+}
+.horizontalLineSave {
+  height: 2px;
+  color: #ffffff;
+  background-color: #313063;
+  width: 100%;
+  font-family: Arial;
+  font-weight: bold;
+  margin-top: 30px;
+}
+.leftDiv{
+  padding-left: 206px;
+  padding-top: 2px;
+}

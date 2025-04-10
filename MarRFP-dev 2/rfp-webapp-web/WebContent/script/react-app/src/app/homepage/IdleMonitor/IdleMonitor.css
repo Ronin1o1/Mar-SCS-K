@@ -1,0 +1,35 @@
+.MBLEVEL1 h2{
+  Font-Family: Univers, Arial;
+  color: #FFFFFF;
+  Font-Size: 12px;
+  font-weight: bold;
+  background-color: #9D102D;
+  border-bottom: 3px solid #BBBCA6;
+  line-height: 18px;
+  padding-left: 15px;
+  margin: 0;
+}
+.timeoutmessage{
+  margin:50px 0 50px;
+  padding:15px 0;
+}
+.timeoutmessage p {
+  Font-Family: Univers, Arial;
+  Font-Size: 11px;
+  font-weight: bold;
+  text-align: center;
+  
+}
+.okbutton{
+  text-align: center;
+  border-top: 2px solid #313063;
+  margin: 0 20px;
+  line-height: 15px;
+}
+.okbutton a{
+  font-weight: bold;
+  color: purple;
+}
+.okbutton a:hover{
+  color: rgb(255,0,0);
+}

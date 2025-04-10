@@ -1,0 +1,133 @@
+.zero_Height_table {
+  border: 0px;
+  border-collapse: collapse;
+}
+.width_modal{
+  width: 1108px;
+}
+.width_modal_view_primary {
+  width: 1060px;
+}
+.center{
+  text-align: center;
+}
+.borderZero{
+  border: 0px;
+}
+.headerTitleCls {
+  padding-left: 10px;
+  font-weight: bold;
+  font-size: 9pt;
+  font-family: Arial;
+  height:25px;
+}
+.hrCls{
+  color: #003c82
+}
+.instructions {
+  font-weight: normal;
+  font-size: 11px;
+  padding-bottom: 4pt;
+  margin-right: 24pt;
+  padding-top: 4pt;
+  font-family: Arial;
+}
+.heightTen{
+  height: 10px;
+}
+.tablePadding{
+  padding-top: 1vw
+}
+.paddingLeft_10{
+  padding-left: 10px;
+}
+.heightHundred{
+  height: 100%;
+}
+.grid {
+  background-color: #eff0ec;
+  font-family: Geneva, Arial, Helvetica, sans-serif;
+  -moz-outline-style: none;
+  outline: none;
+  overflow: hidden;
+  height: 0;
+}
+.gridNodeCls{
+  height: 300px; 
+  -moz-user-select: none;
+}
+.gridNodeCls_View_Primary{
+  height: 400px; 
+  -moz-user-select: none;
+  margin-left: 10px;
+}
+.gridHeader {
+  overflow: hidden;
+  background-color: #d6d7ce;
+}
+.height_1100{
+  width: 1040px;
+}
+.gridRowTableCls {
+  table-layout: fixed;
+  border-collapse: collapse;
+  height: 32px;
+  border: 0
+}
+.gridCellCls {
+  border: 1px solid;
+  border-color: #ebeadb;
+  padding: 0px 2px 0px 2px;
+  text-align: left;
+  overflow-y: hidden;
+  font-size: 11px;
+  box-sizing: border-box !important;
+}
+.width_150{
+  width: 120px
+}
+.width_300{
+  width: 300px
+}
+.width_200{
+  width: 200px
+}
+.boldText{
+  font-weight: bold;
+}
+.gridViewData {
+  width:1040px; 
+  height: 350px;
+  overflow: auto;
+}
+.scrollDiv{
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+.middle{
+  vertical-align: middle;
+  text-align: center;
+  font-weight: 100;
+}
+.backgroundGrey{
+  background-color: #eff0ec;
+  padding-left: 20vw;
+}
+.gridRowTable_21 {
+  height: 21px;
+  border: 0;
+  word-break: break-all;
+}
+.gridRow {
+  border: 1px solid #ebeadb;
+  font-weight: normal;
+  background-color: white;
+  border-bottom: none;
+}
+.gridRowOdd {
+  background: #f4f4f2;
+  border: 1px solid #ebeadb;
+  border-bottom: none;
+  border-top: none;
+ 
+}

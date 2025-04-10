@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="rfp-business-publish-impl">
+
+	<target name="run_wsimport">
+		<exec executable="C:/websphere/IBM/SDP/runtimes/base_v7/bin/wsimport.bat">
+		  <arg line="-keep -p com.marriott.rfp.webservice.hpp.btrates src/main/resources/META-INF/wsdl/BTRateService.wsdl -d ejbModule"/>
+		</exec>
+	</target>
+
+</project>
+

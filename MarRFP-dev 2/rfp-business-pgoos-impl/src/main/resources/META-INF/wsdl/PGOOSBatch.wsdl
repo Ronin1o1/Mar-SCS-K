@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wsdl:definitions name="PGOOSBatch"
+	targetNamespace="http://com/marriott/rfp/webservice/pgoos/batch/"
+	xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tns="http://com/marriott/rfp/webservice/pgoos/batch/"
+	xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<wsdl:types>
+		<xsd:schema targetNamespace="http://com/marriott/rfp/webservice/pgoos/batch/">
+		
+			<xsd:element name="beginBatchForGPPAccounts">
+				<xsd:complexType>
+					<xsd:sequence>
+					</xsd:sequence>
+				</xsd:complexType>
+			</xsd:element>
+			<xsd:element name="beginBatchForGPPAccountsResponse">
+				<xsd:complexType>
+					<xsd:sequence>
+						<xsd:element name="count" type="xsd:long"></xsd:element>
+					</xsd:sequence>
+				</xsd:complexType>
+			</xsd:element>
+
+			<xsd:element name="beginBatchForNonGPPAccounts">
+				<xsd:complexType>
+					<xsd:sequence>
+					</xsd:sequence>
+				</xsd:complexType>
+			</xsd:element>
+			<xsd:element name="beginBatchForNonGPPAccountsResponse">
+				<xsd:complexType>
+					<xsd:sequence>
+						<xsd:element name="count" type="xsd:long"></xsd:element>
+					</xsd:sequence>
+				</xsd:complexType>
+			</xsd:element>
+
+			<xsd:element name="beginBatchForVRPXVRPK">
+				<xsd:complexType>
+					<xsd:sequence>
+					</xsd:sequence>
+				</xsd:complexType>
+			</xsd:element>
+			<xsd:element name="beginBatchForVRPXVRPKResponse">
+				<xsd:complexType>
+					<xsd:sequence>
+						<xsd:element name="count" type="xsd:long"></xsd:element>
+					</xsd:sequence>
+				</xsd:complexType>
+			</xsd:element>
+
+			<xsd:element name="endBatch">
+				<xsd:complexType>
+					<xsd:sequence>
+					</xsd:sequence>
+				</xsd:complexType>
+			</xsd:element>
+			<xsd:element name="endBatchResponse">
+				<xsd:complexType>
+					<xsd:sequence>
+					</xsd:sequence>
+				</xsd:complexType>
+			</xsd:element>
+
+			<xsd:element name="executeVRPEBatchForGPPAccounts">
+				<xsd:complexType>
+					<xsd:sequence>
+						<xsd:element name="batchId" type="xsd:long"></xsd:element>
+						<xsd:element name="startIndex" type="xsd:long">
+						</xsd:element>
+						<xsd:element name="endIndex" type="xsd:long">
+						</xsd:element>
+						<xsd:element name="eid"
+							type="xsd:string">
+						</xsd:element>
+					</xsd:sequence>
+				</xsd:complexType>
+			</xsd:element>
+			<xsd:element name="executeVRPEBatchForGPPAccountsResponse">
+				<xsd:complexType>
+					<xsd:sequence>
+						<xsd:element name="status" type="xsd:long"></xsd:element>
+					</xsd:sequence>
+				</xsd:complexType>
+			</xsd:element>
+		
+			<xsd:element name="executeVRPEBatchForNonGPPAccounts">
+				<xsd:complexType>
+					<xsd:sequence>
+						<xsd:element name="batchId" type="xsd:long">
+						</xsd:element>
+						<xsd:element name="startIndex" type="xsd:long">
+						</xsd:element>
+						<xsd:element name="endIndex" type="xsd:long">
+						</xsd:element>
+						<xsd:element name="eid" type="xsd:string"></xsd:element>
+					</xsd:sequence>
+				</xsd:complexType>
+			</xsd:element>
+			<xsd:element name="executeVRPEBatchForNonGPPAccountsResponse">
+				<xsd:complexType>
+					<xsd:sequence>
+						<xsd:element name="status" type="xsd:long"></xsd:element>
+					</xsd:sequence>
+				</xsd:complexType>
+			</xsd:element>
+			
+			<xsd:element name="executeVRPXVRPKBatch">
+				<xsd:complexType>
+					<xsd:sequence>
+						<xsd:element name="batchId" type="xsd:long">
+						</xsd:element>
+						<xsd:element name="startIndex" type="xsd:long">
+						</xsd:element>
+						<xsd:element name="endIndex" type="xsd:long">
+						</xsd:element>
+						<xsd:element name="eid" type="xsd:string"></xsd:element>
+					</xsd:sequence>
+				</xsd:complexType>
+			</xsd:element>
+			<xsd:element name="executeVRPXVRPKBatchResponse">
+				<xsd:complexType>
+					<xsd:sequence>
+						<xsd:element name="status" type="xsd:long"></xsd:element>
+					</xsd:sequence>
+				</xsd:complexType>
+			</xsd:element>
+			
+		</xsd:schema>
+	</wsdl:types>
+	
+		<wsdl:message name="beginBatchForGPPAccountsRequest">
+			<wsdl:part element="tns:beginBatchForGPPAccounts" name="parameters" />
+		</wsdl:message>
+		<wsdl:message name="beginBatchForGPPAccountsResponse">
+			<wsdl:part element="tns:beginBatchForGPPAccountsResponse" name="parameters" />
+		</wsdl:message>
+	
+		<wsdl:message name="beginBatchForNonGPPAccountsRequest">
+			<wsdl:part element="tns:beginBatchForNonGPPAccounts" name="parameters" />
+		</wsdl:message>
+		<wsdl:message name="beginBatchForNonGPPAccountsResponse">
+			<wsdl:part element="tns:beginBatchForNonGPPAccountsResponse" name="parameters" />
+		</wsdl:message>
+
+		<wsdl:message name="beginBatchForVRPXVRPKRequest">
+			<wsdl:part element="tns:beginBatchForVRPXVRPK" name="parameters" />
+		</wsdl:message>
+		<wsdl:message name="beginBatchForVRPXVRPKResponse">
+			<wsdl:part element="tns:beginBatchForVRPXVRPKResponse" name="parameters" />
+		</wsdl:message>
+
+		<wsdl:message name="endBatchRequest">
+			<wsdl:part element="tns:endBatch" name="parameters" />
+		</wsdl:message>
+		<wsdl:message name="endBatchResponse">
+			<wsdl:part element="tns:endBatchResponse" name="parameters" />
+		</wsdl:message>
+	
+		<wsdl:message name="executeVRPEBatchForGPPAccountsRequest">
+			<wsdl:part element="tns:executeVRPEBatchForGPPAccounts" name="parameters" />
+		</wsdl:message>
+		<wsdl:message name="executeVRPEBatchForGPPAccountsResponse">
+			<wsdl:part element="tns:executeVRPEBatchForGPPAccountsResponse" name="parameters" />
+		</wsdl:message>
+		
+		<wsdl:message name="executeVRPEBatchForNonGPPAccountsRequest">
+			<wsdl:part name="parameters" element="tns:executeVRPEBatchForNonGPPAccounts"></wsdl:part>
+		</wsdl:message>
+		<wsdl:message name="executeVRPEBatchForNonGPPAccountsResponse">
+			<wsdl:part name="parameters" element="tns:executeVRPEBatchForNonGPPAccountsResponse"></wsdl:part>
+		</wsdl:message>
+		
+		<wsdl:message name="executeVRPXVRPKBatchRequest">
+			<wsdl:part name="parameters" element="tns:executeVRPXVRPKBatch"></wsdl:part>
+		</wsdl:message>
+		<wsdl:message name="executeVRPXVRPKBatchResponse">
+			<wsdl:part name="parameters" element="tns:executeVRPXVRPKBatchResponse"></wsdl:part>
+		</wsdl:message>
+		
+	<wsdl:portType name="PGOOSBatchPortType">
+		<wsdl:operation name="beginBatchForGPPAccounts">
+			<wsdl:input message="tns:beginBatchForGPPAccountsRequest" />
+			<wsdl:output message="tns:beginBatchForGPPAccountsResponse" />
+		</wsdl:operation>
+		<wsdl:operation name="beginBatchForNonGPPAccounts">
+			<wsdl:input message="tns:beginBatchForNonGPPAccountsRequest" />
+			<wsdl:output message="tns:beginBatchForNonGPPAccountsResponse" />
+		</wsdl:operation>
+		<wsdl:operation name="beginBatchForVRPXVRPK">
+			<wsdl:input message="tns:beginBatchForVRPXVRPKRequest" />
+			<wsdl:output message="tns:beginBatchForVRPXVRPKResponse" />
+		</wsdl:operation>
+		<wsdl:operation name="endBatch">
+			<wsdl:input message="tns:endBatchRequest" />
+			<wsdl:output message="tns:endBatchResponse" />
+		</wsdl:operation>
+	
+		<wsdl:operation name="executeVRPEBatchForGPPAccounts">
+			<wsdl:input message="tns:executeVRPEBatchForGPPAccountsRequest" />
+			<wsdl:output message="tns:executeVRPEBatchForGPPAccountsResponse" />
+		</wsdl:operation>		<wsdl:operation name="executeVRPEBatchForNonGPPAccounts">			<wsdl:input message="tns:executeVRPEBatchForNonGPPAccountsRequest"></wsdl:input>			<wsdl:output message="tns:executeVRPEBatchForNonGPPAccountsResponse"></wsdl:output>
+		</wsdl:operation>
+		<wsdl:operation name="executeVRPXVRPKBatch">
+			<wsdl:input message="tns:executeVRPXVRPKBatchRequest"></wsdl:input>
+			<wsdl:output message="tns:executeVRPXVRPKBatchResponse"></wsdl:output>
+		</wsdl:operation>	</wsdl:portType>
+	
+	<wsdl:binding name="PGOOSBatchBinding" type="tns:PGOOSBatchPortType">
+		<soap:binding style="document" transport="http://schemas.xmlsoap.org/soap/http" />
+		
+		<wsdl:operation name="beginBatchForGPPAccounts">
+			<soap:operation
+				soapAction="http://com/marriott/rfp/webservice/pgoos/batch/beginBatchForGPPAccounts" />
+			<wsdl:input>
+				<soap:body use="literal" />
+			</wsdl:input>
+			<wsdl:output>
+				<soap:body use="literal" />
+			</wsdl:output>
+		</wsdl:operation>
+		<wsdl:operation name="beginBatchForNonGPPAccounts">
+			<soap:operation
+				soapAction="http://com/marriott/rfp/webservice/pgoos/batch/beginBatchForNonGPPAccounts" />
+			<wsdl:input>
+				<soap:body use="literal" />
+			</wsdl:input>
+			<wsdl:output>
+				<soap:body use="literal" />
+			</wsdl:output>
+		</wsdl:operation>
+		<wsdl:operation name="beginBatchForVRPXVRPK">
+			<soap:operation
+				soapAction="http://com/marriott/rfp/webservice/pgoos/batch/beginBatchForVRPXVRPK" />
+			<wsdl:input>
+				<soap:body use="literal" />
+			</wsdl:input>
+			<wsdl:output>
+				<soap:body use="literal" />
+			</wsdl:output>
+		</wsdl:operation>
+		<wsdl:operation name="endBatch">
+			<soap:operation
+				soapAction="http://com/marriott/rfp/webservice/pgoos/batch/endBatch" />
+			<wsdl:input>
+				<soap:body use="literal" />
+			</wsdl:input>
+			<wsdl:output>
+				<soap:body use="literal" />
+			</wsdl:output>
+		</wsdl:operation>
+		<wsdl:operation name="executeVRPEBatchForGPPAccounts">
+			<soap:operation
+				soapAction="http://com/marriott/rfp/webservice/pgoos/batch/executeVRPEBatchForGPPAccounts" />
+			<wsdl:input>
+				<soap:body use="literal" />
+			</wsdl:input>
+			<wsdl:output>
+				<soap:body use="literal" />
+			</wsdl:output>
+		</wsdl:operation>
+		<wsdl:operation name="executeVRPEBatchForNonGPPAccounts">
+			<soap:operation
+				soapAction="http://com/marriott/rfp/webservice/pgoos/batch/executeVRPEBatchForNonGPPAccounts" />
+			<wsdl:input>
+				<soap:body use="literal" />
+			</wsdl:input>
+			<wsdl:output>
+				<soap:body use="literal" />
+			</wsdl:output>
+		</wsdl:operation>
+		<wsdl:operation name="executeVRPXVRPKBatch">
+			<soap:operation
+				soapAction="http://com/marriott/rfp/webservice/pgoos/batch/executeVRPXVRPKBatch" />
+			<wsdl:input>
+				<soap:body use="literal" />
+			</wsdl:input>
+			<wsdl:output>
+				<soap:body use="literal" />
+			</wsdl:output>
+		</wsdl:operation>
+	</wsdl:binding>
+	<wsdl:service name="PGOOSBatchService">
+		<wsdl:port binding="tns:PGOOSBatchBinding" name="PGOOSBatchPort">
+			<soap:address location="http://localhost:9083/rfp-webapp-web/PGOOSBatchStagingService" />
+		</wsdl:port>
+	</wsdl:service>
+</wsdl:definitions>

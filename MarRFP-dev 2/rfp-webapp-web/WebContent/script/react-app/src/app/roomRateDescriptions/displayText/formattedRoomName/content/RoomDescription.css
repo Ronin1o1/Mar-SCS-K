@@ -1,0 +1,87 @@
+body,
+input,
+textarea {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding: 0px;
+    font-size: 11px;
+}
+
+.pr10 {
+    padding-right: 10px;
+}
+
+.dataTableContainer {
+    margin-top: 8px;
+    margin-left: 16px;
+    width: 1170px;
+}
+
+.departureValue {
+    width: 280px;
+}
+
+.section {
+    height: 0% !important;
+    border-collapse: collapse;
+    padding: 0px;
+    width: 100%;
+    border: 0px;
+    border-collapse: collapse;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-bottom: 5px;
+}
+
+.bold {
+    font-weight: bold;
+    padding-left: 4px;
+}
+
+.header {
+    font-weight: bold;
+    font-size: 9pt;
+    font-family: Arial;
+
+}
+
+.headerHR {
+    margin-top: -5px;
+    margin-bottom: 19px;
+    height: 0px;
+    color: #ffffff;
+    border: solid 1px #313063;
+    background-color: #313063;
+}
+
+.btn {
+    background-color: #9c112a;
+    height: 21px;
+    width: 42px;
+    font-size: 11px;
+    border: none;
+    color: white;
+}
+
+.textColor {
+    background-color: #f4f4f2;
+}
+
+.textColor:hover {
+    background-color: yellow;
+}
+
+.tableWidth {
+    width: 280px;
+}
+
+.cursorPointer {
+    cursor: pointer;
+}
+
+.fontSize {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding: 0px;
+    font-size: 11px;
+}

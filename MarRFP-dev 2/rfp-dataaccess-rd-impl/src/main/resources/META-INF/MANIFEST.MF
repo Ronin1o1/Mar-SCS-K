@@ -1,0 +1,4 @@
+Manifest-Version: 1.0
+Class-Path: axis.jar 
+ rfp-dataaccess-rd-api.jar
+

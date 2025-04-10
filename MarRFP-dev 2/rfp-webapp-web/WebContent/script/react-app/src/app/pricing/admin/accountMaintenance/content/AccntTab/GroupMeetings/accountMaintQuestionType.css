@@ -1,0 +1,32 @@
+.questionTypeDiv{
+    text-align:center;
+     vertical-align: bottom
+}
+.saveBtn{
+    cursor: pointer;
+    border:"0";
+}
+.zeroHeight {
+  
+}
+.fieldName {
+    FONT-WEIGHT: bold !important;
+    FONT-SIZE: 11px;
+    FONT-FAMILY: Arial;
+} 
+.fieldValue {
+    FONT-WEIGHT: normal;
+    FONT-SIZE: 11px;
+    FONT-FAMILY: Arial;
+  }
+  .selectStyle{
+    font-size: 8pt;
+  }
+  .brDiv{
+    height:"10px"
+  }
+  .contentDiv{
+    background: #fff;
+    border-top: 0px solid #d3d3d3;
+    padding: 6px 4px 1px 5px;
+  }

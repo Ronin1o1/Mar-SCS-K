@@ -1,0 +1,98 @@
+.AccInitiativeTableWidth {
+  border-width: 0px;
+}
+.AccInitiativeTableWidth table{
+  border-spacing: 0;
+  vertical-align: top;
+}
+
+.AccInitiativeTableWidth tr.oddRow  {
+  vertical-align: top;
+}
+.fullWidthMt20 {
+  width: 100%;
+  margin-top: 20px;
+}
+.InstructionHeaderAcc {
+  font-weight: bold;
+  font-size: 11px;
+  font-style: italic;
+  font-family: Arial;
+  background-color: #eff0ec;
+}
+.AccInitiativeTableRows {
+  display: flex;
+  flex-direction:row;
+  column-gap: 3.2px;
+}
+
+.AccInitiativeTableWidth tr.evenRow .AccInitiativeTableRows  {
+  align-items: center;
+}
+.AccIntiativeInputContainer {
+  width: 90%;
+  min-width: 178px;
+}
+.AccInitiativeInputField {
+  text-decoration: none;
+  cursor: text;
+  border: 2px inset WHITESMOKE;
+  width: 178px;
+}
+.boldText {
+  font-weight: bold;
+  text-align: right;
+  max-width: 14px;
+  min-width: 10px;
+}
+
+.boldTextWidth {
+  width: 14px;
+  font-weight: bold;
+  text-align: right;
+  max-width: 14px;
+  min-width: 10px;
+}
+
+.deleteIcon {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+}
+
+.deleteIcon span {
+  position: absolute;
+  display: block;
+  right: 3px;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  color: #fff;
+  background-color: #ccc;
+  font: 13px monospace;
+  text-align: center;
+  line-height: 1em;
+  cursor: pointer;
+}
+
+.deleteIcon input {
+  padding-right: 18px;
+  box-sizing: border-box;
+}
+
+.readOnlyLink {
+  color: blue;
+  cursor: pointer;
+  text-decoration: underline;
+  border: 0;
+  overflow: hidden;
+}
+
+.screenLoader {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+.relativePosition {
+  position: relative;
+}

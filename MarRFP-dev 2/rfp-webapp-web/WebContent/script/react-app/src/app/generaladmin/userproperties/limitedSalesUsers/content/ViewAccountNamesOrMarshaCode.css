@@ -1,0 +1,74 @@
+.dialogPaneContent {
+    background: #fff;
+    border-top: 1px solid #d3d3d3;
+    padding: 10px;
+}
+
+.gridView {
+    overflow: hidden;
+        overflow-y: hidden;
+}
+
+.menuWdth100Height {
+    border: 0px;
+    border-collapse: collapse;
+    padding: 0px;
+    width: 100%;
+}
+
+.field_Name {
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 11px;
+    FONT-FAMILY: Arial;
+}
+
+.BGDarkBlueStyle {
+    color: #FFFFFF;
+    background-color: #313063;
+}
+
+.fontNormal{
+  font-weight: 200;
+}
+
+.backgroundCls{
+  height: "200px"; 
+  width: "350px"
+}
+
+.inputFieldCls{
+  width: 0;
+  height: 0;
+  color: "#FFFFFF";
+  background: "none";
+  position: "absolute"
+}
+
+.outerDivCls{
+  height: "150px";
+  width: "350px"; 
+  overflow: "auto" 
+}
+
+.innerDivCls{
+  width: "350px";
+  height: "150px";
+  overflow-y: "auto"
+}
+
+.width_100{
+  width: "100px" 
+}
+
+.top{
+  vertical-align: "top" 
+}
+
+.trCls{
+  height: "2px";
+  vertical-align: "top"
+}
+
+.height_10{
+  height: "10px"
+}

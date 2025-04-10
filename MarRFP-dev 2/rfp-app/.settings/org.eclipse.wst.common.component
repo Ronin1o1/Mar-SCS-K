@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="MarRFPEar">
+        <wb-resource deploy-path="/" source-path="/target/m2e-wtp/ear-resources"/>
+        <wb-resource deploy-path="/" source-path="/src/main/application" tag="defaultRootSource"/>
+        <dependent-module archiveName="rfp-webapp-web.war" deploy-path="/" handle="module:/resource/rfp-webapp-web/rfp-webapp-web">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="rfp-utility.jar" deploy-path="/lib" handle="module:/resource/rfp-utility/rfp-utility">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="rfp-object-common-jpa.jar" deploy-path="/lib" handle="module:/resource/rfp-object-common-jpa/rfp-object-common-jpa">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="rfp-object-pgoos-jpa.jar" deploy-path="/lib" handle="module:/resource/rfp-object-pgoos-jpa/rfp-object-pgoos-jpa">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="rfp-object-pgoos-product-jpa.jar" deploy-path="/lib" handle="module:/resource/rfp-object-pgoos-product/rfp-object-pgoos-product">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="rfp-object-pricing-jpa.jar" deploy-path="/lib" handle="module:/resource/rfp-object-pricing/rfp-object-pricing">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="rfp-object-rd.jar" deploy-path="/lib" handle="module:/resource/rfp-object-rd/rfp-object-rd">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="rfp-object-registeruser-jpa.jar" deploy-path="/lib" handle="module:/resource/rfp-object-registeruser-jpa/rfp-object-registeruser-jpa">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="rfp-object-wholesaler.jar" deploy-path="/lib" handle="module:/resource/rfp-object-wholesaler/rfp-object-wholesaler">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="rfp-business-common-api.jar" deploy-path="/" handle="module:/resource/rfp-business-common-api/rfp-business-common-api">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="rfp-business-common-impl.jar" deploy-path="/" handle="module:/resource/rfp-business-common-impl/rfp-business-common-impl">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="rfp-business-pgoos-api.jar" deploy-path="/" handle="module:/resource/rfp-business-pgoos-api/rfp-business-pgoos-api">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="rfp-business-pgoos-impl.jar" deploy-path="/" handle="module:/resource/rfp-business-pgoos-impl/rfp-business-pgoos-impl">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="rfp-business-pricing-api.jar" deploy-path="/" handle="module:/resource/rfp-business-pricing-api/rfp-business-pricing-api">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="rfp-business-pricing-impl.jar" deploy-path="/" handle="module:/resource/rfp-business-pricing-impl/rfp-business-pricing-impl">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="rfp-business-publish-api.jar" deploy-path="/" handle="module:/resource/rfp-business-publish-api/rfp-business-publish-api">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="rfp-business-publish-impl.jar" deploy-path="/" handle="module:/resource/rfp-business-publish-impl/rfp-business-publish-impl">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="rfp-business-publish-mdp.jar" deploy-path="/" handle="module:/resource/rfp-business-publish-mdp/rfp-business-publish-mdp">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="rfp-business-rd-api.jar" deploy-path="/" handle="module:/resource/rfp-business-rd-api/rfp-business-rd-api">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="rfp-business-rd-impl.jar" deploy-path="/" handle="module:/resource/rfp-business-rd-impl/rfp-business-rd-impl">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="rfp-business-wholesaler-api.jar" deploy-path="/" handle="module:/resource/rfp-business-wholesaler-api/rfp-business-wholesaler-api">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="rfp-business-wholesaler-impl.jar" deploy-path="/" handle="module:/resource/rfp-business-wholesaler-impl/rfp-business-wholesaler-impl">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="rfp-dataaccess-common-api.jar" deploy-path="/" handle="module:/resource/rfp-dataaccess-common-api/rfp-dataaccess-common-api">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="rfp-dataaccess-common-impl.jar" deploy-path="/" handle="module:/resource/rfp-dataaccess-common-impl/rfp-dataaccess-common-impl">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="rfp-dataaccess-pgoos-api.jar" deploy-path="/" handle="module:/resource/rfp-dataaccess-pgoos-api/rfp-dataaccess-pgoos-api">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="rfp-dataaccess-pgoos-impl.jar" deploy-path="/" handle="module:/resource/rfp-dataaccess-pgoos-impl/rfp-dataaccess-pgoos-impl">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="rfp-dataaccess-pgoos-product-api.jar" deploy-path="/" handle="module:/resource/rfp-dataaccess-pgoos-product-api/rfp-dataaccess-pgoos-product-api">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="rfp-dataaccess-pgoos-product-impl.jar" deploy-path="/" handle="module:/resource/rfp-dataaccess-pgoos-product-impl/rfp-dataaccess-pgoos-product-impl">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="rfp-dataaccess-pricing-api.jar" deploy-path="/" handle="module:/resource/rfp-dataaccess-pricing-api/rfp-dataaccess-pricing-api">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="rfp-dataaccess-pricing-impl.jar" deploy-path="/" handle="module:/resource/rfp-dataaccess-pricing-impl/rfp-dataaccess-pricing-impl">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="rfp-dataaccess-rd-api.jar" deploy-path="/" handle="module:/resource/rfp-dataaccess-rd-api/rfp-dataaccess-rd-api">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="rfp-dataaccess-rd-impl.jar" deploy-path="/" handle="module:/resource/rfp-dataaccess-rd-impl/rfp-dataaccess-rd-impl">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="rfp-dataaccess-registeruser-api.jar" deploy-path="/" handle="module:/resource/rfp-dataaccess-registeruser-api/rfp-dataaccess-registeruser-api">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="rfp-dataaccess-registeruser-impl.jar" deploy-path="/" handle="module:/resource/rfp-dataaccess-registeruser-impl/rfp-dataaccess-registeruser-impl">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="rfp-dataaccess-wholesaler-api.jar" deploy-path="/" handle="module:/resource/rfp-dataaccess-wholesaler-api/rfp-dataaccess-wholesaler-api">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="rfp-dataaccess-wholesaler-impl.jar" deploy-path="/" handle="module:/resource/rfp-dataaccess-wholesaler-impl/rfp-dataaccess-wholesaler-impl">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="netezza-1.0.jar" deploy-path="/" handle="module:/classpath/var/M2_REPO/netezza/netezza/1.0/netezza-1.0.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="axis-1.4.jar" deploy-path="/" handle="module:/classpath/var/M2_REPO/org/apache/axis/axis/1.4/axis-1.4.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="ojdbc6-11.2.0.4.jar" deploy-path="/lib" handle="module:/classpath/var/M2_REPO/oracle6/ojdbc6/11.2.0.4/ojdbc6-11.2.0.4.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="aspectjrt-1.8.9.jar" deploy-path="/lib" handle="module:/classpath/var/M2_REPO/org/aspectj/aspectjrt/1.8.9/aspectjrt-1.8.9.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="aspectjweaver-1.8.8.jar" deploy-path="/lib" handle="module:/classpath/var/M2_REPO/org/aspectj/aspectjweaver/1.8.8/aspectjweaver-1.8.8.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="jstl-1.2.jar" deploy-path="/lib" handle="module:/classpath/var/M2_REPO/javax/servlet/jstl/1.2/jstl-1.2.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="jackson-jaxrs-json-provider-2.9.7.jar" deploy-path="/lib" handle="module:/classpath/var/M2_REPO/com/fasterxml/jackson/jaxrs/jackson-jaxrs-json-provider/2.9.7/jackson-jaxrs-json-provider-2.9.7.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="jackson-jaxrs-base-2.9.7.jar" deploy-path="/lib" handle="module:/classpath/var/M2_REPO/com/fasterxml/jackson/jaxrs/jackson-jaxrs-base/2.9.7/jackson-jaxrs-base-2.9.7.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="jackson-core-2.9.7.jar" deploy-path="/lib" handle="module:/classpath/var/M2_REPO/com/fasterxml/jackson/core/jackson-core/2.9.7/jackson-core-2.9.7.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="jackson-databind-2.9.7.jar" deploy-path="/lib" handle="module:/classpath/var/M2_REPO/com/fasterxml/jackson/core/jackson-databind/2.9.7/jackson-databind-2.9.7.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="jackson-module-jaxb-annotations-2.9.7.jar" deploy-path="/lib" handle="module:/classpath/var/M2_REPO/com/fasterxml/jackson/module/jackson-module-jaxb-annotations/2.9.7/jackson-module-jaxb-annotations-2.9.7.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="jackson-annotations-2.9.0.jar" deploy-path="/lib" handle="module:/classpath/var/M2_REPO/com/fasterxml/jackson/core/jackson-annotations/2.9.0/jackson-annotations-2.9.0.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="commons-lang3-3.2.jar" deploy-path="/lib" handle="module:/classpath/var/M2_REPO/org/apache/commons/commons-lang3/3.2/commons-lang3-3.2.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="ehcache-core-2.6.8.jar" deploy-path="/lib" handle="module:/classpath/var/M2_REPO/net/sf/ehcache/ehcache-core/2.6.8/ehcache-core-2.6.8.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="gson-2.8.0.jar" deploy-path="/lib" handle="module:/classpath/var/M2_REPO/com/google/code/gson/gson/2.8.0/gson-2.8.0.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="commons-discovery-0.4.jar" deploy-path="/lib" handle="module:/classpath/var/M2_REPO/commons-discovery/commons-discovery/0.4/commons-discovery-0.4.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="commons-lang-2.5.jar" deploy-path="/lib" handle="module:/classpath/var/M2_REPO/commons-lang/commons-lang/2.5/commons-lang-2.5.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="openjpa-persistence-3.0.0.jar" deploy-path="/lib" handle="module:/classpath/var/M2_REPO/org/apache/openjpa/openjpa-persistence/3.0.0/openjpa-persistence-3.0.0.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="openjpa-kernel-3.0.0.jar" deploy-path="/lib" handle="module:/classpath/var/M2_REPO/org/apache/openjpa/openjpa-kernel/3.0.0/openjpa-kernel-3.0.0.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="openjpa-lib-3.0.0.jar" deploy-path="/lib" handle="module:/classpath/var/M2_REPO/org/apache/openjpa/openjpa-lib/3.0.0/openjpa-lib-3.0.0.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="geronimo-jpa_2.1_spec-1.0-alpha-1.jar" deploy-path="/lib" handle="module:/classpath/var/M2_REPO/org/apache/geronimo/specs/geronimo-jpa_2.1_spec/1.0-alpha-1/geronimo-jpa_2.1_spec-1.0-alpha-1.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="rfp-business-publish-mdb-0.0.1-SNAPSHOT.jar" deploy-path="/lib" handle="module:/classpath/var/M2_REPO/marrfp/rfp-business-publish-mdb/0.0.1-SNAPSHOT/rfp-business-publish-mdb-0.0.1-SNAPSHOT.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="rfp-business-publish-ejb-0.0.1-SNAPSHOT.jar" deploy-path="/lib" handle="module:/classpath/var/M2_REPO/marrfp/rfp-business-publish-ejb/0.0.1-SNAPSHOT/rfp-business-publish-ejb-0.0.1-SNAPSHOT.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="openjpa-3.0.0.jar" deploy-path="/lib" handle="module:/classpath/var/M2_REPO/org/apache/openjpa/openjpa/3.0.0/openjpa-3.0.0.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="commons-collections-3.2.2.jar" deploy-path="/lib" handle="module:/classpath/var/M2_REPO/commons-collections/commons-collections/3.2.2/commons-collections-3.2.2.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="serp-1.15.1.jar" deploy-path="/lib" handle="module:/classpath/var/M2_REPO/net/sourceforge/serp/serp/1.15.1/serp-1.15.1.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="geronimo-jms_1.1_spec-1.1.1.jar" deploy-path="/lib" handle="module:/classpath/var/M2_REPO/org/apache/geronimo/specs/geronimo-jms_1.1_spec/1.1.1/geronimo-jms_1.1_spec-1.1.1.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="geronimo-jta_1.1_spec-1.1.1.jar" deploy-path="/lib" handle="module:/classpath/var/M2_REPO/org/apache/geronimo/specs/geronimo-jta_1.1_spec/1.1.1/geronimo-jta_1.1_spec-1.1.1.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="commons-pool-1.6.jar" deploy-path="/lib" handle="module:/classpath/var/M2_REPO/commons-pool/commons-pool/1.6/commons-pool-1.6.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="xbean-asm6-shaded-4.8.jar" deploy-path="/lib" handle="module:/classpath/var/M2_REPO/org/apache/xbean/xbean-asm6-shaded/4.8/xbean-asm6-shaded-4.8.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="mail-1.4.5.jar" deploy-path="/lib" handle="module:/classpath/var/M2_REPO/javax/mail/mail/1.4.5/mail-1.4.5.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="activation-1.1.jar" deploy-path="/lib" handle="module:/classpath/var/M2_REPO/javax/activation/activation/1.1/activation-1.1.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="poi-3.17.jar" deploy-path="/lib" handle="module:/classpath/var/M2_REPO/org/apache/poi/poi/3.17/poi-3.17.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="commons-codec-1.10.jar" deploy-path="/lib" handle="module:/classpath/var/M2_REPO/commons-codec/commons-codec/1.10/commons-codec-1.10.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="commons-collections4-4.1.jar" deploy-path="/lib" handle="module:/classpath/var/M2_REPO/org/apache/commons/commons-collections4/4.1/commons-collections4-4.1.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="poi-ooxml-3.17.jar" deploy-path="/lib" handle="module:/classpath/var/M2_REPO/org/apache/poi/poi-ooxml/3.17/poi-ooxml-3.17.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="poi-ooxml-schemas-3.17.jar" deploy-path="/lib" handle="module:/classpath/var/M2_REPO/org/apache/poi/poi-ooxml-schemas/3.17/poi-ooxml-schemas-3.17.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="xmlbeans-2.6.0.jar" deploy-path="/lib" handle="module:/classpath/var/M2_REPO/org/apache/xmlbeans/xmlbeans/2.6.0/xmlbeans-2.6.0.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="stax-api-1.0.1.jar" deploy-path="/lib" handle="module:/classpath/var/M2_REPO/stax/stax-api/1.0.1/stax-api-1.0.1.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="curvesapi-1.04.jar" deploy-path="/lib" handle="module:/classpath/var/M2_REPO/com/github/virtuald/curvesapi/1.04/curvesapi-1.04.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="slf4j-api-1.7.21.jar" deploy-path="/lib" handle="module:/classpath/var/M2_REPO/org/slf4j/slf4j-api/1.7.21/slf4j-api-1.7.21.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="slf4j-jdk14-1.7.21.jar" deploy-path="/lib" handle="module:/classpath/var/M2_REPO/org/slf4j/slf4j-jdk14/1.7.21/slf4j-jdk14-1.7.21.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="jcl-over-slf4j-1.7.21.jar" deploy-path="/lib" handle="module:/classpath/var/M2_REPO/org/slf4j/jcl-over-slf4j/1.7.21/jcl-over-slf4j-1.7.21.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="slf4j-log4j12-1.7.21.jar" deploy-path="/lib" handle="module:/classpath/var/M2_REPO/org/slf4j/slf4j-log4j12/1.7.21/slf4j-log4j12-1.7.21.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="log4j-1.2.17.jar" deploy-path="/lib" handle="module:/classpath/var/M2_REPO/log4j/log4j/1.2.17/log4j-1.2.17.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="javax.xml.rpc-api-1.1.2.jar" deploy-path="/lib" handle="module:/classpath/var/M2_REPO/javax/xml/rpc/javax.xml.rpc-api/1.1.2/javax.xml.rpc-api-1.1.2.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <property name="component.exclusion.patterns" value="**/aop*.jar,**/asm*.jar,**/cglib-nodep*.jar,**/commons-beanutils*.jar,**/commons-digester*.jar,**/commons-fileupload*.jar,**/commons-io*.jar,**/commons-logging*.jar,**/freemarker*.jar,**/javassist*.jar,**/ognl*.jar,**/spring*.jar,**/struts*.jar,**/tiles*.jar,**/xwork*.jar"/>
+    </wb-module>
+</project-modules>

@@ -1,0 +1,39 @@
+.tableBody{
+  width: 55%;
+  font-family:Arial;
+  font-size:9pt;
+  font-weight: bold;
+  margin-top: 3px;
+  white-space: nowrap;
+}
+.horizontalLine{
+  height: 2px; 
+  color: #FFFFFF;
+  background-color: #313063;
+  width: 100%;
+  font-family:Arial;
+  font-weight: bold;
+}
+
+.horizontalLineSave {
+  height: 2px;
+  color: #ffffff;
+  background-color: #313063;
+  width: 100%;
+  font-family: Arial;
+  font-weight: bold;
+  margin-top: 30px;
+}
+.leftDiv{
+  padding-left: 261px;
+  padding-top: 2px;
+}
+.tableBodyHeight{
+  width: 55%;
+  font-family:Arial;
+  font-size:9pt;
+  font-weight: bold;
+  margin-top: 3px;
+  height: 40px;
+  white-space: nowrap;
+}

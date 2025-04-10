@@ -1,0 +1,66 @@
+.fieldName {
+    
+    white-space: nowrap;
+    align-items: baseline;
+    justify-content: baseline;
+    vertical-align:top;
+    align-items:baseline;
+    vertical-align: top;
+    justify-content: baseline;
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 11px;
+    FONT-FAMILY: Arial;
+  }
+
+  .mergacqrename{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:8pt ;
+    height: 90px;
+    width: 402px;  
+    overflow-y: auto;
+    resize: none; 
+}
+
+.textstyle{
+  align-items:baseline;
+  vertical-align: top;
+  justify-content: baseline;
+ 
+}
+.leftAligned{
+  align-items: left ;
+}
+.borderColapse
+{border-collapse: collapse;
+  border-spacing: 0px;
+  border-width: 0; 
+  padding: 0; 
+  margin:10px;
+
+}
+
+.alignedItems{
+  align-items: right;
+  /* padding-left: 180px; */
+ 
+}
+.sendBtn{
+  padding-top: 0%;
+  margin:0px;
+  align-items: left;
+  vertical-align: top;  
+}
+.updateBtn{
+  align-items: left;
+  padding-left: 4px; 
+}
+.btnCancel{
+  align-items: left;
+  padding-left: 4px;
+  padding-top: 0px;  
+}
+@media only screen and (min-width: 1920px) {
+  .mergacqrename{
+    width: 499px; 
+  }
+}

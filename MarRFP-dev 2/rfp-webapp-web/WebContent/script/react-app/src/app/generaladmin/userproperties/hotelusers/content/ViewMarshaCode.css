@@ -1,0 +1,28 @@
+.dialogPaneContent {
+    background: #fff;
+    border-top: 1px solid #d3d3d3;
+    padding: 10px;
+}
+
+.gridView {
+    overflow: hidden;
+        overflow-y: hidden;
+}
+
+table.menuWdth100Height {
+    border: 0px;
+    border-collapse: collapse;
+    padding: 0px;
+    width: 100%;
+}
+
+.field_Name {
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 11px;
+    FONT-FAMILY: Arial;
+}
+
+.BGDarkBlueStyle {
+    color: #FFFFFF;
+    background-color: #313063;
+}

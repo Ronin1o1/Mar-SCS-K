@@ -1,0 +1,62 @@
+.saveBtn {
+  padding-left: 0px;  
+  padding-top: 0px;
+  cursor: pointer;
+}
+.cancelBtn {
+  padding-left: 0px;  
+  padding-top: 0px;
+  cursor: pointer;
+}
+
+
+.header {
+  font-weight: bold;
+  font-size: 9pt;
+  font-family: Arial;
+}
+.BGDarkBlueStyle {
+  color: #FFFFFF;
+  background-color: #313063;
+  vertical-align: top;
+}
+.BGDarkBlueStyle TD {
+   height:2px; 
+   vertical-align: top;
+}
+.BGDarkBlueStyle TR {
+   height:10px; 
+  
+}
+
+.edieHotelProfileListOuterTable {
+  width:100%;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size:11px;
+}
+.edieHotelProfileListOuterTableHeader {
+  border:0px;
+  width:100%;
+}
+.topAlign
+{
+  vertical-align: top;
+}
+.editGridHotelProfileList
+{
+  width: 430px;
+  height: 470px;
+  top: 0px;
+  position: relative;
+  left: 10px;  
+}
+.editTemplate
+{
+  width: "400px"; 
+  font-family:"Arial, Helvetica, sans-serif, Verdana, Geneva";
+  font-size:"11px";
+}
+
+
+
+

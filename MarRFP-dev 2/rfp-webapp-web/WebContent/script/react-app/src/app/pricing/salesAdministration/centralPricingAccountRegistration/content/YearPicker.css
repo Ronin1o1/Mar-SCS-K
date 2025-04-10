@@ -1,0 +1,35 @@
+.yearContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+height: 80.2vh;
+}
+
+.yearContent {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+}
+
+.yearContent a {
+  align-self: center;
+}
+
+.menu {
+  display: flex;
+  flex-direction: row;
+  width: 82px;
+  margin-bottom: 50px;
+  align-self: center;
+}
+
+.menu p {
+  font-weight: bold;
+  padding-right: 10px;
+}
+
+.header {
+  margin-bottom: 50px;
+  font-weight: bold;
+  font-size: 11px;
+}

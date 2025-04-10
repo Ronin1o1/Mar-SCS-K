@@ -1,0 +1,34 @@
+.horizontalLine{
+  height: 2px; 
+   color: #FFFFFF;
+  background-color: #313063;
+  width: 100%;
+   font-family:Arial;
+    font-weight: bold;
+}
+
+.tableBodyRateProgram{
+  margin-bottom: 15px;
+  margin-top: 5px;
+}
+
+.optionalFeature {
+  font-size: 11px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  display: inline-block;
+  margin-top: 5px;
+}
+
+.headerInstructionMain{
+  margin-bottom: 10px;
+  display: inline-block; 
+  font-size: 11px;
+}
+
+.headerInstruction{
+  margin-bottom: 10px;
+  display: inline-block; 
+  margin-top: 5px;
+  font-size: 11px;
+}

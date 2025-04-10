@@ -1,0 +1,1231 @@
+.gridcpac {
+  background-color: #eff0ec;
+  font-family: Geneva, Arial, Helvetica, sans-serif;
+  -moz-outline-style: none;
+  outline: none;
+  overflow: hidden;
+  height: 0;
+  overflow-y: scroll;
+}
+
+.gridcpacScroll {
+  min-height: calc(100vh - 330px);
+  height: calc(100vh - 330px);
+  overflow: hidden auto;
+  width: 1343px;
+  min-width: 1343px;
+}
+
+.width20 {
+  width: 20px;
+}
+
+.gridcpacScrollwidth.gridcpacScroll {
+  min-height: 100px;
+  max-height: 245px;
+  overflow: hidden auto;
+  width: 1252px;
+  min-width: 1343px;
+  max-width: 1343px;
+  /* height: calc(100% - 400px); */
+}
+
+.gridcpacScroll1 {
+  height: calc(100vh - 294px);
+  overflow: hidden auto;
+  /* width: 1360px;
+  min-width: 1360px; */
+  width: 1188px;
+  min-width: 1188px;
+  max-width: 1360px;
+}
+
+.gridcpacScroll2 {
+  height: calc(100vh - 320px);
+  overflow: hidden auto;
+  width: 1360px;
+  min-width: 1360px;
+  max-width: 1360px;
+}
+
+.gridcpacScroll1 .cpacnobidRow.nobidRow {
+  width: 445px !important;
+  min-width: 445px;
+  max-width: 445px;
+}
+
+.gridcpac table {
+  padding: 0;
+}
+
+.gridcpac td {
+  -moz-outline: none;
+}
+
+.gridcpacView {
+  overflow: hidden;
+}
+
+.gridcpacHeader {
+  background-color: #d6d7ce;
+  font-weight: bold;
+}
+
+.gridcpacHeader table {
+  text-align: center;
+}
+
+.gridcpacHeader .gridcpacCell {
+  border-color: #f6f4eb #aca899 #aca899 #f6f4eb;
+  padding-bottom: 2px;
+  font-size: 11px;
+  font-weight: bold;
+  text-align: center !important;
+}
+
+.gridcpacHeader .gridcpacHeaderLeft {
+  border-left-color: #313063;
+  border-left-width: 2px;
+  border-left-style: solid;
+}
+
+.gridcpacHeader .gridcpacHeaderLeftLight {
+  border-left-color: #9e9e9e;
+  border-left-width: 2px;
+  border-left-style: solid;
+}
+
+.gridcpacCellNumber .gridcpacCell {
+  text-align: right;
+  border-color: #ebeadb;
+}
+
+.gridcpacCell {
+  border: 1px solid;
+  border-color: #ebeadb;
+  padding: 0px 2px 0px 2px;
+  text-align: left;
+  overflow-y: hidden;
+  font-size: 11px;
+}
+
+.gridcpacHeaderDiv {
+  padding: 0px 0px 0px 0px;
+  text-align: left;
+  overflow-y: hidden;
+  font-size: 11px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #f6f4eb #aca899 #aca899 #f6f4eb;
+  font-weight: bold;
+}
+
+.rowhighlight {
+  background-color: gray;
+}
+
+.nowrapCell {
+  white-space: nowrap;
+}
+
+.gridcpacDisplayTextSection {
+  font-weight: bold;
+  vertical-align: top;
+}
+
+.gridcpacDisplayTextGroup {
+  font-style: italic;
+  padding-left: 10px;
+  vertical-align: top;
+}
+
+.gridcpacDisplayTextElement {
+  padding-left: 20px;
+  vertical-align: top;
+}
+
+.gridcpacSectionHeader {
+  font-weight: bold;
+  font-style: italic;
+  background-color: #a4aac6;
+}
+
+.gridcpacRow {
+  border-color: #e8e4d8;
+  border-left: none;
+  border-bottom: none;
+  background-color: white;
+  border-top: none;
+  font-weight: normal;
+}
+
+.gridcpacRowInlBlock {
+  display: inline-block;
+}
+
+.gridcpacRowOver {
+  border-top-color: #febe47;
+  border-bottom-color: #febe47;
+  background-color: #aaedf9;
+  font-weight: normal;
+}
+
+.gridcpacRowOdd {
+  background-color: #f4f4f2;
+  border: 1px solid;
+  border-color: #e8e4d8;
+  border-left: none;
+  border-bottom: none;
+  border-top: none;
+  font-weight: normal;
+}
+
+.gridcpacRowCapHeight {
+  border: 1px solid #e8e4d8;
+  border-color: #f8f7f1;
+  border-left: none;
+  border-right: none;
+  background-color: white;
+  border-top: none;
+  overflow: hidden;
+  height: 26px;
+}
+
+.gridUpdateHotelWrapper .width60 {
+  width: 52px;
+  min-width: 52px;
+}
+
+.gridUpdateHotelWrapper .cpacnoBid.noBid {
+  width: 367px !important;
+  min-width: 367px;
+  max-width: 367px;
+}
+
+.fixedTableHeight {
+  width: auto;
+  overflow: hidden auto;
+  height: calc(100vh - 297px);
+}
+
+.gridUpdateHotelWrapper .noidwidth50.width50 {
+  width: 48px;
+  min-width: 48px;
+}
+
+.gridUpdateHotelWrapper .width20 {
+  width: 26px;
+  min-width: 26px;
+}
+
+.gridcpacRowSelected {
+  background-color: #f4f29f;
+}
+
+.gridcpacRowbarSelected {
+  background-color: #b6d3f3;
+}
+
+.gridcpacRowbarTotal {
+  background-color: #94bfef;
+}
+
+.gridcpacRowTable {
+  table-layout: fixed;
+  border-collapse: collapse;
+}
+
+.width20 {
+  width: 20px;
+  min-width: 20px;
+}
+
+.width30 {
+  width: 30px;
+  min-width: 30px;
+}
+
+.width40 {
+  width: 40px;
+  min-width: 40px;
+}
+
+.widthcs {
+  width: 40px;
+  min-width: 40px;
+}
+
+.widthrebiStatus {
+  width: 43px;
+  min-width: 43px;
+}
+
+.width50 {
+  width: 50px;
+  min-width: 50px;
+}
+
+.accountstaus {
+  width: 50px;
+  min-width: 50px;
+}
+
+.noidwidth50.width50 {
+  width: 42px;
+  min-width: 42px;
+}
+
+.width60 {
+  width: 51px;
+  min-width: 51px;
+}
+
+.width240 {
+  max-width: 285px;
+  min-width: 285px;
+  width: 285px;
+}
+
+.width275 {
+  max-width: 290px;
+  min-width: 290px;
+  width: 290px;
+}
+
+.width60hotelpricebtn {
+  width: 51px;
+  min-width: 51px;
+}
+
+.width46 {
+  width: 46px;
+  min-width: 46px;
+}
+
+.accounstatuscenteralign>td {
+  text-align: center !important;
+  display: block;
+}
+
+.accountName {
+  width: 292px;
+  min-width: 292px;
+}
+
+.dueDate {
+  width: 77px;
+  min-width: 77px;
+}
+
+.dueDateGrid {
+  width: 70px;
+  min-width: 70px;
+}
+
+.salesGroup {
+  width: 160px;
+  min-width: 160px;
+}
+
+.product {
+  width: 300px;
+  min-width: 300px;
+}
+
+.updateProduct {
+  width: 150px;
+  min-width: 150px;
+}
+
+.cpacproduct.product {
+  width: 91px;
+  min-width: 91px;
+}
+
+.gridUpdateHotelWrapper .best {
+  width: 68px;
+  min-width: 68px;
+}
+
+.best {
+  width: 69px;
+  min-width: 69px;
+}
+
+.noBid {
+  width: 225px !important;
+  min-width: 225px;
+}
+
+.updateNoBid {
+  width: 188px !important;
+  min-width: 188px;
+}
+
+.updateNoBidOCPrice {
+  width: 135px !important;
+  min-width: 135px;
+  max-width: 135px;
+}
+
+.cpacHotelWrapper .cpacnoBid.noBid {
+  width: 188px;
+}
+
+.gridcpac {
+  background-color: #eff0ec;
+  font-family: Geneva, Arial, Helvetica, sans-serif;
+  -moz-outline-style: none;
+  outline: none;
+  overflow: hidden;
+  height: 0;
+}
+
+.gridcpac table {
+  padding: 0;
+}
+
+.gridcpac td {
+  -moz-outline: none;
+}
+
+.gridcpacView {
+  overflow: hidden;
+}
+
+.gridcpacHeader {
+  /* overflow: hidden; */
+  background-color: #d6d7ce;
+  /* position: absolute; */
+}
+
+.width65 {
+  text-align: center !important;
+  width: 65px;
+  min-width: 65px;
+  max-width: 65px;
+}
+
+.gridcpacHeader table {
+  text-align: center;
+}
+
+.gridcpacHeader .gridcpacCell {
+  border-color: #f6f4eb #aca899 #aca899 #f6f4eb;
+  padding-bottom: 2px;
+  font-size: 11px;
+  font-weight: bold;
+}
+
+.gridcpacHeader .gridcpacCellMRR {
+  border-color: #f6f4eb #aca899 #aca899 #f6f4eb;
+  padding-bottom: 2px;
+  font-size: 11px;
+  font-weight: bold;
+}
+
+.gridcpacHeader .gridcpacHeaderLeft {
+  border-left-color: #313063;
+  border-left-width: 2px;
+  border-left-style: solid;
+}
+
+.gridcpacHeader .gridcpacHeaderLeftLight {
+  border-left-color: #9e9e9e;
+  border-left-width: 2px;
+  border-left-style: solid;
+}
+
+.gridcpacCellNumber .gridcpacCell {
+  text-align: right;
+  border-color: #ebeadb;
+}
+
+.gridcpacCell {
+  border: 1px solid;
+  border-color: #aca899 #aca899;
+  padding: 1px 2px 0px 1px;
+  text-align: left;
+  overflow-y: hidden;
+  font-size: 11px;
+}
+
+.gridcpacCellMRR {
+  text-align: center;
+  border: 1px solid;
+  border-color: #ebeadb;
+  padding: 0px 2px 0px 2px;
+  overflow-y: hidden;
+  font-size: 11px;
+}
+
+.gridcpacCellMRRData {
+  text-align: center;
+  border: 1px solid;
+  border-color: #aca899;
+  padding: 2px;
+  overflow-y: hidden;
+  font-size: 11px;
+}
+
+.gridcpacLeftBorder {
+  border-left-color: #313063;
+  border-left-width: 2px;
+  border-left-style: solid;
+}
+
+.gridcpacLeftBorderLight {
+  border-left-color: #9e9e9e;
+  border-left-width: 2px;
+  border-left-style: solid;
+}
+
+.gridcpacHeaderDiv {
+  padding: 0px 0px 0px 0px;
+  text-align: left;
+  overflow-y: hidden;
+  font-size: 11px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #f6f4eb #aca899 #aca899 #f6f4eb;
+  font-weight: bold;
+}
+
+.nowrapCell {
+  white-space: nowrap;
+}
+
+.gridcpacDisplayTextSection {
+  font-weight: bold;
+  vertical-align: top;
+}
+
+.gridcpacDisplayTextGroup {
+  font-style: italic;
+  padding-left: 10px;
+  vertical-align: top;
+}
+
+.gridcpacDisplayTextElement {
+  padding-left: 20px;
+  vertical-align: top;
+}
+
+.gridcpacSectionHeader {
+  font-weight: bold;
+  font-style: italic;
+  background-color: #a4aac6;
+}
+
+.gridcpacRow {
+  border: 1px solid;
+  border-color: #e8e4d8;
+  border-left: none;
+
+  border-bottom: none;
+  background-color: white;
+  border-top: none;
+}
+
+.gridcpacRowInlBlock {
+  display: inline-block;
+}
+
+.gridcpacRowOver {
+  border-top-color: #febe47;
+  border-bottom-color: #febe47;
+  background-color: #aaedf9;
+}
+
+.gridcpacRowOdd {
+  background-color: #f4f4f2;
+  border: 1px solid;
+  border-color: #e8e4d8;
+  border-left: none;
+}
+
+.gridcpacRowCapHeight {
+  border: 1px solid #e8e4d8;
+  border-color: #f8f7f1;
+  border-left: none;
+  border-right: none;
+  background-color: white;
+  border-top: none;
+  overflow: hidden;
+  height: 26px;
+}
+
+.gridcpacRowSelected {
+  background-color: #f4f29f;
+}
+
+.gridcpacRowbarSelected {
+  background-color: #b6d3f3;
+}
+
+.gridcpacRowbarTotal {
+  background-color: #94bfef;
+}
+
+.gridcpacRowTable {
+  table-layout: fixed;
+  border-collapse: collapse;
+}
+
+.statusRow {
+  text-align: center !important;
+  width: 40px;
+  min-width: 40px;
+}
+
+.updateStateRow {
+  text-align: center !important;
+  width: 40px;
+  min-width: 40px;
+  max-width: 40px;
+}
+
+.cpaccompletionstatus.statusRow {
+  text-align: center !important;
+  width: 64px;
+  min-width: 64px;
+  max-width: 68px;
+}
+
+.cpacHotelWrapper .cpaccompletionstatus.statusRow {
+  text-align: center !important;
+  width: 65px;
+  min-width: 65px;
+  max-width: 65px;
+}
+
+.cpacHotelWrapper .cbcStatusRow {
+  width: 40px;
+  min-width: 40px;
+}
+
+.cbcStatusRow {
+  width: 40px;
+  min-width: 40px;
+}
+
+.accountStatusRow {
+  width: 50px;
+  min-width: 50px;
+  vertical-align: middle;
+}
+
+.cpacHotelWrapper .accountStatusRow {
+  width: 50px;
+  min-width: 50px;
+  vertical-align: middle;
+}
+
+.updatemultiaccountStatusRow {
+  width: 33px;
+  min-width: 43px;
+  max-width: 32px;
+  padding-left: 15px;
+  align-content: center;
+  vertical-align: middle;
+}
+
+.rebidStatusRow {
+  text-align: center;
+  width: 40px;
+  min-width: 40px;
+}
+
+.cpacHotelWrapper .rebidStatusRow {
+  width: 40px;
+  min-width: 40px;
+}
+
+.accountNameRow {
+  width: 309px;
+  min-width: 309px;
+  max-width: 309px;
+}
+
+.cpacHotelWrapper .accountNameRow {
+  width: 290px;
+  min-width: 290px;
+  max-width: 293px;
+}
+
+.dueDateRow {
+  width: 70px;
+  min-width: 70px;
+  max-width: 80px;
+}
+
+.salesGroupRow {
+  width: 160px;
+  min-width: 160px;
+}
+
+.priceRow {
+  width: 50px;
+  min-width: 50px;
+  max-width: 50px;
+  padding: 0 5px;
+  vertical-align: middle;
+  text-align: center !important;
+}
+
+.cpacHotelWrapper .priceRow {
+  width: 51px;
+  min-width: 51px;
+  max-width: 51px;
+}
+
+.questionRow {}
+
+.bestAndFinalRow {
+  width: 68px;
+  min-width: 68px;
+}
+
+.nobidRow {
+  width: 188px;
+  min-width: 188px;
+}
+
+.cpacnobidRow.nobidRow {
+  width: 290px !important;
+  min-width: 290px;
+  max-width: 352px;
+}
+
+.gridUpdateHotelWrapper .cpacnobidRow.nobidRow {
+  width: 363px !important;
+  min-width: 363px;
+  max-width: 363px;
+}
+
+.emptyColumn {
+  width: 11px;
+}
+
+.gridCell {
+  border: 1px solid;
+  border-color: #ebeadb;
+  text-align: left;
+  overflow-y: hidden;
+  font-size: 11px;
+  padding: 0 2px 0 1px;
+  vertical-align: middle;
+}
+
+.gridRowbarSelected {
+  background-color: transparent !important;
+}
+
+.rightPanelRow {
+  font-weight: normal;
+}
+
+.rightPanelRow:hover {
+  background-color: transparent;
+}
+
+.gridRow {
+  border: 1px solid #ebeadb;
+  font-weight: normal;
+  background-color: white;
+
+  border-bottom: none;
+}
+
+.gridRowOdd {
+  background: #f4f4f2;
+  border: 1px solid #ebeadb;
+  border-bottom: none;
+  border-top: none;
+}
+
+.fordoubleborder:nth-child(odd) {
+  margin-top: 1px;
+}
+
+.gridHover:hover {
+  background-color: #f4f29f;
+}
+
+.gridUpdateHotelWrapper .fordoubleborder>tr>td {
+  vertical-align: middle;
+}
+
+.gridUpdateHotelWrapper .nobidCol,
+.gridUpdateHotelWrapper .cpacproductoffered {
+  vertical-align: middle;
+}
+
+.nobidCol {
+  width: 29px;
+  min-width: 42px;
+  max-width: 29px;
+  border: none;
+  border-right: 1px solid #ebeadb;
+  border: 1px solid;
+  border-color: #ebeadb;
+  overflow-y: hidden;
+  text-align: center;
+}
+
+.nobidCol td {
+  text-align: center;
+  width: 46px;
+}
+
+.subcols {
+  width: 49px;
+  min-width: 49px;
+}
+
+.subcol55 {
+  width: 102px;
+  min-width: 102px;
+  max-width: 102px;
+}
+
+.cpacproductoffered {
+  width: 90px;
+  min-width: 92px;
+  max-width: 102px;
+  border: 1px solid;
+  border-color: #ebeadb;
+  text-align: left;
+  overflow-y: hidden;
+  font-size: 11px;
+vertical-align: middle;
+}
+
+.cpacHotelWrapper .cpacproductoffered {
+  width: 92px;
+  min-width: 92px;
+  font-style: italic;
+  padding-left: 2px;
+}
+
+.updateTableScroll .cpacproductoffered {
+  width: 64px;
+  min-width: 64px;
+}
+
+.updateTableScroll .cpacquestions {
+  width: 27px;
+  min-width: 27px;
+}
+
+.cpacHotelWrapper .cpacquestions {
+  width: 20px;
+  min-Width: 20px;
+  padding-top: 2px;
+}
+
+.cpacquestions {
+  text-align: center;
+  width: 28px;
+  min-Width: 28px;
+  max-Width: 28px;
+}
+
+.noBidReason {
+  width: 115px;
+}
+
+.alignCenter {
+  text-align: center;
+}
+
+.rebidIcon {
+  padding-left: 12px;
+}
+
+.cbcIcon {
+  padding-left: 10px;
+}
+
+.popupStyle {
+  width: 455px;
+  margin-left: 20px;
+  margin-right: 10px;
+  margin-top: 8px;
+  margin-bottom: 5px;
+}
+
+.popupStylePO {
+  width: 315px;
+  margin-left: 20px;
+  margin-right: 10px;
+  margin-top: 8px;
+  margin-bottom: 5px;
+}
+
+.popupButton {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 314px;
+  height: 20px;
+}
+
+.popupButton p img {
+  width: 100%;
+  height: 100%;
+}
+
+.popupButton p {
+  margin: 0 25px 0;
+  padding: 0;
+}
+
+.poalign {
+  width: 320px;
+  float: left;
+}
+
+.nobidSelect {
+  font-size: 11px;
+  font-family: Arial;
+  font-weight: normal;
+  border: 1.5px solid black;
+  border-radius: 3px;
+}
+
+.productofferedPO {
+  font-size: 11px;
+  font-family: Arial;
+  font-weight: normal;
+  border: 1.5px solid black;
+  border-radius: 3px;
+  width: 148px;
+}
+
+.width10 {
+  width: 10px;
+  min-width: 10px;
+}
+
+.width220 {
+  width: 220px;
+  min-width: 220px;
+}
+
+th.hotelName {
+  width: 300px;
+  min-width: 300px;
+}
+
+td.hotelName {
+  width: 218px;
+  min-width: 218px;
+}
+
+.bestFn {
+  width: 69px;
+  min-width: 69px;
+  max-width: 69px;
+  text-align: center;
+}
+
+.noBidUpdate {
+  /* width: 68px;
+  min-width: 68px; */
+  width: 20px;
+  min-width: 30px;
+  max-width: 68px;
+  border: none;
+  border-right: 1px solid #ebeadb;
+  text-align: center;
+  padding-left: 17px;
+  border: 1px solid;
+  border-color: #ebeadb;
+}
+
+.updateTableScroll {
+  height: calc(100vh - 236px);
+  overflow: hidden auto;
+  width: 1066px;
+}
+
+.width69 {
+  width: 69px;
+  min-width: 69px;
+  max-width: 69px;
+}
+
+.width81 {
+  width: 81px;
+  min-width: 81px;
+  max-width: 81px;
+}
+
+.width46 {
+  width: 46px;
+  min-width: 46px;
+}
+
+.nodataFound {
+  background: white;
+  text-align: center;
+  padding: 2px 0 2px 0;
+}
+
+.updateModalWidth {
+  width: 862px;
+}
+
+.updatePadding {
+  padding: 0 1px 0 1px;
+}
+
+.width10 {
+  min-width: 10px;
+  max-width: 10px;
+}
+
+.updateBestFn {
+  width: 72px;
+  min-width: 72px;
+  max-width: 72px;
+}
+
+.bidReasonCol {
+  width: 170px;
+  min-width: 170px !important;
+}
+
+.pl8 {
+  padding-left: 8px !important;
+}
+
+.gridCellBorder {
+  border: 1px solid;
+  border-color: transparent;
+  overflow-y: hidden;
+  font-size: 11px;
+}
+
+.p0 {
+  padding: 0;
+}
+
+.gridCell2 {
+  border: 1px solid;
+  border-color: #ebeadb transparent;
+}
+
+.noGeneralPricing {
+  color: #d90000;
+  vertical-align: -webkit-baseline-middle;
+  white-space: nowrap;
+}
+
+.gridUpdateHotelWrapper .fordoubleborder>tr>td {
+  vertical-align: middle;
+  border: 0;
+  border-right: 1px solid #EBEADB;
+  display: table-cell;
+}
+.gridUpdateHotelWrapper .fordoubleborder>tr>td:first-child, .gridUpdateHotelWrapper .fordoubleborder>tr>td:nth-child(3) {
+  padding-top: 3px;
+}
+
+.gridUpdateHotelWrapper .fordoubleborder>tr>td:nth-child(6) td {
+  font-style: italic;
+  padding-left: 5px;
+}
+
+.gridUpdateHotelWrapper .fordoubleborder>tr>td>td {
+  border: 0;
+}
+
+.gridUpdateHotelWrapper .fordoubleborder {
+  margin-top: 0 !important;
+  border: 1px solid #E8E4D8;
+  border-color: #F8F7F1;
+  border-bottom: none;
+  border-top: none;
+  border-spacing: 0;
+}
+
+.gridUpdateHotelWrapper .fordoubleborder:nth-child(odd) {
+  margin-top: 0;
+  background-color: #f4f4f2;
+}
+
+.gridUpdateHotelWrapper .gridHover:hover {
+  background-color: #f4f29f;
+}
+
+.gridUpdateHotelWrapper .width40 {
+  width: 44px;
+  min-width: 44px;
+}
+
+.gridUpdateHotelWrapper .updatemultiaccountStatusRow {
+  width: 50px;
+  min-width: 50px;
+  max-width: 50px;
+}
+
+.gridUpdateHotelWrapper .priceRow {
+  width: 53px;
+  min-width: 53px;
+}
+
+.gridUpdateHotelWrapper td.hotelName {
+  width: 300px;
+  min-width: 302px;
+}
+
+.gridUpdateHotelWrapper .bestFn {
+  width: 69px;
+  min-width: 69px;
+  max-width: 69px;
+  text-align: center;
+  padding-top: 3px;
+}
+
+.gridUpdateHotelWrapper .noBidUpdate {
+  width: 33px;
+  min-width: 33px;
+}
+
+.gridUpdateHotelWrapper .noBidUpdate,
+.gridUpdateHotelWrapper .cpacproductoffered {
+  border-right: 0;
+  border: 0;
+  border-color: none;
+}
+
+.gridUpdateHotelWrapper {
+
+  background-color: #eff0ec;
+}
+
+.updateNoResult {
+  width: 1043px;
+  height: calc(100vh - 252px);
+  background-color: #eff0ec;
+}
+
+/* table.tableCpacWrapper,.tableCpaccontent{
+  table-layout: fixed;
+  border-collapse: collapse;
+} */
+.cpacHotelWrapper table.tableCpacWrapper {
+  /* //width:calc(100% - 25px); */
+  /* width:1360px;
+  max-width:1360px; */
+  width: 1188px;
+  max-width: 1188px;
+  table-layout: fixed;
+}
+
+.cpacHotelWrapper .widthcpac {
+  width: 64px;
+  min-width: 64px;
+}
+
+table.tableUpdateHotelWrapper {
+  width: 1062px;
+  table-layout: fixed;
+}
+
+table.tableUpdateHotelWrapper .cpacproduct.product {
+  width: 60px;
+  min-width: 60px;
+}
+
+.tableUpdateHotelWrapper .widthcs {
+  width: 70px;
+  min-width: 70px;
+}
+
+.tableUpdateHotelWrapper .width30 {
+  width: 48px;
+  min-width: 48px;
+}
+
+.cpaccompletionstatus.statusRow {
+  text-align: center !important;
+  width: 70px;
+  min-width: 70px;
+  max-width: 70px;
+}
+
+.cpacHotelWrapper .accountName {
+  width: 290px;
+  min-width: 290px;
+}
+.cpacheight{
+  height: calc(100vh - 265px);
+}
+@media only screen and (min-width: 1920px){
+  .updateTableScroll {
+    height: calc(100vh - 242px);
+  }
+  .cpacheight{
+    height: calc(100vh - 272px);
+  }
+  .fixedTableHeight {
+    height: calc(100vh - 297px);
+  }
+  .gridcpacScroll1 {
+    height: calc(100vh - 305px);
+  }
+  .updateNoResult {
+    height: calc(100vh - 260px);
+  }
+}
+@media only screen and (max-width: 1300px){
+  .updateTableScroll {
+    height: calc(100vh - 240px);
+  }
+  .cpacheight{
+    height: calc(100vh - 272px);
+  }
+  .fixedTableHeight {
+    height: calc(100vh - 315px);
+  }
+  .gridcpacScroll1 {
+    height: calc(100vh - 308px);
+  }
+}
+@media only screen and (max-width: 1360px){
+.cpacHotelWrapper{
+    width: 100%;
+    overflow: auto;
+    display: block;
+  }
+}
+@media only screen and (max-width: 1200px){
+  .width275 {
+    max-width: 130px;
+    min-width: 130px;
+    width: 130px;
+  }
+  .cpacgridtable{
+    width: 1200px !important;
+  }
+  .updategridtable{
+    width: auto;
+  }
+  .cpacHotelWrapper{
+    overflow: hidden;
+  }
+  .fixedTableHeight {
+    height: calc(100vh - 315px);
+  }
+}
+@media only screen and (max-width: 1070px){
+  .updateTableScroll {
+    height: calc(100vh - 260px);
+  }
+  .updateNoResult {
+    height: calc(100vh - 281px);
+  }
+}

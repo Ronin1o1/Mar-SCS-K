@@ -1,0 +1,160 @@
+.tableBody {
+  width: 50%;
+  font-family: Arial;
+  font-size: 12px;
+  font-weight: bold;
+  margin-top: 0px;
+}
+
+.tableBody2 {
+  width: 80%;
+  font-family: Arial;
+  font-size: 12px;
+  font-weight: bold;
+  margin-bottom: 0px;
+  margin-top: 3px;
+}
+
+.bodyContainer {
+  overflow-y: scroll;
+  height: 78vh;
+}
+.fieldValueTD {
+  align-items: left;
+  height: 30px;
+  width: 10px;
+}
+.selectOption {
+  align-items: left;
+  height: 30px;
+  width: 250px;
+}
+.selectDropDownTD {
+  width: 60px;
+  height: 30px;
+}
+.selectDropDown {
+  font-family: Arial, Helvetica, sans-serif, Verdana, Geneva !important;
+  font-size: 11px !important;
+}
+.inputDescription {
+  width: 200px;
+  font-family: Arial, Helvetica, sans-serif, Verdana, Geneva !important;
+  font-size: 11px !important;
+}
+.width30 {
+  width: 26px;
+}
+.height5 {
+  height: 5px;
+}
+.tablerTD {
+  vertical-align: top;
+  height: 100%;
+}
+.verticalAlign {
+  vertical-align: top;
+}
+.colorRed {
+  color: red;
+}
+.verticalAlignMiddle {
+  vertical-align: middle;
+}
+.InstructionHeader {
+  FONT-WEIGHT: bold;
+  FONT-SIZE: 11px;
+  FONT-STYLE: italic;
+  FONT-FAMILY: Arial;
+  BACKGROUND-COLOR: #eff0ec;
+}
+
+.fullheight{
+  height: 100%;
+  width: 100%;
+  border: 0px;
+  border-collapse: collapse;
+  padding: 0px;
+}
+.trheight{
+  height: 100%;
+}
+.tdstyle{
+  vertical-align: top;
+  width : 35%;
+}
+.fieldName {
+  FONT-WEIGHT: bold;
+  FONT-SIZE: 11px;
+  FONT-FAMILY: Arial;
+}
+.zeroStyle{
+    border: 0px;
+    border-collapse: collapse;
+    padding: 0px;
+}
+.horizontalLine {
+  height: 2px;
+  color: #ffffff;
+  background-color: #313063;
+  width: 200%;
+  font-family: Arial;
+  font-weight: bold;
+}
+.tableBody1 {
+  font-weight: bold;
+  font-size: 9pt;
+  font-family: Arial;
+}
+
+
+
+.zero-Height {
+    border: 2px;
+    border-collapse: collapse;
+    padding: 0px;
+}
+
+.leftDiv{
+  padding-left: 403px;
+  margin-top: 1px;
+  margin-bottom: 1px;
+}
+
+.hiddenLabel {
+  display: none;
+}
+.viewTableHeight {
+  width:200%;
+  margin-bottom: -6px;
+}
+.viewTableRow {
+  height: 100%;
+  
+}
+.viewTableColumn {
+  vertical-align: top;
+  width: 35%;
+}
+.innerViewTable {
+  width: 90.3%;
+  background-color: #e8e8e8;
+  margin-left: -3px;
+}
+.innerViewInstructionHeader {
+  border-bottom: darkblue 2px ridge;
+  background-color: #eff0ec;
+  font-size: 11px;
+  font-style: italic;
+  margin-top: -3px;
+  display: block;
+}
+.rightViewTable {
+  width: 90.3%;
+}
+.fontNormal {
+  font-weight: normal;
+}
+.pl10 {
+  padding-left: 10px;
+}

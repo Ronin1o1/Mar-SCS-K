@@ -1,0 +1,373 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders alert correctly 1`] = `
+<CopyAccount>
+  <CopyAccountContextProvider>
+    <div>
+      <p
+        className="header"
+      >
+        Pricing Administration :Copy Account Information by Segment
+      </p>
+      <hr
+        className="hr"
+      />
+      <p
+        className="instruction"
+      >
+        Only accounts marked as account-plan-only = Y will be copied.
+      </p>
+      <table
+        className="table"
+      >
+        <tr>
+          <td>
+            Account Tier:
+          </td>
+          <td>
+            <MSelect
+              checked={null}
+              className={null}
+              disabled={null}
+              id="accountSegment"
+              label={Array []}
+              onBlur={null}
+              onChange={[Function]}
+              value={null}
+            >
+              <div
+                className="mSelect "
+              >
+                <BaseSelect
+                  checked={null}
+                  className="baseSelect"
+                  disabled={null}
+                  id="accountSegment"
+                  labelData={Array []}
+                  onBlur={null}
+                  onChange={[Function]}
+                  value={null}
+                >
+                  <styled.select
+                    disabled={null}
+                    id="accountSegment"
+                    onBlur={null}
+                    onChange={[Function]}
+                    value={null}
+                  >
+                    <select
+                      className="sc-bdnxRM hFCrJd"
+                      disabled={null}
+                      id="accountSegment"
+                      onBlur={null}
+                      onChange={[Function]}
+                      value={null}
+                    />
+                  </styled.select>
+                </BaseSelect>
+              </div>
+            </MSelect>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            From Period:
+          </td>
+          <td>
+            <MSelect
+              checked={null}
+              className={null}
+              disabled={null}
+              id="fromPeriod"
+              label={Array []}
+              onBlur={null}
+              onChange={[Function]}
+              value={null}
+            >
+              <div
+                className="mSelect "
+              >
+                <BaseSelect
+                  checked={null}
+                  className="baseSelect"
+                  disabled={null}
+                  id="fromPeriod"
+                  labelData={Array []}
+                  onBlur={null}
+                  onChange={[Function]}
+                  value={null}
+                >
+                  <styled.select
+                    disabled={null}
+                    id="fromPeriod"
+                    onBlur={null}
+                    onChange={[Function]}
+                    value={null}
+                  >
+                    <select
+                      className="sc-bdnxRM hFCrJd"
+                      disabled={null}
+                      id="fromPeriod"
+                      onBlur={null}
+                      onChange={[Function]}
+                      value={null}
+                    />
+                  </styled.select>
+                </BaseSelect>
+              </div>
+            </MSelect>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            To Period:
+          </td>
+          <td>
+            <MSelect
+              checked={null}
+              className={null}
+              disabled={null}
+              id="toPeriod"
+              label={Array []}
+              onBlur={null}
+              onChange={[Function]}
+              value={null}
+            >
+              <div
+                className="mSelect "
+              >
+                <BaseSelect
+                  checked={null}
+                  className="baseSelect"
+                  disabled={null}
+                  id="toPeriod"
+                  labelData={Array []}
+                  onBlur={null}
+                  onChange={[Function]}
+                  value={null}
+                >
+                  <styled.select
+                    disabled={null}
+                    id="toPeriod"
+                    onBlur={null}
+                    onChange={[Function]}
+                    value={null}
+                  >
+                    <select
+                      className="sc-bdnxRM hFCrJd"
+                      disabled={null}
+                      id="toPeriod"
+                      onBlur={null}
+                      onChange={[Function]}
+                      value={null}
+                    />
+                  </styled.select>
+                </BaseSelect>
+              </div>
+            </MSelect>
+          </td>
+        </tr>
+        <tr>
+          <td />
+          <div
+            className="copybtn"
+            id="copybtn"
+          >
+            <img
+              id="COPY"
+              onClick={[Function]}
+              src="test-file-stub"
+            />
+          </div>
+        </tr>
+      </table>
+    </div>
+  </CopyAccountContextProvider>
+</CopyAccount>
+`;
+
+exports[`renders correctly 1`] = `
+<CopyAccount>
+  <CopyAccountContextProvider>
+    <div>
+      <p
+        className="header"
+      >
+        Pricing Administration :Copy Account Information by Segment
+      </p>
+      <hr
+        className="hr"
+      />
+      <p
+        className="instruction"
+      >
+        Only accounts marked as account-plan-only = Y will be copied.
+      </p>
+      <table
+        className="table"
+      >
+        <tr>
+          <td>
+            Account Tier:
+          </td>
+          <td>
+            <MSelect
+              checked={null}
+              className={null}
+              disabled={null}
+              id="accountSegment"
+              label={Array []}
+              onBlur={null}
+              onChange={[Function]}
+              value={null}
+            >
+              <div
+                className="mSelect "
+              >
+                <BaseSelect
+                  checked={null}
+                  className="baseSelect"
+                  disabled={null}
+                  id="accountSegment"
+                  labelData={Array []}
+                  onBlur={null}
+                  onChange={[Function]}
+                  value={null}
+                >
+                  <styled.select
+                    disabled={null}
+                    id="accountSegment"
+                    onBlur={null}
+                    onChange={[Function]}
+                    value={null}
+                  >
+                    <select
+                      className="sc-bdnxRM hFCrJd"
+                      disabled={null}
+                      id="accountSegment"
+                      onBlur={null}
+                      onChange={[Function]}
+                      value={null}
+                    />
+                  </styled.select>
+                </BaseSelect>
+              </div>
+            </MSelect>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            From Period:
+          </td>
+          <td>
+            <MSelect
+              checked={null}
+              className={null}
+              disabled={null}
+              id="fromPeriod"
+              label={Array []}
+              onBlur={null}
+              onChange={[Function]}
+              value={null}
+            >
+              <div
+                className="mSelect "
+              >
+                <BaseSelect
+                  checked={null}
+                  className="baseSelect"
+                  disabled={null}
+                  id="fromPeriod"
+                  labelData={Array []}
+                  onBlur={null}
+                  onChange={[Function]}
+                  value={null}
+                >
+                  <styled.select
+                    disabled={null}
+                    id="fromPeriod"
+                    onBlur={null}
+                    onChange={[Function]}
+                    value={null}
+                  >
+                    <select
+                      className="sc-bdnxRM hFCrJd"
+                      disabled={null}
+                      id="fromPeriod"
+                      onBlur={null}
+                      onChange={[Function]}
+                      value={null}
+                    />
+                  </styled.select>
+                </BaseSelect>
+              </div>
+            </MSelect>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            To Period:
+          </td>
+          <td>
+            <MSelect
+              checked={null}
+              className={null}
+              disabled={null}
+              id="toPeriod"
+              label={Array []}
+              onBlur={null}
+              onChange={[Function]}
+              value={null}
+            >
+              <div
+                className="mSelect "
+              >
+                <BaseSelect
+                  checked={null}
+                  className="baseSelect"
+                  disabled={null}
+                  id="toPeriod"
+                  labelData={Array []}
+                  onBlur={null}
+                  onChange={[Function]}
+                  value={null}
+                >
+                  <styled.select
+                    disabled={null}
+                    id="toPeriod"
+                    onBlur={null}
+                    onChange={[Function]}
+                    value={null}
+                  >
+                    <select
+                      className="sc-bdnxRM hFCrJd"
+                      disabled={null}
+                      id="toPeriod"
+                      onBlur={null}
+                      onChange={[Function]}
+                      value={null}
+                    />
+                  </styled.select>
+                </BaseSelect>
+              </div>
+            </MSelect>
+          </td>
+        </tr>
+        <tr>
+          <td />
+          <div
+            className="copybtn"
+            id="copybtn"
+          >
+            <img
+              id="COPY"
+              onClick={[Function]}
+              src="test-file-stub"
+            />
+          </div>
+        </tr>
+      </table>
+    </div>
+  </CopyAccountContextProvider>
+</CopyAccount>
+`;

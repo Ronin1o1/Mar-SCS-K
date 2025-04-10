@@ -1,0 +1,71 @@
+.button{
+    text-align: center;
+    cursor: pointer;
+    width : 100%;
+}
+.container{
+    margin : 10px;
+}
+.buttonContainer{
+    margin-top:5px;
+    width : 100%;
+}
+.buttonPosition{
+    text-align: center;
+}
+.save{
+    margin-right : 4px;
+    cursor: pointer;
+}
+.cancel {
+    cursor: pointer;
+}
+.okButton{
+    text-align: center;
+    cursor: pointer;
+    margin: 15px;
+    width: 45px;
+}
+.gridDisplay {
+    display: "grid";
+    place-items: "center"; 
+    height: "100%";
+    width: "100%";
+}
+.tableDisplay {
+    display: table;
+    place-items: center;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+}
+
+.chLabel {
+    margin-left: 2em;
+    display: block;
+    position: relative;
+    margin-top: -1.4em;
+    line-height: 1.4em;
+    font-weight: none !important;
+    padding-bottom: 3px !important;
+}
+.apLabel {
+    padding-right: 15px;
+    display: inline-block;
+    position: relative;
+    margin-top: -1.4em
+}
+.field_Name{
+    font-weight: bold;
+
+}
+.field_Name_cbcStatus{
+  width: 7%;
+  font-weight: bold;
+  white-space:nowrap;
+}
+.field_Value {
+  font-weight: normal;
+  font-size: 11px;
+  font-family: Arial;
+}

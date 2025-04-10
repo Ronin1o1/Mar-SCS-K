@@ -1,0 +1,11 @@
+.fullHeight {
+    height: 100%;
+    width: 100%;
+    border: 0px;
+    border-collapse: collapse;
+    padding: 0px;
+    vertical-align: top;
+  }
+  .viewediereports iframe{
+    height: calc(100vh - 140px);
+  }

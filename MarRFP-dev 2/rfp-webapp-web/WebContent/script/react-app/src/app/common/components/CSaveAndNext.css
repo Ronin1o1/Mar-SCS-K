@@ -1,0 +1,17 @@
+.prevBtn{
+  cursor: pointer;
+  margin-right: 3px;
+}
+
+.nextBtn{
+  cursor: pointer;
+  margin-right: 3px;
+}
+
+.modalView{
+  padding: 9px 12px;
+}
+.pl30 {
+  padding-left: 30px;
+  margin-right: 0.3vw;
+}

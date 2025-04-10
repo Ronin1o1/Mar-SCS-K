@@ -1,0 +1,692 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders CModal correctly 1`] = `<CModal />`;
+
+exports[`renders correctly 1`] = `
+<RequestReport>
+  <div
+    className="MainContainer"
+  >
+    <div
+      className="SubContainer"
+    >
+      <table
+        className="fullHeight"
+      >
+        <tbody>
+          <tr
+            id="filterTR"
+          >
+            <td
+              valign="top"
+            >
+              <Filter
+                EdieRunReport={[Function]}
+                componentName="requestReport"
+                filterViewLists="/pricingreportfiltered/getFilterViewLists.action"
+                isAccountRequired={false}
+              >
+                <FilterContextProvider
+                  EdieRunReport={[Function]}
+                  componentName="requestReport"
+                  filterViewLists="/pricingreportfiltered/getFilterViewLists.action"
+                  isAccountRequired={false}
+                >
+                  <div
+                    className="filterDesign"
+                  >
+                    <FilterLeftPanel
+                      EdieRunReport={[Function]}
+                      componentName="requestReport"
+                      filterViewLists="/pricingreportfiltered/getFilterViewLists.action"
+                      isAccountRequired={false}
+                    >
+                      <FilterContextProvider>
+                        <td>
+                          <tr>
+                            <td>
+                              <table
+                                className="fullHeight"
+                              >
+                                <tbody>
+                                  <tr>
+                                    <td>
+                                      <table
+                                        className="fullHeight"
+                                      >
+                                        <tbody>
+                                          <tr>
+                                            <td
+                                              align="center"
+                                            >
+                                              <table
+                                                style={
+                                                  Object {
+                                                    "borderWidth": 0,
+                                                    "width": "100%",
+                                                  }
+                                                }
+                                              >
+                                                <tbody>
+                                                  <tr>
+                                                    <td
+                                                      align="center"
+                                                      style={
+                                                        Object {
+                                                          "paddingTop": "3px",
+                                                          "width": "50%",
+                                                        }
+                                                      }
+                                                      width="50%"
+                                                    >
+                                                      <input
+                                                        className="btnSubmit"
+                                                        defaultValue=" "
+                                                        id="retrievebtn"
+                                                        onClick={[Function]}
+                                                        type="button"
+                                                      />
+                                                    </td>
+                                                  </tr>
+                                                </tbody>
+                                              </table>
+                                            </td>
+                                            <td />
+                                          </tr>
+                                          <tr
+                                            id="filterTR"
+                                          >
+                                            <td
+                                              height="100%"
+                                              style={
+                                                Object {
+                                                  "display": "block",
+                                                  "verticalAlign": "top",
+                                                }
+                                              }
+                                              width={300}
+                                            >
+                                              <div
+                                                id="filterdiv"
+                                                style={
+                                                  Object {
+                                                    "height": 604,
+                                                    "width": "300px",
+                                                  }
+                                                }
+                                              >
+                                                <table
+                                                  style={
+                                                    Object {
+                                                      "borderCollapse": "collapse",
+                                                      "borderRight": "#CCCCCC 2px inset",
+                                                      "height": "100%",
+                                                      "width": "100%",
+                                                    }
+                                                  }
+                                                >
+                                                  <tbody>
+                                                    <tr>
+                                                      <td
+                                                        className="FilterName"
+                                                        style={
+                                                          Object {
+                                                            "verticalAlign": "top",
+                                                            "width": "100%",
+                                                          }
+                                                        }
+                                                        width="100%"
+                                                      >
+                                                        <table
+                                                          style={
+                                                            Object {
+                                                              "borderCollapse": "collapse",
+                                                              "width": "100%",
+                                                            }
+                                                          }
+                                                        >
+                                                          <tbody>
+                                                            <tr>
+                                                              <td
+                                                                style={
+                                                                  Object {
+                                                                    "borderTop": "thin groove",
+                                                                  }
+                                                                }
+                                                              >
+                                                                <NumberHotelsCount
+                                                                  EdieRunReport={[Function]}
+                                                                  componentName="requestReport"
+                                                                  filterContext={
+                                                                    Object {
+                                                                      "accountFilter": Object {
+                                                                        "searchaccounttype": "",
+                                                                      },
+                                                                      "accountLists": Array [],
+                                                                      "accountSegments": Array [],
+                                                                      "accountSubsets": Array [],
+                                                                      "cities": Array [],
+                                                                      "countries": Array [],
+                                                                      "edieProfileList": Array [],
+                                                                      "emailMe": "N",
+                                                                      "filterViewLists": Array [],
+                                                                      "getAccountLists": [Function],
+                                                                      "getAccountSegment": [Function],
+                                                                      "getAccountSubsets": [Function],
+                                                                      "getCitiesData": [Function],
+                                                                      "getCountriesData": [Function],
+                                                                      "getEdieHotelProfiles": [Function],
+                                                                      "getEdieProfileList": [Function],
+                                                                      "getFilterViewListsData": [Function],
+                                                                      "getRegions": Array [],
+                                                                      "getRegionsData": [Function],
+                                                                      "getReportLists": [Function],
+                                                                      "getStatesData": [Function],
+                                                                      "highlightedOnly": "N",
+                                                                      "hotelProfileList": Array [],
+                                                                      "isDataChange": true,
+                                                                      "isMakingDetailsRequest": false,
+                                                                      "isMakingRequest": false,
+                                                                      "panelData": Array [],
+                                                                      "reportList": Array [],
+                                                                      "requestPayload": Object {
+                                                                        "formChg": "N",
+                                                                        "numItems": 0,
+                                                                        "period": "",
+                                                                        "strFilterValues": Object {
+                                                                          "accountFilter": Object {
+                                                                            "accountType": "",
+                                                                            "accountrecid": "",
+                                                                            "accountstatus": "ALL",
+                                                                            "subset": "",
+                                                                          },
+                                                                          "areaFilter": Object {
+                                                                            "areaOrRegion": "C",
+                                                                            "city": "",
+                                                                            "country": "",
+                                                                            "state": "",
+                                                                          },
+                                                                          "dateRangeFilter": Object {
+                                                                            "strFromDate": "09/02/2021",
+                                                                            "strToDate": "09/02/2021",
+                                                                          },
+                                                                          "emailMe": "N",
+                                                                          "filterMatchField": 0,
+                                                                          "filterMatchType": 0,
+                                                                          "filterString": "",
+                                                                          "futureOpeningFilter": Object {
+                                                                            "allFutureOpenings": "",
+                                                                            "strFromDate": "",
+                                                                            "strToDate": "",
+                                                                          },
+                                                                          "highlightedOnly": "N",
+                                                                          "orderBy": 0,
+                                                                          "report": "",
+                                                                          "scheduleReport": "N",
+                                                                          "stringBrandList": "",
+                                                                          "year": 0,
+                                                                        },
+                                                                      },
+                                                                      "resetCitiesData": [Function],
+                                                                      "resetData": [Function],
+                                                                      "resetStatesData": [Function],
+                                                                      "setAccountFilter": [Function],
+                                                                      "setFilterViewLists": [Function],
+                                                                      "setGetRegions": [Function],
+                                                                      "setHighlightedOnly": [Function],
+                                                                      "setIsDataChange": [Function],
+                                                                      "setRequestPayload": [Function],
+                                                                      "setState": [Function],
+                                                                      "setemailMe": [Function],
+                                                                      "state": Object {},
+                                                                      "states": Array [],
+                                                                    }
+                                                                  }
+                                                                  filterViewLists="/pricingreportfiltered/getFilterViewLists.action"
+                                                                  isAccountRequired={false}
+                                                                >
+                                                                  <table
+                                                                    id="tblNumHotels"
+                                                                    style={
+                                                                      Object {
+                                                                        "borderWidth": "0px",
+                                                                        "padding": "2px",
+                                                                        "width": "100%",
+                                                                      }
+                                                                    }
+                                                                    width="100%"
+                                                                  >
+                                                                    <tbody>
+                                                                      <tr
+                                                                        id="rowNumHotels"
+                                                                      >
+                                                                        <td
+                                                                          className="field_Name"
+                                                                        >
+                                                                          Number Hotels:
+                                                                        </td>
+                                                                        <td
+                                                                          className="FilterName"
+                                                                          id="numHotels"
+                                                                        >
+                                                                          0
+                                                                          <input
+                                                                            id="numItems"
+                                                                            name="numItems"
+                                                                            type="hidden"
+                                                                            value={0}
+                                                                          />
+                                                                        </td>
+                                                                      </tr>
+                                                                    </tbody>
+                                                                  </table>
+                                                                </NumberHotelsCount>
+                                                              </td>
+                                                            </tr>
+                                                            <tr>
+                                                              <td>
+                                                                <div
+                                                                  id="dateRange"
+                                                                  style={
+                                                                    Object {
+                                                                      "borderTop": "thin groove",
+                                                                      "display": "none",
+                                                                    }
+                                                                  }
+                                                                >
+                                                                  <table
+                                                                    className="zeroHeight"
+                                                                  >
+                                                                    <tbody>
+                                                                      <tr>
+                                                                        <td
+                                                                          className="field_Name, Cell"
+                                                                        >
+                                                                          Date Range
+                                                                        </td>
+                                                                      </tr>
+                                                                      <tr>
+                                                                        <td
+                                                                          className="Cell"
+                                                                        >
+                                                                          <table
+                                                                            className="field_Name"
+                                                                            style={
+                                                                              Object {
+                                                                                "borderBottom": "2px",
+                                                                                "width": "100%",
+                                                                              }
+                                                                            }
+                                                                          >
+                                                                            <tbody>
+                                                                              <tr>
+                                                                                <td
+                                                                                  className="field_Name"
+                                                                                >
+                                                                                  From:
+                                                                                   
+                                                                                  <input
+                                                                                    className="FilterSelect"
+                                                                                    id="filterValues.dateRangeFilter.strFromDate"
+                                                                                    name="filterValues.dateRangeFilter.strFromDate"
+                                                                                    style={
+                                                                                      Object {
+                                                                                        "height": "22px",
+                                                                                        "width": "85px",
+                                                                                      }
+                                                                                    }
+                                                                                  />
+                                                                                </td>
+                                                                                <td
+                                                                                  className="field_Name"
+                                                                                >
+                                                                                  <input
+                                                                                    className="FilterSelect"
+                                                                                    id="filterValues.dateRangeFilter.strToDate"
+                                                                                    name="filterValues.dateRangeFilter.strToDate"
+                                                                                    style={
+                                                                                      Object {
+                                                                                        "height": "22px",
+                                                                                        "width": "85px",
+                                                                                      }
+                                                                                    }
+                                                                                  />
+                                                                                </td>
+                                                                              </tr>
+                                                                            </tbody>
+                                                                          </table>
+                                                                        </td>
+                                                                      </tr>
+                                                                    </tbody>
+                                                                  </table>
+                                                                </div>
+                                                              </td>
+                                                            </tr>
+                                                            <tr>
+                                                              <td>
+                                                                <div
+                                                                  id="yearFilter"
+                                                                  style={
+                                                                    Object {
+                                                                      "borderTop": "thin groove",
+                                                                    }
+                                                                  }
+                                                                >
+                                                                  <YearFilter
+                                                                    EdieRunReport={[Function]}
+                                                                    componentName="requestReport"
+                                                                    filterContext={
+                                                                      Object {
+                                                                        "accountFilter": Object {
+                                                                          "searchaccounttype": "",
+                                                                        },
+                                                                        "accountLists": Array [],
+                                                                        "accountSegments": Array [],
+                                                                        "accountSubsets": Array [],
+                                                                        "cities": Array [],
+                                                                        "countries": Array [],
+                                                                        "edieProfileList": Array [],
+                                                                        "emailMe": "N",
+                                                                        "filterViewLists": Array [],
+                                                                        "getAccountLists": [Function],
+                                                                        "getAccountSegment": [Function],
+                                                                        "getAccountSubsets": [Function],
+                                                                        "getCitiesData": [Function],
+                                                                        "getCountriesData": [Function],
+                                                                        "getEdieHotelProfiles": [Function],
+                                                                        "getEdieProfileList": [Function],
+                                                                        "getFilterViewListsData": [Function],
+                                                                        "getRegions": Array [],
+                                                                        "getRegionsData": [Function],
+                                                                        "getReportLists": [Function],
+                                                                        "getStatesData": [Function],
+                                                                        "highlightedOnly": "N",
+                                                                        "hotelProfileList": Array [],
+                                                                        "isDataChange": true,
+                                                                        "isMakingDetailsRequest": false,
+                                                                        "isMakingRequest": false,
+                                                                        "panelData": Array [],
+                                                                        "reportList": Array [],
+                                                                        "requestPayload": Object {
+                                                                          "formChg": "N",
+                                                                          "numItems": 0,
+                                                                          "period": "",
+                                                                          "strFilterValues": Object {
+                                                                            "accountFilter": Object {
+                                                                              "accountType": "",
+                                                                              "accountrecid": "",
+                                                                              "accountstatus": "ALL",
+                                                                              "subset": "",
+                                                                            },
+                                                                            "areaFilter": Object {
+                                                                              "areaOrRegion": "C",
+                                                                              "city": "",
+                                                                              "country": "",
+                                                                              "state": "",
+                                                                            },
+                                                                            "dateRangeFilter": Object {
+                                                                              "strFromDate": "09/02/2021",
+                                                                              "strToDate": "09/02/2021",
+                                                                            },
+                                                                            "emailMe": "N",
+                                                                            "filterMatchField": 0,
+                                                                            "filterMatchType": 0,
+                                                                            "filterString": "",
+                                                                            "futureOpeningFilter": Object {
+                                                                              "allFutureOpenings": "",
+                                                                              "strFromDate": "",
+                                                                              "strToDate": "",
+                                                                            },
+                                                                            "highlightedOnly": "N",
+                                                                            "orderBy": 0,
+                                                                            "report": "",
+                                                                            "scheduleReport": "N",
+                                                                            "stringBrandList": "",
+                                                                            "year": 0,
+                                                                          },
+                                                                        },
+                                                                        "resetCitiesData": [Function],
+                                                                        "resetData": [Function],
+                                                                        "resetStatesData": [Function],
+                                                                        "setAccountFilter": [Function],
+                                                                        "setFilterViewLists": [Function],
+                                                                        "setGetRegions": [Function],
+                                                                        "setHighlightedOnly": [Function],
+                                                                        "setIsDataChange": [Function],
+                                                                        "setRequestPayload": [Function],
+                                                                        "setState": [Function],
+                                                                        "setemailMe": [Function],
+                                                                        "state": Object {},
+                                                                        "states": Array [],
+                                                                      }
+                                                                    }
+                                                                    filterViewLists="/pricingreportfiltered/getFilterViewLists.action"
+                                                                    isAccountRequired={false}
+                                                                  >
+                                                                    <table
+                                                                      cellPadding={2}
+                                                                      cellSpacing={3}
+                                                                      className="field_Name"
+                                                                      width="100%"
+                                                                    >
+                                                                      <tbody>
+                                                                        <tr>
+                                                                          <td>
+                                                                            Year   
+                                                                          </td>
+                                                                          <td
+                                                                            style={
+                                                                              Object {
+                                                                                "height": "30px",
+                                                                              }
+                                                                            }
+                                                                          >
+                                                                            <select
+                                                                              className="FilterSelect"
+                                                                              id="filterValues.year"
+                                                                              name="filterValues.year"
+                                                                              onChange={[Function]}
+                                                                              style={
+                                                                                Object {
+                                                                                  "height": "20px",
+                                                                                  "width": "218px",
+                                                                                }
+                                                                              }
+                                                                            />
+                                                                          </td>
+                                                                        </tr>
+                                                                      </tbody>
+                                                                    </table>
+                                                                  </YearFilter>
+                                                                </div>
+                                                              </td>
+                                                            </tr>
+                                                            <tr>
+                                                              <td>
+                                                                <div
+                                                                  id="schedule"
+                                                                  style={
+                                                                    Object {
+                                                                      "borderTop": "thin groove",
+                                                                      "display": "none",
+                                                                    }
+                                                                  }
+                                                                >
+                                                                  <table
+                                                                    className="zeroHeight"
+                                                                  >
+                                                                    <tbody>
+                                                                      <tr>
+                                                                        <td>
+                                                                          <table
+                                                                            className="zeroHeight"
+                                                                          >
+                                                                            <tbody>
+                                                                              <tr>
+                                                                                <td
+                                                                                  className="field_Name"
+                                                                                >
+                                                                                  Schedule
+                                                                                </td>
+                                                                                <td>
+                                                                                  <input
+                                                                                    defaultChecked={true}
+                                                                                    defaultValue="N"
+                                                                                    id="filterValues.scheduleReport"
+                                                                                    name="filterValues.scheduleReport"
+                                                                                    type="radio"
+                                                                                  />
+                                                                                  Run Now
+                                                                                </td>
+                                                                                <td
+                                                                                  width={5}
+                                                                                >
+                                                                                   
+                                                                                </td>
+                                                                                <td>
+                                                                                  <input
+                                                                                    defaultValue="L"
+                                                                                    id="filterValues.scheduleReport"
+                                                                                    name="filterValues.scheduleReport"
+                                                                                    type="radio"
+                                                                                  />
+                                                                                  Run Later
+                                                                                </td>
+                                                                              </tr>
+                                                                            </tbody>
+                                                                          </table>
+                                                                        </td>
+                                                                      </tr>
+                                                                      <tr>
+                                                                        <td>
+                                                                          <div
+                                                                            id="scheduleReport"
+                                                                            style={
+                                                                              Object {
+                                                                                "display": "none",
+                                                                              }
+                                                                            }
+                                                                          >
+                                                                            <table
+                                                                              className="field_Name pad2Height"
+                                                                              style={
+                                                                                Object {
+                                                                                  "width": "100%",
+                                                                                }
+                                                                              }
+                                                                            >
+                                                                              <tbody>
+                                                                                <tr>
+                                                                                  <td
+                                                                                    className="field_Name"
+                                                                                  >
+                                                                                    Date:
+                                                                                     
+                                                                                    <input
+                                                                                      className="FilterSelect"
+                                                                                      id="filterValues.scheduleReportDate"
+                                                                                      name="filterValues.scheduleReportDate"
+                                                                                      style={
+                                                                                        Object {
+                                                                                          "height": "22px",
+                                                                                          "width": "85px",
+                                                                                        }
+                                                                                      }
+                                                                                    />
+                                                                                  </td>
+                                                                                  <td
+                                                                                    className="field_Name"
+                                                                                  >
+                                                                                    Time:
+                                                                                    <input
+                                                                                      className="FilterSelect"
+                                                                                      id="filterValues.scheduleReportTime"
+                                                                                      name="filterValues.scheduleReportTime"
+                                                                                      style={
+                                                                                        Object {
+                                                                                          "height": "22px",
+                                                                                          "width": "85px",
+                                                                                        }
+                                                                                      }
+                                                                                    />
+                                                                                  </td>
+                                                                                </tr>
+                                                                              </tbody>
+                                                                            </table>
+                                                                          </div>
+                                                                        </td>
+                                                                      </tr>
+                                                                    </tbody>
+                                                                  </table>
+                                                                </div>
+                                                              </td>
+                                                            </tr>
+                                                            <tr>
+                                                              <td
+                                                                style={
+                                                                  Object {
+                                                                    "borderTop": "thin groove",
+                                                                    "padding": "2px",
+                                                                  }
+                                                                }
+                                                              >
+                                                                <a
+                                                                  className="field_NameRed"
+                                                                  id="SortFilter"
+                                                                  onClick={[Function]}
+                                                                >
+                                                                  Find/Filter
+                                                                </a>
+                                                              </td>
+                                                            </tr>
+                                                          </tbody>
+                                                        </table>
+                                                      </td>
+                                                    </tr>
+                                                  </tbody>
+                                                </table>
+                                              </div>
+                                            </td>
+                                          </tr>
+                                        </tbody>
+                                      </table>
+                                    </td>
+                                  </tr>
+                                </tbody>
+                              </table>
+                            </td>
+                          </tr>
+                        </td>
+                      </FilterContextProvider>
+                    </FilterLeftPanel>
+                  </div>
+                </FilterContextProvider>
+              </Filter>
+            </td>
+            <td
+              valign="top"
+            >
+              <CIFrame
+                height="551px"
+                width="625px"
+              >
+                <div>
+                  <iframe
+                    height="551px"
+                    width="625px"
+                  />
+                  <iframe
+                    height="551px"
+                    hidden={true}
+                    width="625px"
+                  />
+                </div>
+              </CIFrame>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</RequestReport>
+`;

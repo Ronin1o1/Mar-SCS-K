@@ -1,0 +1,196 @@
+
+#supportInfo table {
+    display: table;
+    border-collapse: separate;
+    box-sizing: border-box;
+    text-indent: initial;
+    white-space: normal;
+    line-height: normal;
+    font-weight: normal;
+    font-style: normal;
+    text-align: start;
+    border-color: grey;
+    font-variant: normal;
+}
+
+#supportInfo table {
+    Font-Family: Arial, Helvetica, sans-serif, Verdana, Geneva;
+    font-size: 11px;
+}
+#supportInfo td {
+    display: table-cell;
+    vertical-align: inherit;
+}
+.BGWhiteStyle {
+    color: #000000;
+    background-color: #FFFFFF;
+}
+.DOTTEDHEAD {
+    Font-Family: Univers, Arial;
+    Font-Size: 22px;
+    color: #9D102D;
+    border-style: none none dotted none;
+    border-color: #efefef #efefef #efefef #efefef;
+}
+.PAGEHEAD {
+    Font-Family: Univers, Arial;
+    Font-Size: 22px;
+    color: #9D102D;
+}
+.MESSAGEHEAD {
+    Font-Family: Univers, Arial;
+    Font-Size: 14px;
+    Font-weight: bold;
+    color: #9D102D;
+}
+.MESSAGEBODY {
+    Font-Family: Univers, Arial;
+    Font-Size: 11px;
+    color: #000000;
+    text-align: justify;
+}
+.MESSAGEFOOT {
+    background-color: #EEEED6;
+}
+.BGWhiteStyle a  {
+    color: #313063;
+    font-weight: bold;
+}
+/* Inline styles */
+.tbl{
+    border: 0px;
+    padding: 0px;
+    border-spacing: 0px;
+    background-color: #ffffff;
+    width:100%;
+    height: 100%;
+    position: relative;
+}
+.tbl2{
+    border: 0px;
+    padding: 0px;
+    border-spacing: 0px;
+    background-color: #ffffff;
+    padding-left: 0px;
+    padding-right: 0px;
+    width:100%;
+    height: 100%;
+}
+.tbl3{
+    border: 0px;
+    border-spacing: 0px;
+    background-color: #ffffff;
+    width:100%;
+    height: 100%;
+}
+.tbl3 .tbl3tbdy{
+    padding: 0 5px;
+    display: table;
+}
+.tbl4{
+    border: 0px;
+    padding: 0px;
+    border-spacing: 0px;
+    width: 100%;
+}
+.tbl5{
+    border: 0px;
+    padding: 0px;
+    border-spacing: 0px;
+    width: 100%;
+    height: 1px;
+}
+.tbl6{
+    border: 0px;
+    padding: 0px;
+    border-spacing: 0px;
+    width: 100%;
+    height: 100%;
+}
+.tbl7{
+    border: 0px;
+    padding: 0px;
+    border-spacing: 0px;
+}
+.tbl8{
+    border: 0px;
+    padding: 0px;
+    border-spacing: 0px;
+    height: 3px;
+    width: 100%;
+}
+.tbl9{
+    border: 0px;
+    padding: 0px;
+    border-spacing: 0px;
+    width: 100%;
+    height: 1px;
+}
+.td1{
+    border: solid;
+    border-width: 0px 1px 1px 0px;
+    background-color: #ffffff;
+}
+.top{
+    vertical-align: top;
+}
+.heightZero{
+    height: 0px;
+}
+.heightOne{
+    height: 1px;
+}
+.heightFive{
+    height: 5px;
+}
+.height100{
+    height: 100%;
+}
+.widthFive{
+    width: 5px;
+}
+.halfWidth{
+    width: 50%;
+}
+.spaceRowgap{
+    white-space:nowrap;
+    row-gap: 2px;
+}
+.spaceAlign{
+    white-space: nowrap;
+    vertical-align: top;
+}
+.border{
+    border-style: solid solid dotted solid;
+    border-width: 1px 1px 3px 0px;
+}
+.border2{
+    border: solid;
+    border-width: 0px 1px 1px 0px;
+}
+.normalFont{
+    font-weight: normal;
+    text-align: start !important;
+}
+.MESSAGEBODY .normalFont{
+  font-weight: normal;
+  text-align: left !important;
+}
+@media(max-width:320px){
+  .normalFont{
+  word-spacing: 1px;}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,71 @@
+.instructionHeader {
+  font-weight: bold;
+  font-size: 11px;
+  font-style: italic;
+  font-family: Arial;
+  background-color: #eff0ec;
+  text-align: left;
+}
+
+.instructionHeaderSubsidiaries {
+  font-weight: bold;
+  font-size: 11px;
+  font-style: italic;
+  font-family: Arial;
+  background-color: #eff0ec;
+  text-align: left;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.fieldName {
+  font-weight: bold;
+  font-size: 11px;
+  font-family: Arial;
+  text-align: left;
+  white-space: nowrap;
+}
+
+.fieldNameValue {
+  width: 17%;
+  display: inline-block;
+  font-weight: bold;
+  font-size: 11px;
+  font-family: Arial;
+  white-space: nowrap;
+  text-align-last: right;
+}
+
+.textAreaField {
+  font-family: Arial;
+  font-size: 8pt;
+}
+
+.subsidiariesContainer {
+  height: 100px;
+}
+
+.divName {
+  margin-left: 4px;
+  text-align-last: auto;
+}
+
+.accPerspectiveAlert {
+  padding: 9px 12px;
+}
+
+.menuWdthHeight {
+  border: 0px;
+  border-collapse: collapse;
+  padding: 0px;
+  width: 100%;
+}
+
+.verticalAlign {
+  vertical-align: top;
+}
+
+.mainContainer {
+  border-width: 0;
+  width: 850px;
+}

@@ -1,0 +1,101 @@
+.dataGrid {
+    /* background-color: #e7e8df; */
+    border-top-width: 0 !important;
+}
+.dataGrid thead {
+    z-index: 750;
+}
+
+.table_1 thead tr:first-child th { 
+    position: sticky; 
+    top: 0; 
+    height: 41px; 
+}
+
+.table_2 thead tr:first-child th { 
+    position: sticky; 
+    top: 0; 
+    height: 20px; 
+    
+}
+.table_2 thead tr:nth-child(2) th { 
+    position: sticky; 
+    top: 19; 
+    height: 20px; 
+}
+
+.dataGrid tbody > tr:nth-child(even){
+    background-color: #f4f4f2;
+    border: 1px solid #ddd;
+}
+.dataGrid tbody>tr:nth-child(odd) {
+  background-color: #eff0ec;
+  border: 1px solid #ddd;
+}
+.Field_Name{
+  font-weight: bold;
+}
+.dataGrid thead > tr > th{
+    border-color: #F6F4EB #ACA899 #ACA899 #F6F4EB;
+    vertical-align: middle;
+    text-align: center;
+    font-weight: bold;
+}
+
+.dataGrid tbody > tr > td {
+    border-right: 1px solid #d2cfc6;
+}
+
+/* .dataGrid input[type=checkbox] {
+    position: relative;
+    cursor: pointer;
+}
+.dataGrid input[type=checkbox]:before {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 14px;
+    height: 14px;
+    top: 0;
+    left: 0;
+    border: 1px solid #555555;
+    border-radius: 3px;
+    background-color: white;
+}
+.dataGrid input[type=checkbox]:checked:after {
+    content: "";
+    display: block;
+    width: 5px;
+    height: 10px;
+    border: solid black;
+    border-width: 0 2px 2px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+    position: absolute;
+    top: 2px;
+    left: 6px;
+} */
+
+/* .dataGrid input[type=radio] {
+    
+    min-height: 1.6em;
+    min-width: 1.6em;
+  
+} */
+.table_1::-webkit-scrollbar {
+    width: 100%;
+    border: none;
+}
+.no_data { 
+    min-width: 100px;
+    position: absolute;
+    margin-left: 5px
+}
+.rejectederror{
+  position: fixed;
+  left: 48%;
+}
+@media only screen and (max-width: 720px){
+  
+}

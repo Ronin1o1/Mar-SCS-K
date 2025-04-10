@@ -1,0 +1,60 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<RateProduct>
+  <RateProductContextProvider>
+    <form
+      id="thisForm"
+      name="thisForm"
+    >
+      <table
+        className="section"
+      >
+        <tbody>
+          <tr>
+            <td
+              className="header"
+            >
+              Room / Rate Description - Administration - Display Text : Room Description - Channels and Languages
+            </td>
+          </tr>
+          <tr
+            className="headerHR"
+          >
+            <td
+              valign="top"
+            />
+          </tr>
+        </tbody>
+      </table>
+      <table
+        className="zero_Height"
+      >
+        <tbody>
+          <tr>
+            <td
+              className="bold"
+            >
+              Channel:
+            </td>
+            <td
+              className="field_Name"
+            >
+              <select
+                className="fontSize"
+                onChange={[Function]}
+              >
+                <option
+                  value="select"
+                >
+                  Please select a channel
+                </option>
+              </select>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </form>
+  </RateProductContextProvider>
+</RateProduct>
+`;

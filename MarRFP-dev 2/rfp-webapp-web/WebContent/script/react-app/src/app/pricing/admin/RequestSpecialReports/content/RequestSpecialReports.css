@@ -1,0 +1,126 @@
+.padding {
+  padding: 2px;
+
+}
+
+.table {
+  Font-Family: Arial, Helvetica, sans-serif, Verdana, Geneva;
+  font-size: 11px;
+
+}
+
+.drpdwnbox {
+  height: 20px;
+  width: 218px;
+
+}
+
+.field_Name {
+  font-weight: bold;
+  font-size: 11px;
+  font-family: Arial;
+}
+
+.yrmargin {
+  margin-left: 10px;
+}
+
+.periodfield {
+  width: 218px;
+  height: 22px
+}
+
+.field_Name {
+  border-width: 0px
+}
+
+.showchange {
+  visibility: hidden
+}
+
+.FilterSelect {
+  height: 22px;
+  width: 85px
+}
+
+.btnSubmit {
+  width: 55px;
+  border-top-style: none;
+  border-right-style: none;
+  border-left-style: none;
+  height: 26px;
+  border-bottom-style: none;
+  border-right: white;
+  border-top: white;
+  font-weight: 100;
+  font-size: 1px;
+  border-left: white;
+  color: #003c82;
+  border-bottom: white;
+  background-repeat: no-repeat;
+  background-color: transparent;
+
+
+}
+
+.FilterSelect {
+  height: 22px;
+  width: 85px
+}
+
+.isVisible {
+  visibility: visible;
+}
+
+.isHidden {
+  visibility: hidden;
+}
+
+.redColor {
+  color: red;
+}
+
+.header {
+  FONT-WEIGHT: bold;
+  FONT-SIZE: 9pt;
+  FONT-FAMILY: Arial;
+}
+
+.BGDarkBlueStyle {
+  color: #ffffff;
+  background-color: #313063;
+}
+
+tr.em2TdPaddingBottom>td {
+  padding-bottom: 0.2em;
+}
+
+tr.em2TdPaddingTop>td {
+  padding-top: 0.2em;
+}
+
+tr.em3TdPaddingBottom>td {
+  padding-bottom: 0.3em;
+}
+
+tr.em3TdPaddingTop>td {
+  padding-top: 0.3em;
+}
+
+.px5marginLeft {
+  margin-left: 5px;
+}
+
+.px5marginRight {
+  margin-right: 5px;
+}
+
+.margin10PositionAbsolute {
+  padding-left: 10px; 
+  position: absolute
+}
+
+.marginTopBottom5px {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}

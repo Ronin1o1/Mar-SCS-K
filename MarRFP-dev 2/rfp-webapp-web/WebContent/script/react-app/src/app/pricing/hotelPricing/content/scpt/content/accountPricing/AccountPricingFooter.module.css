@@ -1,0 +1,17 @@
+.footer__container {
+  align-items: center;
+  height: 60px;
+  background-color: #f3f3e3;
+  margin-top: 0px;
+  border-top: 1px solid #aaaaaa;
+}
+
+.footer {
+  float: right;
+  margin-right: 30px;
+}
+.footerButton {
+  display: inline-block;
+  margin-left: 17px;
+  margin-top: 17px;
+}

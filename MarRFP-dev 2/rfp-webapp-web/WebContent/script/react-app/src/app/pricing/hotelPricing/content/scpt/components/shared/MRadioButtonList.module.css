@@ -1,0 +1,16 @@
+.spacing {
+  margin-bottom: 1px;
+}
+
+.radioButtonSpacing {
+  margin-top: 19px;
+}
+
+.horizontal {
+  display: inline-block;
+  margin-top: 0px;
+}
+
+.horizontal:nth-of-type(1) {
+  margin-right: 14px;
+}

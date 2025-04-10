@@ -1,0 +1,93 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    width: 100%;
+}
+.logo {
+  padding-left: 5px;
+  width: 14%;
+  display: block;
+  height: 52px;
+}
+.logo img{
+  padding: 11.5px 0;
+}
+.menuitem {
+    width: calc(100% - 135px);
+}
+.menulist{
+    background: none;
+    margin:0;
+    height: 22px;
+    text-align: right;
+    padding-left: 0;
+}
+.menulist li {
+    background: none;
+    line-height: 22px;
+}
+.menulist li:hover li a:hover{
+    background: none;   
+}
+.menulist li a:hover{
+    background-color: none;
+}
+.menulist li a:focus-visible{
+   background-color: none;
+}
+.menulist li {
+    list-style-type: none;
+    display: inline-block;
+}
+
+.menulist li a { 
+    text-decoration: none;
+    Font-Size: 10px;
+    color: #003399;
+    font-weight: bold;
+    margin-left: 10px;
+    text-decoration: underline;
+}
+
+.menulist li a:hover {
+    Font-Size: 10px;
+    font-weight: bold;
+    color: #9D102D;
+}
+.menu {
+    padding-left: 10px;
+    color: #000
+}
+
+.fieldName {
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 11px;
+    FONT-FAMILY: Arial;
+}
+
+.rowClass{
+  display: block;
+  width: 100%;
+}
+.rowClass > div{
+    background-color: #47558b;
+    height: 30px;
+}
+.menu_one{
+    width: 40vw;
+    height: 30px;
+    background-repeat: repeat-y;
+    cursor: auto;
+}
+
+.colTwoClass{
+  background: #47558b none no-repeat;
+  width: 60vw;
+  height: 2.2vw;
+  margin-top: 0.2vw;
+}
+
+.hiddenLabel {
+  display: none;
+}

@@ -1,0 +1,30 @@
+.tableBody {
+  width: 55%;
+  padding-top: 3px;
+  font-family: Arial;
+  font-size: 12px;
+  font-weight: bold;
+}
+.horizontalLine {
+  height: 2px;
+  color: #ffffff;
+  background-color: #313063;
+  width: 728px;
+  font-family: Arial;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+select {
+  font-family: Arial;
+  font-size: 11px;
+}
+.go {
+  cursor: hand;
+}
+.switchAccountCenter {
+  width: 50px;
+}
+.code {
+  width: 122px;
+  margin-left: 5px;
+}

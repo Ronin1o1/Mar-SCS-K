@@ -1,0 +1,102 @@
+.header {
+  font-weight: bold;
+  font-size: 9pt;
+  font-family: Arial;
+  text-align: center;
+  color: rgb(0, 128, 0);
+}
+.header2 {
+  font-weight: bold;
+  font-size: 9pt;
+  font-family: Arial;
+  text-align: center;
+  color: rgb(255, 0, 0);
+}
+
+.instructions {
+  FONT-WEIGHT: normal;
+  FONT-SIZE: 11px;
+  PADDING-BOTTOM: 4pt;
+  MARGIN-RIGHT: 24pt;
+  PADDING-TOP: 4pt;
+  FONT-FAMILY: Arial;
+}
+.InstructionHeader {
+  FONT-WEIGHT: bold;
+  FONT-SIZE: 11px;
+  FONT-STYLE: italic;
+  FONT-FAMILY: Arial;
+  BACKGROUND-COLOR: #eff0ec;
+}
+.widthTD {
+  width: 10px;
+}
+.heightTD {
+  height: 20px;
+}
+.heightTD10 {
+  height: 10px;
+}
+.heightTD30 {
+  height: 30px;
+}
+.height5 {
+  height: 5px;
+}
+.zeroHeight {
+  border: 0px;
+  border-collapse: collapse;
+  padding: 0px;
+  width: 100%;
+}
+.spanHotel{
+  font-weight: bold;
+  font-size: 12px;
+}
+
+.fieldName {
+  FONT-WEIGHT: bold;
+  FONT-SIZE: 11px;
+  FONT-FAMILY: Arial;
+}
+
+.finishMsg{
+  margin-top: 25px;
+  width:500px;
+  margin-left:40px;
+  font-weight: bold;
+    font-size: 9pt;
+    font-family: arial;
+}
+
+.InstructionHeader {
+  font-weight: bold;
+  font-size: 11px;
+  font-style: italic;
+  font-family: Arial;
+  background-color: #eff0ec;
+}
+
+.instructions {
+  font-weight: normal;
+  font-size: 11px;
+  padding-bottom: 4pt;
+  margin-right: 24pt;
+  padding-top: 4pt;
+  font-family: Arial;
+}
+
+.PoolBtn{
+  cursor: pointer;
+  margin-right: 5px;
+}
+
+.ProgBtn{
+  cursor: pointer;
+}
+
+.BGDarkBlueStyle {
+  color: #ffffff;
+  background-color: #313063;
+}
+

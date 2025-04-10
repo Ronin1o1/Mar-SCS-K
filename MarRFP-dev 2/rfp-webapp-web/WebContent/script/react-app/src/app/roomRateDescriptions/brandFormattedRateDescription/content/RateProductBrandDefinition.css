@@ -1,0 +1,86 @@
+.tableBody{
+  font-family:Arial;
+  font-size:9pt;
+  font-weight: normal;
+  margin-bottom: 30px;
+  margin-top: 10px;
+  padding-left: 10px;
+}
+.horizontalLine{
+  height: 2px; 
+  color: #FFFFFF;
+  background-color: #313063;
+  width: 100%;
+  font-family:Arial;
+  font-weight: bold;
+}
+.tableWidth {
+  width: 100%
+}
+.mainTableWidth {
+  width:100%;
+  margin-bottom: 2rem;
+}
+.instructionHeader {
+  font-weight: bold;
+  font-size: 11px;
+  font-style: italic;
+  font-family: Arial;
+  background-color: #eff0ec;
+}
+.dropDownColumn {
+  width: 60px;
+  padding-right: 15px;
+}
+.codeName {
+  padding-right: 15px;
+  width: 200px;
+}
+.rpTextValue {
+  margin: 0px;
+  font-weight: normal;
+}
+.columnWidth {
+  width: 250px;
+  padding-right: 15px;
+}
+.hiddenField {
+  display: none;
+}
+.textBoxDesc {
+  width: 200px;
+  padding-right: 10px;
+}
+.modifiableOptionTbl{
+  border-spacing: 4px;
+  border-padding: 2px; 
+  border-top-style: ridge; 
+  border-width: 2px; 
+  border-left-style: ridge;  
+  border-right-style: ridge; 
+  border-bottom-style: ridge;
+}
+.rpCodeName {
+  font-weight: bold;
+  font-size: 11px;
+  padding: 0px;
+  margin: 0px;
+}
+.inputDescription{
+  width: 200px;
+}
+.tableCls{
+  padding-left: 5px;
+  padding-right: 5px;
+  height: 100%;
+  width: 100%;
+  border: 0px;
+  border-collapse: collapse;
+  padding: 0px;
+}
+.header{
+  font-weight: bold;
+  font-size: 9pt;
+  font-family: Arial;
+  color: green;
+}

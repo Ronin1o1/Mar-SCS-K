@@ -1,0 +1,49 @@
+.strongTitle {
+  font-weight: bold;
+  font-size: 11px;
+  font-family: Arial;
+  font-style: italic;
+  background-color: #eff0ec;
+  display: flex;
+  margin-top: 5px;
+  margin-left: 5px;
+  padding: 6px;
+  width: 1000px;
+}
+
+.pointerClass{
+    cursor: pointer;
+}
+
+.imgClass{
+    text-align: center;
+    vertical-align: bottom;
+    margin-top: 20vw;
+}
+
+.pageOutterOutline{
+  border: 1px solid #ccc;
+  padding: 5px;
+}
+
+.pageOutline{
+  width: 100%;
+  height: calc(100vh - 325px);
+  border: 1px solid #ccc;
+  overflow: auto;
+}
+
+.cpricetabdes div div{
+    width: 100% !important;
+    background-color: #f2f2f2;
+    border: 1px solid #ccc;
+    border-width: 1px 1px 0;
+    height:33px;
+    padding-top:2px;
+    padding-left:2px;
+}
+@media only screen and (min-width: 1920px) {
+  .pageOutline {
+    height: calc(100vh - 330px);
+  }
+}

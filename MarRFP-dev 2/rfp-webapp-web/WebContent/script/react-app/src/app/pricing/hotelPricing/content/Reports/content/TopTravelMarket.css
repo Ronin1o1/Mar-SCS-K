@@ -1,0 +1,60 @@
+.header {
+  font-weight: bold;
+  font-size: 9pt;
+  font-family: Arial;
+  height: 1px;
+  width: 100%;
+  border-bottom: 2px solid rgb(49, 48, 99);
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #313063;
+  height: "1px";
+}
+.instructions {
+  font-weight: normal;
+  font-size: 11px;
+  margin-bottom: -20px;
+  margin-right: 24pt;
+  padding-top: 4pt;
+  font-family: Arial;
+  margin-top: 10px;
+}
+.reportBody {
+  padding: 5px;
+}
+.submitBtn {
+  position: relative;
+  top: 323px;
+  left: 520px;
+}
+.statesBlock {
+  height: 300px;
+  width: 150px;
+  overflow-y: scroll;
+  position: relative;
+  top: 5px;
+  left: 0px;
+  border: 1px solid rgb(204, 204, 204);
+}
+.andOrblock {
+  width: 250px;
+  position: relative;
+  top: -187px;
+  left: 180px;
+  font-weight: bold;
+}
+.countryReagionHeader {
+  position: relative;
+  top: -328px;
+  left: 250px;
+  font-weight: bold;
+}
+.countryRegionBlock {
+  height: 300px;
+  width: 250px;
+  overflow-y: scroll;
+  position: relative;
+  top: -323px;
+  left: 250px;
+  border: 1px solid rgb(204, 204, 204);
+}

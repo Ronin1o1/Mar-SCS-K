@@ -1,0 +1,153 @@
+.field_Name {
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 11px;
+    FONT-FAMILY: Arial;
+}
+.pgoosStatusTableMain {
+    border: 1px solid #CCC;
+    border-collapse: collapse;
+    margin-left: 280px;
+}
+.dijitTabContainer {
+    z-index: 0;
+    overflow: visible;
+}
+.dijitLayoutContainer {
+    position: relative;
+    display: block;
+    overflow: hidden;
+}
+.tundra .tabStripButton {
+    padding: 3px 2px 4px 2px;
+        padding-top: 3px;
+}
+.tundra .dijitTab {
+    line-height: normal;
+    margin-right: 4px;
+    padding: 2px 8px 2px 9px;
+    border: 1px solid #ccc;
+   
+}
+.floatleft {
+    float: left;
+    min-height: 1em;
+}
+.pgoosStatusHeader {
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 11px;
+    FONT-FAMILY: Arial;
+    BACKGROUND-COLOR: #eff0ec;
+    padding: 3px;
+    font-style: normal;
+    width: 150px;
+    border-bottom: 1px solid #CCC;
+}
+
+.pgoosstablestatusError{
+  color: red;
+  text-align: center;
+}
+
+.pgoosstabledata, .pgoosstableerror, .pgoosstablestatus {
+    width: 75px;
+    text-align: center;
+    padding: 3px;
+}
+
+.loaderImg{
+    position:absolute;
+    top:55%;
+    left:45%
+  }
+.roomPoolTable{
+  border-spacing: 0px !important;
+}
+.HeaderTitle{
+  FONT-WEIGHT: bold;
+  FONT-SIZE: 9pt;
+  FONT-FAMILY: Arial;
+  padding-top:3px;
+}
+.field_Value{
+  FONT-WEIGHT: normal !important;
+  FONT-SIZE: 11px;
+  FONT-FAMILY: Arial;
+}
+.seperator{
+  color: #FFFFFF;
+  background-color: #313063;
+  vertical-align: top;
+ height: 2.5px;
+}
+.view_print{
+  float: left;
+  width: 80px;
+  height: 20px;
+  vertical-align: middle;
+}
+.view_print_link{
+  height: 20px;
+  vertical-align: middle;
+}
+.view_print_modal{
+  background: #fff;
+  border-top: 1px solid #d3d3d3;
+  padding: 10px;
+ 
+}
+.view_print_modal form{
+  width: 300px;
+  height: 100px;
+}
+.view_print_modal_body{
+  clear: both;
+  position: relative;
+  height: 20px;
+}
+.view_print_modal_body div{
+  float: left;
+  font-weight: normal;
+  font-size: 11px;
+  font-family: Arial;
+}
+.view_print_modal_body  select{
+  font-size: 11px !important;
+  font-family: Arial;
+  font-weight: normal;
+}
+.titleLink {
+  color: #3166cc;
+  text-decoration: underline;
+  cursor: pointer;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.verticalAlignTop {
+  vertical-align: top;
+}
+.bdRight{
+  border-right: 1px solid #ccc
+}
+.poolGroup{
+  border: 1px solid #ccc;
+  min-height: 60px;
+  box-sizing: border-box !important;
+}
+
+.alignCenter {
+  text-align: center;
+}
+.priceaccountdesign{
+  width: auto;
+  /* min-width: 1060px; */
+  height: auto;
+}
+.roompoolGroup{
+  margin-left: 283px;
+  margin-right: 15px;
+}
+@media only screen and (max-width: 1000px) {
+  .roompoolGroup{
+    margin-left: 200px;
+    display: flex;
+  }
+}

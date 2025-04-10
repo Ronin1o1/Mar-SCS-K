@@ -1,0 +1,59 @@
+.MainContainer {
+  position: relative;
+}
+.SubContainer {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  z-index: 1001;
+}
+.PAheader {
+  font-weight: bold;
+  font-size: 9pt;
+  font-family: Arial;
+}
+.filter {
+  width: 304px;
+  float: left;
+}
+.content {
+  float: left;
+}
+.quickButton {
+  height: 26px;
+  display: table-cell;
+  vertical-align: middle;
+  font-weight: bold;
+}
+
+.SubContainer hr {
+  height: 2px;
+  background-color: #313063;
+  border: none;
+}
+.loaderImg{  
+  margin-top: 12%;
+  margin-left: 46%;
+  position: absolute;
+}
+.saveImg{
+  width: 99.5%;  
+  border: 2px solid rgb(155, 155, 155);
+  border-bottom: 0;
+}
+
+.selectClassNew {
+  background-color: #b6d3f3 !important;
+}
+.pacceptence{
+  width: 100%;
+  display: flex;
+}
+.filterpanel{
+  width: 300px;
+  display: inline-flex;
+}
+.rightgridtable{
+  display: inline-block;
+  width: calc(100vw - 302px);
+}

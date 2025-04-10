@@ -1,0 +1,9 @@
+.padding {
+  padding: 10px;
+}
+
+.container {
+  display: fixed;
+  top: 50%;
+  left: 50vw;
+}

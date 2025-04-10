@@ -1,0 +1,149 @@
+.searchBlock img {
+  cursor: default;
+}
+.searchBlock2{
+  background-color: white;
+  height: calc(100vh - 122px);
+  width: 100%;
+  position:absolute;  
+  z-index: 99;
+}
+table.zero_Height {
+  border-collapse: collapse;
+  padding: 0px;
+  position: relative;
+}
+td {
+  padding: 0;
+  margin: 0;
+}
+tr {
+  padding: 0;
+  margin: 0;
+}
+.nowraptest{
+  white-space:nowrap;
+}
+.Filter {
+  font-weight: bold;
+  font-family: Arial;
+  background-color: #eff0ec;
+}
+INPUT {
+  font-family: Arial, Helvetica, sans-serif, Verdana, Geneva;
+  font-size: 11px;
+  cursor: auto;
+}
+.full_height {
+  height: 100%;
+  width: 100%;
+  border: 0px;
+  border-collapse: collapse;
+  padding: 0px;
+}
+.header {
+  font-weight: bold;
+  font-size: 9pt;
+  font-family: Arial;
+}
+.BGDarkBlueStyle {
+  color: #ffffff;
+  background-color: #313063;
+}
+
+.Filter {
+  font-weight: bold;
+  font-family: Arial;
+  background-color: #eff0ec;
+}
+.zero_Height {
+  border: 0px;
+  border-collapse: collapse;
+  padding: 0px;
+  font-size: 11px;
+}
+
+.searchBtn {
+  padding-left: 0px;
+}
+.topAlign {
+  vertical-align: top;
+}
+.accountStatusFilterTable {
+  border: 1px solid #cccccc;
+  background-color: rgb(239, 240, 236);
+}
+.buttonTD {
+  width: 70px;
+  text-align: center;
+}
+.searchBtnDiv {
+  padding-top: 13px;
+}
+.sortby {
+  width: 140px;
+}
+.paginator {
+  width: 251px;
+  position: relative;
+  display: block;
+  margin-left: 7px;
+  line-height: 0;
+}
+.calendar {
+  position: relative;
+  top: 5px;
+  left: 5px;
+}
+
+.loaderImg {
+  position: fixed;
+  top: 53%;
+  left: 49%;
+}
+.searchTable {
+  border-left-width: 1px;
+  border-right-style: solid;
+  border-bottom-width: 1px;
+  border-top-style: solid;
+  border-left-style: solid;
+  border-right-width: 1px;
+  border-bottom-style: solid;
+  border-top-width: 1px;
+  border-color: #cccccc;
+}
+.fromDate {
+  position: relative;
+  left: 93px;
+  top: -3px;
+  margin-bottom: 1px;
+}
+.toDate {
+  position: relative;
+  left: 27px;
+  top: -3px;
+}
+.toDate > div span > div, .fromDate > div span > div{
+  display: flex;
+}
+.calIcon {
+  position: relative;
+  top: 9px;
+  left: 4px;
+}
+.calInput {
+  width: 77px;
+  height: 14.8px;
+}
+.calContainer {
+  position: relative;
+  left: 95px;
+  top: -16px;
+}
+.labelblock {
+  position: relative;
+  top: 10px;
+}
+.forcalender form{
+  height: 0;
+}

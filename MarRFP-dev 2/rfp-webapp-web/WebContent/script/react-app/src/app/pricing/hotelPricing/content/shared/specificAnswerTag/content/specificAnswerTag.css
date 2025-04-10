@@ -1,0 +1,98 @@
+.zeroHeight table {
+  font-family: Arial;
+  font-size: 11px;
+  width:auto;
+  table-layout: fixed;
+}
+
+.zeroHeight {
+  border: 0px;
+  border-collapse: collapse;
+  padding: 0px;
+}
+.zeroHeightno {
+border: 0px;
+border-collapse: collapse;
+padding: 0px;
+margin-top: 15px;
+}
+
+.field_Value {
+  font-weight: normal;
+  font-size: 11px;
+  font-family: Arial;
+  display: flex;
+}
+.field_Value span{
+width: 20px;
+text-align: right;
+}
+.field_Name{
+  font-weight: bold;
+  font-size: 11px;
+  font-family: Arial;
+  vertical-align: top;
+  width: 20px;
+  min-width: 20px;
+}
+
+.field_Name_Sr{
+  font-weight: bold;
+  font-size: 11px;
+  font-family: Arial;
+  width: 2px;
+}
+
+.field_Number {
+  TEXT-ALIGN: right;
+  padding: 0px 2px 0px 0px;
+}
+
+.field_Name_Quest{
+  font-weight: bold;
+  font-size: 11px;
+  font-family: Arial;
+ 
+  vertical-align: top;
+}
+.field_Name_Quest_Hotel {
+  font-weight: bold;
+  font-size: 11px;
+  font-family: Arial;
+  min-width: 80px;
+}
+.bottom_Ele_Space{
+padding-bottom: 20px;
+padding-right: 10px;
+}
+.imageAlign{
+  
+height: 16px;
+margin-top: 10px;
+}
+.btasquestions{
+width: 1000px;
+padding-left: 5px;
+}
+.datainputvalue{
+width: 400px;
+height: 20px;
+}
+.height21{
+height: 21px;
+}
+.height0{
+height: 0px;
+}
+.dispContent {
+  display: contents;
+}
+.pt5{
+  padding-top: 5px;
+}
+.mt3 {
+  margin-top: 3px;
+}
+.tdQuestion{
+  padding-right: 10px;
+}

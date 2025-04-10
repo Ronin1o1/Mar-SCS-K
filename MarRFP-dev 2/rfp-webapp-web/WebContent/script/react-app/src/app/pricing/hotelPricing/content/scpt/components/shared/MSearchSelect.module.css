@@ -1,0 +1,69 @@
+.filterContainer {
+  display: inline-flex;
+  width: 160px;
+  background-color: #ffffff;
+  float: right;
+  margin-top: 10px;
+}
+
+.searchIconDiv {
+  margin-top: 4px;
+  margin-right: 5px;
+  height: 16px;
+}
+
+.searchIconSVG {
+  width: 16px;
+  height: 16px;
+  overflow: scroll;
+}
+
+.filterInput {
+  display: inline-block;
+  text-align: left;
+  border: 1px solid #bababa;
+  height: 25px;
+  padding-left: 5px;
+  width: 100%;
+  border-right: none;
+}
+
+.buttonContainer {
+  display: inline-block;
+  border: 1px solid #bababa;
+  border-left-style: none;
+  cursor: pointer;
+  background: #ffffff;
+}
+
+.options {
+  position: relative;
+  width: fit-content;
+  min-width: 158px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  border: 1px solid #666666;
+  text-align: left;
+  z-index: 10;
+  background: #ffffff;
+  overflow: auto;
+  height: auto;
+  max-height: 200px;
+  font-size: 13px;
+  color: #333333;
+  float: right;
+}
+
+.options > li {
+  position: relative;
+  display: flex;
+  height: auto;
+  white-space: nowrap;
+  padding: 7px 10px 7px 10px;
+  float: none !important;
+}
+
+.options > li:hover {
+  background: #dddddd;
+}

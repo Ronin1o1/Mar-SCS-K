@@ -1,0 +1,41 @@
+.listingContainer {
+  display: flex;
+  flex-direction: row;
+}
+
+.marketname {
+  width: 80px;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.count {
+  width: 23px;
+  font-weight: bold;
+  text-align: end;
+  margin-right: 2px;
+}
+
+.locationUS {
+  width: 50px;
+  text-align: center;
+}
+
+.locationInt {
+  width: 80px;
+  text-align: center;
+}
+
+.rmNts {
+  width: 57px;
+  text-align: end;
+}
+
+.trashBtn {
+  width: 25px;
+  text-align: end;
+}
+
+.spacer {
+  width: 25px;
+}

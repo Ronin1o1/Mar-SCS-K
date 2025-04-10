@@ -1,0 +1,23 @@
+.header {
+  font-weight: bold;
+  font-size: 9pt;
+  font-family: Arial;
+  text-align: center;
+  color: rgb(0, 128, 0);
+}
+.heightTD {
+  height: 30px;
+}
+.zeroHeight {
+  border: 0px;
+  border-collapse: collapse;
+  padding: 0px;
+  width: 600px;
+}
+.spanHotel{
+  font-weight: bolder;
+}
+
+.finishMsg{
+  margin-top: 25px;
+}

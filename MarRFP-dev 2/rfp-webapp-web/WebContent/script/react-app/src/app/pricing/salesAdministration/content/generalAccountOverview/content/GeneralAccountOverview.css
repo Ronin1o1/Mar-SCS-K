@@ -1,0 +1,103 @@
+.mainTableContainer {
+  height: 410px !important;
+  background-color: #FFFFFF;
+  border-collapse: collapse;
+}
+table.full-height {
+  height: 100%;
+  width: 100%;
+  border: 0px;
+  border-collapse: collapse;
+  padding: 0px;
+}
+.Field_Value{
+  font-weight: normal;
+  font-size: 11px;
+  font-family: Arial;
+}
+.field_Name {
+  FONT-WEIGHT: bold;
+  FONT-SIZE: 11px;
+  FONT-FAMILY: Arial;
+}
+
+.InstructionHeader{
+  FONT-WEIGHT: bold;
+    FONT-SIZE: 11px;
+    FONT-STYLE: italic;
+    FONT-FAMILY: Arial;
+    BACKGROUND-COLOR: #eff0ec;
+}
+.validationModal {
+  padding: 10px; 
+  background: #fff; 
+  border-top: 1px solid #d3d3d3;
+  position: relative;
+}
+
+.nowrapCell {
+  white-space: nowrap;
+}
+
+.instructions {
+  FONT-WEIGHT: normal;
+  FONT-SIZE: 11px;
+  PADDING-BOTTOM: 4pt;
+  MARGIN-RIGHT: 24pt;
+  PADDING-TOP: 4pt;
+  FONT-FAMILY: Arial;
+}
+
+.zeroHeight {
+  border: 0px;
+  border-collapse: collapse;
+  padding: 0px;
+}
+
+.menuWdth100Height {
+  border: 0px;
+  border-collapse: collapse;
+  padding: 0px;
+  width: 100%;
+}
+.tableParagraph{
+  font-size: 1em;
+  margin-top: 1.5em;
+  margin-bottom: 1.5em;
+  line-height: 1.5em;
+}
+.fullheight{
+height: 100%;
+    width: 100%;
+    border: 0px;
+    border-collapse: collapse;
+    padding: 0px;
+}
+ .dijitDialogPaneContent{
+  background: #fff;
+  border-top: 1px solid #d3d3d3;
+  padding: 10px;
+ }
+ 
+ .popupContent{
+  height:150px; width:350px 
+ }
+ .popupContent > div{
+  height:150px; width:350px; overflow:auto }
+.Field_Number{
+  TEXT-ALIGN: right;
+    padding: 0px 2px 0px 0px;
+}
+.overlayDiv {
+  position: relative;
+  background-color: transparent;
+  z-index: 0;
+  top: 50%;
+}
+.OverlayScreenGeneral {
+  display: none;
+  text-align: center;
+}
+.accountoverview{
+  width: 100%;
+}

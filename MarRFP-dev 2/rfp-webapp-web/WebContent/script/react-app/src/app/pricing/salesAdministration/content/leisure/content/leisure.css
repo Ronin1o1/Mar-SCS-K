@@ -1,0 +1,59 @@
+.Field_number {
+  text-align: right;
+}
+
+.Field_Name {
+  font-size: 11px;
+  font-weight: bold;
+}
+
+.instructionHeader {
+  font-weight: bold;
+  font-size: 9pt;
+  font-family: arial;
+}
+.sectionContent {
+ font-family: arial; 
+  font-size: 8pt;
+}
+.menuWidthHeight{
+  border: 0px;
+  border-collapse: collapse;
+  padding: 0px;
+  width: 100%;
+}
+.tableBorderWidth {
+  border-width:800px
+}
+.zeroHeight {
+  border: 0px;
+  border-collapse: collapse;
+  padding: 0px;
+}
+.tableWidth{
+  width: 100%;
+}
+.headerAlign {
+  vertical-align:"top";
+  text-align:"left"
+}
+.mainDivAlign{
+  vertical-align:"top";
+}
+.titleSpace{
+  font-size: 1em;
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
+    line-height: 1.5em;
+}
+.alertmodal {
+  padding: 10px; 
+  background: #fff; 
+  border-top: 1px solid #d3d3d3;
+  position: relative;
+}
+@media only screen and (max-width: 1100px) {
+  textarea{
+    width: 1090px;
+  }
+}

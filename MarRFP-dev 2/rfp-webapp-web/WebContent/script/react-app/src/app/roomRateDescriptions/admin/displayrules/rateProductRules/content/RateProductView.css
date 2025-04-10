@@ -1,0 +1,171 @@
+body,
+input,
+textarea {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0px;
+  padding: 0px;
+  font-size: 11px;
+}
+.btntext td{
+    text-align: center;
+}
+.dataBtn{
+    margin-left: 50%;
+    text-align: center;
+    margin-bottom: 15px;
+        margin-top: 20px;
+}
+.maxLine{
+    width: 50px;   
+}
+.maxColumns{
+    width: 50px;
+}
+.listOption{
+    font-size: 11px;
+}
+.tableBd{
+    height: 350px;
+    width: 300px;
+    overflow-x: hidden;
+    overflow: auto;
+    border-width: thin;
+    border-style: groove;
+}
+.menuWdth100Height{
+    border: 0px;
+    border-collapse: collapse;
+    padding: 0px;
+    width: 100%;
+}
+.fieldName{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 11px;
+    FONT-FAMILY: Arial;
+    float: left;
+    white-space: nowrap;
+}
+.zeroHeight{
+    border: 0px;
+    border-collapse: collapse;
+    margin-top: -3px;
+}
+.field_ValueBoldItalic{
+    FONT-SIZE: 11px;
+    FONT-WEIGHT: bold;
+    FONT-STYLE: italic;
+    FONT-FAMILY: Arial;
+}
+.menuHght100Height{
+    border: 0px;
+    border-collapse: collapse;
+    padding: 0px;
+    height: 100%;
+}
+.field_Value{
+    FONT-WEIGHT: normal;
+    FONT-SIZE: 11px;
+    FONT-FAMILY: Arial;
+}
+.rules{
+    height: 350px;
+    width: 300px;
+    overflow: auto;
+    border-width: thin;
+    border-style: groove;
+}
+.subTitle, .subTitle3 {
+    FONT-SIZE: 11px;
+    FONT-FAMILY: Arial;
+    position: relative;
+    left: 56px;
+    font-weight: bold;
+    display: block;
+}
+.subTitle3{
+  left: 25px;
+}
+.subTitle2 {
+    font-weight: normal;
+    display: block;
+    position: relative;
+    left:5px;
+    padding-top: 2px
+}
+.bold{
+    font-weight: bold;
+    margin-right: 3px;
+    display: block;
+    margin-bottom: 5px;
+}
+.access td{
+    position: relative;
+    left: 45px;
+    font-style: bold;
+}
+.rightFont{
+    font-weight: bold;
+}
+.arrowshow{
+    display: block;
+}
+.arrowhidden{    
+    display: none;
+}
+.arrowRight{
+    width: 50px;
+}
+.arrowRightheight{
+    height: 50%;
+}
+.arrowRightwidth{
+    width: 380px;
+}
+.enrty{
+    width: 15px
+}
+.field{
+    width: 5px
+}
+.zero{
+    height: 25px
+}
+.maxnum{
+    width: 20px
+}
+.roomTitles{
+    height: 20px
+}
+.RemoveUpIcon{
+    margin-left: 95px
+}
+.removeDataRoom{
+    margin-left: 35px;
+    margin-bottom: 8px;
+}
+.availableElementsDiv { 
+    float: left; 
+    margin-Top: 60px;
+}
+.page_body_container {
+  width: 100%;
+  min-height: calc(100vh - 60px);
+  height: auto;
+  position: relative;
+  display: block;
+}
+.marginLeftAddButton {
+    margin-Left: 8px
+}
+.productdata td tr tr{
+  padding-left: 15px;
+  display: block;
+}
+.firstrowcard{
+  margin-bottom: 5px;
+}
+.leftheaddata{
+  font-style: italic;
+  position: relative;
+  left: -13px;
+}

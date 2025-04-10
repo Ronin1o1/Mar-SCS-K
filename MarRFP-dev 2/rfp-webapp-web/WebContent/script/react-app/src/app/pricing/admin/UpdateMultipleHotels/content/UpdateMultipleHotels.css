@@ -1,0 +1,74 @@
+.wraper table {
+  font-size: 11px;
+}
+.wraper tr {
+  display: block;
+}
+
+.wraper table tr {
+  display: block;
+  line-height: 19px;
+}
+.isupdate_aera {
+  padding-right: 12px;
+}
+.noBold {
+  font-weight: normal;
+}
+.fontBold {
+  font-weight: bold;
+}
+
+.search_wrapper {
+  left: 0px;
+  padding-bottom: 4px;
+  padding-right: 4px;
+  position: absolute;
+  top: 28px;
+  width: 660px;
+  height: 390px;
+  z-index: 52;
+  background-position: 0 0;
+  background-repeat: repeat;
+  background-color: #eff0ec;
+  background-attachment: scroll;
+  background-image: none;
+  border-style: solid;
+  border-color: #bbbbbb;
+  border-width: 2px 1px 1px 2px;
+}
+.tdBlock .nowrapCell {
+  width: 12px;
+}
+.rebidAlert {
+  position: relative;
+  top: -9px;
+}
+.rebidImg {
+  padding-left: 5px;
+}
+.searchLink {
+  font-weight: bold;
+  font-size: 9pt;
+}
+
+.closebtn {
+  padding-bottom: 10px;
+  text-align: center;
+  display: block;
+}
+.closebtn button{
+  padding: 0;
+  border: 0;
+}
+.titleContainer{
+  margin-bottom: 8px;
+}
+.updatemh{
+  width: auto;
+  overflow: auto;
+}
+.updatemhotels{
+  width: auto;
+  min-width: 1071px;
+}

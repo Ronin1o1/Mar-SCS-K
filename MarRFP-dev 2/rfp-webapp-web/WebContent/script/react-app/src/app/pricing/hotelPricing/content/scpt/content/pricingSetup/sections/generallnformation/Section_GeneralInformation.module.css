@@ -1,0 +1,52 @@
+.sectionWrapper {
+  display: flex;
+  margin-top: 17px;
+}
+
+.horizontalLine {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0px;
+  border-width: 0.8px;
+  background-color: #cccccc;
+}
+
+.sectionSubTitle {
+  padding-left: 30px;
+  color: #666666;  
+  font-size: 13px;
+}
+
+.sectionSubTitle1 {
+  font-size: 15px;
+  color: #333333;
+}
+
+.spacingForCheckBox {
+  color: #666666;
+  margin-right: 125px;
+}
+
+.spacingForRadioButton {
+  white-space: nowrap;
+  color: #666666;
+  margin-right: 125px;
+}
+
+.spacingForCheckBox span,
+.spacingForRadioButton span {
+  color: #333333;
+  font-size: 13px;
+  font-weight: 400;
+}
+
+
+
+.spacingForRadioButton > div:first-child > div:first-child {
+  font-size: 13px;
+  font-weight: 400;
+}
+.spacingForCheckBox > div:first-child  > div:first-child {
+  font-size: 13px;
+  font-weight: 400;
+}

@@ -1,0 +1,7 @@
+.sectionWrapper {
+  display: flex;
+}
+
+.dropDownWidth {
+  width: 200px;
+}

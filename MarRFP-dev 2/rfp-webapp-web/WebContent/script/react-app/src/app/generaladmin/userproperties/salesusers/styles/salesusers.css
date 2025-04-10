@@ -1,0 +1,24 @@
+.eidLink {
+    color: #3166cc;
+    text-decoration: underline;
+    cursor: pointer;
+  }
+     .curtain {
+       filter: alpha(opacity=70);
+       opacity: 0.7;
+       -moz-opacity: 0.7;
+       background-color: #d8d4d4;
+       left: 0px;
+       width: 91%;
+       height: 400px;
+       position: absolute;
+       z-index: 9800;
+     }
+  
+     .imageLoader {
+       width: 40px;
+       height: 40px;
+       top: 50%;
+       left: 50%;
+       position: absolute;
+     }

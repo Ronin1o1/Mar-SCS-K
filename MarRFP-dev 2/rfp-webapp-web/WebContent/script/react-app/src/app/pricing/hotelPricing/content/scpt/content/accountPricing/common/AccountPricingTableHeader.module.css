@@ -1,0 +1,121 @@
+.tableHeader {
+  height: 25px;
+  display: flex;
+  table-layout: fixed;
+  margin-right: 30px;
+}
+
+.leftComponents {
+  display: flex;
+}
+
+.bulkActions {
+  display: flex;
+}
+
+.bulkActionsSelect {
+  display: inline-block;
+  border: 1px solid #bababa;
+}
+
+.bulkActionsSelectWidth > li {
+  width: 215px;
+}
+
+.apply {
+  display: inline-block;
+  margin-left: 7px;
+}
+.apply button, .search input{
+  font-size: 13px;
+}
+.search input{
+  width: 128px !important;
+}
+.search {
+  display: inline-block;
+  margin-left: 17px;
+}
+
+.searchHistory {
+  display: inline-block;
+  margin-left: 317px;
+}
+
+.viewTextStyle {
+  display: inline-block;
+  margin-left: 17px;
+  white-space: nowrap;
+  margin-top: 5px;
+  color: #333333;
+  font-size: 13px;
+}
+
+.viewSelectStyle {
+  display: inline-block;
+  border: 1px solid #bababa;
+  margin-left: 7px;
+}
+.viewSelectStyle ul li, .bulkActionsSelect ul li{
+  font-size: 13px;
+}
+.viewSelectWidth > li {
+  width: 143px;
+}
+
+.viewHistorySelectWidth > li {
+  width: 150px;
+}
+
+.yoyRadioBtns {
+  display: inline-block;
+  margin-left: 17px;
+  margin-top: 5px;
+  color: #333333;
+  font-size: 13px;
+}
+
+.radioButtonStyle {
+  display: inline-block;
+  margin-left: 7px;
+  margin-top: 3px;
+  size: 10px;
+  color: #333333;
+  width: 155px;
+  font-weight: 100;
+}
+.radioButtonStyle div span{
+  font-size: 13px;
+  font-weight: 100;
+}
+.yoyRadioBtnsHistory {
+  color: #ac223b !important;
+}
+
+.rightComponents {
+  display: flex;
+  margin-left: auto;
+}
+.rightComponents div, .rightComponents input{
+  font-size: 13px;
+}
+.legend {
+  margin-right: 15px;
+  display: flex;
+}
+
+.legendTextStyle {
+  font-size: 11px;
+  color: #333333;
+  position: relative;
+  margin-top: 5px;
+  font-size: 11px !important;
+}
+
+.accHistoryLinkStyle {
+  font-size: 11px;
+  font-family: Arial;
+  margin-right: 17px;
+  margin-top: 5px;
+  cursor: pointer;
+}

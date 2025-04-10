@@ -1,0 +1,49 @@
+.header {
+  font-family: Arial;
+  font-size: 9pt;
+  display: block;
+  font-weight: 700;
+  padding-bottom: 22.6px;
+}
+.horizontalLine {
+  height: 2px;
+  color: #ffffff;
+  background-color: #313063;
+  width: 856px;
+  font-family: Arial;
+  font-weight: bold;
+}
+
+.searchFilter{
+  width: 515px;
+}
+
+.pagination{
+  vertical-align: bottom;
+}
+
+.adminUserTable{
+  width: 100%;
+}
+
+.internalNotes{
+  width:285px;
+}
+
+.model{
+  max-width: 250px;
+  min-width: 180px;
+  height:50px;
+  padding:9px 12px;
+}
+@media only screen and (max-width: 860px){
+  .horizontalLine {
+    width: 100%;
+  }
+  .searchFilter{
+    width: 430px;
+  }
+  .searchFilter td:first-child{
+    white-space: nowrap;
+  }
+}

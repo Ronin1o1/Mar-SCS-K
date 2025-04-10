@@ -1,0 +1,69 @@
+.basicLookUp {
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.gridContainer {
+  border-width: 0px;
+}
+
+.noWrapCell {
+  white-space: nowrap;
+}
+
+.header {
+  font-size: 9pt;
+  padding-left: 10px;
+  padding-top: 10px;
+  padding-bottom: 4px;
+}
+
+.horLine {
+  background: #003c82;
+}
+
+.horLineContainer {
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  padding-top: 5px;
+}
+
+.fieldName {
+  font-size: 11px;
+  padding-left: 10px;
+}
+
+.searchSelect {
+  padding-right: 10px;
+}
+
+.imgBtn {
+  padding-bottom: 10px;
+  text-align: center;
+}
+
+.fieldWidth60 {
+  width: 60px;
+}
+
+.selectMargin {
+  margin-left: 40px;
+}
+
+.filterContainer {
+  display: inline-flex;
+  width: 200px;
+}
+
+.divHideDisplay {
+  display: none;
+}
+
+.divShowDisplay {
+  display: block;
+}
+
+.options {
+  width: 200px;
+}

@@ -1,0 +1,202 @@
+body,
+input,
+textarea {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0px;
+  padding: 0px;
+  font-size: 11px;
+}
+.Header {
+  font-weight: bold;
+  font-size: 9pt;
+  font-family: Arial;
+}
+.Header span{
+  font-weight: bold;
+  font-size: 9pt;
+}
+.field_Value {
+  font-weight: normal;
+  font-size: 11px;
+  font-family: Arial;
+  margin-top: 4px;
+  display: block;
+}
+.seperator {
+  color: #ffffff;
+  background-color: #313063;
+  vertical-align: top;
+  height: 2.5px;
+  border: 0;
+  margin-top: 0px;
+}
+/******************Menu*********************/
+
+.menuitem1 {
+  width: 100%;
+  background: #bbbca6;
+  margin-top: -14px;
+}
+.subnav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  background: #bbbca6;
+  z-index: 9999;
+}
+.subnav ul li {
+  display: block !important;
+  position: relative !important;
+  float: left !important;
+  background: #bbbca6 !important;
+  margin-top: 3px;
+}
+.subnav li ul {
+  display: none;
+}
+
+.subnav ul li a {
+  display: block;
+  white-space: nowrap;
+  font-size: 10px;
+  color: #333333;
+  line-height: normal;
+  border-image: url(../../../../images/subMenu.png) 30 stretch;
+}
+.sublist li {
+  background-color: rgb(141, 139, 126);
+  border: 1px solid #bbbca6;
+}
+.sublist {
+  background: none;
+}
+.sublist li a {
+  color: rgb(0, 0, 0);
+  display: block;
+  width: 100%;
+  padding: 3px 1px 3px 10px;
+  text-decoration: none;
+  background-color: #bbbca6;
+  border-bottom: 1px solid #100101;
+  padding-left: 13px !important;
+  font-size: 11px;
+  width: 157.5px;
+}
+.subnav ul ul ul {
+  left: 100%;
+  top: 0;
+}
+.subnav ul:before,
+ul:after {
+  content: " ";
+  display: table;
+}
+.subnav ul:after {
+  clear: both;
+}
+.subnavigation {
+  padding-left: 10px;
+  padding-top: 3px;
+  padding-bottom: 0px;
+  background: #bbbca6;
+}
+.subnavigation li {
+  border: solid;
+  border-width: 0px 1px 0px 1px;
+  border-color: #ffffff #bbbca6 #ffffff #bbbca6;
+  background: #bbbca6;
+}
+.subnavigation li a {
+  padding-left: 10px;
+  padding-right: 10px;
+  text-decoration: underline;
+  text-align: left;
+  margin: 0px;
+}
+
+.subnav li:hover > ul {
+  display: block;
+  position: absolute;
+  border: 1px outset rgb(141, 139, 126);
+}
+.subnav li:hover li {
+  float: none;
+  border: none;
+}
+.menuPadding {
+  padding-top: 6px;
+}
+.sublist li a {
+  text-decoration: none;
+}
+.arrow {
+  margin-left: 75px;
+}
+.sublist li {
+  border: 2px solid BBBCA6;
+}
+.sublist li {
+  border-width: 1px 0px 1px 1px;
+  border-right-style: initial;
+  border-bottom-style: outset;
+  border-left-style: outset;
+  border-color: rgb(141, 139, 126);
+  border-image: initial;
+}
+.subMenu {
+  /* margin-top: -9px; */
+  padding-bottom: 3px;
+}
+.divColor {
+  background-color: #bbbca6;
+  height: 4px;
+  width: 100%;
+}
+.sublist li a:hover {
+  text-decoration: underline;
+  color: #9d102d;
+}
+.sublistTitle li a:hover {
+  color: #9d102d;
+}
+.sublistHeader a:hover {
+  color: #9d102d;
+}
+.arrowProt {
+  margin-left: 105px;
+}
+
+.arrowsales {
+  margin-left: 45px;
+}
+.arrowpgoos {
+  margin-left: 80px;
+}
+.arrowedit {
+  margin-left: 119px;
+}
+.arrowroports {
+  margin-left: 105px;
+}
+.arrowadm {
+  margin-left: 59px;
+}
+.arrowadm1 {
+  margin-left: 35px;
+}
+.arrowadm2 {
+  margin-left: 49px;
+}
+.arrowdisplayText {
+  margin-left: 59px;
+}
+.arrowdisplayRules {
+  margin-left: 55px;
+}
+.arrowreports {
+  margin-left: 98px;
+}
+.imgStatus {
+  margin-right: 10px;
+  margin-left: -10px;
+}

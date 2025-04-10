@@ -1,0 +1,121 @@
+.thisForm {
+  box-sizing: border-box;
+}
+
+.thisFormTable {
+  border: 0;
+}
+
+.descriptionText {
+  font-weight: normal;
+  font-size: 11px;
+  padding: 4pt 0;
+  margin-right: 24pt;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.readOnlyBorder{
+  border: 1px solid;
+    border-color: #EBEADB;
+}
+.gridTable {
+  font-size: 11px;
+}
+
+.gridNode {
+  height: 300px;
+  width: 760px;
+  background-color: #EFF0EC;
+  outline: none;
+  overflow: hidden;
+}
+
+.gridNodeTable {
+  width: 760px;
+}
+
+.gridHeader {
+  border: 1px solid;
+  border-color: #F6F4EB #ACA899 #ACA899 #F6F4EB;
+  text-align: left;
+  overflow: hidden;
+  background-color: #D6D7CE;
+}
+
+.gridCell {
+  border: 1px solid;
+  border-color: #F6F4EB #ACA899 #ACA899 #F6F4EB;
+  padding-bottom: 2px;
+  font-size: 11px;
+  font-weight: bold;
+}
+
+.gridView {
+  height: 283px;
+  width: 760px;
+  overflow: hidden;
+}
+
+.gridTableView {
+  border: 0;
+  border-collapse: collapse;
+  padding: 0;
+  font-size: 11px;
+}
+
+.gridRow {
+  border: 1px solid #E8E4D8;
+  border-color: #F8F7F1;
+  border-left: none;
+  border-right: none;
+  background-color: white;
+  border-top: none;
+}
+
+.gridBodyCell {
+  border: 1px solid;
+  border-color: #EBEADB;
+  padding: 0 2px;
+  text-align: left;
+  overflow-y: hidden;
+  font-size: 11px;
+}
+
+.inputCell {
+  height: 22px;
+  width: 300px;
+  cursor: auto;
+}
+
+.totalLabelName {
+  font-weight: normal;
+  font-size: 11px;
+  font-weight: bold;
+}
+
+.totalInput {
+  height: 22px;
+  width: 67px;
+  background-color: silver;
+}
+
+.calendarContent{
+  z-index: 1000;
+  position: absolute;
+  background-color: white;
+}
+
+.calInput {
+  width: 65%;
+  margin-right: 4px;
+  margin-bottom: 4px;
+}
+
+.calIcon {
+  vertical-align: bottom;
+  margin-bottom: 1px;
+}
+
+.description {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}

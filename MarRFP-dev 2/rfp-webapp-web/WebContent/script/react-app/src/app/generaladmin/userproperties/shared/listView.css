@@ -1,0 +1,31 @@
+.listNoneCls{
+  list-style-type: none;
+}
+.listCls{
+  padding: 0 2px;
+}
+.listCls:nth-child(even) {
+  border: 1px solid #E8E4D8;
+  border-color: #F8F7F1;
+  border-right: none;
+  background-color: white;
+  border-top: none;
+}
+.listCls:nth-child(odd) {
+  border: 1px solid;
+  border-color: #EBEADB;
+  text-align: left;
+  font-size: 11px;  
+  background-color: #f4f4f2;
+}
+.listCls:hover{
+  background-color: #f4f29f;
+}
+
+.hotelListItem{
+  display: flex;
+  justify-content: space-between;
+}
+.hotelListLabel{
+  font-weight: 200;
+}

@@ -1,0 +1,132 @@
+.colorClass {
+  color: rgb(255, 0, 0);
+  font-weight: bold;
+}
+
+.field_Value_Left {
+  width: 31%;
+}
+
+.rightColumn {
+  display: inline-block;
+  margin-left: 3px;
+}
+
+.rightColumnBold {
+  display: inline-block;
+  margin-left: 3px;
+  font-weight: bold; 
+}
+
+.groupProfilealert {
+  padding: 9px 12px;
+}
+
+.overlayDiv {
+  position: relative;
+  background-color: transparent;
+  z-index: 0;
+  top: 50%;
+}
+
+.overlayDiv img{
+  vertical-align: bottom;
+}
+.formTable {
+  vertical-align: top;
+}
+.zeroHeight {
+  margin-bottom: 20%;
+  overflow: auto;
+}
+.zeroHeightRow {
+  height: 15px;
+}
+.overlayScreenBTProfile {
+  display: none;
+  text-align: center;
+}
+
+.instructionHeader {
+  FONT-WEIGHT: bold;
+    FONT-SIZE: 11px;
+    FONT-STYLE: italic;
+    FONT-FAMILY: Arial;
+    BACKGROUND-COLOR: #eff0ec;
+}
+
+.fieldNameLabel {
+font-weight: bold;
+font-size: 11px;
+}
+
+.rightUpperColumn {
+  width: 60%;
+}
+
+.groupProfiletable {
+  background-color: #ffff;
+  width: 100%;
+}
+
+.overlayscreen {
+  display:none;
+  text-align: center;
+}
+
+.accountInformationcontainer {
+  vertical-align: top;
+}
+
+.accountInformationTable{
+  width: 70%;
+}
+
+.accountProvidedContainer{
+  width: 100%;
+}
+
+.accountProvidedTable {
+  vertical-align: top;
+  width: 505px;
+}
+.field_NamepctShare {
+  width: 57px;
+}
+
+.groupOverviewTable {
+  width: 70%;
+}
+
+.field_NameCommon {
+  width:174px
+}
+
+.field_NameDropdown {
+  height: 25px;
+}
+.annualOverviewrow {
+  height: 15px;
+}
+
+.meetingOverviewRight {
+  width: 42px;
+}
+
+.Field_number {
+  text-align: right;
+  margin-top: -3px;
+  padding-right: 2px;
+}
+.Textfield {
+  margin-top: -3px;
+}
+
+.tableFullheight {
+  width: 100%;
+}
+@media only screen and (max-width: 1100px) {
+  textarea{
+    width: 950px;
+  }
+}

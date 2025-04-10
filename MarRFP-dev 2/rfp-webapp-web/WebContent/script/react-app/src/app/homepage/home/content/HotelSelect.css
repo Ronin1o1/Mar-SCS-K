@@ -1,0 +1,71 @@
+.dInlineBlock{
+    display: inline-block;
+    z-index: 1;
+    cursor: pointer;
+    font-style: normal;
+    color:black;
+}
+.defaultCursor {
+  cursor: default;
+}
+.positionRelative{
+    position: relative;
+}
+.propertyAbbPointer {
+    border: 1px solid #cccccc;
+    padding: 3px;
+    background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAAoCAIAAACw1AcgAAAAMUlEQVQI15XMMQoAMAxCUf25/5WTTikOXTo8RBA1MyxJZE/dffMlN/tlG9sAVBWSfh0r1D8NE/0J/AAAAABJRU5ErkJggg==) repeat-x;
+}
+.propertyAbbPointer label{
+    cursor: pointer !important;
+}
+.propertyAbbPointer span{
+    margin-right: 4px;
+}
+.arrow{
+    color: black;
+}
+.viewDropdown{
+    margin-top: 10px !important;
+    margin-left: 31px;
+}
+.viewDropdown > div > ul{
+    position: relative !important;
+}
+.dropdownArrowIcon{
+    top: 13px;
+    background: url(../../../common/assets/img/sprite.png) no-repeat top right;
+    background-position: 0px -66px;
+    width: 16px;
+    height: 14px;
+    margin: 0;
+    margin-bottom: -13px;
+    position: absolute;
+    z-index: 1;
+}
+.hotelSpan{
+    cursor: initial;
+    cursor: pointer;
+}
+.options {
+    width: 381px !important;
+}
+.selectStyle{
+    display: inline-flex;
+    width: 383px;
+}
+.fieldName{
+    cursor: initial;
+}
+.cSearchFilterContainer {
+    margin-top: 13px;
+    right: 0;
+    height: auto;
+    background-image: linear-gradient(to top, #eeeeee, #ffffff);
+    border-radius: 3px;
+    z-index: 999;
+    min-height: 166px;
+}
+.cSearchFilterContainer > div{
+    min-height: 147.7px;
+}

@@ -1,0 +1,76 @@
+.row1 {
+  display: flex;
+  white-space: nowrap;
+  height: 17px;
+  margin-right: 30px;
+}
+
+.header {
+  display: inline-block;
+  margin-top: 5px;
+}
+
+.accountTypesMenu {
+  display: inline-block;
+}
+
+.menuItems {
+  display: inline-block;
+  margin-right: 30px;
+}
+
+.menuItems > a {
+  text-decoration: none !important;
+  color: #5192cc;
+  font-size: 18px;
+}
+
+.inactiveMenu > a {
+  color: #666666;
+}
+
+.inactiveMenu > a:hover {
+  color: #5192cc;
+}
+
+.addButtonIcon {
+  display: inline-block;
+  margin-top: 4px;
+  cursor: pointer;
+}
+
+.addIconSVG {
+  width: 13px;
+  height: 13px;
+  overflow: scroll;
+}
+
+.addIconTextSpacing {
+  display: inline-block;
+  margin-left: 5px;
+  margin-top: 3px;
+  cursor: pointer;
+  color: #5192cc;
+  font-size: 13px;
+}
+
+.specialPricingStyle {
+  text-align: right;
+  width: 100%;
+  display: inline-block;
+  font-size: 13px;
+}
+
+.row2 {
+  text-align: right;
+  margin-bottom: 19px;
+  margin-right: 30px;
+  font-size: 13px;
+}
+.row2 b, .specialPricingStyle b{
+  font-size: 13px;
+}
+.currencyLabel {
+  margin-left: 15px;
+  font-size: 13px;
+}

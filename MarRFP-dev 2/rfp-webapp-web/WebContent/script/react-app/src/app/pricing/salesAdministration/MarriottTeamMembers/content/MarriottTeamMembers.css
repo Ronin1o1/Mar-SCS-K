@@ -1,0 +1,60 @@
+.fullHeight{
+  border-collapse: collapse;
+}
+.fieldName{
+  font-weight: bold;
+}
+.btnAdd{
+   position: relative;
+   top: 4px;
+   border: 0;
+   margin-left: 6px;
+}
+.vTop{
+  vertical-align: top
+}
+.contactDiv{
+  width:370px;
+  height:130px;
+  position:relative
+}
+.innerRowDiv{
+  height:130px;
+  position:absolute;
+  top:0px;
+  left:20px
+}
+.zeroHeight{
+border-collapse: collapse;
+}
+.InstructionHeader{
+  FONT-WEIGHT: bold;
+  FONT-SIZE: 11px;
+  FONT-STYLE: italic;
+  FONT-FAMILY: Arial;
+  BACKGROUND-COLOR: #eff0ec;
+}
+.nowrapCell{
+  white-space: nowrap;
+}
+.width50{
+  width:50px
+}
+.nameCol{
+  height: 18px;
+   width: 296px
+}
+.marriottTeamMebersModalContainer {
+  padding: 10px; 
+  background: #fff; 
+  border-top: 1px solid #d3d3d3;
+  position: relative;
+}
+.mt8 {
+  margin-top: 8px;
+}
+
+.contentCenter {
+  position: fixed;
+  margin-top: 39vh;
+}

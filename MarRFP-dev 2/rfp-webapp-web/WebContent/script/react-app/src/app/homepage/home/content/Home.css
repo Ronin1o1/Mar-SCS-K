@@ -1,0 +1,471 @@
+@media only screen and (max-width: 1075px){
+  .gridContainerZoneSection > div:nth-child(2){
+    margin-bottom: 2.5rem !important;
+  }
+}
+.homepagecontainer{
+  position: relative;
+  width: 100%;
+}
+.homeMessage {
+  width: 289px;
+  height: calc(100vh - 107px);
+  position: relative;
+  display: inline-block;
+  margin: 0px 0px 0px 5px;
+  overflow: auto;
+}
+.homeMessage .p-accordion.p-component{
+  margin-top: 0 !important;
+}
+
+.dijitContentPaneSingleChild {
+    overflow: hidden;
+    border-bottom: 1px solid #92a0b3;
+    border-right: 1px solid #92a0b3;
+    border-left: 1px solid #92a0b3;
+}
+
+div {
+    margin: 0;
+    padding: 0;
+}
+
+.systemmessage {
+    min-width: 1em;
+    width: 100%;
+}
+
+
+.dijitTitlePaneTitle {
+    background: #413f81 none no-repeat;
+    color: #ffffff;
+    font-weight: bold;
+    border: 1px solid #bfbfbf;
+    padding: 3.8px 4px;
+}
+
+.dijitTitlePaneTitle a{
+    color:white;
+    text-decoration: none;
+}
+.cursorMove{
+  cursor: move;
+}
+
+.dijitTitlePaneTitleFixedOpen {
+    cursor: default;
+}
+
+.dijitArrowNode {
+    /* background-image: url();  */
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    height: 7px;
+    width: 7px;
+
+}
+
+.dijitArrowNodeInner {
+    display: none !important;
+}
+
+* {
+    Font-Family: Arial, Helvetica, sans-serif, Verdana, Geneva;
+    font-size: 11px;
+}
+
+.dijitTitlePaneTextNode {
+    margin-left: 4px;
+    margin-right: 4px;
+    Font-Family: Arial, Helvetica, sans-serif, Verdana, Geneva;
+    font-size: 11px;
+}
+
+.dijitTitlePaneContentOuter {
+  background: #ffffff;
+  border: 1px solid #bfbfbf;
+  border-top: 0;
+  min-height: 250px;
+  margin-bottom: 10px;
+  overflow-x: auto;
+  
+}
+
+.dijitTitlePaneContentOuterMessage {
+    background: #ffffff;
+    border: 1px solid #bfbfbf;
+    border-top: 0;
+    border-right: 0;
+    min-height: 400px;
+}
+
+.dijitReset {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    font: inherit;
+    line-height: normal;
+    color: inherit;
+}
+
+.dijitTitlePaneContentInner {
+    padding: 10px;
+}
+
+.gridContainer {
+    margin-left: 5px;
+    border-style: none;
+    display: block;
+    position: relative;
+    background: #FFF;
+    margin: 0;
+    width: 100%;
+    height: auto;
+    overflow-y: auto;
+    overflow-x: hidden !important;
+}
+
+.gridContainerAccount {
+    margin-left: 5px;
+    border-style: none;
+    display: block;
+    position: relative;
+    background: #FFF;
+    margin: 0;
+    width: 100%;
+    height: auto;
+    overflow-y: auto;
+}
+
+.dijitLayoutContainer {
+    position: relative;
+    display: block;
+    /* overflow: hidden; */
+}
+
+.dijitLayoutContainerAccount {
+    position: relative;
+    display: block;
+}
+
+.dijitContainer {
+    overflow: hidden;
+}
+
+.gridContainerTable {
+    width: 100%;
+    border: 1px solid #BFBFBF;
+    border-style: none;
+}
+
+.gridContainerZone {
+    vertical-align: top;
+    background-color: #FDFDFD;
+    height: 100%;
+}
+
+
+.dijitTitlePaneTitle * {
+    vertical-align: middle;
+    /* cursor: move; */
+}
+.dijitTitlePaneTitleMsg {
+  vertical-align: middle;
+  cursor: default;
+}
+.gridHeader {
+    overflow: hidden;
+    background-color: #d6d7ce;
+}
+
+.gridHeaderAccount{
+   width: 492px;
+}
+
+.gridHeader .gridCell {
+    border-color: #F6F4EB #ACA899 #ACA899 #F6F4EB;
+    padding-bottom: 2px;
+    font-size: 11px;
+    font-weight: bold;
+}
+
+.gridHeader table {
+    text-align: center;
+}
+.gridRowTable {
+    table-layout: fixed;
+    border-collapse: collapse;
+}
+
+.gridRowTableAccount{
+    height: 32px;
+}
+
+.gridRowCapHeight {
+    border: 1px solid #E8E4D8;
+    border-color: #F8F7F1;
+    border-left: none;
+    border-right: none;
+    background-color: white;
+    border-top: none;
+    overflow: hidden;
+    height: 26px;
+}
+
+.gridContainerTable tr {
+    height: 100%;
+}
+
+.gridCell {
+    border: 1px solid;
+    border-color: #EBEADB;
+    padding: 0px 2px 0px 2px;
+    text-align: left;
+    overflow-y: hidden;
+    font-size: 11px;
+}
+body, div, dl, dt, dd, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, textarea, p, blockquote, th, td {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font: 12px Myriad,Helvetica,Tahoma,Arial,clean,sans-serif;
+}
+
+/* div {
+    display: block;
+} */
+
+#homeContainer table {
+    Font-Family: Arial, Helvetica, sans-serif, Verdana, Geneva;
+    font-size: 11px;
+}
+
+#homeContainer table {
+    border-collapse: separate;
+    text-indent: initial;
+    white-space: normal;
+    line-height: normal;
+    font-style: normal;
+    text-align: start;
+    border-spacing: 2px;
+    font-variant: normal;
+}
+
+#homeContainer table.full-height {
+    height: 100%;
+    width: 100%;
+    border: 0px;
+    padding: 0px;
+}
+
+.paneltoggle {
+float: left;
+color:white;
+/* width: 739px; */
+width: 100%;
+text-align: left !important;
+}
+
+.dijitTabContainer {
+    z-index: 0;
+    overflow: visible;
+}
+
+  .tabContainer ul{
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    flex-wrap: wrap;
+    background: #f2f2f2 !important;
+    border-top: 1px solid #CCC;
+    border-right: 1px solid #CCC;
+    border-left: 1px solid #CCC;
+    padding-top: 2px;
+  }
+
+  
+  .tabContainer ul li{
+    line-height: normal;
+    margin-right: 4px;
+    border-top: 1px solid #CCC;
+    border-right: 1px solid #CCC;
+    border-left: 1px solid #CCC;
+    background-image: linear-gradient(rgb(253, 247, 247), rgb(216, 216, 212));
+  }
+  .tabContainer ul li a{
+      padding: 5px;
+  }
+  .tabContainer ul li :not(.p-disabled):focus {
+    background: white;
+  }
+  .tabContainer ul li:hover {
+    border-top: 1px solid #92a0b3;
+    border-right: 1px solid #92a0b3;
+    border-left: 1px solid #92a0b3;
+    background: #e2e2e2;
+  }
+  .hotelDialogue{
+    width: 40vw;
+    height: 190px;
+    border: 1px solid #7eabcd;
+    padding: 0.45em;
+    border-radius: 3px;
+    background: #ffffff;
+    margin: 35px;
+    margin: 76px 0px 0px -190px !important;
+    box-shadow: 0 5px 10px #adadad;
+    overflow: auto;
+  }
+  .systemMessagehead{
+    width: auto;
+    border-bottom: inset 1px #cccccc;
+    padding-bottom: 10px;
+    padding-top: 10px;
+  }
+  .systemMessageTitle{
+    color: #9d102d;
+  }
+  .systemMessageNumber{
+    height: auto;
+    font-weight: bold
+  }
+  .messageDataSection{
+    width: auto;
+    border-bottom: inset 1px #cccccc;
+    padding-bottom: 10px;
+    padding-top: 10px;
+  }
+  .messageDataInnerSection{
+    position: relative
+  }
+  .messageDataTitleSection{
+    color: #9d102d;
+  }
+  .messageDataDescriptionSection{
+    color: #323c63;
+     font-weight: bold; 
+  }
+  .messageDataDelete{
+    position: absolute;
+    right: 0;
+     width: 20px;
+  }
+  .messageDataDesc{
+    height: auto;
+     font-weight: bold;
+  }
+  .accountSection{
+    width: calc(100% - 294px);
+    height: calc(100vh - 103px);
+    display: inline-block;
+    position: absolute;
+    left: 294px;
+    overflow-x: auto;
+    overflow-y: hidden;
+  }
+  .gridContainerhead{
+    width: 770px;
+    height: calc(100vh - 112px);
+    padding: 10px 0 0px 10px;
+  }
+  .gridContainerZoneSection{
+    width: 100%;
+  }
+  .gridContainerZoneSection > div{
+    padding:0 !important;
+  }
+  .accountHeader{
+    height: 300px;
+  }
+  .accountDataSection{
+    height: 24px;
+     left: 0px;
+      top: 0px;
+       position: absolute;
+        width: 728px;
+  }
+  .accountTab{
+    left: 0;
+    top: 24px !important;
+    position: absolute;
+    width: 728px !important;
+    height: 276px !important;
+    overflow-x: hidden;
+  }
+  .accountTabContainer{
+    width: 728px;
+     height: 276px;
+  }
+  .accountsViewConatiner{
+    height: 350px;
+  }
+  .accountsView{
+    height: 300px;
+     width: 504px;
+  }
+  .accountsDataDetails{
+    width: 504px;
+     height: 268px;
+      overflow: auto !important;
+  }
+  .gridRowTableDataAccount{
+    height: 20px;
+  }
+  .gridCellAccountName{
+    width: 210px;
+     overflow: hidden !important;
+  }
+  .gridCellSegment{
+    width: 170px;
+    overflow: hidden !important;
+  }
+  .gridCellDueDate{
+    width: 90px;
+    overflow: hidden !important;
+  }
+.customCaret {
+  width: 0;
+  height: 0;
+  display: inline-block;
+  border: 5px solid transparent;
+}
+.customCaret.downCaret{
+  border-top-color: black;
+  position: relative;
+  top: 3px;
+}
+.customCaret.rightCaret{
+  border-left-color: black;
+  left: 7px !important;
+  position: relative;
+  top: -2px;
+}
+.overflowProperty{
+  overflow-y: auto;
+  overflow-x: hidden;
+  height: 2px
+}
+.dijitTitlePaneAccount > a,
+.dijitTitlePane > a{
+  background: transparent !important;
+  border-color: transparent !important;
+  padding: 0 !important;
+  border: 0 !important;
+}
+.tabStyle{
+  position: relative;
+  display: block;
+  padding-left: 3px;
+  margin-bottom: 5px;
+  padding-top: 3px;
+  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAAoCAIAAACw1AcgAAAAMUlEQVQI15XMMQoAMAxCUf25/5WTTikOXTo8RBA1MyxJZE/dffMlN/tlG9sAVBWSfh0r1D8NE/0J/AAAAABJRU5ErkJggg==) repeat-x;
+  border:1px solid #cccccc;
+}
+.btPricing{
+  height:300px;
+  width:750px;
+}

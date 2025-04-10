@@ -1,0 +1,30 @@
+.thresholdTable th:not(:last-child),
+.thresholdTable td:not(:last-child) {
+  border-right: 1px solid #cccccc;
+}
+
+.spacingForRadioButton {
+  white-space: nowrap;
+  display: inline-block;
+  text-align: left;
+}
+
+.spacingForRadioButton span {
+  color: #333333;
+  font-size: 13px;
+  font-weight: 400;
+}
+.thresholdTable input {
+  font-size: 13px;
+  font-weight: 400;
+}
+
+.tableColumn {
+  font-size: 13px;
+  font-weight: 400;
+}
+
+.scBudgetTable input {
+  font-size: 13px;
+  font-weight: 400; 
+}

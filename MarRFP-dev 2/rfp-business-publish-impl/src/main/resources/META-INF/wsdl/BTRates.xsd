@@ -1,0 +1,553 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- edited with XMLSpy v2011 sp1 (http://www.altova.com) by San (Marriott International) -->
+<xsd:schema xmlns="http://com/marriott/rma/webservice/btrates" xmlns:xsd="http://www.w3.org/2001/XMLSchema" targetNamespace="http://com/marriott/rma/webservice/btrates" elementFormDefault="qualified">
+	<xsd:annotation>
+		<xsd:documentation xml:lang="en">RFP sends data to create, relinquish or kill rateentities at property level in RMA . Also included the response structure in all these cases.</xsd:documentation>
+	</xsd:annotation>
+	<xsd:simpleType name="DistanceType">
+		<xsd:annotation>
+			<xsd:documentation xml:lang="en"/>
+		</xsd:annotation>
+		<xsd:restriction base="xsd:string">
+			<xsd:enumeration value="mi"/>
+			<xsd:enumeration value="km"/>
+		</xsd:restriction>
+	</xsd:simpleType>
+	<xsd:simpleType name="PriorityTagType">
+		<xsd:restriction base="xsd:long">
+			<xsd:enumeration value="1"/>
+			<xsd:enumeration value="2"/>
+			<xsd:enumeration value="3"/>
+			<xsd:enumeration value="4"/>
+			<xsd:enumeration value="5"/>
+		</xsd:restriction>
+	</xsd:simpleType>
+	<xsd:simpleType name="PricingType">
+		<xsd:restriction base="xsd:long">
+			<xsd:enumeration value="1"/>
+			<xsd:enumeration value="2"/>
+			<xsd:enumeration value="3"/>
+		</xsd:restriction>
+	</xsd:simpleType>
+	<xsd:simpleType name="OccupancyType">
+		<xsd:restriction base="xsd:long">
+			<xsd:enumeration value="1"/>
+			<xsd:enumeration value="2"/>
+		</xsd:restriction>
+	</xsd:simpleType>
+	<xsd:simpleType name="ICDActionType">
+		<xsd:restriction base="xsd:string">
+			<xsd:enumeration value="BTBlackout"/>
+		</xsd:restriction>
+	</xsd:simpleType>
+	<xsd:simpleType name="StatusType">
+		<xsd:restriction base="xsd:string">
+			<xsd:enumeration value="Success"/>
+			<xsd:enumeration value="Error"/>
+			<xsd:enumeration value="Pending"/>
+		</xsd:restriction>
+	</xsd:simpleType>
+	<xsd:simpleType name="SourceType">
+		<xsd:restriction base="xsd:string">
+			<xsd:enumeration value="HPP"/>
+			<xsd:enumeration value="MARSHA"/>
+		</xsd:restriction>
+	</xsd:simpleType>
+	<xsd:complexType name="AttributesType">
+		<xsd:sequence>
+			<xsd:element name="MarketSegmentCode" type="xsd:long">
+				<xsd:annotation>
+					<xsd:documentation>HOTELRORATEENTITY/MARKETCODE</xsd:documentation>
+				</xsd:annotation>
+			</xsd:element>
+			<xsd:element name="RoomPool" type="xsd:string">
+				<xsd:annotation>
+					<xsd:documentation>HOTELRORATEENTITY/ROOMPOOLID</xsd:documentation>
+				</xsd:annotation>
+			</xsd:element>
+			<xsd:element name="CommissionableFlag" type="xsd:boolean">
+				<xsd:annotation>
+					<xsd:documentation>HOTELRORATEENTITY/COMMISSIONABLE</xsd:documentation>
+				</xsd:annotation>
+			</xsd:element>
+		</xsd:sequence>
+	</xsd:complexType>
+	<xsd:complexType name="KnownRateEntityIdType">
+		<xsd:sequence>
+			<xsd:element name="MirrorRateOfferId" type="xsd:long"/>
+			<xsd:element name="MirrorRateEntityId" type="xsd:long"/>
+		</xsd:sequence>
+	</xsd:complexType>
+	<xsd:complexType name="UnknownRateEntityIdType">
+		<xsd:sequence>
+			<xsd:element name="MirrorRateOfferId" type="xsd:long"/>
+			<xsd:element name="PriorityTag" type="PriorityTagType">
+				<xsd:annotation>
+					<xsd:documentation>1=1 Only; 2=2 Only; 3=3 Only; 4=1 and 2; 5=1,2 and 3;</xsd:documentation>
+				</xsd:annotation>
+			</xsd:element>
+			<xsd:element name="PricingType" type="PricingType">
+				<xsd:annotation>
+					<xsd:documentation>1=Weekday (WD); 2=Weekend (WE); 3=7-Day (7D);</xsd:documentation>
+				</xsd:annotation>
+			</xsd:element>
+			<xsd:element name="RoomPoolCode" type="xsd:string"/>
+		</xsd:sequence>
+	</xsd:complexType>
+	<xsd:complexType name="MirroringType">
+		<xsd:choice>
+			<xsd:element name="MirrorInfoWithRateEntityId" type="KnownRateEntityIdType"/>
+			<xsd:element name="MirrorInfoWithoutRateEntityId" type="UnknownRateEntityIdType"/>
+		</xsd:choice>
+	</xsd:complexType>
+	<xsd:complexType name="RuleType">
+		<xsd:sequence>
+			<xsd:element name="RuleID">
+				<xsd:annotation>
+					<xsd:documentation>1=Fixed; 2=Percent Above; 3=Percent Below; 4=Equals; 5=Amount Above; 6=Amount Below</xsd:documentation>
+				</xsd:annotation>
+				<xsd:simpleType>
+					<xsd:restriction base="xsd:long">
+						<xsd:enumeration value="1"/>
+						<xsd:enumeration value="2"/>
+						<xsd:enumeration value="3"/>
+						<xsd:enumeration value="4"/>
+						<xsd:enumeration value="5"/>
+						<xsd:enumeration value="6"/>
+					</xsd:restriction>
+				</xsd:simpleType>
+			</xsd:element>
+			<xsd:element name="Amount" type="xsd:decimal">
+				<xsd:annotation>
+					<xsd:documentation>HOTELROREPRICINGRULE/AMOUNT</xsd:documentation>
+				</xsd:annotation>
+			</xsd:element>
+		</xsd:sequence>
+	</xsd:complexType>
+	<xsd:complexType name="AdjustmentRuleType">
+		<xsd:sequence>
+			<xsd:element name="AdjustmentRuleID">
+				<xsd:annotation>
+					<xsd:documentation>1=Fixed; 2=Percent Above; 3=Percent Below; 4=Equals; 5=Amount Above; 6=Amount Below;10=BT Percent Below</xsd:documentation>
+				</xsd:annotation>
+				<xsd:simpleType>
+					<xsd:restriction base="xsd:long">
+						<xsd:enumeration value="1"/>
+						<xsd:enumeration value="2"/>
+						<xsd:enumeration value="3"/>
+						<xsd:enumeration value="4"/>
+						<xsd:enumeration value="5"/>
+						<xsd:enumeration value="6"/>
+						<xsd:enumeration value="10"/>
+					</xsd:restriction>
+				</xsd:simpleType>
+			</xsd:element>
+			<xsd:element name="Amount" type="xsd:decimal">
+				<xsd:annotation>
+					<xsd:documentation>HOTELROREPRICINGRULE/AMOUNT</xsd:documentation>
+				</xsd:annotation>
+			</xsd:element>
+		</xsd:sequence>
+	</xsd:complexType>
+	<xsd:complexType name="PricingParentType">
+		<xsd:sequence>
+			<xsd:choice>
+				<xsd:element name="MirrorParent" type="MirroringType"/>
+				<xsd:element name="MirrorSelf" type="xsd:boolean"/>
+			</xsd:choice>
+			<xsd:element name="MirrorTier" type="xsd:long" minOccurs="0"/>
+		</xsd:sequence>
+	</xsd:complexType>
+	<xsd:complexType name="btRuleLosType">
+		<xsd:sequence>
+			<xsd:element name="RuleInfo" type="RuleType"/>
+			<xsd:element name="PricingParent" type="PricingParentType" minOccurs="0"/>
+			<xsd:element name="CeilingRuleInfo" type="AdjustmentRuleType" minOccurs="0"/>
+			<xsd:element name="CeilingParent" type="PricingParentType" minOccurs="0"/>
+			<xsd:choice>
+				<xsd:sequence>
+					<xsd:element name="TierNumber" type="xsd:decimal">
+						<xsd:annotation>
+							<xsd:documentation>1 to 4</xsd:documentation>
+						</xsd:annotation>
+					</xsd:element>
+					<xsd:element name="StartNight" type="xsd:decimal" minOccurs="1"/>
+					<xsd:element name="EndNight" type="xsd:decimal" minOccurs="1"/>
+				</xsd:sequence>
+				<xsd:sequence>
+					<xsd:element name="CurrentTierNumber" type="xsd:decimal" minOccurs="0">
+						<xsd:annotation>
+							<xsd:documentation>1 to 4</xsd:documentation>
+						</xsd:annotation>
+					</xsd:element>
+					<xsd:element name="MirrorLOSStructureFlag" type="xsd:boolean" minOccurs="1"/>
+				</xsd:sequence>
+				<xsd:element name="OccupancyID" type="OccupancyType">
+					<xsd:annotation>
+						<xsd:documentation>1=single; 2=double;</xsd:documentation>
+					</xsd:annotation>
+				</xsd:element>
+			</xsd:choice>
+		</xsd:sequence>
+	</xsd:complexType>
+	<xsd:complexType name="btPricingRuleType">
+		<xsd:sequence>
+			<xsd:element name="btRuleList" type="btRuleLosType" minOccurs="1" maxOccurs="4">
+				<xsd:annotation>
+					<xsd:documentation>Represents 1-4 Los Tiers for Extended Stay (OR) Single-Double Occupancy for Non-Extended Stay Properties</xsd:documentation>
+				</xsd:annotation>
+			</xsd:element>
+			<xsd:element name="DateRange" type="DateRangeType"/>
+		</xsd:sequence>
+	</xsd:complexType>
+	<xsd:complexType name="RateOfferSettingsType">
+		<xsd:sequence>
+			<xsd:element name="RateOfferStartDate" type="xsd:date">
+				<xsd:annotation>
+					<xsd:documentation>HOTELRATEOFFER/STARTDATE</xsd:documentation>
+				</xsd:annotation>
+			</xsd:element>
+			<xsd:element name="RateOfferEndDate" type="xsd:date">
+				<xsd:annotation>
+					<xsd:documentation>HOTELRATEOFFER/ENDDATE</xsd:documentation>
+				</xsd:annotation>
+			</xsd:element>
+		</xsd:sequence>
+	</xsd:complexType>
+	<xsd:complexType name="PricingRuleListType">
+		<xsd:sequence>
+			<xsd:element name="PricingRule" type="btPricingRuleType" maxOccurs="1000"/>
+		</xsd:sequence>
+	</xsd:complexType>
+	<xsd:complexType name="MirrorAvailabilityType">
+		<xsd:sequence>
+			<xsd:element name="DateRange" type="DateRangeType"/>
+			<xsd:element name="MirrorAvailabilityRule" type="MirroringType"/>
+		</xsd:sequence>
+	</xsd:complexType>
+	<xsd:complexType name="MirrorAvailabilityListType">
+		<xsd:sequence>
+			<xsd:element name="Availability" type="MirrorAvailabilityType" minOccurs="0" maxOccurs="1000"/>
+		</xsd:sequence>
+	</xsd:complexType>
+	<xsd:complexType name="RateEntityType">
+		<xsd:sequence>
+			<xsd:element name="TransactionId" type="xsd:long"/>
+			<xsd:element name="CurrencyCode" type="xsd:string">
+				<xsd:annotation>
+					<xsd:documentation>HOTEL/CURRENCYCODE</xsd:documentation>
+				</xsd:annotation>
+			</xsd:element>
+			<xsd:element name="TransactionDateRange" type="DateRangeType"/>
+			<xsd:element name="RateOfferId" type="xsd:long">
+				<xsd:annotation>
+					<xsd:documentation>MASTERRATEOFFER/RATEOFFERID</xsd:documentation>
+				</xsd:annotation>
+			</xsd:element>
+			<xsd:element name="RateProgram" type="xsd:string">
+				<xsd:annotation>
+					<xsd:documentation/>
+				</xsd:annotation>
+			</xsd:element>
+			<xsd:element name="PropertyRateEntityId" type="xsd:long" minOccurs="0">
+				<xsd:annotation>
+					<xsd:documentation>For subsequent requests</xsd:documentation>
+				</xsd:annotation>
+			</xsd:element>
+			<xsd:element name="ProductCode" type="xsd:string">
+				<xsd:annotation>
+					<xsd:documentation>HOTELRORATEENTITY/PRODUCTID</xsd:documentation>
+				</xsd:annotation>
+			</xsd:element>
+			<xsd:element name="AccountName" type="xsd:string">
+				<xsd:annotation>
+					<xsd:documentation>HOTELRORATEENTITY/ACCOUNTNAME</xsd:documentation>
+				</xsd:annotation>
+			</xsd:element>
+			<xsd:element name="DistanceToLocalOfficeUnit" type="DistanceType" minOccurs="0">
+				<xsd:annotation>
+					<xsd:documentation>HOTELRORATEENTITY/DISTANCETOOFFICEUNIT</xsd:documentation>
+				</xsd:annotation>
+			</xsd:element>
+			<xsd:element name="DistanceToLocalOffice" type="xsd:decimal" minOccurs="0">
+				<xsd:annotation>
+					<xsd:documentation>HOTELRORATEENTITY/DISTANCETOOFFICE</xsd:documentation>
+				</xsd:annotation>
+			</xsd:element>
+			<xsd:element name="BlackoutDatesList" type="ICDListType" minOccurs="0"/>
+			<xsd:element name="LRAFlag" type="xsd:boolean" minOccurs="1"/>
+			<xsd:element name="YearMinusYFlag" type="xsd:boolean" minOccurs="0"/>
+			<xsd:element name="AttributesInfo" type="AttributesType"/>
+			<xsd:element name="AvailabilityList" type="MirrorAvailabilityListType" minOccurs="0"/>
+			<xsd:element name="CapsAndRestrictionsInfo" type="MirroringType" minOccurs="0">
+				<xsd:annotation>
+					<xsd:documentation>These three fields are used to identify the parent rate entity id to mirror off of.</xsd:documentation>
+				</xsd:annotation>
+			</xsd:element>
+			<xsd:element name="PricingRuleList" type="PricingRuleListType"/>
+			<!--<xsd:element name="RateOfferSettingsInfo" type="RateOfferSettingsType"/>-->
+		</xsd:sequence>
+	</xsd:complexType>
+	<xsd:complexType name="RateEntityListType">
+		<xsd:sequence>
+			<xsd:element name="RateEntity" type="RateEntityType" minOccurs="1" maxOccurs="1000"/>
+		</xsd:sequence>
+	</xsd:complexType>
+	<xsd:complexType name="PropertyCodeListType">
+		<xsd:sequence>
+			<xsd:element name="PropertyId" type="xsd:long" minOccurs="1"/>
+			<xsd:element name="RateProgramBTTransactionIDList" type="RateProgramBTTransactionIDListType" minOccurs="1" maxOccurs="1000"/>
+		</xsd:sequence>
+	</xsd:complexType>
+	<xsd:complexType name="RateProgramBTTransactionIDListType">
+		<xsd:sequence>
+			<xsd:element name="RateProgram" type="xsd:string" minOccurs="1"/>
+			<xsd:element name="BTTransactionId" type="xsd:long" minOccurs="1"/>
+		</xsd:sequence>
+	</xsd:complexType>
+	<xsd:complexType name="ErrorType">
+		<xsd:sequence>
+			<xsd:element name="Code" type="xsd:string" minOccurs="1"/>
+			<xsd:element name="Message" type="xsd:string" minOccurs="0"/>
+		</xsd:sequence>
+	</xsd:complexType>
+	<xsd:complexType name="WarningType">
+		<xsd:sequence>
+			<xsd:element name="Code" type="xsd:string" minOccurs="1"/>
+			<xsd:element name="Message" type="xsd:string" minOccurs="0"/>
+		</xsd:sequence>
+	</xsd:complexType>
+	<xsd:complexType name="PricingResponseType">
+		<xsd:sequence>
+			<xsd:element name="DateRange" type="DateRangeType"/>
+			<xsd:element name="PricingParent" type="ParentRateOfferResponseType" minOccurs="0">
+				<xsd:annotation>
+					<xsd:documentation>Resolved Parent Rate Entity for Mirrorring</xsd:documentation>
+				</xsd:annotation>
+			</xsd:element>
+			<xsd:element name="CeilingParent" type="ParentRateOfferResponseType" minOccurs="0">
+				<xsd:annotation>
+					<xsd:documentation>Resolved Parent Rate Entity for Mirrorring</xsd:documentation>
+				</xsd:annotation>
+			</xsd:element>
+		</xsd:sequence>
+	</xsd:complexType>
+	<xsd:complexType name="PricingResponseListType">
+		<xsd:sequence>
+			<xsd:element name="PricingResponse" type="PricingResponseType" minOccurs="0" maxOccurs="1000"/>
+		</xsd:sequence>
+	</xsd:complexType>
+	<xsd:complexType name="AvailabilityResponseType">
+		<xsd:sequence>
+			<xsd:element name="DateRange" type="DateRangeType"/>
+			<xsd:element name="AvailabilityParent" type="ParentRateOfferResponseType">
+				<xsd:annotation>
+					<xsd:documentation>Resolved Parent Rate Entity for Mirrorring</xsd:documentation>
+				</xsd:annotation>
+			</xsd:element>
+		</xsd:sequence>
+	</xsd:complexType>
+	<xsd:complexType name="AvailabilityResponseList">
+		<xsd:sequence>
+			<xsd:element name="AvailabilityResponse" type="AvailabilityResponseType" minOccurs="0" maxOccurs="1000"/>
+		</xsd:sequence>
+	</xsd:complexType>
+	<xsd:complexType name="ErrorList">
+		<xsd:sequence>
+			<xsd:element name="Error" type="ErrorType" minOccurs="0" maxOccurs="1000"/>
+		</xsd:sequence>
+	</xsd:complexType>
+	<xsd:complexType name="WarningList">
+		<xsd:sequence>
+			<xsd:element name="Warning" type="WarningType" minOccurs="0" maxOccurs="1000"/>
+		</xsd:sequence>
+	</xsd:complexType>
+	<xsd:complexType name="ICDType">
+		<xsd:sequence>
+			<xsd:element name="Start" type="xsd:date"/>
+			<xsd:element name="End" type="xsd:date" minOccurs="0"/>
+		</xsd:sequence>
+	</xsd:complexType>
+	<xsd:complexType name="ICDListType">
+		<xsd:sequence>
+			<xsd:element name="ICD" type="ICDType" maxOccurs="371"/>
+		</xsd:sequence>
+	</xsd:complexType>
+	<xsd:complexType name="ParentRateOfferResponseType">
+		<xsd:sequence>
+			<xsd:element name="ParentRateOfferId" type="xsd:long"/>
+			<xsd:element name="ParentRateOfferName" type="xsd:string"/>
+			<xsd:element name="ParentRateEntityId" type="xsd:long"/>
+			<xsd:element name="ParentRateEntityRateProgram" type="xsd:string"/>
+		</xsd:sequence>
+	</xsd:complexType>
+	<xsd:complexType name="BTRateStatusType">
+		<xsd:sequence>
+			<xsd:element name="TransactionId" type="xsd:long"/>
+			<xsd:element name="RequestType">
+				<xsd:annotation>
+					<xsd:documentation>BtRates, Relinquish, Kill, Status or PublishResponse</xsd:documentation>
+				</xsd:annotation>
+				<xsd:simpleType>
+					<xsd:restriction base="xsd:string">
+						<xsd:enumeration value="BtRates"/>
+						<xsd:enumeration value="Relinquish"/>
+						<xsd:enumeration value="Kill"/>
+						<xsd:enumeration value="Status"/>
+					</xsd:restriction>
+				</xsd:simpleType>
+			</xsd:element>
+			<xsd:element name="RateOfferId" type="xsd:long">
+				<xsd:annotation>
+					<xsd:documentation>Master Rate Offer</xsd:documentation>
+				</xsd:annotation>
+			</xsd:element>
+			<xsd:element name="RateProgram" type="xsd:string">
+				<xsd:annotation>
+					<xsd:documentation>Rate Program</xsd:documentation>
+				</xsd:annotation>
+			</xsd:element>
+			<xsd:element name="PropertyRateEntityId" type="xsd:long" minOccurs="0">
+				<xsd:annotation>
+					<xsd:documentation>Available for all propagated entities. Used in subsequent requests from RFP</xsd:documentation>
+				</xsd:annotation>
+			</xsd:element>
+			<xsd:element name="RateOfferName" type="xsd:string" minOccurs="0"/>
+			<xsd:element name="PropertyCode" type="xsd:string"/>
+			<xsd:element name="Status" type="StatusType">
+				<xsd:annotation>
+					<xsd:documentation>Success / Error / Pending </xsd:documentation>
+				</xsd:annotation>
+			</xsd:element>
+			<xsd:element name="Source" type="SourceType" minOccurs="1">
+				<xsd:annotation>
+					<xsd:documentation>HPP or MARSHA</xsd:documentation>
+				</xsd:annotation>
+			</xsd:element>
+			<xsd:element name="LastPublishDate" type="xsd:date" minOccurs="0"/>
+			<xsd:element name="PurgeDate" type="xsd:date" minOccurs="0"/>
+			<xsd:element name="CapsAndRestictionsParent" type="ParentRateOfferResponseType" minOccurs="0">
+				<xsd:annotation>
+					<xsd:documentation>Resolved Parent Rate Entity for Mirrorring</xsd:documentation>
+				</xsd:annotation>
+			</xsd:element>
+			<xsd:element name="PricingResponseList" type="PricingResponseListType" minOccurs="0"/>
+			<xsd:element name="AvailabilityResponseList" type="AvailabilityResponseList" minOccurs="0"/>
+			<xsd:element name="ErrorList" type="ErrorList" minOccurs="0"/>
+			<xsd:element name="WarningList" type="WarningList" minOccurs="0"/>
+		</xsd:sequence>
+	</xsd:complexType>
+	<xsd:complexType name="PropertyPublishResponseType">
+		<xsd:sequence>
+			<xsd:element name="PropertyId" type="xsd:long"/>
+			<xsd:element name="Status" type="StatusType">
+				<xsd:annotation>
+					<xsd:documentation>Success / Error / Pending </xsd:documentation>
+				</xsd:annotation>
+			</xsd:element>
+			<xsd:element name="Source" type="SourceType" minOccurs="1">
+				<xsd:annotation>
+					<xsd:documentation>HPP or MARSHA</xsd:documentation>
+				</xsd:annotation>
+			</xsd:element>
+			<xsd:element name="ErrorList" type="ErrorList" minOccurs="0"/>
+		</xsd:sequence>
+	</xsd:complexType>
+	<xsd:complexType name="DateRangeType">
+		<xsd:sequence>
+			<xsd:element name="StartDate" type="xsd:date"/>
+			<xsd:element name="EndDate" type="xsd:date"/>
+		</xsd:sequence>
+	</xsd:complexType>
+	<xsd:complexType name="RelinquishRateEntityType">
+		<xsd:sequence>
+			<xsd:element name="TransactionId" type="xsd:long"/>
+			<xsd:element name="RateOfferId" type="xsd:long"/>
+			<xsd:choice minOccurs="1">
+				<xsd:element name="PropertyRateEntityId" type="xsd:long"/>
+				<xsd:element name="RateProgramCode" type="xsd:string"/>
+			</xsd:choice>
+			<xsd:element name="DateRange" type="DateRangeType" minOccurs="0"/>
+		</xsd:sequence>
+	</xsd:complexType>
+	<xsd:complexType name="RelinquishRateEntityListType">
+		<xsd:sequence>
+			<xsd:element name="RelinquishRateEntity" type="RelinquishRateEntityType" minOccurs="1" maxOccurs="1000"/>
+		</xsd:sequence>
+	</xsd:complexType>
+	<xsd:complexType name="KillRateEntityType">
+		<xsd:sequence>
+			<xsd:element name="TransactionId" type="xsd:long"/>
+			<xsd:element name="RateOfferId" type="xsd:long"/>
+			<xsd:choice minOccurs="1">
+				<xsd:element name="PropertyRateEntityId" type="xsd:long"/>
+				<xsd:element name="RateProgramCode" type="xsd:string"/>
+			</xsd:choice>
+		</xsd:sequence>
+	</xsd:complexType>
+	<xsd:complexType name="KillRateEntityListType">
+		<xsd:sequence>
+			<xsd:element name="KillRateEntity" type="KillRateEntityType" minOccurs="1" maxOccurs="1000"/>
+		</xsd:sequence>
+	</xsd:complexType>
+	<xsd:complexType name="BTRateStatusReqType">
+		<xsd:sequence>
+			<xsd:element name="TransactionId" type="xsd:long"/>
+			<xsd:element name="PropertyRateOfferId" type="xsd:long"/>
+			<xsd:element name="PropertyRateEntityId" type="xsd:long"/>
+		</xsd:sequence>
+	</xsd:complexType>
+	<!--  Webservice messages -->
+	<xsd:element name="BTRatesRequest">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element name="ProcessId" type="xsd:long"/>
+				<xsd:element name="PropertyCode" type="xsd:string"/>
+				<xsd:element name="HoldPublish" type="xsd:boolean" minOccurs="0"/>
+				<xsd:element name="EID" type="xsd:string" minOccurs="1"/>
+				<xsd:element name="SendRateEntityList" type="RateEntityListType" minOccurs="0"/>
+				<xsd:element name="RelinquishRateEntityList" type="RelinquishRateEntityListType" minOccurs="0"/>
+				<xsd:element name="KillRateEntityList" type="KillRateEntityListType" minOccurs="0"/>
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+	<xsd:element name="BTPublishRequest">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element name="EID" type="xsd:string" minOccurs="1"/>
+				<xsd:element name="PropertyCodeList" type="PropertyCodeListType" minOccurs="1" maxOccurs="1000"/>
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+	<xsd:element name="BTRatesStatusRequest">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element name="EID" type="xsd:string"/>
+				<xsd:element name="BTRateStatusReq" type="BTRateStatusReqType" minOccurs="1" maxOccurs="1000"/>
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+	<xsd:element name="FaultMessage">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element name="FaultMessage" type="xsd:string"/>
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+	<xsd:element name="BTRatesResponse">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element name="ProcessId" type="xsd:long"/>
+				<xsd:element name="ErrorList" type="ErrorList" minOccurs="0"/>
+				<xsd:element name="BTRateStatus" type="BTRateStatusType" minOccurs="1" maxOccurs="1000"/>
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+	<xsd:element name="BTPublishResponse">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element name="PropertyPublishResponse" type="PropertyPublishResponseType" minOccurs="1" maxOccurs="1000"/>
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+</xsd:schema>

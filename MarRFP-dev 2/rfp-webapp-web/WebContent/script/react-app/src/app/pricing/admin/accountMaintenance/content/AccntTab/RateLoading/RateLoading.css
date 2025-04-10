@@ -1,0 +1,253 @@
+body {
+  font-family: Arial, Helvetica, sans-serif, Verdana, Geneva !important;
+  margin: 0px;
+  padding: 0px;
+  font-size: 11px;
+}
+input,
+textarea {
+  font-family: Arial, Helvetica, sans-serif, Verdana, Geneva !important;
+  margin: 0px;
+  padding: 0px;
+  font-size: 11px;
+}
+
+.gridContainer {
+  display: grid;
+  grid-gap: 3px;
+  grid-template-columns: 48% 52%;
+}
+
+.row1 {
+  grid-row: 1;
+}
+
+.row2 {
+  grid-row: 2;
+}
+
+.subGrid1 {
+  display: grid;
+  grid-gap: 3px;
+  grid-template-columns: 40% 60%;
+  align-items: center;
+  grid-auto-rows: min-content;
+  margin-left: 10px;
+}
+
+.subGrid2 {
+  display: grid;
+  grid-gap: 3px;
+  grid-template-columns: 20% 80%;
+  align-items: center;
+  grid-auto-rows: min-content;
+}
+
+.colSpan {
+  grid-column: span 2;
+}
+
+.fieldName {
+  font-weight: bold;
+  white-space: nowrap;
+}
+
+.dateMargins {
+  margin-top: 2px;
+}
+
+.fieldHeight16 {
+  height: 16px;
+}
+
+.roomPoolsContainer {
+  text-align: right;
+  padding-right: 20px;
+  font-weight: bold;
+  white-space: nowrap;
+}
+
+.fieldHeight20 {
+  height: 20px;
+  line-height: 20px;
+}
+
+.fieldHeight25 {
+  height: 25px;
+  line-height: 25px;
+  white-space: nowrap;
+}
+
+.fieldHeight30 {
+  height: 30px;
+  line-height: 30px;
+}
+
+.fieldWidth200 {
+  width: 288px;
+}
+
+.fieldWidth200New {
+  width: 200px;
+}
+
+.fieldWidth80 {
+  width: 80px;
+}
+
+.fieldWidth350 {
+  width: 350px;
+}
+
+.fieldWidth50 {
+  width: 50px;
+}
+
+.fieldWidth40 {
+  width: 40px;
+  text-align: right;
+}
+
+.fieldWidthBackground {
+  width: 40px;
+  text-align: left;
+  background: #f9f999 url(../../../../../../common/assets/img/warning.png)
+    no-repeat center right !important;
+}
+
+.innerTable {
+  margin-left: 10px;
+}
+
+.inputText {
+  width: 418px;
+  height: 22px;
+}
+
+.deleteBtn {
+  text-align: center;
+  cursor: pointer;
+  width: 70px;
+}
+
+.containerDiv {
+  display: flex;
+  margin-left: 3px;
+  margin-top: 5px;
+}
+
+.divHideDisplay {
+  display: none;
+}
+
+.divShowDisplay {
+  display: table-row;
+}
+
+.divFlexDisplay {
+  display: flex;
+}
+.errorBg {
+    z-index: 1004;
+      top: 10%;
+      position: fixed;
+      background: #eee;
+      width: 100%;
+      height: 88%;
+      opacity: 0.5;
+}
+.modalMessage {
+  padding-right: 10px;
+  padding-left: 10px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  white-space: nowrap;
+  font-size: 12px;
+}
+
+.btnUpdate {
+  text-align: left;
+}
+
+.btnRemove {
+  margin-top: 10px;
+}
+
+.selectMargin {
+  margin-left: -160px;
+}
+
+.textAreaAlign {
+  vertical-align: top;
+}
+
+.wrapCell {
+  white-space: normal;
+}
+
+.textAreaPASNotes {
+  height: 110px;
+  width: 400px;
+  font-size: 8pt;
+}
+
+.textAreaRateNotes {
+  height: 80px;
+  width: 360px;
+  font-size: 8pt;
+}
+
+.calendarMargin {
+  margin-left: 4px;
+}
+
+.endDateCalendar {
+  margin-left: 80px;
+}
+
+.outerLine {
+  border: 1px solid #7eabcd;
+}
+
+.tooltipContainer {
+  border: 1px solid #47558b !important;
+  background: #ffffff url(../../../../../../common/assets/img/popupMenuBg.gif)
+    repeat-x bottom left !important;
+  padding: 3px !important;
+  width: 300px !important;
+  font-weight: normal !important;
+  font-size: 14px;
+  position: absolute;
+  border-radius: 3px;
+}
+
+.tableWidth {
+  width: 46%;
+}
+.accountTabLoader {
+  opacity: 1;
+  background-color: #cccccc;
+  position: fixed;
+  z-index: 9800;
+  display: inline;
+  width: 100%;
+  height: 100%;
+  top: 164px;
+}
+.msgModal {
+  padding-right: 10px;
+  padding-left: 10px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  font-size: 12px;
+  min-width: 450px;
+}
+
+.btnEvents{
+  cursor: default !important;
+  pointer-events: none;
+} 
+
+textarea{
+  word-break: break-word;
+}

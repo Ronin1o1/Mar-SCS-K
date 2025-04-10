@@ -1,0 +1,31 @@
+.searchFilterTable {
+    border:1px solid #cccccc;
+    background: #eff0ec;
+    margin:-2px -1.5px;
+    border-collapse: collapse;
+}
+
+.showAll{
+    width: 102px;
+    font-weight: bold;
+    font-family: Arial;
+}
+
+.emptyColumn {
+  width: 30px;
+}
+
+.sortBy {
+  width: 225px;
+  font-weight: bold;
+  font-family: Arial;
+}
+.smallButton{
+    width: 70px;
+    cursor:default;
+    margin-left: -6px;
+    display: block;
+}
+.radioShowAll {
+  vertical-align: middle;
+}

@@ -1,0 +1,19 @@
+.sectionSubTitle {
+    padding-left: 30px;
+    color: #666666;
+    font-size: 13px;
+  }
+  
+  .sectionSubTitle1 {
+    font-size: 15px;
+    color: #333333;
+  }
+
+  .sectionWrapper {
+    display: flex;
+    margin-top: 30px;
+  }
+  
+  .tableSpacing {
+    margin-left: 30px;
+  }

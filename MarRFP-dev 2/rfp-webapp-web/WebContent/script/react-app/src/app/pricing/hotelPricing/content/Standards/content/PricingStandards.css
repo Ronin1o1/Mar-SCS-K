@@ -1,0 +1,66 @@
+.container {
+  padding-left: 5px;
+  padding-right: 5px;
+  background-color: #ffffff;
+  height: 100%;
+  width: 100%;
+  border: 0px;
+  border-collapse: collapse;
+  padding: 0px;
+}
+.selectDiv{
+  width:180px
+}
+
+.fieldName {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 11px;
+  font-weight: bold;
+}
+
+.fieldValue {
+  font-weight: normal !important;
+}
+.gpp {
+	margin-left :15px;
+}
+
+.gridBorder {
+  border: 0px;
+}
+
+.textAlignment {
+  text-align: center;
+}
+
+.instructionHeader {
+  font-style: italic;
+  background-color: #eff0ec;
+  font-weight: bold;
+}
+.instructions {
+  FONT-WEIGHT: normal;
+  FONT-SIZE: 11px;
+  PADDING-BOTTOM: 4pt;
+  MARGIN-RIGHT: 24pt;
+  PADDING-TOP: 4pt;
+  FONT-FAMILY: Arial;
+}
+ .nonWrap{
+  white-space: nowrap;
+}
+
+.verticalAlignment {
+  vertical-align: top;
+}
+
+.tdHeight10 {
+  height: 10px;
+}
+.trHeight20{
+  height: 20px;
+}
+
+.tdWidth5 {
+  width: 5px;
+}

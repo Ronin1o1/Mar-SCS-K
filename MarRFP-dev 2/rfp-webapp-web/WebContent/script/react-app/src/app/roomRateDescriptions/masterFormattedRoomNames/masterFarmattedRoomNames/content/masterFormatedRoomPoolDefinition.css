@@ -1,0 +1,59 @@
+.tableBody {
+  width: 55%;
+  font-family: Arial;
+  font-size: 11px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.fieldValueTD {
+  align-items: left;
+  height: 30px;
+  width: 10px;
+}
+.selectOption {
+  align-items: left;
+  height: 30px;
+  width: 250px;
+}
+.selectDropDownTD {
+  width: 60px;
+  height: 30px;
+}
+.selectDropDown {
+  font-family: Arial, Helvetica, sans-serif, Verdana, Geneva !important;
+  font-size: 11px !important;
+  margin-left:3px;
+}
+.inputDescription {
+  width: 200px;
+  font-family: Arial, Helvetica, sans-serif, Verdana, Geneva !important;
+  font-size: 11px !important;
+  margin-left:10px;
+}
+.width30 {
+  width: 30px;
+}
+.height5 {
+  height: 5px;
+}
+.tablerTD {
+  vertical-align: top;
+  height: 100%;
+}
+.verticalAlign {
+  vertical-align: top;
+}
+.colorRed {
+  color: red;
+}
+.verticalAlignMiddle {
+  vertical-align: middle;
+}
+.fieldTd{
+  font-weight: bold;
+  padding-left: 14px;
+}
+.fieldNoOfBedroomsTd{
+  font-weight: bold;
+  width:250px;
+}

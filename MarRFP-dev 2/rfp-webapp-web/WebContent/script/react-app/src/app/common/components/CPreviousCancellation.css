@@ -1,0 +1,23 @@
+.mainTable{
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.fieldName{
+  font-weight: 400;
+}
+.fieldValue{
+  font-weight: normal;
+}
+.loaderMessage{
+  margin-top:10px;
+  margin-left: 10px;
+  margin-bottom:10px;
+  font-weight: normal;
+}
+.bottomTd{
+  padding-bottom:5px;
+}
+.mainTable tr td{
+  vertical-align: middle;
+}

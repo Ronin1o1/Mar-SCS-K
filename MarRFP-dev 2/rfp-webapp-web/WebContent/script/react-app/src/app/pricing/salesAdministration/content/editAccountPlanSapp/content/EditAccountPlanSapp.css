@@ -1,0 +1,91 @@
+.header {
+    font-family: Arial;
+    font-size: 9pt;
+    font-weight: 700;
+    border-bottom: 3px solid #313063;
+    margin-bottom: 10px;
+    display: block;
+}
+
+.fieldNameAccount{
+    margin-top:5px;
+    FONT-WEIGHT: 700;
+    FONT-SIZE: 11px;
+    FONT-FAMILY: Arial;
+    vertical-align: middle;
+    margin-left:5px;
+}
+
+.noWrapCell {
+    white-space: nowrap;
+    display: inline-flex;
+}
+
+.fieldNameYear {
+    margin-right: 21px;
+    margin-top:5px;
+    FONT-WEIGHT: 700;
+    FONT-SIZE: 11px;
+    FONT-FAMILY: Arial;
+    vertical-align: middle;
+    margin-left:5px;
+}
+
+.submitbtn {
+    BORDER-RIGHT: white;
+    BORDER-TOP: white;
+    FONT-WEIGHT: 100;
+    FONT-SIZE: 1px;
+    BORDER-LEFT: white;
+    COLOR: #003c82;
+    BORDER-BOTTOM: white;
+    BACKGROUND-REPEAT: no-repeat;
+    BACKGROUND-COLOR: transparent;    BORDER-RIGHT: white;
+    BORDER-TOP: white;
+    FONT-WEIGHT: 100;
+    FONT-SIZE: 1px;
+    BORDER-LEFT: white;
+    COLOR: #003c82;
+    BORDER-BOTTOM: white;
+    BACKGROUND-REPEAT: no-repeat;
+    BACKGROUND-COLOR: transparent;
+}
+
+.options {
+    width: 400px;  
+    Font-Family: Arial;
+    font-size:11px;
+    height: auto;
+    overflow-y: auto;
+    display: block;
+}
+
+.select {
+    Font-Family: Arial;
+    font-size: 11px;
+    height: 22px;
+    width: 218px;
+}
+
+.filterContainer {
+    display: inline-flex;
+    width: 400px;
+    font-family:Arial;
+    font-size: 11px;
+}
+
+.submitBtnTd{
+  padding-top: 5px;
+}
+.linkedMsgSpan{
+    padding-top: 10px;
+    font-weight: normal;
+    font-family:Arial;
+    font-size: 11px;
+}
+@media only screen and (max-width: 1440px) {
+  .options {
+    height: calc(100vh - 165px);
+  }
+}
+

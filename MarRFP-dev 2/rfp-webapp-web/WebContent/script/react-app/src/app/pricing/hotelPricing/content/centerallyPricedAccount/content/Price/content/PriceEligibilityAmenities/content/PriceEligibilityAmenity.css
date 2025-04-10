@@ -1,0 +1,102 @@
+.pageLayoutOutter{
+  width: 100%; 
+  height: calc(100vh - 325px);
+  overflow: auto;
+}
+.pageLayout{
+  padding: 5px;
+}
+.InstructionHeader {
+  font-weight: bold;
+  font-size: 11px;
+  font-style: italic;
+  font-family: Arial;
+  background-color: #eff0ec;
+}
+.HeaderSpace{
+  height:20px;
+  width:870px
+}
+.fieldValue {
+  font-weight: normal;
+  font-size: 11px;
+   font-family: Arial;
+}
+.eligibilityListcheck{
+  width: 20px;
+}
+.eligibilityList{
+  width: 10px;
+}
+.fieldName{
+font-weight: bold;
+font-size: 11px;
+font-family: Arial;
+}
+.instructions{
+font-weight: normal;
+font-size: 11px;
+padding-bottom: 4pt;
+margin-right: 24pt;
+padding-top: 4pt;
+font-family: Arial;
+}
+.detailsSpace{
+  width: 15px
+}
+.detailsSpacing{
+  width: 5px
+}
+.popHeader{
+font-weight: bold;
+font-size: 9pt;
+font-family: Arial;
+}
+.gridHeader {
+  overflow: hidden;
+  background-color: #d6d7ce;
+  padding-bottom: 0 !important;
+}
+.gridHeader table {
+  text-align: center;
+}
+.gridHeader .gridCell {
+  border-color: #F6F4EB #ACA899 #ACA899 #F6F4EB;
+  padding-bottom: 2px;
+  font-size: 11px;
+  font-weight: bold;
+}
+.gridView {
+  overflow: hidden;
+}
+.gridRowTable {
+  table-layout: fixed;
+  border-collapse: collapse;
+}
+.gridRow{
+background-color: white;
+}
+.gridRow tr:hover{
+  background-color: rgb(240, 240, 196);
+}
+.gridCells {
+  border: 1px solid;
+  border-color: #EBEADB;
+  padding: 0px 2px 0px 2px;
+  text-align: left;
+  overflow-y: hidden;
+  font-size: 11px;
+}
+.eligibilitySpan{
+  font-weight: bold;
+}
+.previousaminities{
+  width: 400px;
+  height: 450px;
+  overflow: auto;
+}
+@media only screen and (max-width: 1000px) {
+  .pageLayoutOutter{
+    height: calc(100vh - 315px);
+  }
+}

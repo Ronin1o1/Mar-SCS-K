@@ -1,0 +1,158 @@
+.rateProductLabels{
+    font-family: Arial;
+    font-size: 11px;
+    font-weight: bold;
+    margin-right: 3px;
+    margin-top: 0.5rem;
+    width: 114px;
+}
+.flexContainer {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: -4px;
+}
+.rateProductInput {
+    margin-right: 0.5rem;
+    margin-top: 0.5rem;
+}
+
+.rateProductNameInput {
+  margin-right: 0.5rem;
+    margin-top: 0.5rem;
+}
+
+
+.tableBody{
+  width: 55%;
+  font-family:Arial;
+  font-size:12px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  margin-top: 5px;
+}
+
+.tableBodyContent {
+  width: 55%;
+  font-family:Arial;
+  font-size:11px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  margin-top: 5px; 
+}
+.horizontalLine{
+  height: 2px; 
+   color: #FFFFFF;
+  background-color: #313063;
+  width: 100%;
+   font-family:Arial;
+    font-weight: bold;
+ 
+}
+
+.switchAccountCenter{
+  width:50px;
+}
+.code{
+  width:112px;
+}
+
+.rateProgramSearch {
+  margin-top: 7px;
+}
+
+.dropdownLabels{
+  font-size: 11px;
+  font-weight: bold;
+  width: 62px;
+  display: inline-block;
+}
+
+.hiddenTable {
+  display: none;
+}
+
+.preImg {
+  margin-right: 305px;
+}
+
+.prevBtn{
+  cursor: pointer;
+  margin-left: 190px;
+  margin-right: 52px;
+  
+}
+
+.nextBtn{
+  cursor: pointer;
+}
+
+.btnSearch{
+  cursor: pointer;
+  margin-left: 8px;
+  height: 20px;
+}
+.dataTableContainer {
+  margin-bottom: 5px;
+  margin-top: 5px;
+  width: 98%;
+  float: left;
+}
+
+.buttonPanel {
+  clear: both;
+  padding-top: 3px;
+}
+.loadingMessage {
+  margin-top: 15px;
+  width: 100%;
+}
+
+.newText{
+  font-weight: bold;
+  display: block;
+}
+
+.staticContent {
+  margin-top: 5px;
+}
+
+.rateDescriptionContent {
+  height: 248px;
+  width: 400px;
+  border: 1px solid;
+}
+
+.selectEntryContainer{
+  display: block;
+  margin-bottom: 2px;
+}
+
+.selectEntryList{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size:11px; 
+}
+
+.selectLangContainer{
+  display: block;
+  margin-top: 0.2rem;
+  margin-bottom: 0.2rem;
+}
+
+.selectLangList{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size:11px; 
+}
+
+.selectChannelList{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size:11px; 
+}
+
+.rightPanel {
+  width: 55%;
+  float: right;
+}
+.leftPanel {
+  width: 45%;
+  float: left;
+}

@@ -1,0 +1,105 @@
+table {
+  font-family: Arial;
+  font-size: 11px;
+}
+
+.zeroHeight {
+  border: 0px;
+  border-collapse: collapse;
+  padding: 0px;
+}
+.pricingStyle{
+  margin:10px 0 5px;
+}
+.fieldName {
+  font-weight: bold;
+  font-size: 11px;
+  font-family: Arial;
+}
+.fieldValue {
+  font-weight: normal;
+  font-size: 11px;
+  font-family: Arial;
+}
+.instructions {
+  font-weight: normal;
+  font-size: 11px;
+  padding-bottom: 4pt;
+  margin-right: 24pt;
+  padding-top: 4pt;
+  font-family: Arial;
+}
+.fielsNameRed {
+  font-weight: bold;
+  font-size: 11px;
+  font-family: Arial;
+  color: #9d102d;
+}
+.widthSpace {
+  width: 5px;
+}
+.priceContactInput {
+  font-weight: normal;
+  font-size: 11px;
+  font-family: Arial;
+  height: 17px;
+  width: 280px;
+  margin-right: 4px;
+  display: inline-block;
+  box-sizing: border-box !important;
+}
+/* .priceContactInputReadOnly {
+  padding-left: 6px !important;
+} */
+.additionalContact {
+  width: 280px;
+  margin-right: 4px;
+  display: inline-block;
+}
+.height15 {
+  height: 15px;
+}
+.countryCodeInput {
+  font-weight: normal;
+  font-size: 11px;
+  font-family: Arial;
+  height: 17px;
+  width: 51px;
+}
+.cityCodeInput {
+  font-weight: normal;
+  font-size: 11px;
+  font-family: Arial;
+  height: 17px;
+  width: 63px;
+}
+.contactPhoneInput {
+  font-weight: normal;
+  font-size: 11px;
+  font-family: Arial;
+  height: 17px;
+  width: 106px;
+}
+.width15 {
+  width: 101px;
+}
+.height10 {
+  height: 10px;
+}
+.FOOTER {
+  color: #ffffff;
+  background-color: #313063;
+  font-size: 10px;
+  height: 1;
+  text-align: center;
+  top: 10px;
+}
+.loaderImg {
+  position: absolute !important;
+  top: 55% !important;
+  left: 45% !important;
+}
+.priceContactLabel {
+  margin-right: 10px;
+}
+

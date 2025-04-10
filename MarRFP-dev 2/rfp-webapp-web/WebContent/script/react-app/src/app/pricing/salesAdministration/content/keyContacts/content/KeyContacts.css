@@ -1,0 +1,52 @@
+.alignLeftKeyContact {
+  text-align: left
+}
+
+.field_Name {
+  font-weight: bold;
+  font-size: 11px;
+  font-family: Arial;
+}
+.txtAlignRight{
+  text-align: right;
+}
+.nowrapCell {
+  white-space: nowrap;
+}
+
+.zeroHeight {
+  border: 0px;
+  border-collapse: collapse;
+  padding: 0px;
+}
+
+.tableTitleWidth120KeyContact {
+  border-bottom: darkblue 2px ridge;
+  width: 120px;
+  text-align: left;
+}
+
+.tableTitleWidth50KeyContact {
+  border-bottom: darkblue 2px ridge;
+  width: 50px;
+  text-align: left;
+}
+
+.borderBottomKeyContact {
+  border-bottom: darkblue 2px ridge;
+  width: 6px;
+}
+
+.urlTextKeyContact {
+  color: blue; 
+  text-decoration: underline; 
+  cursor: pointer; 
+  overflow: hidden; 
+  border: 0
+}
+
+.textBoxKeyContact {
+  text-decoration: none;
+  cursor: text; 
+  border: 2px inset WHITESMOKE
+}

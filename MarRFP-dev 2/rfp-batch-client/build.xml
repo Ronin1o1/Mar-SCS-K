@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="rfp-batch-client">
+
+	<property name="wsimport" value="C:/websphere/IBM/SDP/runtimes/base_v7/bin/wsimport.bat" />
+	<property name="dist.dir" location="dist" />
+	<property name="lib.dir" location="lib" />
+	<property name="gen.dir" location="gen" />
+	<property name="resources.dir" location="resources" />
+	<property name="classes.dir" location="classes" />
+	<property name="rfp-batch-client-jar" value="rfp-batch-client.jar"/>
+	<property name="pgoos.batch.wsdl" value="resources/wsdl/PGOOSBatch.wsdl"/>
+	<property name="pgoos.batch.pkg.dir" value="com.marriott.rfp.webservice.pgoos.batch"/>
+	<property name="product.batch.pkg.dir" value="com.marriott.rfp.webservice.product.batch"/>
+	<property name="product.wsdl" value="resources/wsdl/ProductBatch.wsdl"/>
+	<property name="main.class.name" value="com.marriott.marrfp.batch.RunBatch"/>
+
+	<target name="run_wsimport_pgoos">
+		<exec executable="${wsimport}">
+			<arg line="-keep -p ${pgoos.batch.pkg.dir} ${pgoos.batch.wsdl} -d ${gen.dir}" />
+		</exec>
+	</target>
+
+	<target name="run_wsimport_product">
+		<exec executable="${wsimport}">
+			<arg line="-keep -p ${product.batch.pkg.dir} ${product.wsdl} -d ${gen.dir}" />
+		</exec>
+	</target>
+
+	<target name="clean">
+		<delete includeemptydirs="true">
+			<fileset dir="${gen.dir}" includes="**/*"/>
+		</delete>
+	</target>
+		
+	<target name="generate_client_stubs" depends="clean, run_wsimport_product, run_wsimport_pgoos" />
+
+	<target name="create_client_jar">
+		<delete file="${dist.dir}/${rfp-batch-client-jar}"/>
+		<jar destfile="${dist.dir}/${rfp-batch-client-jar}">
+		    <fileset dir="${classes.dir}" excludes="**/*.properties"/>
+	    	<manifest>
+		      <attribute name="Main-Class" value="${main.class.name}"/>
+	    	</manifest>
+		</jar>
+		<copy todir="${dist.dir}">
+		    <fileset dir="${resources.dir}">
+		    	<include name="**/*.properties"/>
+		    	<include name="**/*.xml"/>
+		    </fileset>
+		</copy>	
+	</target>
+
+</project>
+

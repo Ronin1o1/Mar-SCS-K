@@ -1,0 +1,55 @@
+.pricingContainer {
+  margin: 20px;
+}
+
+.headerContainer {
+  display: flex;
+  align-items: center;
+  height: 65px;
+  padding: 0px 17px 0px 17px;
+  border-radius: 6px 6px 0px 0px;
+  background-color: #7fa4c5;
+  font-size: 30px;
+  color: #ffffff;
+}
+
+.bodyContainer {
+  display: flex;
+  flex-direction: column;
+  background-color: #f5f5f5;
+}
+
+.sectionContainer {
+  padding: 17px 17px 10px 17px;
+}
+
+.inputTextStyle {
+  width: auto;
+  height: 23px;
+  text-align: right;
+  padding: 0px 5px 0px 0px;
+  background-color: #ffffff;
+  opacity: 0.87;
+  color: #333333;
+  border: 1px solid #bababa;
+}
+
+.noWrapText {
+  white-space: pre;
+  font-size: 13px;
+  font-weight: 400 !important;
+}
+
+/* -------------------------------------------------- */
+/* ---------------- Animation part ------------------ */
+/* -------------------------------------------------- */
+
+@keyframes fadein {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}

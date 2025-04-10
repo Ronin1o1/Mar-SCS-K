@@ -1,0 +1,45 @@
+.MainContainer{
+  position: relative;    
+}
+.SubContainer > div{
+  margin-bottom: 3px !important;
+}
+.filter{
+    width: 304px;
+    float:left;
+}
+.content{
+  float:left;
+}
+.container{
+  margin-top: 3.5%
+}
+.reportView{
+  border: "2px solid black";
+    height: "600px";
+    content: "";
+    display: "block"; 
+    overflow: "hidden";
+}
+.line1 {
+  margin: 2%;
+  margin-bottom:0;
+  font-family: "Arial";
+  font-style: "normal";
+    font-size: "13px"
+}
+.line2{
+  margin: 2%;
+  margin-top:0;
+  font-family: "Arial";
+  font-style: "normal";
+    font-size: "13px"
+}
+.deselect {
+  width: 100px;height: 10px;
+  cursor: pointer;
+}
+.quickSelect{
+    height: 10px;
+    font-weight: bold;
+}

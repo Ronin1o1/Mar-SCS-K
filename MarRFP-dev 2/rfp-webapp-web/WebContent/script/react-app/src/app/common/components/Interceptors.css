@@ -1,0 +1,18 @@
+.curtain {
+  filter: alpha(opacity=70);
+  opacity: 0.7;
+  -moz-opacity: 0.7;
+  background-color:#d8d4d4;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: 9800;
+}
+.imageLoader{
+  width:20px;
+  height:20px;
+  top:50%;
+  left:50%;
+  position:absolute;
+}

@@ -1,0 +1,132 @@
+body,
+input,
+textarea {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0px;
+  padding: 0px;
+  font-size: 11px;
+}
+.Cell a {
+  font-weight: normal;
+}
+a {
+  font-weight: normal;
+}
+.field_Value {
+  font-weight: normal;
+  font-size: 11px;
+  font-family: Arial;
+}
+.Header {
+  font-weight: bold;
+  font-size: 9pt;
+  font-family: Arial;
+}
+.seperator {
+  color: #ffffff;
+  background-color: #313063;
+  vertical-align: top;
+  height: 3px;
+}
+.nowrapCell {
+  white-space: nowrap;
+}
+.menuHght_Height {
+  border-collapse: collapse;
+  border: 1px solid #cccccc !important;
+  line-height: 16px;
+}
+.menuHght_Height .Cell{
+  vertical-align: top;
+}
+.InstructionHeader {
+  font-weight: bold;
+  font-size: 11px;
+  font-style: italic;
+  font-family: Arial;
+  background-color: #eff0ec;
+}
+.menuHght_Height table {
+  font-size: 100%;
+}
+.menuHght_Height a {
+  font-family: Arial, Helvetica, sans-serif, Verdana, Geneva;
+  font-size: 11px;
+  text-decoration: underline;
+  cursor: pointer;
+  color: #3166cc;
+  margin-right: 20px;
+}
+.menuHght_Height td:nth-child(3) a{
+  padding: 0 20px;
+}
+.closebutton {
+  margin-left: "43%" !important;
+  cursor: "pointer" !important;
+}
+.messageBoxBig {
+  width: "850px";
+  padding: "9px 12px";
+}
+.boldFont {
+  font-weight: bold;
+}
+
+/*anticipated off cycle css*/
+
+.offAccountblock {
+  width: 370px;
+  padding: 9px 12px;
+}
+
+.offTableHeader {
+  width: 350px;
+  margin-bottom: 20px;
+  position: fixed;
+}
+.offTableContentBlock {
+  height: 350px;
+  overflow-y: "auto";
+  border-top: 2px solid black;
+  position: relative;
+  top: 20px;
+  overflow-x: hidden;
+  margin-bottom: 30px;
+}
+/**************************************/
+/*********Account tab css****/
+.accountBlock {
+  width: 760px;
+  padding: 9px 12px;
+  height: 430px;
+}
+.accountTableHeader {
+  width: 720px;
+  margin-bottom: 20px;
+  position: fixed;
+}
+.accountTableBlock {
+  height: 400px;
+  overflow-y: auto;
+  border-top: 2px solid black;
+  position: relative;
+  top: 20px;
+  margin-bottom: 30px;
+}
+.Field_Name {
+  min-width: 110px;
+}
+.Field_Name1{
+  width: 160px;
+  min-width: 160px;
+}
+.Field_Name2{
+  width: 132px;
+  min-width: 132px;
+}
+.dijitDialogPaneContent table tr{
+  line-height: 10px !important;
+}
+.dijitDialogPaneContent{
+  padding: 5px;
+}

@@ -1,0 +1,390 @@
+.instructions {
+    font-weight: normal;
+    font-size:  11px;
+    padding-bottom: 4pt;
+    margin-right: 24pt;
+    padding-top: 4pt;
+   font-family: Arial;
+}
+.rowGap{
+    height: 10px;
+}
+.titleLink {
+    color: #3166cc;
+    text-decoration: underline;
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+.zeroHeight {
+    border: 0px;
+    border-collapse: collapse;
+    padding: 0px;
+  }
+ .fieldName {
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 11px;
+    FONT-FAMILY: Arial;
+  } 
+  .fieldValue {
+    FONT-WEIGHT: normal;
+    FONT-SIZE: 11px;
+    FONT-FAMILY: Arial;
+  }
+  .redText{
+      color: red;
+  }
+  .retailADR{
+    width:70px;
+    text-align:right
+  }
+  .rigthAlign {
+      text-align: right;
+      display: inline-flex;
+      font-weight: 100;
+  }
+  .volrmin{
+    background-color: silver;
+  }
+  .fieldRates {
+    WIDTH: 64px;
+    text-align: right;
+    HEIGHT: 18px;
+    padding: 0px 2px 0px 0px;
+    margin-right: 2px;
+    border-radius: 2px;
+    border-width: 2px;
+    border-style: inset;
+    box-sizing: border-box !important;
+  }
+  .comments{
+    top: -2px;
+    position: relative;
+    FONT-FAMILY: Arial;
+    FONT-SIZE: 8pt; 
+    HEIGHT: 36px; 
+    WIDTH: 300px
+  }
+  .pad2_space2_Height{
+    border: 0px;
+    border-spacing: 2px;
+    padding: 2px;
+  }
+  .nonWrap{
+      white-space: nowrap;
+  }
+  .centerAlign{
+      text-align : center
+  }
+tr {
+    display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
+}
+
+.field_Name {
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 11px;
+    FONT-FAMILY: Arial;
+   
+}
+
+.field_Nameheader{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 11px;
+    FONT-FAMILY: Arial;
+    float: left;
+    margin-top: 18px;
+}
+
+INPUT {
+    Font-Family: Arial, Helvetica, sans-serif, Verdana, Geneva;
+    font-size: 11px;
+    cursor: auto;
+    
+}
+
+.salesDepthtexttextarea {
+    
+        FONT-FAMILY: Arial;
+        FONT-SIZE: 8pt;
+         HEIGHT: 36px;
+        width: 750px;
+        resize: none;
+        margin-left: 20px;
+        overflow-y: scroll;
+        
+        
+}
+.rupees{
+    margin-left: 35px;
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 11px;
+    FONT-FAMILY: Arial;
+}
+.headermini{
+    margin-bottom: 0px;
+   
+}
+.rupees1{
+    margin-left: 77px;
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 11px;
+    FONT-FAMILY: Arial;
+}
+
+
+
+.miniheader1{
+    margin-left: 30px;
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 11px;
+    FONT-FAMILY: Arial;
+}
+
+.miniheader2{
+    margin-left: 47px;
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 11px;
+    FONT-FAMILY: Arial;
+}
+
+.miniheader3{
+    margin-left: 49px;
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 11px;
+    FONT-FAMILY: Arial;
+}
+
+.miniheader4{
+    margin-left: 50px;
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 11px;
+    FONT-FAMILY: Arial;
+}
+
+.miniheader5{
+    margin-left: 30px;
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 11px;
+    FONT-FAMILY: Arial;
+}
+
+.tablecomment {
+
+    FONT-FAMILY: Arial;
+    FONT-SIZE: 8pt;
+    HEIGHT: 36px;
+    width: 300px;
+    margin-bottom: 0%;
+    padding:5px 2px;
+    overflow-y: scroll;
+    background-color:silver;
+    resize: none;
+   
+  }
+  .tablecomment1 {
+
+    FONT-FAMILY: Arial;
+    FONT-SIZE: 8pt;
+    HEIGHT: 36px;
+    width: 300px;
+    margin-bottom: 0%;
+    padding:5px 2px;
+    overflow-y: scroll;
+    background-color:white;
+    resize: none;
+   
+  }
+  
+ 
+.anticipate{
+    text-align:right;width:70px;
+}
+.textArea{
+    FONT-FAMILY: Arial;
+    FONT-SIZE: 8pt; 
+    HEIGHT: 36px; 
+    WIDTH: 750px;
+}
+.wdth200{
+    width:200px
+}
+.divrupees{
+    margin-left: 1px;
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 11px;
+    FONT-FAMILY: Arial;
+}
+
+.InstructionHeader {
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 11px;
+    FONT-STYLE: italic;
+    FONT-FAMILY: Arial;
+    BACKGROUND-COLOR: #eff0ec;
+}
+
+a {
+    Font-Family: Arial, Helvetica, sans-serif, Verdana, Geneva;
+    Font-Size: 11px;
+    text-decoration: underline;
+    cursor: pointer;
+    color: #3166cc;
+}
+
+.field_rates {
+    WIDTH: 68px;
+    text-align: right;
+    HEIGHT: 20px;
+    padding: 0px 2px 0px 0px;
+    background-color:  silver;
+   float: left;
+
+
+
+}
+.silverBgColor{
+    background-color:  silver; 
+}
+.whiteBgColor{
+    background-color: white; 
+    border-width: 2px;
+}
+.dostabledata tr:nth-child(6) .whiteBgColor, .depthofsalegrid tr:nth-child(3) .whiteBgColor{
+  border: 1px solid #767676;
+}
+
+.field_rates1 {
+    WIDTH: 68px;
+    text-align: right;
+    HEIGHT: 20px;
+    padding: 0px 2px 0px 0px;
+    background-color: silver;
+   float: left;
+
+}
+
+.number{
+    float: left;
+    width: 24px;
+}
+
+.field_Value {
+    font-weight: normal;
+    font-size: 11px;
+    font-family: Arial;
+    
+}
+.allignMDL{
+  vertical-align: middle;
+}
+body,
+
+dl,
+dt,
+dd,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+pre,
+form,
+fieldset,
+input,
+textarea,
+p,
+blockquote,
+th,
+td {
+  margin: 0;
+  padding: 0;
+}
+.raterangalign{
+  vertical-align: bottom;
+}
+.hdsrowalign{
+  margin-bottom: -5px;
+  display: block;
+}
+.colwidth{
+  width: 63px;
+  min-width: 63px;
+  flex-direction: column;
+  text-align: right;
+  margin-right: 3px;
+}
+.depthofsalegrid > tr > td{
+  display: inline-flex;
+}
+.number{
+  width: 24px;
+}
+.headarvr td{
+  width: 132px;
+  text-align: center;
+  display: inline-block !important;
+}
+.headarvr td div{
+  display: inline-block !important;
+}
+.headarvr td:first-child{
+  width: 24px;
+}
+.minmaxlenth{
+  margin-left: 24px;
+  display: block;
+}
+.minmaxlenth td{
+  width: 132px;
+  display: inline-block;
+}
+.minmaxlenth td span{
+  width: 64px;
+  display: inline-block;
+  margin-right: 2px;
+  text-align: center;
+}
+.readvalues{
+  width: 64px;
+  display: inline-block !important;
+  margin-right: 2px;
+}
+.width24{
+  width: 24px;
+}
+.width132{
+  width: 132px;
+}
+.example_margin {
+  margin-left: 5px;
+}
+.seasonOnePadding {
+  vertical-align: middle;
+}
+.seasondata span{
+  padding-right: 20px;
+  line-height: 20px;
+  display: inline-flex;
+}
+.seasondata span > span{
+  line-height: 20px;
+  display: inline-flex;
+  padding-right: 0;
+}
+.paddingleft10{
+  padding-left: 10px;
+}
+.dosWidth{
+  width: 175px;
+  min-width: 175px;
+}
+.strategytext{
+  width: 100%;
+  word-break: break-all;
+}
+.textareadata{
+  display: flex;
+  align-items: end;
+}

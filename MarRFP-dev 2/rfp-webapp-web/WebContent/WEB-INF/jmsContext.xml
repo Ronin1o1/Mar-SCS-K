@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:jee="http://www.springframework.org/schema/jee"
+	xmlns:jms="http://www.springframework.org/schema/jms"
+	xsi:schemaLocation="
+	   http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+	   http://www.springframework.org/schema/jee http://www.springframework.org/schema/jee/spring-jee.xsd
+       http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd
+       http://www.springframework.org/schema/jms
+       https://www.springframework.org/schema/jms/spring-jms.xsd">	
+
+    	<!-- JMS Queue Template -->
+    <bean id="jmsTemplate" class="org.springframework.jms.core.JmsTemplate">
+		<property name="connectionFactory" ref="ibmMQConnectionFactory" />
+		<property name="destinationResolver" ref="jmsDestinationResolver" />
+	</bean>  
+	
+	<bean id="jmsDestinationResolver"
+		class="org.springframework.jms.support.destination.DynamicDestinationResolver">
+	</bean>
+	
+	<bean id="marRfpBatchQ" class="com.ibm.mq.jms.MQQueue">
+		<constructor-arg value="${MARRFP.BATCH.QUEUE}" />
+	</bean>
+	<bean id="marRfpHppInboundQ" class="com.ibm.mq.jms.MQQueue">
+		<constructor-arg value="${MARRFP.HPP.INBOUND}" />
+	</bean>	
+	<bean id="requestCenterOutboundQ" class="com.ibm.mq.jms.MQQueue">
+		<constructor-arg value="${RC.MARRFP.OUTBOUND}" />
+	</bean>
+	<bean id="requestCenterInboundQ" class="com.ibm.mq.jms.MQQueue">
+		<constructor-arg value="${RC.MARRFP.INBOUND}" />
+	</bean>	
+		
+	    <!-- IBM MQ  Connection Factory -->
+ 	<bean id="ibmMQConnectionFactory" class="com.ibm.mq.jms.MQQueueConnectionFactory">
+        <property name="hostName" value="${mq.host.name}" />
+        <property name="port" value="${mq.host.port}" />
+        <property name="queueManager" value="${mq.queue.manager}" />
+        <property name="channel" value="${mq.queue.channel}" />
+        <property name="transportType" value="${mq.transport.type}" />
+    </bean> 
+	
+    <bean id="hppSubscriberImpl" class="com.marriott.rfp.business.hpp.impl.HppSubscriberImpl">
+    </bean>
+    <bean id="jmsHppSubscriberImplMessageListener"    class="org.springframework.jms.listener.DefaultMessageListenerContainer">
+        <property name="connectionFactory" ref="ibmMQConnectionFactory" />
+        <property name="destination" ref ="marRfpHppInboundQ"/>
+        <property name="messageListener" ref="hppSubscriberImpl" />
+        <property name="concurrentConsumers" value="1" />
+        <property name="maxConcurrentConsumers" value="10" />
+    </bean> 
+   
+    <!-- listens to hppControllerPubQ  -->
+    <bean id="pGOOSBatchPublishImpl" class="com.marriott.rfp.business.hpp.impl.PGOOSBatchPublishImpl">
+    </bean>
+
+    <bean id="jmsPGOOSBatchPublishImplMessageListener"    class="org.springframework.jms.listener.DefaultMessageListenerContainer">
+        <property name="connectionFactory" ref="ibmMQConnectionFactory" />
+        <property name="destination" ref ="marRfpBatchQ"/>
+        <property name="messageListener" ref="pGOOSBatchPublishImpl" />
+        <property name="concurrentConsumers" value="1" />
+        <property name="maxConcurrentConsumers" value="10" />
+    </bean>   
+    
+    <bean id="requestCenterMDB" class="com.marriott.rfp.dataaccess.userregistration.impl.RequestCenterMDB">
+    </bean>
+   
+    <bean id="jmsRequestCenterMDBMessageListener"    class="org.springframework.jms.listener.DefaultMessageListenerContainer">
+        <property name="connectionFactory" ref="ibmMQConnectionFactory" />
+        <property name="destination" ref ="requestCenterOutboundQ"/>
+        <property name="messageListener" ref="requestCenterMDB" />
+        <property name="concurrentConsumers" value="1" />
+        <property name="maxConcurrentConsumers" value="10" />
+    </bean>
+
+</beans>

@@ -1,0 +1,32 @@
+.tableBody{
+  width: 55%;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size:12px;
+  font-weight: bold;
+  margin-bottom: 25px;
+  margin-top: 3px;
+}
+.horizontalLine{
+  height: 2px; 
+   color: #FFFFFF;
+  background-color: #313063;
+  width: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-bottom: 10px;
+ 
+}
+.selectedHotelData{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size:11px;  
+}
+.goBtn{
+  cursor: pointer;
+}
+.switchAccountCenter{
+  width:50px;
+}
+.code{
+  width: 118px;
+  height: 13.34px;
+}

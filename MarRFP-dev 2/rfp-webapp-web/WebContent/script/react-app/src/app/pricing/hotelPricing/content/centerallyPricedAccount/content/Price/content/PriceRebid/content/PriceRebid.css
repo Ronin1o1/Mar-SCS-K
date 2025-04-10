@@ -1,0 +1,101 @@
+.dueDate {
+  position: absolute;
+  top: 75px;
+  width: 870px;
+}
+.fieldName {
+  font-weight: bold;
+  font-size: 11px;
+  font-family: Arial;
+}
+.floatleft {
+  float: left;
+  min-height: 1em;
+}
+.fieldValue {
+  font-weight: normal;
+  font-size: 11px;
+  font-family: Arial;
+}
+.width95 {
+  width: 95px;
+}
+.width870 {
+  width: 870px;
+}
+.width100 {
+  width: 100px;
+}
+.width75 {
+  width: 75px;
+}
+.width120 {
+  width: 120px;
+}
+.width200 {
+  display: block;
+  overflow-wrap: break-word;
+}
+.pastDate {
+  color: #ff0000;
+  font-weight: bold;
+}
+.rebidStatusDiv {
+  position: absolute;
+  width: 900px;
+}
+.rebidNotes {
+  font-family: Arial;
+  font-size: 8pt;
+  height: 35px;
+  width: 500px;
+}
+.alertdiv {
+  clear: both;
+  position: relative;
+  padding-top: 10px;
+}
+.hideTextDiv {
+  width: 870px;
+  padding-bottom: 10px;
+}
+.width50 {
+  width: 50px;
+}
+.lastUpdated {
+  position: relative;
+  width: 870px;
+}
+.h42 {
+  height: 42px;
+}
+.borderZero{
+  border: 0;
+}
+.width5{
+  width: 5px
+}
+.width15{
+  width: 15px
+}
+.width500{
+  width: 500px;
+}
+.rebid1{
+  position:relative;
+  width:100%;
+}
+.clear{
+  clear:both;
+  width:500px
+}
+.paddingTop10{
+  padding-top:10px;
+  width: 100%;
+}
+.redColor {
+  color: #ff0000;
+}
+.rebidnotesheight{
+  height: calc(100vh - 325px);
+}

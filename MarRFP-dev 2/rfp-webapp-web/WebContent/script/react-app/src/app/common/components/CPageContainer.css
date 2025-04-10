@@ -1,0 +1,26 @@
+.pr10 {
+    padding-right: 10px;
+}
+
+.pr5 {
+    padding-right: 5px;
+}
+
+.btn_left {
+    position: relative;
+    left: 15%;
+}
+
+.btn_middle {
+    position: relative;
+    left: 50%;
+}
+
+.btn_right {
+    position: relative;
+    float: right;
+}
+
+.pointer {
+    cursor: pointer;
+}

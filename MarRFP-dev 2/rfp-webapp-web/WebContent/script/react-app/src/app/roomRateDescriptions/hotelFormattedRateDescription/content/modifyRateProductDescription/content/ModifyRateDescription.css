@@ -1,0 +1,259 @@
+.rateProductLabels{
+    font-family: Arial;
+    font-size: 11px;
+    font-weight: bold;
+    margin-right: 0.5rem;
+    margin-top: 0.5rem;
+}
+.flexContainer {
+    display: flex;
+    flex-wrap: wrap;
+    width: 27rem;
+   
+}
+
+.hiddenLabel { 
+  display: none;
+
+}
+
+.tableBody{
+  font-family:Arial;
+  font-size:12px;
+  font-weight: bold;
+  
+}
+
+.horizontalLine{
+  height: 2px; 
+  color: #FFFFFF;
+  background-color: #313063;
+  width: 100%;
+  font-family:Arial;
+  font-weight: bold;
+ 
+}
+
+.leftContainer {
+  float: left;
+  width: 350px;
+  margin-top: 20px;
+  margin-left: 0px;
+  margin-right: 20px;
+}
+
+.rightContainer {
+  float: left;
+  margin-top: -21px;
+}
+
+.btnStyle {
+  cursor: pointer;
+}
+
+.btnStyleSearch {
+  cursor: pointer;
+  margin-left: 15px;
+}
+
+.productAttrContainer {
+  height: 300px;
+  width: 350px;
+  overflow:hidden auto;
+  border-width: thin;
+  border-style: groove;
+  margin-top: 5px;
+ 
+}
+
+.deSelectbtnStyle {
+  cursor: pointer;
+  float: left;
+  margin-right: 42%;
+}
+
+.productAttrMainContainer {
+  margin-top: 10px;
+}
+
+.selectContainer{
+  display: inline-block;
+    margin-left: 6px;
+    margin-right: 7px;
+}
+
+.productRadioBtn {
+  vertical-align: middle;
+  margin-right: 3px;
+  margin-top: -1px;
+}
+.productNametext {
+margin: 10px 0px 6px 0px
+}
+
+.hiddenField {
+  display: none;
+}
+
+.tableWidth {
+  width: 93%;
+}
+
+.btnRow {
+  margin-left: 200px;
+  margin-top: 3px;
+}
+.mainTableWidth {
+  width:100%;
+  margin-bottom: 2rem;
+  margin-top: 10px;
+}
+.columnWidth {
+  width: 250px;
+  padding-right: 15px;
+}
+.dropDownColumn {
+  width: 60px;
+  display: inline-block;
+}
+.codeName {
+  padding-right: 15px;
+  width: 200px;
+  display: inline-grid;
+}
+.textBoxDesc {
+  width: 200px;
+  padding-right: 10px;
+}
+
+.instructionHeader, .instructionHeader2 {
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 11px;
+    FONT-STYLE: italic;
+    FONT-FAMILY: Arial;
+    BACKGROUND-COLOR: #eff0ec;
+    margin-left: 8px;
+    display: inline-block;
+    min-width: 290px;
+    width: auto;
+}
+.instructionHeader2{
+ display: block;
+}
+.rpCodeName {
+  FONT-WEIGHT: bold;
+    FONT-SIZE: 11px;
+    padding: 0px;
+margin: 0px;
+}
+
+.rpTextValue {
+  margin: 0px;
+  font-weight: normal;
+}
+
+.prevBtn{
+  cursor: pointer;
+  margin-right: 5px;
+}
+
+.nextBtn{
+  cursor: pointer;
+}
+.buttonPanel {
+  margin-top: 36px;
+  clear: both;
+  text-align: center;
+}
+
+.productAttrTable {
+  width: 100%;
+  border-collapse: collapse;
+
+}
+
+.largeWidth {
+  width:30px;
+}
+
+.smallWidth {
+  width: 5px;
+}
+
+.mainModalTable {
+  display: table-row; 
+  width: 200px;
+}
+
+.ListName {
+  height: auto;
+  width: auto;
+  overflow: auto;
+}
+
+
+.successMessage {
+  FONT-WEIGHT: bold;
+    FONT-SIZE: 9pt;
+    FONT-FAMILY: Arial;
+    color: rgb(0, 128, 0);
+    margin: 35px 0px 0px 30px;
+}
+
+.labelClass {
+  font-size: 11px;
+  font-weight: bold;
+}
+
+.previousMenu {
+  margin-right: 5px;
+}
+
+.modifyStaticContent {
+  margin-top: 6px;
+}
+
+.rateProductInputName {
+  margin-left: -2px;
+}
+
+
+.customModal .closeButton {
+  margin-left: 50px !important;
+  margin-bottom: 10px;
+}
+.loadingMessage{
+  width: 326px;
+    height: 250px;
+    margin-left: 10px;
+}
+.descriptionTableContainer{
+  height: 314px;
+    width: 622px;
+    overflow: auto;
+}
+.loadingMsg{
+padding-top: 8em;
+  padding-left: 4em;
+}
+.tableView {
+  width: 326px;
+  margin-left: 10px;
+  background-color: #eff0ec;
+}
+.datavaluesfor{
+  padding-left: 20px;
+  padding-bottom: 10px;
+}
+
+.selectionLabel{
+  font-weight: normal;
+}
+.quantityField{
+  width: 30px;
+  margin-right: 10px
+}
+.quantityreadOnly{
+  font-weight: normal;
+  margin-right: 10px
+}

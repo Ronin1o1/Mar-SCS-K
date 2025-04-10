@@ -1,0 +1,46 @@
+.listNoneCls{
+  list-style-type: none;
+}
+.listCls:nth-child(even) {
+  border: 1px solid #E8E4D8;
+  border-color: #F8F7F1;
+  border-left: none;
+  border-right: none;
+  background-color: white;
+  border-top: none;
+  padding: 0px 2px 0px 2px;
+}
+.listCls:nth-child(odd) {
+  border: 1px solid;
+  border-color: #EBEADB;
+  padding: 0px 2px 0px 2px;
+  text-align: left;
+  overflow-y: hidden;
+  font-size: 11px;  
+  background-color: #f4f4f2;
+}
+.hotelListItem{
+  display: flex;
+  justify-content: space-between;
+}
+.hotelListLabel{
+  font-weight: 200;
+}
+.checkboxCls{
+  width: 24px;
+}
+.itemPadding{
+  padding: 2px 0px 2px 0px;
+  width: 100%;
+}
+.paddingLastCell{
+  width: 380px;
+  word-break: break-all;
+  padding-left: 10px;
+  box-sizing: border-box;
+}
+.widthSecondCell{
+  width: 380px;
+  display: inline-block;
+  word-break: break-all;
+}

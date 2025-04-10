@@ -1,0 +1,102 @@
+body{
+  overflow: hidden;
+}
+.gridContainer {
+  display: grid;
+  grid-gap: 3px;
+  grid-template-columns: 48% 52%;
+}
+
+.row1 {
+  grid-row: 1;
+}
+.loaderImg {
+  position: absolute;
+  top: 55%;
+  left: 45%;
+}
+
+.row2 {
+  grid-row: 2;
+}
+
+.subGrid1 {
+  display: grid;
+  grid-gap: 3px;
+  grid-template-columns: 40% 60%;
+  align-items: center;
+  grid-auto-rows: min-content;
+  margin-left: 10px;
+}
+
+.subGrid2 {
+  display: grid;
+  grid-gap: 3px;
+  grid-template-columns: 20% 80%;
+  align-items: center;
+  grid-auto-rows: min-content;
+}
+
+.colSpan {
+  grid-column: span 2;
+}
+
+.fieldName {
+  font-weight: bold;
+  white-space: nowrap;
+}
+
+.fieldHeight20 {
+  height: 20px;
+  line-height: 20px;
+}
+
+.fieldHeight25 {
+  height: 25px;
+  line-height: 25px;
+}
+
+.fieldHeight30 {
+  height: 30px;
+  line-height: 30px;
+}
+
+.innerTable {
+  margin-left: 10px;
+}
+
+.inputText {
+  width: 418px;
+  height: 22px;
+}
+
+.deleteBtn {
+  text-align: center;
+  cursor: pointer;
+  width: 70px;
+}
+.dataTypeLink {
+  color: #3166cc;
+  text-decoration: underline;
+  cursor: pointer;
+}
+.BtnTemplate{
+cursor: pointer;
+}
+.BtnImport{
+  cursor: pointer;
+}
+.accountTabLoader {
+  opacity: 1;
+  background-color: #cccccc;
+  position: fixed;
+  z-index: 9800;
+  display: inline;
+  width: 100%;
+  height: 100%;
+  top: 164px;
+}
+.quesbuttons{
+  padding-top: 10px;
+  padding-left: 10px;
+}

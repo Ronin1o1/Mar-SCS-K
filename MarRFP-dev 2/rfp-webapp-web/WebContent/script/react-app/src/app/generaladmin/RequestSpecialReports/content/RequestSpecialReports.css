@@ -1,0 +1,59 @@
+.header {
+  font-weight: bold;
+  font-size: 9pt;
+  font-family: Arial;
+  border-bottom: 2px solid #313063;
+  padding-top: 2px;
+}
+.submitBtn {
+  background-image: url("../../../common/assets/img/button/btnSubmit.gif");
+  width: 50px;
+  border-top-style: none;
+  border-right-style: none;
+  border-left-style: none;
+  height: 18px;
+  border-bottom-style: none;
+}
+.selectDropdown {
+  font-size: 11px;
+  font-family: Arial;
+  font-weight: normal;
+  height: 18px;
+  margin: 2px;
+  width: 220px;
+}
+.dropDownContainer {
+  margin-top: 10px;
+  margin-left: 2px;
+}
+.emailCheckbox {
+  margin-left: 5px;
+  margin-bottom: 6px;
+}
+.emailLabel {
+  font-weight: bold;
+  padding-left: 3px;
+}
+.loaderImg {
+  position: absolute;
+  top: 35%;
+  left: 15%;
+}
+.eidHeight {
+  height: 17px;
+  margin: 2px;
+}
+.yearmr {
+  margin-right: 43px;
+}
+.accountmr {
+  margin-right: 25px;
+}
+.eidmr {
+  margin-right: 48.5px;
+}
+.dropDownLabel{
+  width: 73px;
+  margin-right: 0 !important;
+  display: inline-block;
+}

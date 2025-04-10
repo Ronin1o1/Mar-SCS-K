@@ -1,0 +1,54 @@
+.strongTitle {
+    font-weight: bold;
+    font-size: 11px;
+    margin-right: 24pt;
+    font-family: Arial;
+    font-style: italic;
+    background-color: #eff0ec;
+    display:flex;
+    margin-top: 15px;
+}
+
+.pointerClass{
+    cursor: pointer;
+}
+
+.imgClass{
+    text-align: center;
+    vertical-align: bottom;
+}
+
+.topSpace{
+    margin-top: 2vw;
+}
+
+.header {
+    font:bold normal 9pt Arial;
+    line-height: 20px;
+}
+.period{
+    font:bold 11px Arial;
+}
+.titleDiv{
+    height: 40px;
+}
+.width100{
+    width:100%;
+}
+.headerTitle {
+    font-size: 9pt;
+}
+
+.mt8 {
+    margin-top: 8px;
+}
+.hotelacquestions{
+  width: 100%;
+  min-height: calc(100vh - 195px);
+  height: auto;
+}
+@media only screen and (min-width: 1920px) {
+  .hotelacquestions{
+    min-height: calc(100vh - 120px);
+  }
+}

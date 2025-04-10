@@ -1,0 +1,53 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:p="http://www.springframework.org/schema/p"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+	http://www.springframework.org/schema/beans/spring-beans-3.0.xsd
+	http://www.springframework.org/schema/context
+	http://www.springframework.org/schema/context/spring-context-3.0.xsd">
+
+	<context:annotation-config />
+
+	<bean
+		class="org.springframework.beans.factory.config.PropertyPlaceholderConfigurer"
+		p:location="marrfp_hpp_batch.properties"
+		p:ignoreUnresolvablePlaceholders="true" />
+
+	<!-- ====================================================================================================== -->
+	<!--                           Datasource configuration                                                     -->
+	<!-- ====================================================================================================== -->
+	<bean id="dataSource" class="org.springframework.jdbc.datasource.DriverManagerDataSource">
+		<property name="driverClassName" value="${batch.jdbc.driver}" />
+		<property name="url" value="${batch.jdbc.url}" />
+		<property name="username" value="${batch.jdbc.user}" />
+		<property name="password" value="${batch.jdbc.password}" />
+	</bean>
+
+	<!-- ====================================================================================================== -->
+	<!--                          PGOOS/Product JAXWS Configurations                                            -->
+	<!-- ====================================================================================================== -->
+	<bean id="pgoosBatchPort" class="org.springframework.remoting.jaxws.JaxWsPortProxyFactoryBean">
+		<property name="serviceInterface" value="com.marriott.rfp.webservice.pgoos.batch.PGOOSBatchPortType" />
+		<property name="wsdlDocumentUrl"  value="wsdl/PGOOSBatch.wsdl" />
+		<property name="namespaceUri"     value="http://com/marriott/rfp/webservice/pgoos/batch/" />
+		<property name="serviceName"      value="PGOOSBatchService" />
+		<property name="endpointAddress"  value="${batch.jaxws.url}/PGOOSBatchStagingService" />
+	</bean>
+
+	<bean id="pgoosPropagateProductPort" class="org.springframework.remoting.jaxws.JaxWsPortProxyFactoryBean">
+		<property name="serviceInterface" value="com.marriott.rfp.webservice.product.batch.PgoosPropagateProductPortType" />
+		<property name="wsdlDocumentUrl"  value="wsdl/ProductBatch.wsdl" />
+		<property name="namespaceUri"     value="http://com/marriott/rfp/webservice/product/batch/" />
+		<property name="serviceName"      value="PgoosPropagateProductService" />
+		<property name="endpointAddress"  value="${batch.jaxws.url}/PgoosPropagateProductService" />
+	</bean>
+
+	<!-- ====================================================================================================== -->
+	<!--                              BatchDao Configuration                                                    -->
+	<!-- ====================================================================================================== -->
+	<bean id="batchDao" class="com.marriott.marrfp.batch.dao.impl.BatchDaoImpl" scope="prototype">
+		<property name="dataSource" ref="dataSource" />
+	</bean>
+
+</beans>
+ 

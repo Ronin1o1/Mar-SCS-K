@@ -1,0 +1,156 @@
+.tabContainer {
+  display: inline-flex;
+  width: 100%;
+}
+
+.tabList {
+  display: inline-flex;
+  height: auto;
+  overflow: hidden;
+  margin-bottom: -1px;
+}
+
+.tabsList {
+  display: inline-flex;
+  width: calc(100vw - 78px);
+}
+
+.tab {
+  margin-right: 4px;
+  top: 0;
+  padding: 2px 8px 2px 8px;
+  background: url("../assets/img/tabEnabled.png") repeat-x;
+  border: 1px solid #ccc;
+  user-select: none;
+  cursor: pointer;
+  white-space: nowrap;
+  line-height: normal;
+}
+.tabAccount {
+  margin-right: 4px;
+  top: 0;
+  padding: 5px;
+  background: url("../assets/img/tabEnabled.png") repeat-x;
+  border: 1px solid #ccc;
+  user-select: none;
+  cursor: pointer;
+  white-space: nowrap;
+  line-height: normal;
+}
+.tabStyle {
+  margin-right: 4px;
+  top: 0;
+  margin-bottom: -1px;
+  padding: 2px 8px 2px 9px;
+  background: url("../assets/img/tabEnabled.png") repeat-x;
+  border: 1px solid #ccc;
+  user-select: none;
+  cursor: pointer;
+  line-height: normal;
+  font-size: 11px;
+}
+
+.selectedTab {
+  color: white !important;
+  background-color: #9d102d;
+  border-bottom-color: #ffffff;
+  background-image: none !important;
+}
+.selectTab {
+  color: black !important;
+  background-color: white;
+  border-bottom-color: #ffffff;
+  background-image: none !important;
+}
+
+@media all and (min-width: 1290px) {
+  .arrowRightDiv,
+  .arrowLeftDiv,
+  .arrowDownDiv {
+    display: none !important;
+  }
+}
+
+.arrowRightDiv,
+.arrowLeftDiv,
+.arrowDownDiv {
+  margin-right: 0px !important;
+}
+
+@media all and (min-width: 1590px) {
+  .arrowIRightDiv,
+  .arrowILeftDiv,
+  .arrowIDownDiv {
+    display: none !important;
+  }
+}
+
+.arrowIRightDiv,
+.arrowILeftDiv,
+.arrowIDownDiv {
+  margin-right: 0px !important;
+}
+
+.downArrowImg,
+.rightArrowImg,
+.leftArrowImg {
+  height: 14px;
+  width: 14px;
+  background: url("../assets/img/spriteRoundedIconsSmall.png") no-repeat left
+    top;
+}
+
+.downArrowImg {
+  background-position: -15px top;
+}
+
+.rightArrowImg {
+  background-position: -30px top;
+}
+
+.dropdownDiv {
+  z-index: 10;
+  position: absolute;
+  right: 0;
+  border: 1px solid #ccc;
+  margin-top: 1px;
+  background: #ededed url("../assets/img/tabEnabled.png") repeat-x;
+  border: 1px solid #7eabcd;
+  background-position: 0 -50px;
+}
+
+.dropdownList {
+  list-style: none;
+  display: block;
+  padding: 0.45em;
+  margin: 0px;
+}
+
+.dropdownList li {
+  padding: 2px;
+}
+.dropdownList li:hover {
+  background-color: blue;
+}
+.imgStatus {
+  float: left;
+  padding-top: 8px;
+  padding-right: 3px;
+}
+
+.displayFlex {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.paddingRevisitImg {
+  padding-top: 6px;
+  padding-right: 3px;
+}
+
+.imgRStatus {
+  float: left;
+  padding-top: 5px;
+  padding-right: 3px;
+}

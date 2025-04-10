@@ -1,0 +1,11 @@
+.attributeTbl {
+  border: 0px;
+  border-collapse: collapse;
+  padding: 0px;
+}
+.width_10{
+  width: 10px;
+}
+.productListLabel{
+  font-weight: 200;
+}

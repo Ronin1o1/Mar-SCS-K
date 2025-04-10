@@ -1,0 +1,50 @@
+.mainTableFullHeight{
+  height: 100%;
+  width: 100%;
+  border: 0px;
+  border-collapse: collapse;
+  padding: 0px;
+}
+.alignTop{
+  vertical-align: top;
+}
+.boldText{
+  font-weight: bold;
+}
+.height_100{
+  height: 100%
+}
+.gridRowInlBlock {
+  display: inline-block;
+}
+.mainTable {
+  border: 0px;
+  border-collapse: collapse;
+  padding: 0px;
+}
+.alignBottom{
+  vertical-align: bottom;
+}
+.field_Name {
+  font-weight: bold;
+  font-size: 11px;
+  font-family: Arial;
+}
+.menuWdth100_Height {
+  border: 0px;
+  border-collapse: collapse;
+  padding: 0px;
+  width: 100%;
+}
+.marginTop2{
+  margin-top: 34px;
+}
+.marginTop20{
+  margin-top: 20px;
+}
+.hiddenLabel { 
+  display: none;
+}
+.marginBotton10{
+  margin-bottom: 10px;
+}

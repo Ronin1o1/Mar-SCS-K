@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- edited with XMLSpy v2011 rel. 2 sp1 (http://www.altova.com) by Uday Akula (Marriott International) -->
+<definitions xmlns="http://schemas.xmlsoap.org/wsdl/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tns="http://com/marriott/rma/webservice/btrates" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="BTRateStatusService" targetNamespace="http://com/marriott/rma/webservice/btrates">
+	<types>
+		<xsd:schema>
+			<xsd:import namespace="http://com/marriott/rma/webservice/btrates" schemaLocation="BTRates.xsd"/>
+		</xsd:schema>
+	</types>
+	<message name="BTRatesRequest">
+		<part name="parameter" element="tns:BTRatesRequest">
+        </part>
+	</message>
+    <message name="BTPublishRequest">
+        <part name="parameter" element="tns:BTPublishRequest">
+        </part>
+    </message>
+	<message name="BTRatesStatusRequest">
+		<part name="parameter" element="tns:BTRatesStatusRequest">
+    </part>
+	</message>
+	<message name="BTRatesResponse">
+		<part name="parameter" element="tns:BTRatesResponse">
+        </part>
+    </message>
+    <message name="BTPublishResponse">
+        <part name="parameter" element="tns:BTPublishResponse">
+        </part>
+	</message>
+	<message name="FaultMessage">
+		<part name="fault" element="tns:FaultMessage">
+    </part>
+	</message>
+	<portType name="BTRateServicePortType">
+		<operation name="SendBTRates">
+			<input message="tns:BTRatesRequest"/>
+			<output message="tns:BTRatesResponse"/>
+			<fault name="FaultMessage" message="tns:FaultMessage"/>
+		</operation>
+		<operation name="PublishBTRates">
+            <input message="tns:BTPublishRequest"/>
+            <output message="tns:BTPublishResponse"/>
+            <fault name="FaultMessage" message="tns:FaultMessage"/>
+        </operation>
+		<operation name="BTRatesStatus">
+			<input message="tns:BTRatesStatusRequest"/>
+			<output message="tns:BTRatesResponse"/>
+			<fault name="FaultMessage" message="tns:FaultMessage"/>
+		</operation>
+	</portType>
+	<binding name="BTRateServiceBinding" type="tns:BTRateServicePortType">
+		<soap:binding style="document" transport="http://schemas.xmlsoap.org/soap/http"/>
+		<operation name="SendBTRates">
+			<soap:operation soapAction="SendBTRates"/>
+			<input>
+				<soap:body use="literal"/>
+			</input>
+			<output>
+				<soap:body use="literal"/>
+			</output>
+			<fault name="FaultMessage">
+				<soap:fault name="FaultMessage" use="literal"/>
+			</fault>
+		</operation>
+		<operation name="PublishBTRates">
+            <soap:operation soapAction="PublishBTRates"/>
+            <input>
+                <soap:body use="literal"/>
+            </input>
+            <output>
+                <soap:body use="literal"/>
+            </output>
+            <fault name="FaultMessage">
+                <soap:fault name="FaultMessage" use="literal"/>
+            </fault>
+        </operation>
+		<operation name="BTRatesStatus">
+			<soap:operation soapAction="BTRatesStatus"/>
+			<input>
+				<soap:body use="literal"/>
+			</input>
+			<output>
+				<soap:body use="literal"/>
+			</output>
+			<fault name="FaultMessage">
+				<soap:fault name="FaultMessage" use="literal"/>
+			</fault>
+		</operation>
+	</binding>
+	<service name="BTRateService">
+		<port name="BTRateServicePort" binding="tns:BTRateServiceBinding">
+			<soap:address location="http://localhost:9081/rma/BTRateServicePort"/>
+		</port>
+	</service>
+</definitions>

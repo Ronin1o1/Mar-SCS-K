@@ -1,0 +1,75 @@
+.tableBody {
+  width: 55%;
+  font-family: Arial;
+  font-size: 11px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.bodyContainer {
+  overflow-y: scroll;
+  height: 78vh;
+}
+.fieldValueTD {
+  align-items: left;
+  height: 30px;
+  width: 10px;
+}
+.selectOption {
+  align-items: left;
+  height: 30px;
+  width: 250px;
+}
+.selectDropDownTD {
+  width: 60px;
+  height: 30px;
+}
+.selectDropDown {
+  font-family: Arial, Helvetica, sans-serif, Verdana, Geneva !important;
+  font-size: 11px !important;
+  margin-left:3px;
+}
+.inputDescription {
+  width: 200px;
+  font-family: Arial, Helvetica, sans-serif, Verdana, Geneva !important;
+  font-size: 11px !important;
+  margin-left: 22px;
+}
+.width30 {
+  width: 30px;
+}
+.height5 {
+  height: 5px;
+}
+.tablerTD {
+  vertical-align: top;
+  height: 100%;
+}
+.verticalAlign {
+  vertical-align: top;
+}
+.colorRed {
+  color: red;
+}
+.verticalAlignMiddle {
+  vertical-align: middle;
+}
+.fieldTd{
+  font-weight: bold;
+}
+.spanTd{
+  font-weight: normal;
+}
+.fullheight {
+  padding-bottom: 15px;
+}
+.roomPoolDefBodyContainer {
+  height: max-content;
+}
+.fieldNoOfBedroomsTd{
+  font-weight: bold;
+  width:250px;
+  padding-left: 22px;
+}
+.typeList{
+  padding-left: 23px;
+}

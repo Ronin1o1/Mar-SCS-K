@@ -1,0 +1,11 @@
+.tooltipContainer {
+  border: 1px solid #47558b !important;
+  background-color: white !important;
+  padding: 5px !important;
+  width: 250px;
+  font: 12px Myriad,Helvetica,Tahoma,Arial,clean,sans-serif !important;
+  font-weight: normal;
+  border-radius: 3px !important ;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+}

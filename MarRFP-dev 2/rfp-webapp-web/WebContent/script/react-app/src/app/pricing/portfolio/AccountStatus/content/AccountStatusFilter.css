@@ -1,0 +1,53 @@
+.full_height {
+    height: 100%;
+    width: 100%;
+    border: 0px;
+    border-collapse: collapse;
+    padding: 0px;
+}
+.header {
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 9pt;
+    FONT-FAMILY: Arial;
+}
+.BGDarkBlueStyle {
+    color: #FFFFFF;
+    background-color: #313063;
+}
+
+.Filter {
+    FONT-WEIGHT: bold;
+    FONT-FAMILY: Arial;
+    BACKGROUND-COLOR: #eff0ec;
+}
+.zero_Height {
+  border: 0px;
+  border-collapse: collapse;
+  padding: 0px;
+  font-size: 11px;
+}
+
+.searchBtn {
+  padding-left: 0px;
+  cursor: pointer;
+}
+.topAlign{
+  vertical-align: top;
+}
+.accountStatusFilterTable
+{ 
+ border: 1px solid #cccccc;
+ background-color: rgb(239, 240, 236);
+}
+.buttonTD{
+  width: 70px;
+  text-align: center;
+}
+.searchBtnDiv{
+  padding-top: 13px;
+}
+.FilterFieldName
+{
+  FONT-WEIGHT: bold!important;
+  FONT-FAMILY: Arial;
+}

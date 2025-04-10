@@ -1,0 +1,32 @@
+.rateTableFixedColumn tr:first-child,
+.ratesTable tr:first-child {
+  height: 60px;
+}
+
+.ratesTable th,
+.ratesTable td {
+  border-right: none !important;
+  min-width: 100px;
+}
+
+.ratesTable th:first-child {
+  text-align: center;
+}
+
+.sectionWrapper {
+  width: 100%;
+  display: flex;
+}
+
+.tableDiv {
+  overflow-x: auto;
+  width: calc(100vw - 255px);
+}
+
+.boldHeaders {
+  font-weight: bold !important;
+}
+
+.coloredHeaders {
+  color: #ac223b !important;
+}

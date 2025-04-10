@@ -1,0 +1,199 @@
+/**
+ * RoomType.java
+ *
+ * This file was auto-generated from WSDL
+ * by the Apache Axis WSDL2Java emitter.
+ */
+
+package com.marriott.rfp.object.roomdef.beans.rateproduct;
+
+import com.marriott.rfp.object.roomdef.beans.BrandsList;
+import com.marriott.rfp.object.roomdef.beans.RateProductDefinitionLists;
+import com.marriott.rfp.object.roomdef.beans.TypeLists;
+import com.marriott.rfp.object.roomdef.beans.UnitsOfMeasureList;
+import com.marriott.rfp.object.roomdef.ser.MI_HotelListRSDeserializer;
+import com.marriott.rfp.object.roomdef.ser.MI_HotelListRSSerializer;
+
+public class RateProductDataDictionary implements java.io.Serializable {
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+	private RateProductDefinitionLists rateProductDefinitionLists;
+	private UnitsOfMeasureList unitsOfMeasureList;
+	private TypeLists typeLists;
+	private BrandsList brandsList;
+	
+
+	public RateProductDataDictionary() {
+	}
+
+	public RateProductDataDictionary(RateProductDataDictionary pd) {
+		copyInto(pd);
+	}
+
+	private java.lang.Object __equalsCalc = null;
+	@Override
+	public synchronized boolean equals(java.lang.Object obj) {
+		if (!(obj instanceof RateProductDataDictionary))
+			return false;
+		RateProductDataDictionary other = (RateProductDataDictionary) obj;
+		if (obj == null)
+			return false;
+		if (this == obj)
+			return true;
+		if (__equalsCalc != null) {
+			return (__equalsCalc == obj);
+		}
+		__equalsCalc = obj;
+		boolean _equals;
+		_equals =
+			true
+		&& ((rateProductDefinitionLists == null && other.getRateProductDefinitionLists() == null) || (rateProductDefinitionLists != null && rateProductDefinitionLists.equals( other.getRateProductDefinitionLists())))
+		&& ((unitsOfMeasureList == null && other.getUnitsOfMeasureList() == null) || (unitsOfMeasureList != null && unitsOfMeasureList.equals( other.getUnitsOfMeasureList())))
+		&& ((typeLists == null && other.getTypeLists() == null) || (typeLists != null && typeLists.equals( other.getTypeLists())))
+		&& ((brandsList == null && other.getBrandsList() == null) || (brandsList != null && brandsList.equals( other.getBrandsList())));
+		__equalsCalc = null;
+		return _equals;
+	}
+
+	private boolean __hashCodeCalc = false;
+	@Override
+	public synchronized int hashCode() {
+		if (__hashCodeCalc) {
+			return 0;
+		}
+		__hashCodeCalc = true;
+		int _hashCode = 1;
+		if (getRateProductDefinitionLists() != null) {
+			_hashCode += getRateProductDefinitionLists().hashCode();
+		}
+		if (getUnitsOfMeasureList() != null) {
+			_hashCode += getUnitsOfMeasureList().hashCode();
+		}
+		if (getTypeLists() != null) {
+			_hashCode += getTypeLists().hashCode();
+		}
+		if (getBrandsList() != null) {
+			_hashCode += getBrandsList().hashCode();
+		}
+		__hashCodeCalc = false;
+		return _hashCode;
+	}
+
+	// Type metadata
+	private static org.apache.axis.description.TypeDesc typeDesc = new org.apache.axis.description.TypeDesc(RateProductDataDictionary.class);
+
+	static {
+
+		org.apache.axis.description.ElementDesc field = new org.apache.axis.description.ElementDesc();
+		field.setFieldName("rateProductDefinitionLists");
+		field.setXmlName(new javax.xml.namespace.QName("", "RateProductDefinitionLists"));
+		typeDesc.addFieldDesc(field);
+		
+		field = new org.apache.axis.description.ElementDesc();
+		field.setFieldName("unitsOfMeasureList");
+		field.setXmlName(new javax.xml.namespace.QName("", "UnitsOfMeasureList"));
+		typeDesc.addFieldDesc(field);
+		
+		field = new org.apache.axis.description.ElementDesc();
+		field.setFieldName("typeLists");
+		field.setXmlName(new javax.xml.namespace.QName("", "TypeLists"));
+		typeDesc.addFieldDesc(field);
+		
+		field = new org.apache.axis.description.ElementDesc();
+		field.setFieldName("brandsList");
+		field.setXmlName(new javax.xml.namespace.QName("", "BrandsList"));
+		typeDesc.addFieldDesc(field);
+
+	};
+
+	/**
+	 * Return type metadata object
+	 */
+	public static org.apache.axis.description.TypeDesc getTypeDesc() {
+		return typeDesc;
+	}
+
+	/**
+	 * Get Custom Serializer
+	 */
+	public static org.apache.axis.encoding.Serializer getSerializer(java.lang.String mechType, java.lang.Class _javaType, javax.xml.namespace.QName _xmlType) {
+		return new MI_HotelListRSSerializer(_javaType, _xmlType, typeDesc);
+	}
+
+	/**
+	 * Get Custom Deserializer
+	 */
+	public static org.apache.axis.encoding.Deserializer getDeserializer(java.lang.String mechType, java.lang.Class _javaType, javax.xml.namespace.QName _xmlType) {
+		return new MI_HotelListRSDeserializer(_javaType, _xmlType, typeDesc);
+	}
+
+
+	/**
+	 * @return
+	 */
+	public RateProductDefinitionLists getRateProductDefinitionLists() {
+		return rateProductDefinitionLists;
+	}
+
+	/**
+	 * @param descriptions
+	 */
+	public void setRateProductDefinitionLists(RateProductDefinitionLists descriptions) {
+		rateProductDefinitionLists = descriptions;
+	}
+
+	/**
+	 * @return
+	 */
+	public UnitsOfMeasureList getUnitsOfMeasureList() {
+		return unitsOfMeasureList;
+	}
+
+	/**
+	 * @param descriptions
+	 */
+	public void setUnitsOfMeasureList(UnitsOfMeasureList descriptions) {
+	    unitsOfMeasureList = descriptions;
+	}
+	/**
+	 * @return
+	 */
+	public TypeLists getTypeLists() {
+		return typeLists;
+	}
+
+	/**
+	 * @param descriptions
+	 */
+	public void setTypeLists(TypeLists descriptions) {
+	    typeLists = descriptions;
+	}
+	/**
+	 * @return
+	 */
+	public BrandsList getBrandsList() {
+		return brandsList;
+	}
+
+	/**
+	 * @param descriptions
+	 */
+	public void setBrandsList(BrandsList descriptions) {
+	    brandsList = descriptions;
+	}
+
+	public void copyInto(RateProductDataDictionary pd) {
+
+	    RateProductDefinitionLists origPD = pd.getRateProductDefinitionLists();
+		if (origPD != null) {
+			this.rateProductDefinitionLists = new RateProductDefinitionLists(origPD);
+			}
+	this.unitsOfMeasureList=pd.getUnitsOfMeasureList();
+	this.typeLists=pd.getTypeLists();
+	this.brandsList=pd.getBrandsList();
+
+	}
+
+}

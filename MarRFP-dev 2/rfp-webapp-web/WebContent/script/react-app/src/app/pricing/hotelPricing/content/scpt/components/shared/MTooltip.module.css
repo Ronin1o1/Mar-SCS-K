@@ -1,0 +1,180 @@
+.tooltip {
+  position: relative;
+  display: inline-block;
+  top: 4px;
+  margin-right: 5px;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  background-color: #ffffff;
+  color: #333333;
+  padding: 17px;
+  position: absolute;
+  z-index: 2;
+  bottom: 150%;
+  left: 50%;
+  margin-left: -118px;
+  border: 1px solid #808080;
+  font-size: 10px;
+}
+
+.tooltiptext::after,
+.tooltiptext::before {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  border-style: solid;
+}
+
+.tooltiptext::after {
+  margin-left: -11px;
+  border-width: 11px;
+  border-color: white transparent transparent transparent;
+}
+
+.tooltiptext::before {
+  margin-left: -12px;
+  border-width: 12px;
+  border-color: #808080 transparent transparent transparent;
+}
+
+.tooltip:hover .tooltiptext {
+  margin-left: -118px;
+  visibility: visible;
+}
+
+.blockAlign {
+  font-weight: bold;
+  font-size: 11px;
+  color: #666666;
+}
+
+.green {
+  background: #86af49;
+}
+
+.yellow {
+  background: #feb236;
+}
+
+.magenta {
+  background: #d64161;
+}
+
+.orange {
+  background: #ff7b25;
+}
+
+.listStyle {
+  list-style-type: none;
+  margin-left: 30px;
+  font-size: 8px;
+}
+
+.tableStyle {
+  border: no-border;
+  width: 200px;
+}
+
+.spanColorBlue {
+  color: blue;
+  font-size: 10px;
+  font-style: italic;
+  font-weight: bold;
+}
+
+.spanColorGreen {
+  color: green;
+  font-size: 10px;
+  font-style: italic;
+  font-weight: bold;
+}
+
+.spanColorRed {
+  color: red;
+  font-size: 10px;
+  font-style: italic;
+  font-weight: bold;
+}
+
+.bkColorGreen {
+  background-color: #91b90f;
+  font-size: 10px;
+}
+
+.bkColorYellow {
+  background-color: #f2ca44;
+  font-size: 10px;
+}
+
+.bkColorMagenta {
+  background-color: #d98b44;
+  font-size: 10px;
+}
+
+.bkColorOrange {
+  background-color: #fe603b;
+  font-size: 10px;
+}
+
+.liStyle {
+  font-size: 9px;
+}
+
+.infoIcon {
+  display: inline-block;
+}
+
+.infoIconSVG {
+  width: 13px;
+  height: 13px;
+  overflow: scroll;
+}
+
+.infoIcon:hover .tooltiptext {
+  visibility: visible;
+}
+
+.requestedIconSVG {
+  width: 11px;
+  height: 11px;
+  overflow: scroll;
+}
+
+.pendingIconSVG {
+  width: 16px;
+  height: 15px;
+  overflow: scroll;
+}
+
+.acceptedIconSVG {
+  width: 11px;
+  height: 11px;
+  overflow: scroll;
+}
+
+.declinedIconSVG {
+  width: 11px;
+  height: 11px;
+  overflow: scroll;
+}
+
+.numberText {
+  text-align: center;
+}
+
+.descText {
+  font-size: 11px;
+  white-space: nowrap;
+  margin-left: 5px;
+}
+
+.tableRow {
+  height: 16px;
+}
+
+.tableCell {
+  width: 16px;
+}

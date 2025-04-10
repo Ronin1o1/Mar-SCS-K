@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="rfp-batch-client-chaseemail">
+
+	<property name="dist.dir" location="dist" />
+	<property name="lib.dir" location="lib" />
+	<property name="resources.dir" location="resources" />
+	<property name="classes.dir" location="classes" />
+	<property name="rfp-batch-client-chaseemail-jar" value="rfp-batch-client-chaseemail.jar"/>
+	<property name="main.class.name" value="com.marriott.marrfp.batch.RunChaseEmailBatch"/>
+
+	<target name="clean">
+		<delete includeemptydirs="true">
+			<fileset dir="${gen.dir}" includes="**/*"/>
+		</delete>
+	</target>
+			
+	<target name="generate_client_stubs" depends="clean" />
+	
+	<target name="create_client_jar">
+			<delete file="${dist.dir}/${rfp-batch-client-chaseemail-jar}"/>
+			<jar destfile="${dist.dir}/${rfp-batch-client-chaseemail-jar}">
+			    <fileset dir="${classes.dir}" excludes="**/*.properties"/>
+		    	<manifest>
+			      <attribute name="Main-Class" value="${main.class.name}"/>
+		    	</manifest>
+			</jar>
+			<copy todir="${dist.dir}">
+			    <fileset dir="${resources.dir}">
+			    	<include name="**/*.properties"/>
+			    	<include name="**/*.xml"/>
+			    </fileset>
+			</copy>	
+		</target>
+
+</project>
+

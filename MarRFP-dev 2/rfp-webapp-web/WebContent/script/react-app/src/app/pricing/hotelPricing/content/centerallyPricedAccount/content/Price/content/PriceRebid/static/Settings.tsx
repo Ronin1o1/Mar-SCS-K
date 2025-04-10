@@ -1,0 +1,71 @@
+const Settings = {
+  api: {
+    rebid: "/accountspecrebid/getHotelAccountSpecificRebid",
+    updateRebid: "/accountspecrebid/updateRebid.action",
+  },
+  rebid: {
+    formId: "acctRebidForm",
+    formName: "acctRebidForm",
+  },
+  headers: {
+    rebidDueDate: "Rebid Due Date:",
+    rebidStatus: {
+      label: "Rebid Status:",
+      id: "rebidstatus",
+      name: "rebidstatus",
+    },
+    rebidNotes: "Rebid Notes:",
+  },
+  rebidStatus: {
+    id: "rebidstatus_id",
+    value: "rebidstatus_desc",
+  },
+  alertdiv: "alertdiv",
+  alert: "Alert:",
+  heading1: `If you select "Submit Rebid", Rates and Amenities `,
+  MUST: "MUST",
+  heading2: ` be updated in the Rates `,
+  rules: ` Rules and Eligibility `,
+  heading3: ` Amenities tabs. Rebid Notes are for `,
+  internal: "INTERNAL TRACKING",
+  heading4: ` purposes only. Additional questions or comments regarding this account must be sent directly to the Account Manager.`,
+  round: "Round",
+  lastUpdated: "Last Updated On:",
+  isPASAdmin: "MFPADMIN",
+  isSalesUser: "MFPSALES",
+  by: "By:",
+  email: "Email:",
+  rebidRound1: "Rebid Round 1:",
+  rebidRound2: "Rebid Round 2:",
+  rebidRound: "rebidRound",
+  rebidstatus: "rebidstatus",
+  rebid_notes: "rebid_notes",
+  isHotelUser: "MFPUSER",
+  isLimitedSalesUser: "MFPFSALE",
+  alertMsg: {
+    declineRebid: "Decline To Rebid requires Rebid Notes",
+    submitOrDeclineRebid: "You must Submit or Decline the rebid.",
+    submitRebidGPPALert:
+      "If you wish to offer a Volume Producer rate, please click Cancel. You will be returned to the Account Center and will need to switch the product to VP. Then click the Price button to resume submitting your rebid. \n\nOtherwise click OK and proceed to update something other than your account rates.",
+    rebidNotesDecline:
+      'For tracking purposes, enter your "Decline to Rebid" reason in the Rebid Notes section.',
+    maxCharAllowed: "You are allowed to enter up to ",
+    characters: " characters.",
+    fillRatesAndRulesAlert: "You must visit the Rates and Rules tab and fill out the appropriate information ."
+  },
+  months: [
+    "January",
+    "February",
+    "March",
+    "April",
+    "May",
+    "June",
+    "July",
+    "August",
+    "September",
+    "October",
+    "November",
+    "December",
+  ],
+};
+export default Settings;

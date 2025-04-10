@@ -1,0 +1,220 @@
+body,
+input,
+textarea {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0px;
+  padding: 0px;
+  font-size: 11px;
+}
+.Header {
+  margin-top: 2px;
+  font-weight: bold;
+  font-size: 9pt;
+  font-family: Arial;
+}
+.field_Value {
+  font-weight: normal;
+  font-size: 11px;
+  font-family: Arial;
+}
+.seperator {
+  color: #ffffff;
+  background-color: #313063;
+  vertical-align: top;
+  height: 1.5px;
+}
+/******************Menu*********************/
+
+.menuitem1 {
+  width: 100%;
+  background: #bbbca6;
+  margin-top: -14px;
+}
+.subnav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  background: #bbbca6;
+  z-index: 9999;
+  padding-left: 10px;
+}
+.subnav ul li {
+  position: relative !important;
+  float: left !important;
+  background: #bbbca6 !important;
+  width: 100px;
+}
+.subnav li ul {
+  display: none;
+  position: absolute;
+  top: 20px;
+}
+
+.subnav ul li a {
+  display: block;
+  white-space: nowrap;
+  font-size: 10px;
+  color: #333333;
+}
+.sublist li {
+  background-color: rgb(141, 139, 126);
+  border: 1px solid #bbbca6;
+  width: 100% !important;
+  border-top: 1px outset !important;
+  border-bottom: 1px outset !important;
+  border-right: 0px !important;
+  height: 17px;
+}
+.sublist {
+  background: none;
+}
+.sublist li a {
+  color: rgb(0, 0, 0);
+  display: block;
+  text-decoration: none;
+  background-color: #bbbca6;
+  padding-left: 13px !important;
+  font-size: 11px !important;
+  width: 92%;
+}
+.subnav ul ul ul {
+  left: 93%;
+  top: 5px;
+  width: 180px;
+}
+.subnav ul:before,
+ul:after {
+  content: " ";
+  display: table;
+}
+.subnav ul:after {
+  clear: both;
+}
+.subnavigation {
+  padding-left: 10px;
+  padding-top: 3px;
+  padding-bottom: 0px;
+  background: #bbbca6;
+}
+.subnavigation li {
+  border: solid;
+  border-width: 0px 1px 0px 1px;
+  border-color: #ffffff #bbbca6 #ffffff #bbbca6;
+  background: #bbbca6;
+}
+.subnavigation li a {
+  text-decoration: underline;
+  text-align: left;
+  margin: 0px;
+}
+
+.subnav li:hover > ul {
+  display: block;
+  position: absolute;
+  border: 1px outset rgb(141, 139, 126);
+}
+.subnav li:hover li {
+  float: none;
+  border: none;
+}
+.menuPadding {
+  padding-top: 2px;
+}
+.sublist li a {
+  text-decoration: none;
+}
+.arrow {
+  margin-left: 75px;
+}
+.sublist li {
+  border: 2px solid BBBCA6;
+}
+.sublist li {
+  border-width: 1px 0px 1px 1px;
+  border-right-style: initial;
+  border-bottom-style: outset;
+  border-left-style: outset;
+  border-color: rgb(141, 139, 126);
+  border-image: initial;
+  display: inline-flex !important;
+  justify-content: space-between;
+}
+.subMenu {
+ margin-top: 0px;
+}
+.divColor {
+  background-color: #bbbca6;
+  height: 4px;
+  width: 100%;
+}
+.sublist li a:hover{
+  text-decoration: underline;
+  color: #9d102d;
+}
+.sublistTitle li a:hover {
+  color: #9d102d;
+}
+.sublistHeader a:hover {
+  color: #9d102d;
+}
+.arrowProt {
+  margin-left: 105px;
+}
+
+.arrowsales {
+  margin-left: 45px;
+}
+.arrowpgoos {
+  margin-left: 80px;
+}
+.arrowedit {
+  margin-left: 119px;
+}
+.arrowroports {
+  margin-left: 105px;
+}
+.arrowadm {
+  margin-left: 59px;
+}
+.arrowadm1, .arrowadm2, .arrowadm3 {
+  text-decoration: none !important;
+  font-size: 8px;
+}
+/* .updatebtn{
+  margin-left: 3px;
+} */
+
+.arrowdisplayText {
+  margin-left: 59px;
+}
+.arrowdisplayRules {
+  margin-left: 55px;
+}
+.arrowreports {
+  margin-left: 98px;
+}
+.imgStatus {
+  margin-right: 10px;
+  margin-left: -10px;
+}
+.modalView{
+  max-width: 250;
+  min-width: 180;
+  padding: 9px 12px;
+}
+.largeMenuWidth {
+  width: 250px !important;
+}
+.reportLinks {
+  width: 100% !important;
+  height: max-content !important;
+}
+.subListEmptySpace {
+  border-bottom: 1px outset rgb(141, 139, 126);
+  width: 10px;
+  border-right-color: rgb(141, 139, 126);
+  border-left-color: rgb(141, 139, 126);
+}
+.textDecorNone{
+  text-decoration: none;
+}

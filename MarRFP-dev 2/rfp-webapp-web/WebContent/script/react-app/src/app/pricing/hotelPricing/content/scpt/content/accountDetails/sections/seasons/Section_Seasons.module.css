@@ -1,0 +1,31 @@
+.selectStyle {
+  width: 100px;
+  margin-left: 230px;
+  margin-top: 22px;
+  position: absolute;
+  z-index: 100;
+}
+
+.sectionTitle {
+  margin-top: 6px;
+}
+
+.spaceBwTables {
+  margin-bottom: 30px;
+}
+
+.spaceBtwLabelAndTable {
+  margin-bottom: 17px;
+}
+
+.labelStyle {
+  margin-bottom: 17px;
+  margin-left: 17px;
+  font-size: 18px;
+}
+
+.sectionSubTitle {
+  padding-left: 30px;
+  color: #666666;
+  font-size: 13px;
+}

@@ -1,0 +1,48 @@
+body,
+input,
+textarea,
+select {
+  font-family: Arial, Helvetica, sans-serif, Verdana, Geneva !important;
+  margin: 0px;
+  padding: 0px;
+  font-size: 11px;
+}
+
+.tabContent {
+  margin-top: 1em;
+  display: inline-flex;
+}
+
+.content {
+height: calc(100vh - 196px);
+border: 1px solid #cccccc;
+overflow: auto;
+}
+
+.horLine {
+  margin-top: 0px;
+}
+.MainContainer {
+  position: relative;
+}
+@media only screen and (min-width: 1920px){
+  .content {
+  height: calc(100vh - 202px);
+  }
+}
+@media only screen and (max-width: 1750px) and (min-width: 1650px){
+  .content {
+  height: calc(100vh - 198px);
+  }
+}
+@media only screen and (max-width: 1200px){
+  .content {
+  height: calc(100vh - 196px);
+  }
+}
+@media only screen and (max-width: 770px){
+  .content {
+  height: calc(100vh - 217px);
+  }
+}
+

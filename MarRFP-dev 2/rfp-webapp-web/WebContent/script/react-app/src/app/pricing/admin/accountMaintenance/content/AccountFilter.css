@@ -1,0 +1,42 @@
+.gridContainer {
+  display: grid;
+  grid-gap: 3px;
+  min-width: 862px;
+  width: 862px; 
+  border-top-width: 1px;
+  border-bottom-style: solid;
+  border-right-width: 1px;
+  border-left-style: solid;
+  border-top-style: solid;
+  border-bottom-width: 1px;
+  border-right-style: solid;
+  border-left-width: 1px;
+  border-color: #cccccc;
+  border-collapse: collapse;
+  background-color: #eff0ec;
+  align-items: center;
+  font-weight: bold;
+  width: -moz-fit-content;
+}
+
+.rowHeight30 {
+  height: 30px;
+}
+
+.colWidth30 {
+  width: 30px;
+}
+
+.searchBtnDiv {
+  text-align: right;
+    width: 100%;
+    padding-right: 12px;
+}
+.gridContainer tr td:first-child{
+  width: 305px;
+  min-width: 305px;
+}
+.gridContainer tr td:nth-child(2){
+  width: 340px;
+  min-width: 340px;
+}
